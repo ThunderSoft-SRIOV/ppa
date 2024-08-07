@@ -1,0 +1,72 @@
+Package: linux-headers-6.6.32-debian
+Source: linux-upstream
+Version: 6.6.32-g40262599b6a4-2
+Architecture: amd64
+Maintainer: idv <idv@localhost>
+Installed-Size: 55048
+Filename: ./linux-headers-6.6.32-debian_6.6.32-g40262599b6a4-2_amd64.deb
+Size: 9341108
+MD5sum: 3ae3fbfd14ddc2ba4ca1e920b5ac80b4
+SHA1: 612be848ce13e31500461ab61a2cadf97f037906
+SHA256: 17330357d09fa68ad7899fb738a87d8abcc80c75f86d7a03fcac4fa097c63ac9
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.6.32-debian on amd64
+ This package provides kernel header files for 6.6.32-debian on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-6.6.32-debian
+Source: linux-upstream
+Version: 6.6.32-g40262599b6a4-2
+Architecture: amd64
+Maintainer: idv <idv@localhost>
+Installed-Size: 404403
+Filename: ./linux-image-6.6.32-debian_6.6.32-g40262599b6a4-2_amd64.deb
+Size: 75815488
+MD5sum: 54814704862e8e59fd77501b38f92202
+SHA1: c0ba52c6a5af9c6a04842d9866bb714278255312
+SHA256: 9c99338c15f7b291ba0b1fc9f096644512255775ca059050fc1f9185008320d8
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.6.32-debian
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.6.32-debian.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.6.32-g40262599b6a4-2
+Architecture: amd64
+Maintainer: idv <idv@localhost>
+Installed-Size: 6854
+Provides: linux-kernel-headers
+Filename: ./linux-libc-dev_6.6.32-g40262599b6a4-2_amd64.deb
+Size: 1321412
+MD5sum: 07acc00e9f5a56d58c57611cd1a30365
+SHA1: c8277a0391def6a1535b8e3ae681afb57a584a7c
+SHA256: db2d3640ca021d805f07324bcc0c31f7231acb079d2e8912c31313a913970e5f
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: qemu
+Version: 8.2.1
+Architecture: amd64
+Maintainer: Shiyang He <shiyangx.he@intel.com>
+Installed-Size: 260977
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libepoxy0 (>= 1.3), libgbm1 (>= 7.11~1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.67.3), libgtk-3-0 (>= 3.21.4), libjpeg62-turbo (>= 1.3.1), libncursesw6 (>= 6), libpixman-1-0 (>= 0.25.2), libpng16-16 (>= 1.6.2-1), libselinux1 (>= 3.1~), libslirp0 (>= 4.7.0), libspice-server1 (>= 0.14.2), libtinfo6 (>= 6), libusb-1.0-0 (>= 2:1.0.23~), libusbredirparser1 (>= 0.8.0), libx11-6, libxkbcommon0 (>= 0.5.0), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0)
+Filename: ./qemu_8.2.1_amd64.deb
+Size: 19696940
+MD5sum: 7c705a8e0eab28724d1abfd2b525ada0
+SHA1: 37e30be71f13db2abef9325b96bd2efdad0945d4
+SHA256: 8f64deba8227ce577dd9123d32ec7d5cf96731cf520dc6533b2011c479bd7c24
+Section: misc
+Priority: optional
+Description: QEMU
+
