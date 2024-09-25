@@ -1,63 +1,68 @@
-Package: linux-headers-6.6.32-debian
-Source: linux-upstream
-Version: 6.6.32-g40262599b6a4-2
+Package: linux-headers-6.6.32-debian-sriov
 Architecture: amd64
-Maintainer: idv <idv@localhost>
-Installed-Size: 55048
-Filename: ./linux-headers-6.6.32-debian_6.6.32-g40262599b6a4-2_amd64.deb
-Size: 9341108
-MD5sum: 3ae3fbfd14ddc2ba4ca1e920b5ac80b4
-SHA1: 612be848ce13e31500461ab61a2cadf97f037906
-SHA256: 17330357d09fa68ad7899fb738a87d8abcc80c75f86d7a03fcac4fa097c63ac9
-Section: kernel
+Version: 6.6.32-g40262599b6a4-1
 Priority: optional
+Section: kernel
+Source: linux-upstream
+Maintainer: root <root@localhost>
+Installed-Size: 55140
+Filename: ./linux-headers-6.6.32-debian-sriov_6.6.32-g40262599b6a4-1_amd64.deb
+Size: 9341780
+MD5sum: 43f6c653367924d02ecf1df53c50bd3a
+SHA1: 24cd351baa69abe1c04286a2486311855bed13c2
+SHA256: 8abb21c496595499a48cb3edcfe45aa61d6f91ef58d127dc7f30fe93cea83978
+SHA512: fcb2b156062063e80317a741bf4f160227d8910957d84997d32101d81131dbd9f3a95c1f15b684295c4ac83ba92249e730f76afe7f3508230683f433a124ba64
 Homepage: https://www.kernel.org/
-Description: Linux kernel headers for 6.6.32-debian on amd64
- This package provides kernel header files for 6.6.32-debian on amd64
+Description: Linux kernel headers for 6.6.32-debian-sriov on amd64
+ This package provides kernel header files for 6.6.32-debian-sriov on amd64
  .
  This is useful for people who need to build external modules
 
-Package: linux-image-6.6.32-debian
-Source: linux-upstream
-Version: 6.6.32-g40262599b6a4-2
+Package: linux-image-6.6.32-debian-sriov
 Architecture: amd64
-Maintainer: idv <idv@localhost>
-Installed-Size: 404403
-Filename: ./linux-image-6.6.32-debian_6.6.32-g40262599b6a4-2_amd64.deb
-Size: 75815488
-MD5sum: 54814704862e8e59fd77501b38f92202
-SHA1: c0ba52c6a5af9c6a04842d9866bb714278255312
-SHA256: 9c99338c15f7b291ba0b1fc9f096644512255775ca059050fc1f9185008320d8
-Section: kernel
+Version: 6.6.32-g40262599b6a4-1
 Priority: optional
+Section: kernel
+Source: linux-upstream
+Maintainer: root <root@localhost>
+Installed-Size: 404408
+Filename: ./linux-image-6.6.32-debian-sriov_6.6.32-g40262599b6a4-1_amd64.deb
+Size: 75797812
+MD5sum: fb9b3d794d64097f841fecfad990d797
+SHA1: 7fea7c03a0a841ab84b5b2bd5a0800423f8fa249
+SHA256: 30c51f537256970d629e0ca554cad17b4e1d31785d4434a7fef686e5a849d223
+SHA512: 1accbf7ce012376926fa1cad4d0649e6529d8be8664f33d6174b06fa0e333b06acf8613052171221f8d89bd53aceddce4b6656e530429628bfebc6baee2e1abd
 Homepage: https://www.kernel.org/
-Description: Linux kernel, version 6.6.32-debian
+Description: Linux kernel, version 6.6.32-debian-sriov
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.6.32-debian.
+ files, version: 6.6.32-debian-sriov.
 
 Package: linux-libc-dev
-Source: linux-upstream
-Version: 6.6.32-g40262599b6a4-2
 Architecture: amd64
-Maintainer: idv <idv@localhost>
+Version: 6.6.32-g40262599b6a4-1
+Multi-Arch: same
+Priority: optional
+Section: devel
+Source: linux-upstream
+Maintainer: root <root@localhost>
 Installed-Size: 6854
 Provides: linux-kernel-headers
-Filename: ./linux-libc-dev_6.6.32-g40262599b6a4-2_amd64.deb
-Size: 1321412
-MD5sum: 07acc00e9f5a56d58c57611cd1a30365
-SHA1: c8277a0391def6a1535b8e3ae681afb57a584a7c
-SHA256: db2d3640ca021d805f07324bcc0c31f7231acb079d2e8912c31313a913970e5f
-Section: devel
-Priority: optional
-Multi-Arch: same
+Filename: ./linux-libc-dev_6.6.32-g40262599b6a4-1_amd64.deb
+Size: 1321500
+MD5sum: 0609303d6c20041b96bcd15089182755
+SHA1: 65a9237cf84cc9ccbb86e747f6d0dbda328da456
+SHA256: de3fa28af26f88767a837c3de94304536a8ef385d4fcf4f8e97969a77a0524c4
+SHA512: e5d5842a8168d6c4e1ea7e4396492d2bff480ccbd815e0a304f5f922f82b111a39cbd92c4cea72d08d543fd2c4895dd66c61a8fc54f575bafd13b45fda8370cc
 Homepage: https://www.kernel.org/
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
 Package: qemu
-Version: 8.2.1
 Architecture: amd64
+Version: 8.2.1
+Priority: optional
+Section: misc
 Maintainer: Shiyang He <shiyangx.he@intel.com>
 Installed-Size: 260977
 Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libepoxy0 (>= 1.3), libgbm1 (>= 7.11~1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.67.3), libgtk-3-0 (>= 3.21.4), libjpeg62-turbo (>= 1.3.1), libncursesw6 (>= 6), libpixman-1-0 (>= 0.25.2), libpng16-16 (>= 1.6.2-1), libselinux1 (>= 3.1~), libslirp0 (>= 4.7.0), libspice-server1 (>= 0.14.2), libtinfo6 (>= 6), libusb-1.0-0 (>= 2:1.0.23~), libusbredirparser1 (>= 0.8.0), libx11-6, libxkbcommon0 (>= 0.5.0), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0)
@@ -66,7 +71,6 @@ Size: 19696940
 MD5sum: 7c705a8e0eab28724d1abfd2b525ada0
 SHA1: 37e30be71f13db2abef9325b96bd2efdad0945d4
 SHA256: 8f64deba8227ce577dd9123d32ec7d5cf96731cf520dc6533b2011c479bd7c24
-Section: misc
-Priority: optional
+SHA512: 4ce973e03c1cc363f2c03aa93bd9bf5c11c805cbe29b01c654ca74a686140fd2ea6c0b98db00d2ef06afb98dfc2df7b95f6a23ba5fc6419c35e61e7dbcca4b70
 Description: QEMU
 
