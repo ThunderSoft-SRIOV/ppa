@@ -1,6 +1,6 @@
 <!-- ABOUT THE PROJECT -->
 # About The Project
-A PPA repository for Thundersoft-SRIOV.
+A PPA repository for Thundersoft-SRIOV. Details about Debian SRIOV can be referred to [SRIOV](https://github.com/ThunderSoft-SRIOV/sriov.git)
 
 ## Installation
 
