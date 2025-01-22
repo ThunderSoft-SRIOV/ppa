@@ -1,0 +1,7 @@
+Archive: stable
+Version: 1.0
+Component: main
+Origin: intel-iot-linux-overlay-noble
+Label: intel-iot-linux-overlay-noble
+Architecture: amd64
+Description: Intel IoT Hardware Overlay for Linux* OS
