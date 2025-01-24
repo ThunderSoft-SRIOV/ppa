@@ -1700,28 +1700,6 @@ Description: Intel C for Media Runtime -- shared library
  .
  This package includes the shared library.
 
-Package: linux-firmware
-Architecture: amd64
-Version: 20240318.git3b128b60-0.2.3-1ppa1-noble4
-Priority: optional
-Section: misc
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Original-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 482325
-Provides: atmel-firmware
-Recommends: firmware-sof-signed
-Conflicts: atmel-firmware
-Breaks: amd64-microcode (<= 3.20220411.1ubuntu1), initramfs-tools (<< 0.142ubuntu8~), linux-firmware-raspi2 (<= 1.20190819-0ubuntu2), linux-firmware-snapdragon (<= 1.2-0ubuntu1)
-Replaces: atmel-firmware, linux-firmware-snapdragon (<= 1.2-0ubuntu1), linux-restricted-common
-Filename: pool/main/l/linux-firmware/linux-firmware_20240318.git3b128b60-0.2.3-1ppa1-noble4_amd64.deb
-Size: 487212804
-MD5sum: 6e1de577f34e068944168a9c1ab127dd
-SHA1: 7195579817ed89f093b6631ac294bab52acf5123
-SHA256: 98b97e5b9417828699ba9a53d0adb45b0c29b40565f6d699d1f4f4e6424107ab
-SHA512: 4bf078ddec631ff62a7ceba60895e0532372cde8a49aa5b0e407c41243c00e6e0254acbd67459c74c17f734111efc177354a736bb519a91fc97cb6e6e6394f86
-Description: Firmware for Linux kernel drivers
- This package provides firmware used by Linux kernel drivers.
-
 Package: linux-headers-6.6-intel
 Architecture: amd64
 Version: 241025t055939z-r2
@@ -1741,25 +1719,6 @@ Description: Linux kernel headers for 6.6-intel on amd64
  This package provides kernel header files for 6.6-intel on amd64
  .
  This is useful for people who need to build external modules
-
-Package: linux-image-6.6-intel-dbg
-Architecture: amd64
-Version: 241025t055939z-r2
-Priority: optional
-Section: debug
-Source: linux-intel-6.6
-Maintainer: lab_bldmstr <true>
-Installed-Size: 6409744
-Filename: pool/main/l/linux/linux-image-6.6-intel-dbg_241025t055939z-r2_amd64.deb
-Size: 942730208
-MD5sum: 701f5f2d07b2439f79f8f72e81cb03ac
-SHA1: c65dd1067614e320bad51f5f52a3d2b7567c421e
-SHA256: abed007f809baa95355dfcc27546ab76a5478f3c0ab8c1210c80060e704c516c
-SHA512: cceea59c35b1c66d732d8667816fd815a777687053773d1dbd77e30d87362177d62ee9dc8e3511875921ef831df67b91d98650fe4a2330209a8341873b401081
-Homepage: https://www.kernel.org/
-Description: Linux kernel debugging symbols for 6.6-intel
- This package will come in handy if you need to debug the kernel. It provides
- all the necessary debug symbols for the kernel and its modules.
 
 Package: linux-image-6.6-intel
 Architecture: amd64
@@ -1803,38 +1762,38 @@ Description: Linux support headers for userspace development
 
 Package: vainfo-dbgsym
 Architecture: amd64
-Version: 2.22.0-1ppa1~noble1
+Version: 2.22.0-1ppa1-sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: libva-utils
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 46
-Depends: vainfo (= 2.22.0-1ppa1~noble1)
-Filename: pool/main/libv/libva-utils/vainfo-dbgsym_2.22.0-1ppa1~noble1_amd64.deb
-Size: 30156
-MD5sum: 56c576c56172baf6125d15e7509b9d14
-SHA1: 2f2a01fd1ef1a8be17da8670b857f90c802d7564
-SHA256: 7434ce7c08dca4c21af2f716c3750220668470289ab630896d744f3f711d10b3
-SHA512: 625650362f1583720bd5fa3aa161f70b11938786b735d416e3a3c1be47edf65cb280f26564058960fc4ac65f593a6ba8db90bcf2e439810f8bf73cae2ac411bb
+Depends: vainfo (= 2.22.0-1ppa1-sriov~bookworm1)
+Filename: pool/main/libv/libva-utils/vainfo-dbgsym_2.22.0-1ppa1-sriov~bookworm1_amd64.deb
+Size: 29944
+MD5sum: 94410c9aff12c28787aae1db8247914f
+SHA1: 405db2cf965e1f639016a8813266c3bed062766f
+SHA256: e32ae1d09f41476a571e6c216123a5ee8394f5e8b06c3f34f7a1eb376c0ff3c0
+SHA512: e94552e06e9fa723082747aeb4719d327acdeb9bef93bfff920f6b5b35ea2838993ee1ff77788b21d961d553cda428f99f31a5289202b16f5fa51894bcfea41d
 Description: debug symbols for vainfo
-Build-Ids: 04f02302c17274d4e2fc5e019f64ea06ffaf8ef5
+Build-Ids: 1f9aa8111d8e6ec9ff6bc5cbdaa2746037ae8c31
 
 Package: vainfo
 Architecture: amd64
-Version: 2.22.0-1ppa1~noble1
+Version: 2.22.0-1ppa1-sriov~bookworm1
 Priority: optional
 Section: utils
 Source: libva-utils
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 51
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libva-drm2 (>= 2.15), libva-wayland2 (>= 2.15), libva-x11-2 (>= 2.15), libva2 (>= 2.15), libwayland-client0 (>= 1.20.0), libx11-6
-Filename: pool/main/libv/libva-utils/vainfo_2.22.0-1ppa1~noble1_amd64.deb
-Size: 17076
-MD5sum: 7b9b695e388b0267cc34688dbd5eaa14
-SHA1: c34085b0e6755467486add14f8c1b146b4959be7
-SHA256: d4d69014ba20f75a4d91b071b7fd6d8c67792a64865c947fa0eed0022957310a
-SHA512: 3226dd9dbb02028bfbf9409b8021728d7d4d1f4294cc03c87071ad8fcba1d869ddf197966bdad3db6a7bc5e6a59e29be29ae129d5b58d99090c045e893484a59
+Filename: pool/main/libv/libva-utils/vainfo_2.22.0-1ppa1-sriov~bookworm1_amd64.deb
+Size: 17096
+MD5sum: ea8d842b8ac13104d5f171c4a2ad2e8c
+SHA1: 505c1396043d875309b8f1edd14f6b2253231fa7
+SHA256: c1ab6fa195e301456b62dea3a2722064cda19a61409ba8d4f291c77302f7db15
+SHA512: b503e11d4f44b777cd305b6a449f60ab49ff2ca1b9a98846343672db2f5a3647e0d29587d1ec6894253d9582fee22af3eca722b4c0b6d0dfb2eae5173ecf058f
 Homepage: https://github.com/intel/libva-utils
 Description: Video Acceleration (VA) API for Linux -- info program
  Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -1850,7 +1809,7 @@ Description: Video Acceleration (VA) API for Linux -- info program
 
 Package: libva-dev
 Architecture: amd64
-Version: 2.22.0-1ppa1~noble1
+Version: 2.22.0-1ppa1-sriov~bookworm1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
@@ -1858,13 +1817,13 @@ Source: libva
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 770
 Provides: dh-sequence-libva
-Depends: libva-drm2 (= 2.22.0-1ppa1~noble1), libva-glx2 (= 2.22.0-1ppa1~noble1), libva-wayland2 (= 2.22.0-1ppa1~noble1), libva-x11-2 (= 2.22.0-1ppa1~noble1), libva2 (= 2.22.0-1ppa1~noble1), libwayland-dev, libset-scalar-perl
-Filename: pool/main/libv/libva/libva-dev_2.22.0-1ppa1~noble1_amd64.deb
-Size: 131424
-MD5sum: c630fcc994d90ac32c4cee6b91034aaf
-SHA1: 1c084d937fa547549cbbac37af39a250bdc48840
-SHA256: 47a43043f2e98eb34c396bfe8a7786bb8c0562d1c864bc9dca9f34547a4d4bf9
-SHA512: a96daa6f5937dd648c53288aef2dd82a65b33b91f40770d95c1e291cd5d26a7151ad2bf7964eeec9a89ab27b5c225ed3468cf4d0a0e8b79039b39c1d724128a3
+Depends: libva-drm2 (= 2.22.0-1ppa1-sriov~bookworm1), libva-glx2 (= 2.22.0-1ppa1-sriov~bookworm1), libva-wayland2 (= 2.22.0-1ppa1-sriov~bookworm1), libva-x11-2 (= 2.22.0-1ppa1-sriov~bookworm1), libva2 (= 2.22.0-1ppa1-sriov~bookworm1), libwayland-dev, libset-scalar-perl
+Filename: pool/main/libv/libva/libva-dev_2.22.0-1ppa1-sriov~bookworm1_amd64.deb
+Size: 131496
+MD5sum: d313c69290d5aa511c5dc8edd50bcb42
+SHA1: 0e453521564e56c40f0ca3b7ea373bf8bfb00591
+SHA256: b1f8ce18996f8c1d1f45c777589c83ffdfac436f03f0b1b745b9e83fbd60e2cc
+SHA512: 80ff2b097479689dda378c3ccfa0ed81ae74be5ecd2b6444d174fc0205a45fd708ef0a953a119de5d938ef50ef7c555e947de4ae9ab11d22f783deab56682bca
 Homepage: https://github.com/intel/libva
 Description: Video Acceleration (VA) API for Linux -- development files
  Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -1880,7 +1839,7 @@ Description: Video Acceleration (VA) API for Linux -- development files
 
 Package: libva-drm2-dbgsym
 Architecture: amd64
-Version: 2.22.0-1ppa1~noble1
+Version: 2.22.0-1ppa1-sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
@@ -1888,32 +1847,32 @@ Section: debug
 Source: libva
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 31
-Depends: libva-drm2 (= 2.22.0-1ppa1~noble1)
-Filename: pool/main/libv/libva/libva-drm2-dbgsym_2.22.0-1ppa1~noble1_amd64.deb
-Size: 18060
-MD5sum: 03f3ac1d86fd588fa29fcec8a4ed5f78
-SHA1: e473dcc88787a4a5ca5f8e95fad16b9741c3338d
-SHA256: b3d96f111f189139add07b9983c784c3a543fae84b04da3a185575a7ef579e28
-SHA512: 574c535baa31c06a42f3889ecb6b539e63046328da905ba87f77210f793fe3f68efd5d0f8b4ea9c808001a074c2ada22162fed5f1d582500f4806e145d775aef
+Depends: libva-drm2 (= 2.22.0-1ppa1-sriov~bookworm1)
+Filename: pool/main/libv/libva/libva-drm2-dbgsym_2.22.0-1ppa1-sriov~bookworm1_amd64.deb
+Size: 17912
+MD5sum: 31d49737f5431f33977a22db3744f55e
+SHA1: 8e723141a44a9e2dbda352f48b0035bbcc1babd1
+SHA256: cc40d50f48f2c1f334a2defb602a663363978d61a69119db7e7955c34d0f47a7
+SHA512: ae20bd3fd14a949f0f1eaa21b0b0821326c2d87867e3857f61daf4369d288639f218fa03026c5c058bc0d01c5e0f847ad499af4ee9fd769edb8ae98375b3da4d
 Description: debug symbols for libva-drm2
-Build-Ids: 509d904acfc87083506dbb5f387fc14abd8478be
+Build-Ids: 23d6997fe2dc33c8e2c3ffef4807aeb90df2f185
 
 Package: libva-drm2
 Architecture: amd64
-Version: 2.22.0-1ppa1~noble1
+Version: 2.22.0-1ppa1-sriov~bookworm1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libva
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 45
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.60), libva2 (>= 2.22.0), libva2 (<< 2.22.0.1)
-Filename: pool/main/libv/libva/libva-drm2_2.22.0-1ppa1~noble1_amd64.deb
-Size: 18612
-MD5sum: f21a1542886f38c7f8c688f2cdf91afd
-SHA1: 36373c0c5b60ad290fba077c8fd6ee3dd9a5f4e8
-SHA256: 9bf4c62f168660fb020713ebac15b99ea3d39555d55c1017eaa3ccafbfb1ba23
-SHA512: e732e6f3c91601eecc91cbc02d8adb1418a2ef8b26d22d8cac1eb0254a8e9a1754c9a0a07f407416d1fe9999593314d563638b80ceb79b87d68b154f61b287df
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.60), libva2 (>= 2.22.0-1ppa1), libva2 (<< 2.22.0-1ppa1.1)
+Filename: pool/main/libv/libva/libva-drm2_2.22.0-1ppa1-sriov~bookworm1_amd64.deb
+Size: 18684
+MD5sum: e45d8b68b8bca5e9e6bd114dcf87ab91
+SHA1: f63b4d2f8415b3689adf505f140dba54291ac3a6
+SHA256: 77bec2ed8eecace23e67bdfa4c6e0326ea606dc8be2550254f83afe649dfce39
+SHA512: aaa57407d5e558a5a6f901eca85512345bf36cfcf98a953fd06ec174340602d97220b09ee828edbf3aae599b28f94450959d7f3a8d88a51e0b0d8ef61bc7986e
 Homepage: https://github.com/intel/libva
 Description: Video Acceleration (VA) API for Linux -- DRM runtime
  Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -1929,7 +1888,7 @@ Description: Video Acceleration (VA) API for Linux -- DRM runtime
 
 Package: libva-glx2-dbgsym
 Architecture: amd64
-Version: 2.22.0-1ppa1~noble1
+Version: 2.22.0-1ppa1-sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
@@ -1937,32 +1896,32 @@ Section: debug
 Source: libva
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 45
-Depends: libva-glx2 (= 2.22.0-1ppa1~noble1)
-Filename: pool/main/libv/libva/libva-glx2-dbgsym_2.22.0-1ppa1~noble1_amd64.deb
+Depends: libva-glx2 (= 2.22.0-1ppa1-sriov~bookworm1)
+Filename: pool/main/libv/libva/libva-glx2-dbgsym_2.22.0-1ppa1-sriov~bookworm1_amd64.deb
 Size: 30388
-MD5sum: b534e720c7977f08682f32284db8623f
-SHA1: 7424bc512d1331a75214437708b9891a359c02b2
-SHA256: 6b444a9737bf12029f372b6c3721020527ad763ec2d426cfadc5094f9e0d23c4
-SHA512: 60ed7c54f1484ed76eef1edd2f8e23ccf0ca9509b9f534920ff616f7831bdbf1d4672951c28280febf864f32d2a1ee16dc4a695f09ffb58bb7a6b48ac854c3bf
+MD5sum: 9c02b7ad56b4144e5ca2254e140fc424
+SHA1: d459d364d40ca2c30a879e41556702782afbd8e2
+SHA256: 6b8797ac28eccc488364883bb0ebaf50bdb0bd243993915f1b73295343f97aad
+SHA512: 97d9f85f3443a4a39db30ab981ca6bdbb036d63a744924ade425c84c5a6f9e745784d13feed0b43d1c12f7e2aebf6073d6d27eacc0452beac5b0432b3604b2df
 Description: debug symbols for libva-glx2
-Build-Ids: d9a752551e72c480c0cc100a8a1848c7e2eb305e
+Build-Ids: 299270d9fed921777a0d5727a25d417f5330a7d6
 
 Package: libva-glx2
 Architecture: amd64
-Version: 2.22.0-1ppa1~noble1
+Version: 2.22.0-1ppa1-sriov~bookworm1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libva
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 53
-Depends: libc6 (>= 2.34), libgl1, libva-x11-2 (>= 1.0.3), libva2 (>= 2.22.0), libva2 (<< 2.22.0.1), libx11-6
-Filename: pool/main/libv/libva/libva-glx2_2.22.0-1ppa1~noble1_amd64.deb
-Size: 22536
-MD5sum: 967ef6a3757dd2e9bff191d4f0f789d0
-SHA1: 9b2c17b636b073b523ddaf4446615f1a75289824
-SHA256: 3915b891a88a7e488ebb638a94ce9722182ae48aa470c5034aa20e3b59e7e884
-SHA512: b27291e644c0d005156f7a8b3ba01041d1c7dcdef979428643917f7252f5980f32eb41af5470c9f6fa7d78cc380808b78b02d4db4156196fc826b3de7795c02f
+Depends: libc6 (>= 2.34), libgl1, libva-x11-2 (>= 1.0.3), libva2 (>= 2.22.0-1ppa1), libva2 (<< 2.22.0-1ppa1.1), libx11-6
+Filename: pool/main/libv/libva/libva-glx2_2.22.0-1ppa1-sriov~bookworm1_amd64.deb
+Size: 22616
+MD5sum: 97b2bc2a98cbbd2c1c73b7d74aaa5e46
+SHA1: 782236116f35811cd7874cf1efcb65ecc7327199
+SHA256: 6d1aeb9f99f37cceb4b5c8ca1d4a24fc7a3aeb9f09d4d909f0c51b5ce3982c6d
+SHA512: 08123e80ae614b54407f97254d757c207d87cb73ac9ad4c9f326b0cfcfbca3b4e27a33a007523e97249441af85dce02881de4e36abf2f02225a38de7f9798f8f
 Homepage: https://github.com/intel/libva
 Description: Video Acceleration (VA) API for Linux -- GLX runtime
  Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -1978,7 +1937,7 @@ Description: Video Acceleration (VA) API for Linux -- GLX runtime
 
 Package: libva-wayland2-dbgsym
 Architecture: amd64
-Version: 2.22.0-1ppa1~noble1
+Version: 2.22.0-1ppa1-sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
@@ -1986,32 +1945,32 @@ Section: debug
 Source: libva
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 44
-Depends: libva-wayland2 (= 2.22.0-1ppa1~noble1)
-Filename: pool/main/libv/libva/libva-wayland2-dbgsym_2.22.0-1ppa1~noble1_amd64.deb
-Size: 29040
-MD5sum: 1a538a6fd2a286fa0b88e805469e3404
-SHA1: 9bf5395726cfd4eaf9fe0f2776f54e155178a261
-SHA256: 99711974b74f71b69f607f726af8e137e168f24c4eea4a2ecdecb181cca53bb5
-SHA512: 62ea0403fd7cd3547c3380f69647dc0b382d5f60b6ddd5701206764df9c0975c846e125bbfecfc0ac6bac67317a88f0e02f73d49d71d4acf0ac8c7252129d2d4
+Depends: libva-wayland2 (= 2.22.0-1ppa1-sriov~bookworm1)
+Filename: pool/main/libv/libva/libva-wayland2-dbgsym_2.22.0-1ppa1-sriov~bookworm1_amd64.deb
+Size: 29064
+MD5sum: 58a88f493b92c5c23071db70c3f734ed
+SHA1: 548eade1af08f4275d6cdfacdee4174f1dc936da
+SHA256: dd8f512e5b330f721e8bed5d4df263b8418a81a6214ed6e6369007d388de7752
+SHA512: de869cdfde2cd26ce985a17a42c3a0ad57e6c4fc45182b2e84b80456529ca34867adfb84c80cbded4e4a234db1d32f07d600e71447c012ad91aca350aeb8a9f0
 Description: debug symbols for libva-wayland2
-Build-Ids: 734e407d30941e8c42cd0574d5255ed3be8d8d08
+Build-Ids: 6e4e09c5a8b1202c24c706348b7d6d54c9b4c399
 
 Package: libva-wayland2
 Architecture: amd64
-Version: 2.22.0-1ppa1~noble1
+Version: 2.22.0-1ppa1-sriov~bookworm1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libva
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 57
-Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.75), libva2 (>= 2.22.0), libva2 (<< 2.22.0.1), libwayland-client0 (>= 1.20.0)
-Filename: pool/main/libv/libva/libva-wayland2_2.22.0-1ppa1~noble1_amd64.deb
-Size: 21944
-MD5sum: fc146e881400db788224081084d39af7
-SHA1: 68669dc1cdd6d617171fd527dd7497fcf6d1ec9c
-SHA256: f95337722125cd7346883571ad8600a198072b64a6700b5d95ade46e2841aaef
-SHA512: a13fcfe43d41719e6255056c149de52e33f6646f7deda9e92d3e127fd2dd57298e1f96a9dcdf2b23c0a3a2002c3f5f15600954179252794e5ea56e6c546cfd6e
+Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.75), libva2 (>= 2.22.0-1ppa1), libva2 (<< 2.22.0-1ppa1.1), libwayland-client0 (>= 1.20.0)
+Filename: pool/main/libv/libva/libva-wayland2_2.22.0-1ppa1-sriov~bookworm1_amd64.deb
+Size: 22024
+MD5sum: 0558cd2ea3c134d57aa52cd9169e0ae5
+SHA1: ea117062153c275c05d7eab522b855e6dc489eb6
+SHA256: ef3a47d22806c295b84f76e2718cb5fe837688171b5ed931e06a7cf238fac3df
+SHA512: 1e11b8cbd1e4f6b0380b652f84ced4227f9ab0840deee4ef104f7b2bfc75108acb1ac926f550dfc88457372d30df87f4ae38d07867534a5bbe5c72a686bef3b9
 Homepage: https://github.com/intel/libva
 Description: Video Acceleration (VA) API for Linux -- Wayland runtime
  Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -2027,7 +1986,7 @@ Description: Video Acceleration (VA) API for Linux -- Wayland runtime
 
 Package: libva-x11-2-dbgsym
 Architecture: amd64
-Version: 2.22.0-1ppa1~noble1
+Version: 2.22.0-1ppa1-sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
@@ -2035,32 +1994,32 @@ Section: debug
 Source: libva
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 59
-Depends: libva-x11-2 (= 2.22.0-1ppa1~noble1)
-Filename: pool/main/libv/libva/libva-x11-2-dbgsym_2.22.0-1ppa1~noble1_amd64.deb
-Size: 44616
-MD5sum: c4b17d7c585870ef6d85645a62ec889b
-SHA1: 2f6ee3f3bd5ef874f9ba5ba366dca55ed6394a3c
-SHA256: 850e212d26666928b378c69444cf5c0de25ebebe6119e9212308ea321901ffb7
-SHA512: bc40cfc785b7228d1df2806437fbacf4caa420efaba43b1981f632449be0cf3103bbf91982e19dcf8b5ba16745d8dbff66c33def767c1c6f0ed04616fd24b034
+Depends: libva-x11-2 (= 2.22.0-1ppa1-sriov~bookworm1)
+Filename: pool/main/libv/libva/libva-x11-2-dbgsym_2.22.0-1ppa1-sriov~bookworm1_amd64.deb
+Size: 44660
+MD5sum: 17b374ffe29d3a9ded9cf453ce80a17e
+SHA1: 5fc0b5632dbd76ff90938520342290b367aa6fdc
+SHA256: 8cfc29587888771bdadcdf351965b72eed4ffbbf46cce3944226003ee78a1133
+SHA512: d2f125688943a31f80295bf423f363a11b28ffb325dd3d838e761b4bb075490b2220d0ce7c3a2ca868a34099e5d513e09c1bb529a4355d539c08d40fb2199419
 Description: debug symbols for libva-x11-2
-Build-Ids: da90b0d45ad2a302aa07bf4b1185b548a6066413
+Build-Ids: 9703f7d524cb4ca0a231d075bd5d28372f9c107d
 
 Package: libva-x11-2
 Architecture: amd64
-Version: 2.22.0-1ppa1~noble1
+Version: 2.22.0-1ppa1-sriov~bookworm1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libva
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 57
-Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.60), libva2 (>= 2.22.0), libva2 (<< 2.22.0.1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb-dri3-0, libxcb1, libxext6, libxfixes3
-Filename: pool/main/libv/libva/libva-x11-2_2.22.0-1ppa1~noble1_amd64.deb
-Size: 23280
-MD5sum: afa2a3ac638bef8ac0e43d5b00e39ebf
-SHA1: f45d3657eefc4c09e7b6215546b9699769f18d91
-SHA256: c0fe7f179243931c661bbda642063099304d07522a4c76be1406aaace0392b5b
-SHA512: f2e5720bf5eaef3a387bfcc573fda8c8a2741fed0dd0aa14c75311ad0d4081823cb9d8ccb7c5ae96509b2b99a87fb9338ba55f5d165631f74f2875472178a848
+Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.60), libva2 (>= 2.22.0-1ppa1), libva2 (<< 2.22.0-1ppa1.1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1 (>= 2:1.8.4), libxcb-dri3-0, libxcb1, libxext6, libxfixes3
+Filename: pool/main/libv/libva/libva-x11-2_2.22.0-1ppa1-sriov~bookworm1_amd64.deb
+Size: 23412
+MD5sum: b4c4d8c0b687f2b20a3a27baa1977463
+SHA1: b3bfa0561186e2c30420076529576e14e663c4e3
+SHA256: dcafa171f9a93458863bee3738c7416adb84ddbd24e269b11197bbfff7a297d9
+SHA512: e0457d74349207b043612e74b7dfb73340a8b3f49489fdf364c41b17c66acd936364669230f28fb5818c03e8afddaa557a21898f235b40588dce05a0c3b76688
 Homepage: https://github.com/intel/libva
 Description: Video Acceleration (VA) API for Linux -- X11 runtime
  Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -2076,7 +2035,7 @@ Description: Video Acceleration (VA) API for Linux -- X11 runtime
 
 Package: libva2-dbgsym
 Architecture: amd64
-Version: 2.22.0-1ppa1~noble1
+Version: 2.22.0-1ppa1-sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
@@ -2084,19 +2043,19 @@ Section: debug
 Source: libva
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 230
-Depends: libva2 (= 2.22.0-1ppa1~noble1)
-Filename: pool/main/libv/libva/libva2-dbgsym_2.22.0-1ppa1~noble1_amd64.deb
-Size: 211320
-MD5sum: c4ef5525cc792b28d5f0213d42462926
-SHA1: 421e3b3a69f13c8b4748109c44ead8f4f5d6aa60
-SHA256: e32f7ee8a87f01685d297f1aa55b42f7593c28277652110bdab06bbd91247c82
-SHA512: cf1591351116900899be57f98bf4f6f729d552321270c9a71569171e32cf18eaaa13a37a776ff3bd505f9338313bbf20886ffd8655bd647a97137f8fe1e1ceb8
+Depends: libva2 (= 2.22.0-1ppa1-sriov~bookworm1)
+Filename: pool/main/libv/libva/libva2-dbgsym_2.22.0-1ppa1-sriov~bookworm1_amd64.deb
+Size: 211256
+MD5sum: 829c81228c340db5db2a9be2e0737fdb
+SHA1: 4ebb68cf511abb5be0034fd21c19925db99bcfd6
+SHA256: 852bbfb3e278784cf556ae2e2527e0d40646750a17e3bb9febe24945f06626e0
+SHA512: 2afa8f5ddfaac7ea184f1b62ab51e7ab6d2590cbd9e47afee9e410a1a7c6d4c86380e52c5d37f63e8c23b5b9f831e082e4b5e1fd74d55ba6c9fae385e81576c8
 Description: debug symbols for libva2
-Build-Ids: f901eda1d0ecd78d356598c3ad85d0745ae359a7
+Build-Ids: f82c9e907f90343870f7a58aa70c996921488631
 
 Package: libva2
 Architecture: amd64
-Version: 2.22.0-1ppa1~noble1
+Version: 2.22.0-1ppa1-sriov~bookworm1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -2104,14 +2063,14 @@ Source: libva
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 247
 Provides: libva-driver-abi-1.0, libva-driver-abi-1.17, libva-driver-abi-1.18, libva-driver-abi-1.19, libva-driver-abi-1.20, libva-driver-abi-1.21, libva-driver-abi-1.22, libva-driver-abi-1.8
-Depends: libc6 (>= 2.38)
+Depends: libc6 (>= 2.34)
 Recommends: va-driver-all | va-driver
-Filename: pool/main/libv/libva/libva2_2.22.0-1ppa1~noble1_amd64.deb
-Size: 78304
-MD5sum: f52acca69e38434e6332fa550e10518b
-SHA1: 64e9ef63e000e993125cd063bcedbfd0dc6944d4
-SHA256: 822e0f9763bb9074a8beebc8084b7f8ab7705b2080e882835021f9724c8c7ea2
-SHA512: 70b8fa34d0f13b40d4a4d776862e544c18ebf5845617d2d57b3f9df84168b605c13bf46beb3d94b7b82119c03848f50d8bc50311e1176123c1c49f4747ef8237
+Filename: pool/main/libv/libva/libva2_2.22.0-1ppa1-sriov~bookworm1_amd64.deb
+Size: 78336
+MD5sum: cba9a4f01638918b2dfabbdd2c19453a
+SHA1: fb6d33ce853cf6ddc7ffd5a6042abfcc15b3542e
+SHA256: 24c7c167d94b13e7c4423e0faa307254a4321553932c4b9cc4fd88b9c0f0711f
+SHA512: 043ef603f3afa7b4a2fbbb9efc512fd7be1efbdd7a7f65194ab591462f4227b9eb3b32d0b38ec8715231049f0e4be46094e151085534d123af12a65901019c9d
 Homepage: https://github.com/intel/libva
 Description: Video Acceleration (VA) API for Linux -- runtime
  Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -2127,7 +2086,7 @@ Description: Video Acceleration (VA) API for Linux -- runtime
 
 Package: va-driver-all
 Architecture: amd64
-Version: 2.22.0-1ppa1~noble1
+Version: 2.22.0-1ppa1-sriov~bookworm1
 Multi-Arch: same
 Priority: optional
 Section: video
@@ -2135,12 +2094,12 @@ Source: libva
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 24
 Depends: i965-va-driver | i965-va-driver-shaders, intel-media-va-driver | intel-media-va-driver-non-free, mesa-va-drivers
-Filename: pool/main/libv/libva/va-driver-all_2.22.0-1ppa1~noble1_amd64.deb
-Size: 15052
-MD5sum: 87a7c1e8c29d3fb024134c85e64b0421
-SHA1: a3c2975f8799ca479e0497f165eca5df9eb74d9b
-SHA256: 814114e8b30cd8e2bfb1ba13ba2a3598c619a9e3609f8510585123e0500512b9
-SHA512: ee06f2a33af4ea239237adf98ed9247fe830388270207cb83557ca7e65b1301df70ce8069f76976bf4bf1f3af50d08e15f836e14c09fa8b26275a70dcdd54fa4
+Filename: pool/main/libv/libva/va-driver-all_2.22.0-1ppa1-sriov~bookworm1_amd64.deb
+Size: 15148
+MD5sum: f2e42b156d0acaa0c836e74a29676a6e
+SHA1: c2c8d4c2c38db475c46be02fdb5e2793b6958c0c
+SHA256: 9355c8fd886a5423db3eed1f0a45c22cf4a421c447dc821d73d34ed39e3bce7d
+SHA512: 4d1a0c162cbaba78a7865dc300c2375ee7dde3f0c31161ad2659ec186c0d6b6aa193e825f5dca389de76a72f0312c08e7b4a400eb970bd61b3c76401b8289a3d
 Homepage: https://github.com/intel/libva
 Description: Video Acceleration (VA) API -- driver metapackage
  This package depends on the full suite of drivers for the Video Acceleration
@@ -3442,26 +3401,6 @@ Description: QEMU full system emulation binaries (mips)
  code.  It can also be used to provide virtual hosting of several virtual
  machines on a single server.
 
-Package: qemu-system-misc-dbgsym
-Architecture: amd64
-Version: 1:8.2.1+ppa1-sriov~bookworm1
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 232056
-Depends: qemu-system-misc (= 1:8.2.1+ppa1-sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-system-misc-dbgsym_8.2.1+ppa1-sriov~bookworm1_amd64.deb
-Size: 205063844
-MD5sum: 70b6df91ab02d032798ddbd483115f33
-SHA1: 6825cfb4d5d34ffdbca03c9f613f785d37070207
-SHA256: e7fd550b2b85e40b0032405d700ddb59d81f4c8395d45a25e02c46e76e81ab79
-SHA512: 9fb80fb69456505cce44590a3fabf6977ffb53377d7de9e3847ce087d666e332b99475ebae01be70d16ee1888afb97db7aca1075ac8fd4c70f632c60c536ba5d
-Description: debug symbols for qemu-system-misc
-Build-Ids: 0af4fd4eeefe2e9c119a4e1a07dd1f4e6cf2f053 25f0ad1d1bdf2e3748ff5f6e29073738b3d62961 31cc30feb1accea68a0dc0c14f14935af5cc7248 372d96bf926519d0083a7d37a6130e7c9a5e6287 3bde61562cee8846b10ae861f15811b43800e875 630f392c9e373156446650bf26590624003f70ce 6d0b00201ba9fde64de65e38babbbfd9adcd637a 7cee46d65ce4b560683eddd22bf682a928d873fe 7da85c35ebaaab914e7670eb439b201123167c3c 810e8dc7c27bba73ea6bd9aece7d99b303666a68 8b5da5309172b6efbf4387733af8e7191fd9b5cb 95e0e597ed401bb9e6df11a0994bbc1ab2ad777f ac926f79c936814a25eadd3382e941a343244234 bec2200fe5cfa8e1e32bc77a8068cdd89d22aed2 d2b6d15a07ddd136ba68a5d7d4077d84a88268b5 ea97f28e0834d23258f4cbb9a0c41fb07e6489ad f442e916f4297fe3beadf97a998134c51dc99a8b f7b45dedfe334b62d15689e272a30cbe0b9f2c8e ffc25a45f8132673200499f3cdecd188684be8b4
-
 Package: qemu-system-misc
 Architecture: amd64
 Version: 1:8.2.1+ppa1-sriov~bookworm1
@@ -3913,46 +3852,6 @@ Description: QEMU user mode binfmt registration for qemu-user
  emulation binaries from qemu-user.  This is an empty package, it does
  not contain any additional files, only registration scripts which run
  at install and remove times.
-
-Package: qemu-user-dbgsym
-Architecture: amd64
-Version: 1:8.2.1+ppa1-sriov~bookworm1
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 153476
-Depends: qemu-user (= 1:8.2.1+ppa1-sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-user-dbgsym_8.2.1+ppa1-sriov~bookworm1_amd64.deb
-Size: 138867220
-MD5sum: 979bfde899617463f57a932d2a8dfcaa
-SHA1: 0c931f249eecb82f2deabd904305c4f15d572b31
-SHA256: 8f36d4c692f537ff82d0cd7d5a0f9bbb9d1f050dec2b37ee55a6ce6c23e7f885
-SHA512: 6a71930507866507690223a00e17fce59f6a08daa570f7abf1de7c4ada7ef57bdd87de3c59371d6a9b23ef30a7466b8aacae9f48a5513750edaf8781247d054b
-Description: debug symbols for qemu-user
-Build-Ids: 011514b9bee762564f0f41e2d8fcb39a6b660280 029244cb50bb696740edb7ad940e0673779d93fc 02dabfde0daacebf3cc74ded4dcf9628699d4455 0a1d272bc5029bf34566185bb54c6ff9104a7f78 0d7a7d949442e405718d78ee6538fe024b7194c3 123498dd367faf0b64bbcc7508dec88b714a26f5 153b5a73529d557127ba1a333e6c4757208fa929 15a9005d09f66c731031633e200dd26b924a688d 1c975095e345d1b9e71f40c0c8fc26ebac4acc5c 1e77126ef8b5ff98058adc4e85bcc9569efc9fe0 236c3cab238c7baeaf74a5985a13df376108bac9 262a5e2be6186edb37bd497995359b1df9db23d6 26f0a809470cc8fa855f62fd2947959bb864ea89 2a0430065f286ddc16c13aeccaba8d3b71891e9a 30241a44766fb97d012a4e319736e0fa88ad9952 32bacfbfcfb459fc46a36888047228f1c52ebe6d 3815e04c0bed0a5afed7184c127269425152afdd 46cbd6173f9bd8dba98a3579cbcb7d50b6bc87df 48b1e50329e4bf669bd6bbc58b40a05d7d1714bb 650fe33395eba58144e0a8bf7b1c7f726d5a5050 657029c2d26c3a21e7d1f49aafad4cce05cdbb09 75d347d773f598483dfa76a77428ed686dfbfc70 80d978fb81fa071b5ae1910a9ff655a282870dd3 84355789f3884fa9490b10ebebec1d0e5acf673d 84d840e020ff927f480a13de53f903de8b8d3fe5 9a94ad83e1b3bec2ce0a2095058f74bfe1177543 9c43078bc8ee566de2c37351e3ab9ac922f46afc 9ea46e2b0f1e806887d9b2b89862ab7534073df0 a51fae25158c406da285dfdbc97b01477aef87ee a6721d54f86498e16922b453864ae85b2750657b b98f91086281521196ce3beebf8f5c0ae78e97c7 c86fd7f553dfd4779cbd385e38765ed4e44ff110 c87cdd8c255aadfc751003dbac1e1328f53f3b69 ceecbb57fbd397419106885b1acaf7f99adcb39f f8ef9e25d89251c2f22b87bc185b7197ddd5e40f
-
-Package: qemu-user-static-dbgsym
-Architecture: amd64
-Version: 1:8.2.1+ppa1-sriov~bookworm1
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 160921
-Depends: qemu-user-static (= 1:8.2.1+ppa1-sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-user-static-dbgsym_8.2.1+ppa1-sriov~bookworm1_amd64.deb
-Size: 140272200
-MD5sum: 4cf1d7527f9015a5330eb889b1da5b66
-SHA1: 4cd33dd1143308b6166be59a3f7b8d0fbeef4022
-SHA256: 6da05ce8f03028e4979466fc313f78d97d9e9ef66dd2494cf9dbc0587165fbb8
-SHA512: f60b0f305ae34e2b8c61eb315f0252a394bd15dadfdb0b0fd9ec1da2c67401c90fc090af554110f2fa7c3547b2d741e8bd54b5004b00d0236642a2905110837b
-Description: debug symbols for qemu-user-static
-Build-Ids: 2090e1f728c7124a9f7ec9805c9bf226241b7160 21968626bc69459e3358e957f6d74d441f35ce5d 2446b8c48097e9f5b9d504ca5bf2f129b3079d3e 3552e546a7e30372e57a365a64b47de4a3bf70c8 37689d26218a05c3ea8d32c9d8c3e3695beb6b75 39735faf8ce6f2fa0f302c98c006b3068118f9e0 3f70deb7ef8fcfc6338fb1a4c91fb8a77fea8436 40496bcecae7dcc752c1ded4f2b3f9bc12763ec4 40993d21cdd63e5b7e846e9f5adf35072aef1d13 438c7a3af87fd7796a27d1a858a68313feb9867d 5020beefb1fc08924cbd616660bddcdee778bc22 54612eff92e1656378137101eca42c1cd34d35e7 55589c6c953bca25336211812ff0866d3bf81532 56d5061748adf7388e1cd3801ee73f5777045c21 5fbd97db52eabb1fbf1fcc08e1994e4c04da9ae3 6839cfe725246a73a41bd7ef8b50d3a26b8d0f53 6b9700bc76dff85cc2277ac6c926a44a813d5196 7165bb90dfbad633fefb6e51957b81ead29f15cc 781b94045701ac20edd6c719799ac65287e3d8cc 85f27d198e5472427ac8822d9027be00d4f5cd85 87e7c7005a6b2b1ee4de002d2248fd9253fb5abd 9829fc9f59364287b653a312d99511cffd37e83c 98d1334175e09722a9951a518b961c8807b70c18 9b028b6440dfa34354b91344cf7009095c48cb8a 9b6f0226e3b9d8a3e56252ec172fc374967042b7 b7fba705808694ef39ecfbccf528f0991770bd9d bacdbd0ed99d3c299c22162a74d912528318e7a2 cae608e4daacb767898523a6b7bf01a9f4cfbfde d0d451535e182519222af5ce4eb31543ee04b1e3 d33b144cc62df3f317e360b9dc36bbf5556b22e7 d68f243557f3fa10dae8fff1d8c410ecad5bec1a dfa7d2352501bc6e806c860680403c764927308a ec7230130770a1bb5b63d02ed85cfe2713afd270 ee34be146acd4a4d41ccfb4404a06c5beea7bf49 f1ff5e5a215ae6ae570c5194747f65a3e7973e43
 
 Package: qemu-user-static
 Architecture: amd64

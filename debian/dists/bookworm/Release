@@ -3,27 +3,27 @@ Label: thundersoft-sriov-bookworm
 Suite: stable
 Codename: bookworm
 Version: 1.0
-Date: Fri, 24 Jan 2025 03:24:07 +0000
+Date: Fri, 24 Jan 2025 06:40:08 +0000
 Architecture: amd64
 Component: main
 Description: Intel Graphics SR-IOV On Debian
 MD5Sum:
- 9998de3a4e3706c79083aebf9f13be4f               38 Release
- a9799adc399cb816b658dc2a5f8dbf8f           289612 main/binary-amd64/Packages
- 92955f1f980682bfc85be43a085f1426            74092 main/binary-amd64/Packages.gz
+ dffe48f5d2f0d715626569e9cf4f7c76               38 Release
+ 715837286db7401f6eb56e52d1a23164           281817 main/binary-amd64/Packages
+ b07053ec6e7a9acd2ebbca8ea6474c17            70424 main/binary-amd64/Packages.gz
  6647e27c5c62fe2befaf2b32ce8f5633              179 main/binary-amd64/Release
 SHA1:
- 2576a74314b6f5a647d2b7f3c4e8ef1cc17349c6               38 Release
- a09fc1eb5436d6afee31eb4e48561a325d6c7791           289612 main/binary-amd64/Packages
- 5e449c1ea5aab715a00a723727866ce5c75f9db2            74092 main/binary-amd64/Packages.gz
+ ea415fcdb4d26f6993dfbae4e9ddaf1a36be9a7a               38 Release
+ cdae63452fb65b88d4be2e0fd1975e25f0efb611           281817 main/binary-amd64/Packages
+ fa10cd3d8ae16fee3bdfe208b032bcf579c92818            70424 main/binary-amd64/Packages.gz
  2e6bf0facf3c6107214b37b2d16fdee4c1d11f67              179 main/binary-amd64/Release
 SHA256:
- 7e05856af8c976675d268182486e21ebdf1c9ddde86db6deb5ad5b018eda9971               38 Release
- 45c6d26f2ec816c04e0671a90550d86fec8abd0e75fa18e7225a029bc8950d4e           289612 main/binary-amd64/Packages
- b25f7d7a02ad498df44dda47fcdc9183dd6d23a113ad804e79d38764745bebb7            74092 main/binary-amd64/Packages.gz
+ 14139ca32ff373c3fb1f228753c8cb4b7368ad3a4e111b2b98973c1d56b90185               38 Release
+ 188a5b68380c5eb79f529cd2d0645b581766f573340dafa1455d115eab19e472           281817 main/binary-amd64/Packages
+ 375c138eb0663cc61d9e8540ec7fbd8126907fb822ba3ebcf574962c91e72e37            70424 main/binary-amd64/Packages.gz
  c0b1fa160ef5feefc12d98fafbf71d04af9086152f68166b23bca7fc8555db0c              179 main/binary-amd64/Release
 SHA512:
- 8c59db2e09f1919eaac1f98022b5289f6e0c94581ddb6104028f11008fc70145fafc165bc746b642556ba19431c35a9ffed7a3ac9d635af30659eb915873f6d8               38 Release
- c91c4386fb0b38216e12a0fadc452ab6987b8807cb72954590d73bb92687fa81f2a1878edc1816075d7fad12cb91c68b543cb809d6a6a181a65d86fe31a339c7           289612 main/binary-amd64/Packages
- 12ed69a4807816b495a181847605d535375fc2a1e9d285f497fe2ecd07ebbf1ea1a079b3f789a8b4057a2fae920570964ceb167663ed16d389114838e3fad9d3            74092 main/binary-amd64/Packages.gz
+ 710669956632a31da488a6590bd49720335d9dc60adf17431ea38c5afff10060a86d464894dd15156a8f0d0357a19b1e083a849647bb3f25ca7530275d965200               38 Release
+ 68bbd73f543cd0e3d5f5d05e4b3e266ba61b2a272f33bba41d67501a0a0fdc47cfcd5b778dff13b77d76156d195b266b6c83e05d9e5ee7e6cf4830a2d50b9ad0           281817 main/binary-amd64/Packages
+ d731c7cab0e614895ecbc60cb29c8d4cc7de4385dd3bc3426208f24c8a264f64bad30fe960ade5edfad1c6af08289c49a407613d7226a5d95073f69868e19a5c            70424 main/binary-amd64/Packages.gz
  729aa0da2c65aa75f27149996d5dbc19a9fbf2d2f4e9206df2fa2d7279872775e0da80bb747c8a4f47036f635a5756af9c917e757fb4d2491d1f0057cd00837f              179 main/binary-amd64/Release
