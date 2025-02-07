@@ -1,7 +1,7 @@
 Archive: stable
 Version: 1.0
 Component: main
-Origin: thundersoft-sriov-bookworm
-Label: thundersoft-sriov-bookworm
+Origin: thundersoft-sriov-noble
+Label: thundersoft-sriov-noble
 Architecture: amd64
 Description: Intel Graphics SR-IOV On Debian

@@ -1,0 +1,29 @@
+Origin: thundersoft-sriov-noble
+Label: thundersoft-sriov-noble
+Suite: stable
+Codename: noble
+Version: 1.0
+Date: Fri, 07 Feb 2025 03:46:25 +0000
+Architectures: amd64
+Component: main
+Description: Intel Graphics SR-IOV On Debian
+MD5Sum:
+ f844b6f0ed7154ea370616ef06e1a605               38 Release
+ 8e14e91c93119e4a47ae8dccff88de20           288471 main/binary-amd64/Packages
+ 027142f2b32caa6d87c3e7ea6b2a057a            73452 main/binary-amd64/Packages.gz
+ 1c23de034dd44d802f129a22e20edaaf              173 main/binary-amd64/Release
+SHA1:
+ 5a0e53c1ded2f7bc7211c883e05698b28f22362b               38 Release
+ 7bd3b7506f507dcfda85dd81ead785d4c53f3d11           288471 main/binary-amd64/Packages
+ a21ac9d927f64877ffaf3108c1104237d16d4586            73452 main/binary-amd64/Packages.gz
+ bb84c2a48cec1728e2eb9bfad327e13ce3ddb76a              173 main/binary-amd64/Release
+SHA256:
+ f9c91c887cb8d423b6b27519752943479e6d8018b37167d51900f9bbd9cf8c9c               38 Release
+ c7eaadd538d23ddf642bafe669345a6bb5438ff17c90f73ff3006599373b04e7           288471 main/binary-amd64/Packages
+ b32dd153b57e27a21d29bf8d2d9232489badeb50b4dbc3c9a14f704181a7f6c1            73452 main/binary-amd64/Packages.gz
+ 2f3d4672615580bf0131854b589201d5c611e82212a708a40ea5b5ac5d3b234e              173 main/binary-amd64/Release
+SHA512:
+ 3a8aaaa29c5f7dcb53f016811c5e80974e8be47ba876d1f1da5de131ec62ab5ab5606168cc107aa4b58bd7297320e52481498191be07144832719967e44da008               38 Release
+ 21c92efe25b4d4618dad54a110d2af9b6fbdb82740a8b97e778d597b57b4574890057fc0e592989dae690aa7954e1892c2088e493fbf9fb237e8b56eca77622f           288471 main/binary-amd64/Packages
+ 1c5407961c8ceef2ef0597572d8c21625319738dcf432fd4995df23351f5b8a6c87ef534ec84b68facac05e15d24afc66552e65bdae5815d07206928f3592081            73452 main/binary-amd64/Packages.gz
+ 32b7386c243083c13ba0f7b8981da612e4348a91ee9c87614141f39cdaede59414291d1c009d95c5e40635bfd224547a7e1549690edede6964cf83160bb9a22e              173 main/binary-amd64/Release
