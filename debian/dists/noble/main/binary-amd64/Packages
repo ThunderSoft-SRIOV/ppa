@@ -1762,41 +1762,41 @@ Description: Linux support headers for userspace development
 
 Package: libdrm-amdgpu1-dbgsym
 Architecture: amd64
-Version: 2.4.114-1
+Version: 2.4.120-1ppa1~noble1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
 Section: debug
 Source: libdrm
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 69
-Depends: libdrm-amdgpu1 (= 2.4.114-1)
-Filename: pool/main/libd/libdrm/libdrm-amdgpu1-dbgsym_2.4.114-1_amd64.deb
-Size: 52036
-MD5sum: b96d3d9c42b4b0c7e70e5685dab00f89
-SHA1: 8a2825643f2eb4af23e3e6787d9bd31d40756dc6
-SHA256: 5a5b7d5947dc30e7c4319ca075480a1ad175bcd8df75e543c17ae8279ffb6240
-SHA512: 25a690d8e6bdde890ad1eccc2894ca25767c0505524fe0099bac3938759a5d04fa91f7fd6aff616259888912480fa4482bcab16b596046965599c5be95b577e2
+Installed-Size: 70
+Depends: libdrm-amdgpu1 (= 2.4.120-1ppa1~noble1)
+Filename: pool/main/libd/libdrm/libdrm-amdgpu1-dbgsym_2.4.120-1ppa1~noble1_amd64.deb
+Size: 52880
+MD5sum: 151478b3f8a6ca062861b77485532c60
+SHA1: e71b4ca7e466c575a5fdd3336706099f85643d5f
+SHA256: e35efcd8d18937796fef53f6c4bca935c1b1e92ba47936e8e01ca6c1dabaca2f
+SHA512: 7bb181232c5345483d4c3ed0560591df209ff1166a50eca9d0cfe8dc6dbdc8e7c3ccfcb323a8b16e4e98dbecc87e17a308b8a7e62eb9ee235a3341a95bf2b985
 Description: debug symbols for libdrm-amdgpu1
-Build-Ids: c74706047cd44183e09da13f6aae61dd25301058
+Build-Ids: 281649b43d19a46492cc2735502c092e53ea4a44
 
 Package: libdrm-amdgpu1
 Architecture: amd64
-Version: 2.4.114-1
+Version: 2.4.120-1ppa1~noble1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libdrm
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 75
+Installed-Size: 76
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.108)
-Filename: pool/main/libd/libdrm/libdrm-amdgpu1_2.4.114-1_amd64.deb
-Size: 20552
-MD5sum: c52960e504314fcf6107feea57e1b45a
-SHA1: 0a9dbb378af17130d0bc47e3c1086d82819dc663
-SHA256: c71c722b473364daaebfc2bbcdc1e142963cc914ea2ea83620526cf55767942c
-SHA512: b2e6516a53ae13ed2ae871a9d98b221c24eabf3993331cf52e42687febdb66e7ae91072347b455c5256a297ff3f9fc0a35ea56de9436ba2b9bfc1b9d4f0d0ae8
-Homepage: https://cgit.freedesktop.org/mesa/drm/
+Filename: pool/main/libd/libdrm/libdrm-amdgpu1_2.4.120-1ppa1~noble1_amd64.deb
+Size: 20944
+MD5sum: 0b800ecd43284f8ae01a31b781b79da6
+SHA1: 85d5b2bae4dacb9d5e5629051b8cd282a1ba51af
+SHA256: 0560942361bad0a17262249ebd59494cbb46ca07b4616dc1717758a000469992
+SHA512: 548585063ec7fc17442cb25f19a2fa1dbde7c369af5b5551fe4f9f21da5ee9f39e234567ec500de107732e193622e472ed8e9953dd91f4e28aaf46bee21dffcf
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Userspace interface to amdgpu-specific kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
  services.  DRM stands for "Direct Rendering Manager", which is the
@@ -1806,20 +1806,20 @@ Description: Userspace interface to amdgpu-specific kernel DRM services -- runti
 
 Package: libdrm-common
 Architecture: all
-Version: 2.4.114-1
+Version: 2.4.120-1ppa1~noble1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: libdrm
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 42
-Filename: pool/main/libd/libdrm/libdrm-common_2.4.114-1_all.deb
-Size: 7112
-MD5sum: 4f0ec02ca688b2a57f7fc0557011c9ad
-SHA1: 169c85a3f53d7b46203632a40c886c396a823c91
-SHA256: 32f9664138b38b224383c6986457d5ad2ec8efd559b1a0ce7749405f7a451aad
-SHA512: f74977801a4926f79270df013d089d4ca2d1a35329f626de8128018d7f8ca585bd01373b558a35abe54cd3d4720d20bec7a1b72fdafc98e001cc9dd3392de6cf
-Homepage: https://cgit.freedesktop.org/mesa/drm/
+Filename: pool/main/libd/libdrm/libdrm-common_2.4.120-1ppa1~noble1_all.deb
+Size: 7316
+MD5sum: a7ebd32213c04a74197de1bc9f0da7a7
+SHA1: 8348c00bda702a9c29f3c622f4fdc2848d1c4a60
+SHA256: 02a541d061a7c7ff0f72f1da04d9f7b14e868e23dd4959852f73df9a7cb0d06a
+SHA512: 707fa495e41e8eed0b62164a6020f7731dad0512f48dc7da23157b1b2ccd569c3936b25ad7c431524376e55744dec02a3a23526d3911c5de1b2cb23c5bc55aa0
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Userspace interface to kernel DRM services -- common files
  This library implements the userspace interface to the kernel DRM
  services.  DRM stands for "Direct Rendering Manager", which is the
@@ -1831,21 +1831,21 @@ Description: Userspace interface to kernel DRM services -- common files
 
 Package: libdrm-dev
 Architecture: amd64
-Version: 2.4.114-1
+Version: 2.4.120-1ppa1~noble1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: libdrm
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1325
-Depends: libdrm2 (= 2.4.114-1), libdrm-intel1 (= 2.4.114-1), libdrm-radeon1 (= 2.4.114-1), libdrm-nouveau2 (= 2.4.114-1), libdrm-amdgpu1 (= 2.4.114-1), libpciaccess-dev
-Filename: pool/main/libd/libdrm/libdrm-dev_2.4.114-1_amd64.deb
-Size: 286716
-MD5sum: 55cb996f3c840b2dea6748136c6fe2c0
-SHA1: 0ea6359315674b14a79d3fb3a9521b961f37f982
-SHA256: 5ea86fa7aa167bdf4192a32d5d6a18deed5c17b38a6a95fb8a8c4666a6932e5d
-SHA512: 48a266796d4cf5e3b02a4dafd25fd6f1130c455572f5d20c8b2cfdf6acb43b1f24ada9e07b63007e596fdc0666eb8a9f7147125626000c800eba5b58ea64a98a
-Homepage: https://cgit.freedesktop.org/mesa/drm/
+Installed-Size: 1354
+Depends: libdrm2 (= 2.4.120-1ppa1~noble1), libdrm-intel1 (= 2.4.120-1ppa1~noble1), libdrm-radeon1 (= 2.4.120-1ppa1~noble1), libdrm-nouveau2 (= 2.4.120-1ppa1~noble1), libdrm-amdgpu1 (= 2.4.120-1ppa1~noble1), libpciaccess-dev
+Filename: pool/main/libd/libdrm/libdrm-dev_2.4.120-1ppa1~noble1_amd64.deb
+Size: 292204
+MD5sum: 475012859ed95d064faa4d46fd021abc
+SHA1: a404d92dbd5842e410fdc0289fd12e04186ae1d3
+SHA256: 5651f5627c160801348ab36dc6bbeb9ea0c40ecbd70304eb0175eb17018c6ec2
+SHA512: 869dcce37e2ff0bab35cb160ffe019b0366e8b31732729f672af754c22328f3c17485f34db2cca8bf0d25ac783981b0b9d71d3b2cd06dbec42985be12926a696
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Userspace interface to kernel DRM services -- development files
  This library implements the userspace interface to the kernel DRM
  services.  DRM stands for "Direct Rendering Manager", which is the
@@ -1857,27 +1857,27 @@ Description: Userspace interface to kernel DRM services -- development files
 
 Package: libdrm-intel1-dbgsym
 Architecture: amd64
-Version: 2.4.114-1
+Version: 2.4.120-1ppa1~noble1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
 Section: debug
 Source: libdrm
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 150
-Depends: libdrm-intel1 (= 2.4.114-1)
-Filename: pool/main/libd/libdrm/libdrm-intel1-dbgsym_2.4.114-1_amd64.deb
-Size: 130228
-MD5sum: cdfa1c382e707267fec5e37d51300af8
-SHA1: 66642798a7d56f0ccbe0279aa7eeed12ede6bd44
-SHA256: 6c4abfbab05cbf343992575776da1d0345c17267e134df1106954ac49e0dcc45
-SHA512: 67fe90d50b56eea90333e83ebdf4dba2ad53df004eeea68df59db6abc31d7025ca4ee78bf396cda47b9eb9ab020623a8c9ad342fdef3e224218fa0f62aa9853e
+Installed-Size: 149
+Depends: libdrm-intel1 (= 2.4.120-1ppa1~noble1)
+Filename: pool/main/libd/libdrm/libdrm-intel1-dbgsym_2.4.120-1ppa1~noble1_amd64.deb
+Size: 129352
+MD5sum: e83f47ae3d9afc08a81b2c4503d33c9e
+SHA1: 48e6badd9e54e10a5f14d5a579a2e8800463808d
+SHA256: 6a8841a5a55fc97d92994f7fed4cd3c34f029758759f9da512e4279d3ae64d92
+SHA512: e38b6c1d56522ca15c469804b85e9a7fc17ed964bc340695871ac104316a6dc16def046c950b220188032c566416102db8da95b1cd5dd3c355bee8f66b99a7cf
 Description: debug symbols for libdrm-intel1
-Build-Ids: 5a9add76b9a8e0ef35feb5c5d1e251fd76c829bb
+Build-Ids: 8e447d2a07fe30002ceee257a155c1b9ca0c21e8
 
 Package: libdrm-intel1
 Architecture: amd64
-Version: 2.4.114-1
+Version: 2.4.120-1ppa1~noble1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -1885,13 +1885,13 @@ Source: libdrm
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 177
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.108), libpciaccess0
-Filename: pool/main/libd/libdrm/libdrm-intel1_2.4.114-1_amd64.deb
-Size: 63776
-MD5sum: 4cc8b68ed1cb3fdc39cc3844ce7dc316
-SHA1: 97acfeed90b723dfe681228f55308637ac7fef2b
-SHA256: f4dec49f2a7cbef08f29197f8a107918e5e03e754128d22ba34bbd06e4fa8d49
-SHA512: 8fb55d5ebebaadfdf2249de5f59532514d53f0df0729d727f8187c673125d822a358c0f445fa3b4d3ede1e2a26a18d9211c5afeae285878aefe5c7e59ae936aa
-Homepage: https://cgit.freedesktop.org/mesa/drm/
+Filename: pool/main/libd/libdrm/libdrm-intel1_2.4.120-1ppa1~noble1_amd64.deb
+Size: 62848
+MD5sum: 2e705b9896f185e6552488633c5b0c51
+SHA1: 5438c48bb090fc8194d929e5144028cbbd37f059
+SHA256: 6e9d48c51ff903944db1125e2a98a2fe9acf3ce180cae823a4d822fa2b24edb4
+SHA512: b96d9b47ccac3afd807636c6f67026e5dc06ee37e16e3dd9029b7add40f2989d60cd1298ff9e05a61051646920f6bd63c727b76750f2ba7f353f09b3826c8bc1
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Userspace interface to intel-specific kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
  services.  DRM stands for "Direct Rendering Manager", which is the
@@ -1901,27 +1901,27 @@ Description: Userspace interface to intel-specific kernel DRM services -- runtim
 
 Package: libdrm-nouveau2-dbgsym
 Architecture: amd64
-Version: 2.4.114-1
+Version: 2.4.120-1ppa1~noble1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
 Section: debug
 Source: libdrm
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 55
-Depends: libdrm-nouveau2 (= 2.4.114-1)
-Filename: pool/main/libd/libdrm/libdrm-nouveau2-dbgsym_2.4.114-1_amd64.deb
-Size: 40516
-MD5sum: 666076e6d723a04d4205d38fcf49af3e
-SHA1: 50f5014c303d6ab0efb5371f00fa4e215946a8c0
-SHA256: 0a465de41b501f801ee4a69e44ecdea1af62f14fa32d513533e7b5531398d1fb
-SHA512: becdca3b5c24af600b2cec833e00cd02e2c5ba9707bd9cbae6aa4616b3867688e78382560948fabc342b4d2ef7917f9391d213743227cb8b4ad9701af791ab1c
+Installed-Size: 56
+Depends: libdrm-nouveau2 (= 2.4.120-1ppa1~noble1)
+Filename: pool/main/libd/libdrm/libdrm-nouveau2-dbgsym_2.4.120-1ppa1~noble1_amd64.deb
+Size: 40732
+MD5sum: 83c8b8db8b512b53f63bbd4fd8cbd098
+SHA1: b5abaeff48a1c01ddba6394bf76b6628e88b0001
+SHA256: 49119033201b5eaf9153ff29c16da55e65d87fb71c39b973dd494e1969546a94
+SHA512: 0e6b946ed0fe771920659614d76a65dca0e284f497db4cbb9d18ae6bd16acbc074323dd7e44d35302f3af66d351922ce716155807afc395b970a8614e25a4404
 Description: debug symbols for libdrm-nouveau2
-Build-Ids: 6ad442cfe15103ddc989a44e848a6862776581d0
+Build-Ids: a6c8989c85037a4ba5a33503284dfdf4874d1d4f
 
 Package: libdrm-nouveau2
 Architecture: amd64
-Version: 2.4.114-1
+Version: 2.4.120-1ppa1~noble1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -1929,13 +1929,13 @@ Source: libdrm
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 73
 Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.108)
-Filename: pool/main/libd/libdrm/libdrm-nouveau2_2.4.114-1_amd64.deb
-Size: 18776
-MD5sum: e52db6c020892404fbe64efbfbf33665
-SHA1: 9efea2bb77efba10c556eeac2adc85b00ae4616b
-SHA256: db695701bd4a68dde2edd0e7afc37856a4576b8230c6adde5d31d3f821971847
-SHA512: c1a6e2036e576a46e50a97f1b9a05aaf02274ddf1a9954290ab1165e1852cd45760a08f356bb6c7fb85881969aafff161ad422b2300bd17e65cb0c56677c507b
-Homepage: https://cgit.freedesktop.org/mesa/drm/
+Filename: pool/main/libd/libdrm/libdrm-nouveau2_2.4.120-1ppa1~noble1_amd64.deb
+Size: 19004
+MD5sum: 0a0b84aa7fbfb11a218dac6636fc5db6
+SHA1: aefdf69984bdfa4e0372bdedf98162eb9e075097
+SHA256: 76afd916f9d05ae04ca206aa3722ba098182c71ffe69172026fd75e61df07e3a
+SHA512: 19d84efa3b6d3ddfd83edcc5e89bb91ab3509343e47debaec88def7824650ecb723ad8afda9368af790ef582d2518905fb944ad512ea39959ee58f3dcc6551d5
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Userspace interface to nouveau-specific kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
  services.  DRM stands for "Direct Rendering Manager", which is the
@@ -1945,7 +1945,7 @@ Description: Userspace interface to nouveau-specific kernel DRM services -- runt
 
 Package: libdrm-radeon1-dbgsym
 Architecture: amd64
-Version: 2.4.114-1
+Version: 2.4.120-1ppa1~noble1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
@@ -1953,19 +1953,19 @@ Section: debug
 Source: libdrm
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 63
-Depends: libdrm-radeon1 (= 2.4.114-1)
-Filename: pool/main/libd/libdrm/libdrm-radeon1-dbgsym_2.4.114-1_amd64.deb
-Size: 47740
-MD5sum: c26ce0b1921bbacb31a8e993caf703c2
-SHA1: 4aaea5e0b09e3cca9d58b5d28cddd0ce49d5887d
-SHA256: fe25ed8ddbcd807ed79eeb717f353e39e237d9ac1256ce5d5d412fffeffd17ad
-SHA512: c25cedf6c66700c70c0c1853d3a8a11fcae6c381ad4469c7e77e49313811b42f1491960c4940e00070f2c94a7dedcd9e6ed7b508b0c3a99eae6415f9a69f0878
+Depends: libdrm-radeon1 (= 2.4.120-1ppa1~noble1)
+Filename: pool/main/libd/libdrm/libdrm-radeon1-dbgsym_2.4.120-1ppa1~noble1_amd64.deb
+Size: 47744
+MD5sum: 243be7a4362eec9d52f43d6505780ef6
+SHA1: 6b3af9131a42fc930d7f7bbfef6ae72a18d964d2
+SHA256: 626d993037123152be1be4df651d459cac8ce31ac8f2b81b26355c95f72cf19d
+SHA512: 25427fe3d5c9401888c85d374645caf41a2015f8eea13549ad1f91b09c54b456d34b3279f4a99507c4f7523180b2c13f667ea2980aa72b8aeaf3487f0d1e1599
 Description: debug symbols for libdrm-radeon1
-Build-Ids: 30b12a9ac290b1b6f9800ecce2a4d09c4ee4c4a1
+Build-Ids: 219b3a33a0b32b7fcce11f3e801000780e9d3018
 
 Package: libdrm-radeon1
 Architecture: amd64
-Version: 2.4.114-1
+Version: 2.4.120-1ppa1~noble1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -1973,13 +1973,13 @@ Source: libdrm
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 82
 Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.108)
-Filename: pool/main/libd/libdrm/libdrm-radeon1_2.4.114-1_amd64.deb
-Size: 21584
-MD5sum: 2eca9dc6dcec1188a8e45d4a7cac8b63
-SHA1: fd202371758517edaf2cf034e8e912f0f279c96a
-SHA256: a91265a854f9424f86b8a394ea30fc7a0d110bf881c50663092b9585af843582
-SHA512: c463038978e917d2f9bed6b6f0d85129b7b1817a103773b349951371dec2ae926b5f78d1da3e507cb72e558a9952df1d451a83695499069993921a1eaf2c70c4
-Homepage: https://cgit.freedesktop.org/mesa/drm/
+Filename: pool/main/libd/libdrm/libdrm-radeon1_2.4.120-1ppa1~noble1_amd64.deb
+Size: 21720
+MD5sum: 09e61c37ea0cb2a6abae35e45562150b
+SHA1: 7f28cf08588832d509f56723e32f2f9e6b913d69
+SHA256: b75f2ab39d0e4890cfb843be83fb9ff1471c501cf32892bcd894fc859b74d5db
+SHA512: efda2f8839505757f6cb54ed11a519535c17632b4ec065b0ee7960d2dd3aeb3b1dc0b7a9e80c731ae04952892d211c2bd948deb9532aa9d61165623299acdbab
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Userspace interface to radeon-specific kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
  services.  DRM stands for "Direct Rendering Manager", which is the
@@ -1989,39 +1989,39 @@ Description: Userspace interface to radeon-specific kernel DRM services -- runti
 
 Package: libdrm-tests-dbgsym
 Architecture: amd64
-Version: 2.4.114-1
+Version: 2.4.120-1ppa1~noble1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: libdrm
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 182
-Depends: libdrm-tests (= 2.4.114-1)
-Filename: pool/main/libd/libdrm/libdrm-tests-dbgsym_2.4.114-1_amd64.deb
-Size: 128036
-MD5sum: f1eb16c10f48dd9fa2affdf33fbd3bf6
-SHA1: d7f0d6fded557f3eadd70117e7ec3e6c47724cde
-SHA256: 78de925bef307fbb16d2f32ecae287160296e2695f268b90f031e28b497fb505
-SHA512: c89836ed750cc85c62f0261d84c323a7de154f2b9f150c978e19ac1760eeda165db160fb779ea69704dc447d011f496dc44ccedb7b8c85a406eb20931311395c
+Installed-Size: 199
+Depends: libdrm-tests (= 2.4.120-1ppa1~noble1)
+Filename: pool/main/libd/libdrm/libdrm-tests-dbgsym_2.4.120-1ppa1~noble1_amd64.deb
+Size: 144996
+MD5sum: d621f0eddb2703d478c6a4e5c525f655
+SHA1: 2826bab321afaef190bc9b237edf92752f94d1f2
+SHA256: 3eb5d346c758e9fd3007261f853898736ed9e3735ecbe34a270c842585833d7d
+SHA512: acb28e82e377d16f1663df59fdabd71794dfcf747a270c871c457316fa67d0653f6316910a151e08dd35ae9ab8daddef2aed946b3f7a41e3a6625d983df94ed4
 Description: debug symbols for libdrm-tests
-Build-Ids: 2091b63a39ca7c91c41179fd350fe84d96ef1ce2 2300a48b4015a6e586b9441598d3ef7ec4e63bd5 39ede15b1ff17ba15decebda5621b3c758e4313b 48e241319326d6d24fa22c70f2b6c11098f22bb4 a01cbcc6a7c00181b366fb9992b95b0f14bccc71 bbfa6867a66bccaaa38da0e4d8e7dc59267f0f6c
+Build-Ids: 01eb0bb0b0b7417f7ed4eababcb8e70c8fbf8d91 1c8e1c7ce696b0ad978e9e087190c681a0d7e113 90160146655e9e5a4c9b4883f399c1eb9df62053 b28ad9a9fb6dad6e5d90ada2833aafbdc2e9f142 bbfa6867a66bccaaa38da0e4d8e7dc59267f0f6c d2fdce605c0cc5db3359d903ab9187dbd540aa72
 
 Package: libdrm-tests
 Architecture: amd64
-Version: 2.4.114-1
+Version: 2.4.120-1ppa1~noble1
 Priority: optional
 Section: libs
 Source: libdrm
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 184
-Depends: libdrm2 (= 2.4.114-1), libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.77)
-Filename: pool/main/libd/libdrm/libdrm-tests_2.4.114-1_amd64.deb
-Size: 46692
-MD5sum: 3a0cc88c975736abcbb6f710771ea4e7
-SHA1: 492b3f1b6ff005cfc6aa93e3ab33a064e7a06966
-SHA256: 55915a22933a75838e310270039d475f81fc6b9b664a8c28f19e7ca6cda617ef
-SHA512: 93d08a5f414fe4546e09259e314a6efc59c65bcfae6b5dcb7d1557f8ca58461d7b949f56a6f385245528e291c4fe690018355f4f16d544606096e8b92c099db2
-Homepage: https://cgit.freedesktop.org/mesa/drm/
+Installed-Size: 196
+Depends: libdrm2 (= 2.4.120-1ppa1~noble1), libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.77)
+Filename: pool/main/libd/libdrm/libdrm-tests_2.4.120-1ppa1~noble1_amd64.deb
+Size: 53428
+MD5sum: 91452d265c5e9baf2491b301f8d0f620
+SHA1: 487b5b597d97237364d3df7314a52c946ccabd67
+SHA256: 69bafba3ca310df2774b92a2b3d407ad194816d222d305e8b500da493a8abcc9
+SHA512: 5e8ec5370aac4d0f84cc6b68fe2600100c387654984a552243d82cf1740b50b0eeaa5c699c0b3df0caff468c4f34b98adda2bf89d2d9b4a3c96ddb0f8b45742f
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Testing tools from the libdrm project
  This library implements the userspace interface to the kernel DRM
  services.  DRM stands for "Direct Rendering Manager", which is the
@@ -2033,41 +2033,41 @@ Description: Testing tools from the libdrm project
 
 Package: libdrm2-dbgsym
 Architecture: amd64
-Version: 2.4.114-1
+Version: 2.4.120-1ppa1~noble1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
 Section: debug
 Source: libdrm
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 123
-Depends: libdrm2 (= 2.4.114-1)
-Filename: pool/main/libd/libdrm/libdrm2-dbgsym_2.4.114-1_amd64.deb
-Size: 104880
-MD5sum: a2fb1cae43eb7d8a7a8edbdd4e7e3de8
-SHA1: 243fb55801e6e1008fd56721ce1433be71676b43
-SHA256: ee25038c86795fdbc1256599bf641db77fce9712cfc28651415b750145a9ab0d
-SHA512: 9d7a4be2a3561b3ee5765e2c4e7451d0d297c77fc549b24c7f92342365602bcd10232e27221ceff7fc2245100f5566a7bb058a9dd9126c6ce7f9f9ac04a805da
+Installed-Size: 125
+Depends: libdrm2 (= 2.4.120-1ppa1~noble1)
+Filename: pool/main/libd/libdrm/libdrm2-dbgsym_2.4.120-1ppa1~noble1_amd64.deb
+Size: 106744
+MD5sum: f96a26531afb8409facbb6f19e23fe66
+SHA1: 9059d3d2a80a7f54e51cb433aaeb8a5a0109347f
+SHA256: 1826e1febe17bd0bcdaf104433913f995f79905ff93d12758fa158372904032a
+SHA512: 7d12d64050df4e01ec00fcc0723376aa58a0f809db37900590b8b5830246c0819d51ab1d27f6b67353792c0a5ad72513116e77b43913b216c21561ce073af467
 Description: debug symbols for libdrm2
-Build-Ids: 42e3103a3f7c2d2045d865d5bbc9ad72f57bdd10
+Build-Ids: f5c295e550a033f183d7dcd334fc57a5bf706481
 
 Package: libdrm2
 Architecture: amd64
-Version: 2.4.114-1
+Version: 2.4.120-1ppa1~noble1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libdrm
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 120
-Depends: libdrm-common (>= 2.4.114-1), libc6 (>= 2.33)
-Filename: pool/main/libd/libdrm/libdrm2_2.4.114-1_amd64.deb
-Size: 37200
-MD5sum: 89cf191cbfa5dc7d7a3df4888f8c3b7c
-SHA1: 54d85a9e3af7d8679ae88980b37aede7ae80d71b
-SHA256: 729b00f12dd07365bef5e302130add742ada5b2dacdcb2c3af71b45b5c2f6da4
-SHA512: c3a0208e7ae78e8a139356cfe2602c53a715d678a8cd78b75d2ddb9b5919de2cef2279eddd8b3670ef78a5aa178d513994a92b31ce84ef8f9549990d0ef937e4
-Homepage: https://cgit.freedesktop.org/mesa/drm/
+Installed-Size: 124
+Depends: libdrm-common (>= 2.4.120-1ppa1~noble1), libc6 (>= 2.33)
+Filename: pool/main/libd/libdrm/libdrm2_2.4.120-1ppa1~noble1_amd64.deb
+Size: 38044
+MD5sum: 832348a047eac27d2dc42846fa835a72
+SHA1: 1779b0563ea4555672d6cca85bdfa8801550e764
+SHA256: 08fd7b6d78879d2281b041ce8def9a8967a04717b9d69f33ba24805a07c5211d
+SHA512: e74264a3c7a7b7385e6664c7a65dbbd3241af873fdb052427d84db1373a7085a32bd008eac5c8b0ea4b762aa4de80144356be0975732ecc9fe3f56105e3947f8
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Userspace interface to kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
  services.  DRM stands for "Direct Rendering Manager", which is the
