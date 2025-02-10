@@ -1,7 +1,15 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
+Origin: thundersoft-sriov-noble
+Label: thundersoft-sriov-noble
+Suite: stable
+Codename: noble
+Version: 1.0
 Date: Sat, 08 Feb 2025 06:42:42 +0000
+Architectures: amd64
+Components: main
+Description: Intel Graphics SR-IOV On Debian
 MD5Sum:
  568b80f55a165a1548ee4c605a471d11               38 Release
  c9bfb1ce41f49c223604c91973512a03           288938 main/binary-amd64/Packages
@@ -24,15 +32,15 @@ SHA512:
  32b7386c243083c13ba0f7b8981da612e4348a91ee9c87614141f39cdaede59414291d1c009d95c5e40635bfd224547a7e1549690edede6964cf83160bb9a22e              173 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEl6i3PbC2pAss7JU98AkKkXV7j+EFAmem/WAACgkQ8AkKkXV7
-j+Er1gv/Tw4UIpf9RIKEk6M4KUNqK1GavoQiCba0/lL1o8U2abvpLVKH0E5iTvJR
-YFPVtwUKxHDoow2ipfz2HuQBE2REJD0k0AyEYKPslC/XQdbksFEZC/pV+FNScP50
-EAecDEjdUae2vM3hZo88wPo118qLBXxQqNsey6os0KhP5/ntN8QdEB55sZ4Ntz04
-R89/IbpLFsJ1GZDTGdXTor5YOh2yd2b8tU5e7/8JgLB4whayr+kisyu48zoK+yrh
-AzmE1nmn2jaz8M1J3PJl2sOgvMKn09DQ64WsWdW3PyoWEo0trSgzZyaR/vSh6+MQ
-UJRV2Rsnr1t2zmr2j2wPXlWhx5nHEmbu/qw49H9sPJeZZvclKNsHaYUyM7qJwxDK
-R+4gfu0nSagu2TtYmZtl1xwF7WrbwTxoqkgJGoXOk+y751nBfjcthDigo5N9f0PP
-cujgQUk1H2ss38zj7WXfxNmAVHX1WFnbLgVAGupCbJI59/z8umL+PNMT37UzcqLt
-QaNJLb04
-=J7Cy
+iQGzBAEBCgAdFiEEl6i3PbC2pAss7JU98AkKkXV7j+EFAmepZksACgkQ8AkKkXV7
+j+FLwAv/ciUUZ9cLxO3m/3Y0C+/dngWFvPCigtM1zvqw+ez+T9HFFNZ+G0CwnSrY
+BBNA5/e6WMGjy83MkdKm4IOOFmiHBq5Ec7g4HYo476iymj0yDo1a/q19ev+fESFM
+KWsMIygi6MrqCTEAxlmQWibF/71Mba/W3NshZVTN5vccGyxGkvIJ2b/HoNJge5Sg
+VIG1PVUUmG+hUNuxkulORUkoexqL0w5BXhSlo3H4S+P/FkbO/U80+9puTkEwZCxC
+KQBN4SUTwByeTTn3CqfoJlanEdsPlZvdCBzh03weWW7wzv/g9R1XCA6dg3EG36zs
+lA4PAASPRONV4XHNf/o6r43fh1cx2uXq+NMjvm7VCirEez3K1rEB38uEqiNcLnDp
+A8FIGUzF1vvKHJmO0MMawbOoK1sVJfpecDx5Ggg+QbsQNMyVHMS6Tzt5CIkl7U+A
+cEAk67iMEItDDIHeZXBASfTvzlTMZnCkDJ8OjFd0ud9iYla6K5PMYMEi7JsUF+SP
+Rb89e9LD
+=XWQE
 -----END PGP SIGNATURE-----

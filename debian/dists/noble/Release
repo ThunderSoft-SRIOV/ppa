@@ -1,4 +1,12 @@
+Origin: thundersoft-sriov-noble
+Label: thundersoft-sriov-noble
+Suite: stable
+Codename: noble
+Version: 1.0
 Date: Sat, 08 Feb 2025 06:42:42 +0000
+Architectures: amd64
+Components: main
+Description: Intel Graphics SR-IOV On Debian
 MD5Sum:
  568b80f55a165a1548ee4c605a471d11               38 Release
  c9bfb1ce41f49c223604c91973512a03           288938 main/binary-amd64/Packages
