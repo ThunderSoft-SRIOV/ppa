@@ -1534,13 +1534,13 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 704
 Depends: libigdgmm12 (= 22.5.1-1ppa1~noble1)
 Filename: pool/main/i/intel-gmmlib/libigdgmm12-dbgsym_22.5.1-1ppa1~noble1_amd64.deb
-Size: 648464
-MD5sum: 09a38cf176eaad64b8d458b64e197267
-SHA1: e4980b32a395fca23024af3b72eb94eff57dee0e
-SHA256: 0bff039097aa4eee658bc3fc7fae838353bff1cd44a8bce9e933992419158cab
-SHA512: ed111cc2cc453f9a88e26ad757aaf617ba2e162f257654aa9536e0537abed93fa23a883617a15ae4af21cd54f08f48a7585db4cfccdfb81e4cad258904a0dff4
+Size: 648712
+MD5sum: 45df943811e28bd3453197396f7f5eab
+SHA1: 951ecf79514dac807b8c01ed5b6984b95f424335
+SHA256: 4dc026169eeb05b1851738fb50f249dd6e7ada7b8574e81f5be79e3c56c0a964
+SHA512: 769e985b2b279ca6a48e9950b4ffe8ed504827280c2c130a12651b7027c2cbb16ec0793cc32af38b11d674a2ed7cc5ea1950fed1294ec7553f718324fe10934f
 Description: debug symbols for libigdgmm12
-Build-Ids: 8350bd86cdc6d2481458a137914d6309d237c3c9
+Build-Ids: 97b82f5a53f596c80cc49968cf6c1799c0049387
 
 Package: libigdgmm12
 Architecture: amd64
@@ -1553,11 +1553,11 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 826
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Filename: pool/main/i/intel-gmmlib/libigdgmm12_22.5.1-1ppa1~noble1_amd64.deb
-Size: 167344
-MD5sum: dae8e5335627e3c38afba8ce24e250af
-SHA1: 37e295eac7277a1f9c20277775c3c2651b9ffd47
-SHA256: 073fa7bee023057dbf04c006cd262d6a26495e5aaf2d24110355c119e4d8cf1d
-SHA512: 259ab3dc61a5f4e87d50506372ded3a11dd945923f33e483348b28efa69ece43f0350ea6017923f4a8c984b40d95698e0ab51c124dad270acfabcaba7fc62c40
+Size: 167756
+MD5sum: 4d117739098c24f1371c2603e7e33f10
+SHA1: da4ee093f563aefc05f10c36432492e07d0f0d30
+SHA256: 20b14c563f784c5609eb13e988f2fa5adaa5deb395ef75983d0fba618ffd21b8
+SHA512: 835b344195364e6902564a72333d3caeee2b8c76899b9cdf3eb27cd4b628d003b378727cb2c6530edd07553394a6a9d26843c57396489feb5162512acfa0709b
 Homepage: https://github.com/intel/gmmlib
 Description: Intel Graphics Memory Management Library -- shared library
  The Intel Graphics Memory Management Library provides device specific
@@ -1577,16 +1577,16 @@ Priority: optional
 Section: debug
 Source: intel-media-driver
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 67248
+Installed-Size: 67243
 Depends: intel-media-va-driver (= 24.3.2-1ppa1~noble4)
 Filename: pool/main/i/intel-media-driver/intel-media-va-driver-dbgsym_24.3.2-1ppa1~noble4_amd64.deb
-Size: 65470476
-MD5sum: 9947734eb76d16cf9979f3a462fa7822
-SHA1: 56cee7ab9bccba977b143213b03e8648b69c7fa1
-SHA256: 5c1cecabc3d955b1bf60d5ba4eb4e743fa90fee635482d53b898b00d9b0bdda2
-SHA512: e018ebf0b8c470e03d137540efa8bc89995234e8cf2e6ff70e04416b95516a1316787e99b128f05adcbd9bd4a80ff6efb4de1a313d729928d0f4b6026e5eec19
+Size: 65463356
+MD5sum: 8998e90bf133829098908076a3e7e498
+SHA1: c6f77f1885e46e79a51970ed9be1854d5853419f
+SHA256: 4905746639595c4e23445248a438ad1f3428293171ef16283dfb2a2a07ff97ab
+SHA512: 4d65a5fd263e82c02aee31662c9120d999ed83fe327d47a3fbd35f28aecc5e7026b1d6f945cd68a7046b055ea842c0777facf446481b5350e33363bdd3ee5c12
 Description: debug symbols for intel-media-va-driver
-Build-Ids: 8691be9f78ccad1362690581e21332f9c051ca92
+Build-Ids: 2b369720930379dc69f95c43ab4e392eb4895cf5
 
 Package: intel-media-va-driver
 Architecture: amd64
@@ -1598,13 +1598,13 @@ Source: intel-media-driver
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 15548
 Provides: va-driver
-Depends: libva-driver-abi-1.22, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libigdgmm12 (>= 22.6.0+ds1), libstdc++6 (>= 11)
+Depends: libva-driver-abi-1.22, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libigdgmm12 (>= 22.5.1), libstdc++6 (>= 11)
 Filename: pool/main/i/intel-media-driver/intel-media-va-driver_24.3.2-1ppa1~noble4_amd64.deb
-Size: 3145024
-MD5sum: df8bd27189e30e0262d55ea85b09995f
-SHA1: 67f9454065eae8a33c10b63f885387e0e3e52310
-SHA256: fbbacd04925a0d1a04216072d3bd29e85a1a8a6a6b2c6e24a3b1f397ee7510c2
-SHA512: 0126df1558a921010df666c14f91b914ebdc312ce609237b66218445b21dd7f1b6e750bc91c707f673f3fe8ef38b37f7fa95a5c50402d0b5374bb383f834155f
+Size: 3145832
+MD5sum: ee58969aa62b08f23e7d38f957d9f622
+SHA1: 08a45b54a13f49665cedfa169567c2378626fbc9
+SHA256: 115e7e603addb57322301f6b46dae250fef9df04c88e62781a33b02d903a98a0
+SHA512: 5e4fe272905181eea4a01656a6070e3ee4228749c2d4a0eb2c41deb707417f351a330e72ff7ede0ab23faf4238fa0dc4850c731d0e883e055668bc265061ad3f
 Homepage: https://github.com/intel/media-driver
 Description: VAAPI driver for the Intel GEN8+ Graphics family
  The VA-API (Video Acceleration API) enables hardware accelerated video
@@ -1667,13 +1667,13 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 183
 Depends: libigfxcmrt7 (= 24.3.2-1ppa1~noble4)
 Filename: pool/main/i/intel-media-driver/libigfxcmrt7-dbgsym_24.3.2-1ppa1~noble4_amd64.deb
-Size: 159236
-MD5sum: 013a1aa6909ab28bdc5b030eb5d08fb9
-SHA1: ffe0b68b738294ec50a470332354fde49aad5197
-SHA256: 2afa7a8703476b7a308650b5995d4d904ae8407fc70ed095220a402d716bb688
-SHA512: ba3e6622f666ab941a770755a78d42fa3b1063d83cbfba6621b415a989639abb956455781d81f30eb660c638addd52ef11d7181ab881c7e7d12696f4c788fc37
+Size: 159144
+MD5sum: 9705a8e739158bbd4b2e2db7fc81c039
+SHA1: 1549469763abb9e3d34f69b5e1429abab8db245a
+SHA256: 8953527cdb4fcab704ac7157f0df4d3322a404cff87f317502d2433d344e6213
+SHA512: d71144233b50a248a8d4142e66c0d09ae54273e817893904a56dd5ae12df6b7f1087e8b55a85ebd98839c32c93ea3b8cc4db3febd8c4cef5d7e640244d73c6e5
 Description: debug symbols for libigfxcmrt7
-Build-Ids: 7324ef585946db3549aca0db69e2a0317d0c98ed
+Build-Ids: 59b2d2d49177a031e953127eac5d7f83198a973a
 
 Package: libigfxcmrt7
 Architecture: amd64
@@ -1684,13 +1684,13 @@ Section: libs
 Source: intel-media-driver
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 114
-Depends: intel-media-va-driver (= 24.3.2-1ppa1~noble4) | intel-media-va-driver-non-free (>= 24.3.2), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libva2 (>= 2.13)
+Depends: intel-media-va-driver (= 24.3.2-1ppa1~noble4) | intel-media-va-driver-non-free (>= 24.3.2), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libva2 (>= 2.13)
 Filename: pool/main/i/intel-media-driver/libigfxcmrt7_24.3.2-1ppa1~noble4_amd64.deb
-Size: 35668
-MD5sum: 9850f770de10a3c79b58a7df9d580304
-SHA1: edecebb805f1094ac631f21cab6f80379d20be0c
-SHA256: 83d989580a02db875730660647aad9216e174bacab572673bdea18b211d900c3
-SHA512: ad6b502c87c61467d0e43b45aa932de3000dc3d1300367b8847165b36aeed74179328620d3ac2f32a55938f36146bc997ba08689eab774971e7ed445e6b06148
+Size: 35672
+MD5sum: a323247c6080a98c099b82b6c4359e26
+SHA1: 89f7a95ddfe0bb0feadff4c8a2b32ce3f0a25fff
+SHA256: 6f71497a21710376f2c21e39f5fd8f4a77a221065569a791ccb815875aadc258
+SHA512: bb0092b95a85d7abb10641fc2eade94fd09084d349057048576a235f3a77c55fba585d266e802ea8b0cd8877222415879448d438c55e41915da9108867229100
 Homepage: https://github.com/intel/media-driver
 Description: Intel C for Media Runtime -- shared library
  cmrtlib is a runtime library needed when user wants to execute their
@@ -1772,11 +1772,11 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 70
 Depends: libdrm-amdgpu1 (= 2.4.120-1ppa1~noble1)
 Filename: pool/main/libd/libdrm/libdrm-amdgpu1-dbgsym_2.4.120-1ppa1~noble1_amd64.deb
-Size: 52880
-MD5sum: 151478b3f8a6ca062861b77485532c60
-SHA1: e71b4ca7e466c575a5fdd3336706099f85643d5f
-SHA256: e35efcd8d18937796fef53f6c4bca935c1b1e92ba47936e8e01ca6c1dabaca2f
-SHA512: 7bb181232c5345483d4c3ed0560591df209ff1166a50eca9d0cfe8dc6dbdc8e7c3ccfcb323a8b16e4e98dbecc87e17a308b8a7e62eb9ee235a3341a95bf2b985
+Size: 52884
+MD5sum: 7c45661993f04f238e40d0c19b092e72
+SHA1: 38b21b6945f0dc7b76c2553dbb620fd4ec2796a1
+SHA256: bf0fca2885ab6ee50de2c7a7caf9a7db5385ae1f26e57a8f5665ec270b193b3c
+SHA512: 0dc4c2b250395ea7f77614a21b2c055857f3d6900c9e0d638d8f35891b23027ea079e0ac6f374ee7620159ca47747db1369656b03d63f834dd693ed397c89853
 Description: debug symbols for libdrm-amdgpu1
 Build-Ids: 281649b43d19a46492cc2735502c092e53ea4a44
 
@@ -1791,11 +1791,11 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 76
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.108)
 Filename: pool/main/libd/libdrm/libdrm-amdgpu1_2.4.120-1ppa1~noble1_amd64.deb
-Size: 20944
-MD5sum: 0b800ecd43284f8ae01a31b781b79da6
-SHA1: 85d5b2bae4dacb9d5e5629051b8cd282a1ba51af
-SHA256: 0560942361bad0a17262249ebd59494cbb46ca07b4616dc1717758a000469992
-SHA512: 548585063ec7fc17442cb25f19a2fa1dbde7c369af5b5551fe4f9f21da5ee9f39e234567ec500de107732e193622e472ed8e9953dd91f4e28aaf46bee21dffcf
+Size: 20920
+MD5sum: 2990b8af166a3fa72c895ee36cf03712
+SHA1: 975e6253d5fb4b8b18e86630f7e535288e56df0b
+SHA256: 2ff132cd9bcdc784ad96ac23e7a07ed207f22d88f4597cfa76787c27a080df09
+SHA512: dc94243dd1100cca5e6078a6c14729080212fcc7cf958332ca745f631b39c5624abf6e4ceb506d1bdea8123f6c6d18c2860348f0b27467fba5221a778d339b0d
 Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Userspace interface to amdgpu-specific kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
@@ -1814,11 +1814,11 @@ Source: libdrm
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 42
 Filename: pool/main/libd/libdrm/libdrm-common_2.4.120-1ppa1~noble1_all.deb
-Size: 7316
-MD5sum: a7ebd32213c04a74197de1bc9f0da7a7
-SHA1: 8348c00bda702a9c29f3c622f4fdc2848d1c4a60
-SHA256: 02a541d061a7c7ff0f72f1da04d9f7b14e868e23dd4959852f73df9a7cb0d06a
-SHA512: 707fa495e41e8eed0b62164a6020f7731dad0512f48dc7da23157b1b2ccd569c3936b25ad7c431524376e55744dec02a3a23526d3911c5de1b2cb23c5bc55aa0
+Size: 7312
+MD5sum: f7088684af355379bd40661ba25f7b5b
+SHA1: 0eff88e642cf4e087b3c7620d9603a41aeffccac
+SHA256: d94eb942cc4078013028dd5a86d9e8ffb7f1fea170aa290b85fce0cb33fec014
+SHA512: ad464fb84445657821d0767d333455bcc4ca2f4985d4fba673b129789c26ef10b08202b0a8d3d7e3238cea07b39c9c095ebe10f4709bac53fbee3ffad6148fb8
 Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Userspace interface to kernel DRM services -- common files
  This library implements the userspace interface to the kernel DRM
@@ -1840,11 +1840,11 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 1354
 Depends: libdrm2 (= 2.4.120-1ppa1~noble1), libdrm-intel1 (= 2.4.120-1ppa1~noble1), libdrm-radeon1 (= 2.4.120-1ppa1~noble1), libdrm-nouveau2 (= 2.4.120-1ppa1~noble1), libdrm-amdgpu1 (= 2.4.120-1ppa1~noble1), libpciaccess-dev
 Filename: pool/main/libd/libdrm/libdrm-dev_2.4.120-1ppa1~noble1_amd64.deb
-Size: 292204
-MD5sum: 475012859ed95d064faa4d46fd021abc
-SHA1: a404d92dbd5842e410fdc0289fd12e04186ae1d3
-SHA256: 5651f5627c160801348ab36dc6bbeb9ea0c40ecbd70304eb0175eb17018c6ec2
-SHA512: 869dcce37e2ff0bab35cb160ffe019b0366e8b31732729f672af754c22328f3c17485f34db2cca8bf0d25ac783981b0b9d71d3b2cd06dbec42985be12926a696
+Size: 292112
+MD5sum: 9e1313a2462bd6eb40f80add11617fd2
+SHA1: 445f34e030ebb5fc3b460656cba031a4c0336e3d
+SHA256: b8898de3f668d128b94f53cecab9d63e121c8ea53272c926be60ad21172d8cbd
+SHA512: 8372acf486d50a014ddd11fe2c4e32f53482fd37941f5257b999678d1d5e7dcaf7fcb5399a8852af2e96d37a7484be76023612ca7535362fd3f0976c09e16b1e
 Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Userspace interface to kernel DRM services -- development files
  This library implements the userspace interface to the kernel DRM
@@ -1867,11 +1867,11 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 149
 Depends: libdrm-intel1 (= 2.4.120-1ppa1~noble1)
 Filename: pool/main/libd/libdrm/libdrm-intel1-dbgsym_2.4.120-1ppa1~noble1_amd64.deb
-Size: 129352
-MD5sum: e83f47ae3d9afc08a81b2c4503d33c9e
-SHA1: 48e6badd9e54e10a5f14d5a579a2e8800463808d
-SHA256: 6a8841a5a55fc97d92994f7fed4cd3c34f029758759f9da512e4279d3ae64d92
-SHA512: e38b6c1d56522ca15c469804b85e9a7fc17ed964bc340695871ac104316a6dc16def046c950b220188032c566416102db8da95b1cd5dd3c355bee8f66b99a7cf
+Size: 129356
+MD5sum: 82c8ec27c8eb46e931d4e5a8680239a0
+SHA1: 33603ea55014d0af53497ab432aa432d7cc48d7c
+SHA256: b9ceaaa146750a2060ff737a07e309718755a823a8f43c8619c131a6dd89b73a
+SHA512: 93a2fa48fa4b15a366757254b959874a7018bbc3b61f7a3fb837a731a15e196d07e4144e67b88a3fd150f70caf8b18ac613bf587b8366075d01510a66904706b
 Description: debug symbols for libdrm-intel1
 Build-Ids: 8e447d2a07fe30002ceee257a155c1b9ca0c21e8
 
@@ -1886,11 +1886,11 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 177
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.108), libpciaccess0
 Filename: pool/main/libd/libdrm/libdrm-intel1_2.4.120-1ppa1~noble1_amd64.deb
-Size: 62848
-MD5sum: 2e705b9896f185e6552488633c5b0c51
-SHA1: 5438c48bb090fc8194d929e5144028cbbd37f059
-SHA256: 6e9d48c51ff903944db1125e2a98a2fe9acf3ce180cae823a4d822fa2b24edb4
-SHA512: b96d9b47ccac3afd807636c6f67026e5dc06ee37e16e3dd9029b7add40f2989d60cd1298ff9e05a61051646920f6bd63c727b76750f2ba7f353f09b3826c8bc1
+Size: 62832
+MD5sum: 89fa5558bc62694a0523932a84a49faf
+SHA1: fae66c125bca4a98790145303c339201b97b7862
+SHA256: f664a84df6489f5e3e4f39755bbcb9965d762ebcea76c8990008ed4bffd539d5
+SHA512: 25163d7de8ef2196b00dc9043dec95b95a4a0b4becfe6c513028697e04f63f053bc15c9bc2c50433556e77f0fbe873fa533ce78c16af4a8b5bd88d3cf4092ef7
 Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Userspace interface to intel-specific kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
@@ -1911,11 +1911,11 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 56
 Depends: libdrm-nouveau2 (= 2.4.120-1ppa1~noble1)
 Filename: pool/main/libd/libdrm/libdrm-nouveau2-dbgsym_2.4.120-1ppa1~noble1_amd64.deb
-Size: 40732
-MD5sum: 83c8b8db8b512b53f63bbd4fd8cbd098
-SHA1: b5abaeff48a1c01ddba6394bf76b6628e88b0001
-SHA256: 49119033201b5eaf9153ff29c16da55e65d87fb71c39b973dd494e1969546a94
-SHA512: 0e6b946ed0fe771920659614d76a65dca0e284f497db4cbb9d18ae6bd16acbc074323dd7e44d35302f3af66d351922ce716155807afc395b970a8614e25a4404
+Size: 40728
+MD5sum: 528a5c6c2254a7e6f4583f3ae6ef5f40
+SHA1: 71d43915b92784b131b36c6511525027aaf3536b
+SHA256: e303cecfaf90f858d0a983b7fad08ef55e7d8394a722b69d921873ce443f0524
+SHA512: d2ee14a6daa1c6099c3dbe8c76cd2b6cfb7acd1814b18f50763be66c05a6f6db15bd512222c4744e9bf9d983cbce76e0be2f728e16ce146206d589f6be5b46c3
 Description: debug symbols for libdrm-nouveau2
 Build-Ids: a6c8989c85037a4ba5a33503284dfdf4874d1d4f
 
@@ -1930,11 +1930,11 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 73
 Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.108)
 Filename: pool/main/libd/libdrm/libdrm-nouveau2_2.4.120-1ppa1~noble1_amd64.deb
-Size: 19004
-MD5sum: 0a0b84aa7fbfb11a218dac6636fc5db6
-SHA1: aefdf69984bdfa4e0372bdedf98162eb9e075097
-SHA256: 76afd916f9d05ae04ca206aa3722ba098182c71ffe69172026fd75e61df07e3a
-SHA512: 19d84efa3b6d3ddfd83edcc5e89bb91ab3509343e47debaec88def7824650ecb723ad8afda9368af790ef582d2518905fb944ad512ea39959ee58f3dcc6551d5
+Size: 18996
+MD5sum: 6f06ca91d885403f39869417e440dcb4
+SHA1: 2f483be7e89fb50fcdc75f287adb2b305019b32a
+SHA256: f6c0fba5a1341a5be9db4c89232cbbae41210301892bcb33891e1e84b555d2b1
+SHA512: a4c77ca2528d81fef69ee34ab54ce0fdd06b566049c24ccf6a1c375f86e467102589c52096491466cd14411c890a425c1c454e6f1b58ab48651b796728e12b28
 Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Userspace interface to nouveau-specific kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
@@ -1956,10 +1956,10 @@ Installed-Size: 63
 Depends: libdrm-radeon1 (= 2.4.120-1ppa1~noble1)
 Filename: pool/main/libd/libdrm/libdrm-radeon1-dbgsym_2.4.120-1ppa1~noble1_amd64.deb
 Size: 47744
-MD5sum: 243be7a4362eec9d52f43d6505780ef6
-SHA1: 6b3af9131a42fc930d7f7bbfef6ae72a18d964d2
-SHA256: 626d993037123152be1be4df651d459cac8ce31ac8f2b81b26355c95f72cf19d
-SHA512: 25427fe3d5c9401888c85d374645caf41a2015f8eea13549ad1f91b09c54b456d34b3279f4a99507c4f7523180b2c13f667ea2980aa72b8aeaf3487f0d1e1599
+MD5sum: ef6b159d85b7926cce7e9722a4b2d7dd
+SHA1: 9ea907033a8b1e36b711ae0180c87cb9bfa74c0d
+SHA256: 5ed05d0a8b18421607812253f7c7057edb88f366a93b744fff0cd313ad208470
+SHA512: 3bea9f1a94cc2ae80e21881af11c1c36639ec12db59a6a7cdd6ada5ca274ae57842d75de8df44a2c4176c6781074a37c1edad3a473cfadef3c34d3ca0c3e30ae
 Description: debug symbols for libdrm-radeon1
 Build-Ids: 219b3a33a0b32b7fcce11f3e801000780e9d3018
 
@@ -1974,11 +1974,11 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 82
 Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.108)
 Filename: pool/main/libd/libdrm/libdrm-radeon1_2.4.120-1ppa1~noble1_amd64.deb
-Size: 21720
-MD5sum: 09e61c37ea0cb2a6abae35e45562150b
-SHA1: 7f28cf08588832d509f56723e32f2f9e6b913d69
-SHA256: b75f2ab39d0e4890cfb843be83fb9ff1471c501cf32892bcd894fc859b74d5db
-SHA512: efda2f8839505757f6cb54ed11a519535c17632b4ec065b0ee7960d2dd3aeb3b1dc0b7a9e80c731ae04952892d211c2bd948deb9532aa9d61165623299acdbab
+Size: 21704
+MD5sum: 14acc8f47393f48a3bdbaffc57a5dde7
+SHA1: 4fb8ef901828e517cc34bb675d03f048802394da
+SHA256: 98f6f3663df1512836a040e8ba6bfe3cc6e8e851bd7bf4b16d4360d12aff5091
+SHA512: cfd098f42242ab3b77b02e7e7bc987bf83bb937d5bc8e460fe24ea6fba1f3e8ed2354d022574065704c4cd0c233c1497935a1311080df68c24ee984e6d14661d
 Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Userspace interface to radeon-specific kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
@@ -1998,11 +1998,11 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 199
 Depends: libdrm-tests (= 2.4.120-1ppa1~noble1)
 Filename: pool/main/libd/libdrm/libdrm-tests-dbgsym_2.4.120-1ppa1~noble1_amd64.deb
-Size: 144996
-MD5sum: d621f0eddb2703d478c6a4e5c525f655
-SHA1: 2826bab321afaef190bc9b237edf92752f94d1f2
-SHA256: 3eb5d346c758e9fd3007261f853898736ed9e3735ecbe34a270c842585833d7d
-SHA512: acb28e82e377d16f1663df59fdabd71794dfcf747a270c871c457316fa67d0653f6316910a151e08dd35ae9ab8daddef2aed946b3f7a41e3a6625d983df94ed4
+Size: 144968
+MD5sum: db2ec9da6cee80679b44a9ffe880bc76
+SHA1: 383a329046595b326915340b1a2fa6e630c80d8b
+SHA256: 9832c7bdcb2fe246b95c2c2edce76b7425aaa6f5cbf6abd543726beb39e02971
+SHA512: ebc061603c09c1fbe4d01dd0c51178e177b055e976b6dee6c394c593a1d713f3f41b155a2e9eb3aca7f6617adb60476ecfe286150445e8200f7d2852a3534472
 Description: debug symbols for libdrm-tests
 Build-Ids: 01eb0bb0b0b7417f7ed4eababcb8e70c8fbf8d91 1c8e1c7ce696b0ad978e9e087190c681a0d7e113 90160146655e9e5a4c9b4883f399c1eb9df62053 b28ad9a9fb6dad6e5d90ada2833aafbdc2e9f142 bbfa6867a66bccaaa38da0e4d8e7dc59267f0f6c d2fdce605c0cc5db3359d903ab9187dbd540aa72
 
@@ -2016,11 +2016,11 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 196
 Depends: libdrm2 (= 2.4.120-1ppa1~noble1), libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.77)
 Filename: pool/main/libd/libdrm/libdrm-tests_2.4.120-1ppa1~noble1_amd64.deb
-Size: 53428
-MD5sum: 91452d265c5e9baf2491b301f8d0f620
-SHA1: 487b5b597d97237364d3df7314a52c946ccabd67
-SHA256: 69bafba3ca310df2774b92a2b3d407ad194816d222d305e8b500da493a8abcc9
-SHA512: 5e8ec5370aac4d0f84cc6b68fe2600100c387654984a552243d82cf1740b50b0eeaa5c699c0b3df0caff468c4f34b98adda2bf89d2d9b4a3c96ddb0f8b45742f
+Size: 53360
+MD5sum: cfdd2edfd1b021eb7df04db3be92c056
+SHA1: dd6973448bcb7d98fc5016d8b262d7c7a5620ffe
+SHA256: 2b5bc4e055372a2c0d0e80da05fa64ea6755ee110700f48f50d7c335782f73a0
+SHA512: e3c9aae9ea5563c2736ae5a98af997046877d8cc7aac214b2134fe65f413db0d76af5b1d0f664b99a39ec65bb7180ab3d1887d6bdb337e9bab7c1007ed258b24
 Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Testing tools from the libdrm project
  This library implements the userspace interface to the kernel DRM
@@ -2044,10 +2044,10 @@ Installed-Size: 125
 Depends: libdrm2 (= 2.4.120-1ppa1~noble1)
 Filename: pool/main/libd/libdrm/libdrm2-dbgsym_2.4.120-1ppa1~noble1_amd64.deb
 Size: 106744
-MD5sum: f96a26531afb8409facbb6f19e23fe66
-SHA1: 9059d3d2a80a7f54e51cb433aaeb8a5a0109347f
-SHA256: 1826e1febe17bd0bcdaf104433913f995f79905ff93d12758fa158372904032a
-SHA512: 7d12d64050df4e01ec00fcc0723376aa58a0f809db37900590b8b5830246c0819d51ab1d27f6b67353792c0a5ad72513116e77b43913b216c21561ce073af467
+MD5sum: e1d3b14c1b831cdeedcfaa48c8fd04df
+SHA1: 2c073481d4f0b1931d73a68bfc51862b9eb9d80d
+SHA256: 6cbbd22ffaaf64753f187ace3b3aedf0b3e340d5c1cc5d310a09bdc2b7396639
+SHA512: 16885d64d9377b0d64126df6795f9cc7612fcc44519f44f9405f2eafdb44d6dfbd7e8c9649c83345209e47819de0060528623dd193e9ebfb98089307866a48ed
 Description: debug symbols for libdrm2
 Build-Ids: f5c295e550a033f183d7dcd334fc57a5bf706481
 
@@ -2062,11 +2062,11 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 124
 Depends: libdrm-common (>= 2.4.120-1ppa1~noble1), libc6 (>= 2.33)
 Filename: pool/main/libd/libdrm/libdrm2_2.4.120-1ppa1~noble1_amd64.deb
-Size: 38044
-MD5sum: 832348a047eac27d2dc42846fa835a72
-SHA1: 1779b0563ea4555672d6cca85bdfa8801550e764
-SHA256: 08fd7b6d78879d2281b041ce8def9a8967a04717b9d69f33ba24805a07c5211d
-SHA512: e74264a3c7a7b7385e6664c7a65dbbd3241af873fdb052427d84db1373a7085a32bd008eac5c8b0ea4b762aa4de80144356be0975732ecc9fe3f56105e3947f8
+Size: 38028
+MD5sum: 745fd138ab0b4a3e45fc156821bbe7f7
+SHA1: f2ecbccefd2f41c8d5eec4334aab83fe9e7dad8d
+SHA256: 614d2f09eab94b0cbe201e16d9e2d5a9ecda219c27e5a6c86d4b7360ffee075c
+SHA512: 46918bd9e25ca8269f6ca3e590080a3c5fdaa9c94e5db265e43b28a6e5275b9a795d580738091b23e819f9fc76539190ca713aefa74c7239294d85d22273248e
 Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Description: Userspace interface to kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
@@ -2166,13 +2166,13 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 31
 Depends: libva-drm2 (= 2.22.0-1ppa1~noble1)
 Filename: pool/main/libv/libva/libva-drm2-dbgsym_2.22.0-1ppa1~noble1_amd64.deb
-Size: 18060
-MD5sum: 03f3ac1d86fd588fa29fcec8a4ed5f78
-SHA1: e473dcc88787a4a5ca5f8e95fad16b9741c3338d
-SHA256: b3d96f111f189139add07b9983c784c3a543fae84b04da3a185575a7ef579e28
-SHA512: 574c535baa31c06a42f3889ecb6b539e63046328da905ba87f77210f793fe3f68efd5d0f8b4ea9c808001a074c2ada22162fed5f1d582500f4806e145d775aef
+Size: 17904
+MD5sum: d75013e22e946cedd525f6242e14d123
+SHA1: 614aa328a8e4e5566e0cb45335f46219d3bf2321
+SHA256: 25616f99e39cbbbb501030f12e415003af747f6b6c8eff3d210fe03e07aed9b7
+SHA512: 2f23faafe6d3b4f755e7cc0bac88c98d320360d35aa876299d1e3028553431911678d15feecfa3eaac68e09dd0ee8e80044e9fa131511b928c1092733f3be762
 Description: debug symbols for libva-drm2
-Build-Ids: 509d904acfc87083506dbb5f387fc14abd8478be
+Build-Ids: 23d6997fe2dc33c8e2c3ffef4807aeb90df2f185
 
 Package: libva-drm2
 Architecture: amd64
@@ -2185,11 +2185,11 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 45
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.60), libva2 (>= 2.22.0), libva2 (<< 2.22.0.1)
 Filename: pool/main/libv/libva/libva-drm2_2.22.0-1ppa1~noble1_amd64.deb
-Size: 18612
-MD5sum: f21a1542886f38c7f8c688f2cdf91afd
-SHA1: 36373c0c5b60ad290fba077c8fd6ee3dd9a5f4e8
-SHA256: 9bf4c62f168660fb020713ebac15b99ea3d39555d55c1017eaa3ccafbfb1ba23
-SHA512: e732e6f3c91601eecc91cbc02d8adb1418a2ef8b26d22d8cac1eb0254a8e9a1754c9a0a07f407416d1fe9999593314d563638b80ceb79b87d68b154f61b287df
+Size: 18596
+MD5sum: 82f3465090181853c5c312914e9d31a6
+SHA1: c6854c6423eb38e8743842d796d632d3200480bf
+SHA256: 7488a2c78ecc8e67b43c799652e6ecc0299197cf8cd359802aa4de214afe9294
+SHA512: e5e2664f4485b6afdf3875bcbb970c69922e3b949c2b235d92b931d3bf95bc66e74de8c37d69e6681a5191c3307f26f57a2c1e3b560c40cc92b53e4841235355
 Homepage: https://github.com/intel/libva
 Description: Video Acceleration (VA) API for Linux -- DRM runtime
  Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -2215,13 +2215,13 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 45
 Depends: libva-glx2 (= 2.22.0-1ppa1~noble1)
 Filename: pool/main/libv/libva/libva-glx2-dbgsym_2.22.0-1ppa1~noble1_amd64.deb
-Size: 30388
-MD5sum: b534e720c7977f08682f32284db8623f
-SHA1: 7424bc512d1331a75214437708b9891a359c02b2
-SHA256: 6b444a9737bf12029f372b6c3721020527ad763ec2d426cfadc5094f9e0d23c4
-SHA512: 60ed7c54f1484ed76eef1edd2f8e23ccf0ca9509b9f534920ff616f7831bdbf1d4672951c28280febf864f32d2a1ee16dc4a695f09ffb58bb7a6b48ac854c3bf
+Size: 30392
+MD5sum: e1f296a89c20fc0eec2099974b08ad6c
+SHA1: 0e7bdc07f3e6a61c61e84436ee471e1e8755c141
+SHA256: 2392539448f8be35a5e2ee1a0231b0d53b1bd655b2b0838f1436547e5b6d33fd
+SHA512: fb8506315f1881b9505e9348dc4acf0144a60a66ff3d7e62f3550a2302b5d5bb60d4d83a9adadaa89efc8b5721b2732d3f96ed0b617117d492775627d57c4f14
 Description: debug symbols for libva-glx2
-Build-Ids: d9a752551e72c480c0cc100a8a1848c7e2eb305e
+Build-Ids: 299270d9fed921777a0d5727a25d417f5330a7d6
 
 Package: libva-glx2
 Architecture: amd64
@@ -2235,10 +2235,10 @@ Installed-Size: 53
 Depends: libc6 (>= 2.34), libgl1, libva-x11-2 (>= 1.0.3), libva2 (>= 2.22.0), libva2 (<< 2.22.0.1), libx11-6
 Filename: pool/main/libv/libva/libva-glx2_2.22.0-1ppa1~noble1_amd64.deb
 Size: 22536
-MD5sum: 967ef6a3757dd2e9bff191d4f0f789d0
-SHA1: 9b2c17b636b073b523ddaf4446615f1a75289824
-SHA256: 3915b891a88a7e488ebb638a94ce9722182ae48aa470c5034aa20e3b59e7e884
-SHA512: b27291e644c0d005156f7a8b3ba01041d1c7dcdef979428643917f7252f5980f32eb41af5470c9f6fa7d78cc380808b78b02d4db4156196fc826b3de7795c02f
+MD5sum: 168077780b59d989004e77c61ab915fa
+SHA1: 4254cae79f0ebe680f6e6f17e235029e8eed2eec
+SHA256: b3dd20f4c786d176155b2c91e58a3036958620c481d687b07d6ff49f1835df20
+SHA512: f575bba4483b31231d7474f9f8bbb6951ec1a1ecbd19147a9c8bc7803f8dbc33e2de92cf08135074119ad1e156c399e6a7c0c855eb254ea138088d549a537835
 Homepage: https://github.com/intel/libva
 Description: Video Acceleration (VA) API for Linux -- GLX runtime
  Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -2264,13 +2264,13 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 44
 Depends: libva-wayland2 (= 2.22.0-1ppa1~noble1)
 Filename: pool/main/libv/libva/libva-wayland2-dbgsym_2.22.0-1ppa1~noble1_amd64.deb
-Size: 29040
-MD5sum: 1a538a6fd2a286fa0b88e805469e3404
-SHA1: 9bf5395726cfd4eaf9fe0f2776f54e155178a261
-SHA256: 99711974b74f71b69f607f726af8e137e168f24c4eea4a2ecdecb181cca53bb5
-SHA512: 62ea0403fd7cd3547c3380f69647dc0b382d5f60b6ddd5701206764df9c0975c846e125bbfecfc0ac6bac67317a88f0e02f73d49d71d4acf0ac8c7252129d2d4
+Size: 29060
+MD5sum: 1b5be4f5e7e97e7d5f8c231173aa3e45
+SHA1: a66dc7ad9c3f8ddb31346999e4cf1da53d73e82b
+SHA256: 2e2082084aec84d98a9eb4af3c726a820c7898da9da29951ef343de15a179c12
+SHA512: 2c228c27c4452d52e3ea1109a717fb7c080a685bc95cb40d33fc8c3c44bcab30b7248b13bd69882f3aaca72b76a4abc57af7a28af5eb4de909aefb4479c75e21
 Description: debug symbols for libva-wayland2
-Build-Ids: 734e407d30941e8c42cd0574d5255ed3be8d8d08
+Build-Ids: 6e4e09c5a8b1202c24c706348b7d6d54c9b4c399
 
 Package: libva-wayland2
 Architecture: amd64
@@ -2283,11 +2283,11 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 57
 Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.75), libva2 (>= 2.22.0), libva2 (<< 2.22.0.1), libwayland-client0 (>= 1.20.0)
 Filename: pool/main/libv/libva/libva-wayland2_2.22.0-1ppa1~noble1_amd64.deb
-Size: 21944
-MD5sum: fc146e881400db788224081084d39af7
-SHA1: 68669dc1cdd6d617171fd527dd7497fcf6d1ec9c
-SHA256: f95337722125cd7346883571ad8600a198072b64a6700b5d95ade46e2841aaef
-SHA512: a13fcfe43d41719e6255056c149de52e33f6646f7deda9e92d3e127fd2dd57298e1f96a9dcdf2b23c0a3a2002c3f5f15600954179252794e5ea56e6c546cfd6e
+Size: 21948
+MD5sum: 546c19b19a63fd304cde7de43dc037c3
+SHA1: 36fd93bd1269b5f1ec63301fe02c86baee8bb365
+SHA256: d43cc61042d983725442fc3a0fa90f07d925886126ff371514211fbb88b93a48
+SHA512: c52d91203b97e548a4525d325b14f8c0819307fc9eb8032e52ee6e143f8362cceff75068e62f73f98278486586ddfc05d1503429a195188f729d5823436ebb52
 Homepage: https://github.com/intel/libva
 Description: Video Acceleration (VA) API for Linux -- Wayland runtime
  Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -2313,13 +2313,13 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 59
 Depends: libva-x11-2 (= 2.22.0-1ppa1~noble1)
 Filename: pool/main/libv/libva/libva-x11-2-dbgsym_2.22.0-1ppa1~noble1_amd64.deb
-Size: 44616
-MD5sum: c4b17d7c585870ef6d85645a62ec889b
-SHA1: 2f6ee3f3bd5ef874f9ba5ba366dca55ed6394a3c
-SHA256: 850e212d26666928b378c69444cf5c0de25ebebe6119e9212308ea321901ffb7
-SHA512: bc40cfc785b7228d1df2806437fbacf4caa420efaba43b1981f632449be0cf3103bbf91982e19dcf8b5ba16745d8dbff66c33def767c1c6f0ed04616fd24b034
+Size: 44660
+MD5sum: 5a43efe555025ef89c387787aa26bdc8
+SHA1: e61d3dc5549c28c213c75be940600729c65df92c
+SHA256: c6342e784abe275256c8ef9eb94ca5b1d02be2ccdff402da18f9c285c2456730
+SHA512: bf81f9eb0b381cdb9a0b5cf9f98aecdbe4b8c3fbd3fa2e2c4e32894641a2d40b0d6ecafb078d90fa12156f871d706b37ad3b4e7ab6ab48a34aa02f7c08ef1806
 Description: debug symbols for libva-x11-2
-Build-Ids: da90b0d45ad2a302aa07bf4b1185b548a6066413
+Build-Ids: 9703f7d524cb4ca0a231d075bd5d28372f9c107d
 
 Package: libva-x11-2
 Architecture: amd64
@@ -2330,13 +2330,13 @@ Section: libs
 Source: libva
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 57
-Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.60), libva2 (>= 2.22.0), libva2 (<< 2.22.0.1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb-dri3-0, libxcb1, libxext6, libxfixes3
+Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.60), libva2 (>= 2.22.0), libva2 (<< 2.22.0.1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1 (>= 2:1.8.4), libxcb-dri3-0, libxcb1, libxext6, libxfixes3
 Filename: pool/main/libv/libva/libva-x11-2_2.22.0-1ppa1~noble1_amd64.deb
-Size: 23280
-MD5sum: afa2a3ac638bef8ac0e43d5b00e39ebf
-SHA1: f45d3657eefc4c09e7b6215546b9699769f18d91
-SHA256: c0fe7f179243931c661bbda642063099304d07522a4c76be1406aaace0392b5b
-SHA512: f2e5720bf5eaef3a387bfcc573fda8c8a2741fed0dd0aa14c75311ad0d4081823cb9d8ccb7c5ae96509b2b99a87fb9338ba55f5d165631f74f2875472178a848
+Size: 23332
+MD5sum: 1f8d3bfb83249f96720e5b329c584d03
+SHA1: 951e14a18d5e3ee58c4d7910baecb17607ef1da4
+SHA256: 197c3acb22a6056fadebf53c5e8041a0ff317e67569110e6b54c52f04fa3690e
+SHA512: 78c7706c4082c75a9982fa1bf8f55562c4a83f612c13bac45f46332c73e9ea5ea78d8dbf77b49d3d1a3114cf4a4506a9e5aa8d856d3b6cea62fed3b57df160df
 Homepage: https://github.com/intel/libva
 Description: Video Acceleration (VA) API for Linux -- X11 runtime
  Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -2362,13 +2362,13 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 230
 Depends: libva2 (= 2.22.0-1ppa1~noble1)
 Filename: pool/main/libv/libva/libva2-dbgsym_2.22.0-1ppa1~noble1_amd64.deb
-Size: 211320
-MD5sum: c4ef5525cc792b28d5f0213d42462926
-SHA1: 421e3b3a69f13c8b4748109c44ead8f4f5d6aa60
-SHA256: e32f7ee8a87f01685d297f1aa55b42f7593c28277652110bdab06bbd91247c82
-SHA512: cf1591351116900899be57f98bf4f6f729d552321270c9a71569171e32cf18eaaa13a37a776ff3bd505f9338313bbf20886ffd8655bd647a97137f8fe1e1ceb8
+Size: 211244
+MD5sum: 0c210543ee08d8eb7c7a9c180bf908bf
+SHA1: 64f61bca7cefc19b0632ff1b1a126fd7bab6f48b
+SHA256: 44b7911fed954b5c11ac48c5a4b2d9bd89ec0a83def5e395e7c58a936fab88b6
+SHA512: 1d54aacf379cc68566812fa0644f831a8fb2a89b27d29910509f3f522e1ff2ff1dea707023f79a577d87d391305bf6425611c59201be7ac86f6e74c5f6ff09bd
 Description: debug symbols for libva2
-Build-Ids: f901eda1d0ecd78d356598c3ad85d0745ae359a7
+Build-Ids: f82c9e907f90343870f7a58aa70c996921488631
 
 Package: libva2
 Architecture: amd64
@@ -2380,14 +2380,14 @@ Source: libva
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 247
 Provides: libva-driver-abi-1.0, libva-driver-abi-1.17, libva-driver-abi-1.18, libva-driver-abi-1.19, libva-driver-abi-1.20, libva-driver-abi-1.21, libva-driver-abi-1.22, libva-driver-abi-1.8
-Depends: libc6 (>= 2.38)
+Depends: libc6 (>= 2.34)
 Recommends: va-driver-all | va-driver
 Filename: pool/main/libv/libva/libva2_2.22.0-1ppa1~noble1_amd64.deb
-Size: 78304
-MD5sum: f52acca69e38434e6332fa550e10518b
-SHA1: 64e9ef63e000e993125cd063bcedbfd0dc6944d4
-SHA256: 822e0f9763bb9074a8beebc8084b7f8ab7705b2080e882835021f9724c8c7ea2
-SHA512: 70b8fa34d0f13b40d4a4d776862e544c18ebf5845617d2d57b3f9df84168b605c13bf46beb3d94b7b82119c03848f50d8bc50311e1176123c1c49f4747ef8237
+Size: 78288
+MD5sum: 93199ecadcecf0a64fd3ae4e2d4c7aaf
+SHA1: 3facbb53cc92324d5d849f10a593c46212d1a758
+SHA256: 6dd62c271b80de38b9980af6c239fd6044a5c2c2cae9ae649754ed91ceb7ce2b
+SHA512: f17246432c586a67f18deb09289d64823d3cab539e6d20f7eaf6e047734b93dbd6ca8c77fd44f80b02b92d4d1b85bf70b0ba199fec3c0acc38537b894ba9f647
 Homepage: https://github.com/intel/libva
 Description: Video Acceleration (VA) API for Linux -- runtime
  Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -2466,13 +2466,13 @@ Maintainer: Timo Aaltonen <tjaalton@debian.org>
 Installed-Size: 1637
 Depends: libvpl2 (= 1:2.12.0-1ppa1~noble1)
 Filename: pool/main/libv/libvpl/libvpl2-dbgsym_2.12.0-1ppa1~noble1_amd64.deb
-Size: 1559680
-MD5sum: 18a4196eebe669d662b52945285a4fc1
-SHA1: 7128cc28cf9da35bc9e095dfb5f5d8f04b9380b9
-SHA256: 96938e859900b5c68494d9b1b0bd2351136dfd5083cdfff56fa9ec7171cb4116
-SHA512: a45ee972b73c0e7cc4e8dbcde0b0383661397c0d3ac348661ecbf23f82e5a1d2e9b9dd67c85a351f459cf981a9df37c62aee6a277e7f518a65833c10ad355052
+Size: 1559768
+MD5sum: 76b952d4089d062b790e40e00d7a833b
+SHA1: a430a7f75656deb05a0c3738cd69d9eeea832a45
+SHA256: 4fa3dee3307b3ca4302cc9335f1d9033d10d1a422648b6c822ba98d642dd1dc1
+SHA512: de9d032e2b2a99a043b5b90643af427004760f8f1808b947853a123c068a0412d645f16a854f8e0bd285a5081879123e9d9307fc59c62b053dd9ba4756eae842
 Description: debug symbols for libvpl2
-Build-Ids: 02248cde319ea095edbe28d33d0df60f66b42b56
+Build-Ids: 248a28651f94b062ba8c645e131c3eb6d35f0416
 
 Package: libvpl2
 Architecture: amd64
@@ -2482,13 +2482,13 @@ Section: libs
 Source: libvpl
 Maintainer: Timo Aaltonen <tjaalton@debian.org>
 Installed-Size: 379
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
 Filename: pool/main/libv/libvpl/libvpl2_2.12.0-1ppa1~noble1_amd64.deb
-Size: 120484
-MD5sum: 0c4b3e9aa6b586648b4fdac2a50251d0
-SHA1: 69415ca1834c9cbb98d64ca75f1b2432d798d99b
-SHA256: debad13d3f3c0021f691c2abefccc2abd80a8a5f485427823702ae6c44be5af0
-SHA512: ead8c179c5da6e69530ade3a4817a4beeda6bb7b4172da2af1ed1a65c4f7279ef467bb9a1120f3bb2a7ed234fdee5c5a17fb1bfc9371e7c20c1d4002256f4708
+Size: 120712
+MD5sum: 56d85bb5fbd0391a2b5c5c528e4a6043
+SHA1: a342c4029bcfa806b5f2e74884898ec935ebf4d9
+SHA256: eaa61ed45485efff28876b22af8950ca2009884f66adf5b4f26bd19ff2aaf867
+SHA512: 4a9494295a982751ce2911032a155e48bbc75c81fddf7c34e2336d29d57bc87d3be51b47004f390bfc762e152a4f5ce7e55f5e32428a123c608efa1f8e9d0e51
 Homepage: https://github.com/oneapi-src/oneVPL
 Description: oneAPI Video Processing Library -- shared library
  The oneAPI Video Processing Library (oneVPL) provides a single video processing
@@ -2517,13 +2517,13 @@ Maintainer: Timo Aaltonen <tjaalton@debian.org>
 Installed-Size: 259
 Depends: onevpl-tools (= 1:2.12.0-1ppa1~noble1)
 Filename: pool/main/libv/libvpl/onevpl-tools-dbgsym_2.12.0-1ppa1~noble1_amd64.deb
-Size: 192600
-MD5sum: fd1b655cb1544c317c3ded3b40981c95
-SHA1: 29963c8397175bf39538173a8eb3c2c787458565
-SHA256: e4048ed2d03b6143e9af0ac7da02e7d0a1c921ac607fdbc7d937a2ca3b2252e0
-SHA512: a20206401a9a81aebd2ade5392a5511d500a40984a2fbe1b991bfc0031ed0c081e141a17bcc41e680e35616ff77dc2f686d473c45a2df3d8b65d17d9fce0b66f
+Size: 192496
+MD5sum: 352ebb18be17516e9a904f74d4053360
+SHA1: 2a2a846407a3ec5dc5ea78052c892d83ff2afae8
+SHA256: fc889eed5666893e5f2b370559e501ac11abd261fdf928e3c3a0ed591a35888f
+SHA512: 9c69bd75389bf4da3a62c0da268c7cee103239d1c6cae3acabdb7a28a944eae4d968a40ec789ebf218faf620ef3f75ea27fc8c9437c40dd9d1b7ce72c2b80abd
 Description: debug symbols for onevpl-tools
-Build-Ids: 276662551d4e09c516dd12f1eace8c83450bf35c 515d1e94a80062f245d2c070371fd1fbdceb4487 5e4a5b8b75203b0711bd220f1c9c436f44e4fad6 a967ea3c14c4b14a3960abf17b6233ce3542a91c b80e156778dd9d9c333a1249f3b044481f4012d2 bb20af2e4f2f8ce0877f900a8cf956b7684c3b65 d6018bfbe2fa7f2b4587e654f5940068e46570e9
+Build-Ids: 0436c021ae631eb6953ba1ccfb1ef0a808a34acb 0b2a78891a668792835b852c387c0199c2b65320 159749156b9dcb726ab5b372b3a26e2a9b85ce34 2d931aae65b63ed89791aec39f75c8956057a16a 57253f3ff3cb625e8d02e1ebdede4394e38ad49a b1334af536c6b758f52df5eded3a035bc28e1d53 f9cd469908eadc2778429a88423fda499a8a356b
 
 Package: onevpl-tools
 Architecture: amd64
@@ -2533,13 +2533,13 @@ Section: libs
 Source: libvpl
 Maintainer: Timo Aaltonen <tjaalton@debian.org>
 Installed-Size: 172
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libva-drm2 (>= 1.1.0), libva2 (>= 1.2.0), libvpl2 (>= 1:2.12.0)
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libva-drm2 (>= 1.1.0), libva2 (>= 1.2.0), libvpl2 (>= 1:2.12.0)
 Filename: pool/main/libv/libvpl/onevpl-tools_2.12.0-1ppa1~noble1_amd64.deb
-Size: 32732
-MD5sum: c7bf7df7eb364d152c7a4b0ff6523fc2
-SHA1: 0d0d5f4d1612516fea166d45125b4aa742d2ccfa
-SHA256: f5cb4f1bcaa6c79d17ef50fef47dc0254f1024c57534885a12bcdcd67c3553ef
-SHA512: 9891bcdb5de92b1a726b1a157181a9c5bf71e6f85d4ade53e5a261faba5697294e6b71f80b5d8344d40bf52c782c06cf9ba1d1ba016e1db72066d02627451224
+Size: 32740
+MD5sum: 61fbb2bc267eb452f1ba65f6d88c1ce6
+SHA1: 61d06466ea72157c1631cb577970b0f8015b0e98
+SHA256: da445574fd3f377883965d78efb43ea1690d27b6587ac7eda924255bbab06a61
+SHA512: 0b9717a4df083da400cb59dd4478462c54e8ff7dc31938f297ee3a922e2bfead1bcc33d06ec6bc7a9dd2692b394cafa959051f310549cd48089a3a5d914a1e5b
 Homepage: https://github.com/oneapi-src/oneVPL
 Description: oneAPI Video Processing Library -- command line tools
  The oneAPI Video Processing Library (oneVPL) provides a single video processing
@@ -3485,13 +3485,13 @@ Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 45750
 Depends: qemu-system-arm (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-arm-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 41661688
-MD5sum: 96793f7a86b8dccf89bb20cff1ae8446
-SHA1: 156f5d78f82dc0b8ba19f641179ff64872957c8d
-SHA256: e1bc266882f4a822d8721a867708ca2c8ed7613e520fa2eef151f421481b6bd2
-SHA512: 09b1851bbd22e4f8ce99dab8a1d476313fe5bf96ddff64e59d3e54cf2d65b52c13bc86240a9e4cb62daf1782593000d010c7bbff68cbc99c87de3c87fe0bd69c
+Size: 41659808
+MD5sum: b256a85736ac84173c79b4fa75261aaf
+SHA1: b1ba044108265286e1fc6fcd205b3816397de515
+SHA256: 9ea8b286d656cf5b13a6bf710974c24d0f83f7c7ce6d8e0bea54b28f16097cd7
+SHA512: 8cfd02bd791e503acf2719ef518e219b153bf4d1b975255301dbfa0d48f2e3685a26dd6c93aaea4d2b9fc2ce42cd95c505df70a1c10da02b40071cd0669b36a4
 Description: debug symbols for qemu-system-arm
-Build-Ids: 39d78f799b41de0e90aaab833bc5a1e177fbd8ec c5641ff52940ec292ea9edcbac50e59a292f3533
+Build-Ids: 3137a1aee7c5e7eac2766e2de68d16603fe530b2 e3d2ae6a32bcdd973f9b05ddb778435b5489ecbe
 
 Package: qemu-system-arm
 Architecture: amd64
@@ -3502,17 +3502,17 @@ Section: otherosfs
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 57066
+Installed-Size: 57070
 Provides: qemu-system-aarch64 (= 1:8.2.1+ppa1-noble9), qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-arm64 (= 1:8.2.1+ppa1-noble9), qemu-system-armel (= 1:8.2.1+ppa1-noble9), qemu-system-armhf (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.30.0), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.30.0), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
 Recommends: qemu-utils, ipxe-qemu, ipxe-qemu-256k-compat-efi-roms, qemu-efi-aarch64, qemu-efi-arm, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-arm_8.2.1+ppa1-noble9_amd64.deb
-Size: 9439572
-MD5sum: ed185a4757086a0a055fbd7fd9625b21
-SHA1: 5e3afc37fcaf3f5ec722fd1c58a580cba563911a
-SHA256: f599d7b946d97859e236063b98572e704f009ecc0e02780af9565ddcb78dcfec
-SHA512: d4903576e4a1361e33e7a49bab215f16e626e2c6051fdeab5b303231e3ef00c2ca3d8f11f4ae7af6d9d62ed2d68afa3f694074a0fec4d6b987d47ad588750cc0
+Size: 9420032
+MD5sum: d6686c7d5061c5409733002f00290a7c
+SHA1: c5e34c3857c2e1c1902a6909f8517877d9487f3d
+SHA256: c1de75e3217d68e299504b224ee552a5e3c04c914eb5a3b656f527c9d87676ce
+SHA512: 098e077e7645183684f4e8ae785be28354d04d82ff73bc3bd3c76116774358fbb7ff0b89032e096552b5bd3ee6d3e83c8dac06cd50a6c1d2cdc8a1cd57745bc2
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (arm)
  QEMU is a fast processor emulator: currently the package supports
@@ -3590,11 +3590,11 @@ Conflicts: openbios-ppc, openbios-sparc, qemu-skiboot, qemu-slof, sgabios
 Breaks: qemu-system-ppc (<< 1:6.1-4~)
 Replaces: openbios-ppc, openbios-sparc, qemu-slof, qemu-system-ppc (<< 1:6.1-4~), sgabios
 Filename: pool/main/q/qemu/qemu-system-data_8.2.1+ppa1-noble9_all.deb
-Size: 1618188
-MD5sum: dd677f1e9980eab43961839d05c8e931
-SHA1: 7f8619a5b6b1437eaf92a77932ffdb5465df7a23
-SHA256: 0dc0f74105cbe3e946e79baacdf94da2ca0c3ad2236cdc660cd931a388332ae8
-SHA512: 2ed94af7fb6e6f6f5de1d12c8ece925a2435560d18cc9606fe990dd94a08ed592e24695c2d5f827172d0872e94e2eb58097abf5b46c00a07fa1eafb46571a577
+Size: 1617952
+MD5sum: 3e39647e70c29193255bab9b709e5905
+SHA1: 212ca85c3b4fcdd0e229fe6c501334877411c06c
+SHA256: 646c7da0db5e81859f6bce253c9af35debc64b472b6df60f9eb221809bc90821
+SHA512: 24558a1a588539be99fbb01b08bf276068cf19bdd8d540e770bc88af929f39bf1f2768fe2739cb8c6d3198313e53e3108facf3470086f8b53508e093d54eb1d1
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation (data files)
  This package provides architecture-neutral data files
@@ -3644,6 +3644,26 @@ Description: QEMU full system emulation binaries (graphical display and audio mo
  and SDL) and audio backend modules for full system emulation (qemu-system-*)
  packages.
 
+Package: qemu-system-mips-dbgsym
+Architecture: amd64
+Version: 1:8.2.1+ppa1-noble9
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: qemu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 64077
+Depends: qemu-system-mips (= 1:8.2.1+ppa1-noble9)
+Filename: pool/main/q/qemu/qemu-system-mips-dbgsym_8.2.1+ppa1-noble9_amd64.deb
+Size: 57782384
+MD5sum: dc1e470ccbe58f39c3fd54939787a87c
+SHA1: d6684cf49dc5ef31bfdd168e6caf478b82427847
+SHA256: 146ed9f9bdb1542b55b70e761e97dfa4b8d4027c1647c0078d84dc55ea735d06
+SHA512: f963412f00558ed75f111cbfb863afca1c021220119bceaf95dd8cfe3f095276898eb1726fe7fcf89ac787fb51e5f84d0485053d00fa9f06dfc34e1f6e204fe9
+Description: debug symbols for qemu-system-mips
+Build-Ids: 31fce8d17aa8f63b699e7f74f0e7a3ecd8e96cca 8c59e7d28f97b05750f7ea4e123a840e900c118f e51c02f1e0758ff983a3600a3b8a927748f819cc e868ff7ef0fb54ff964f470477ced17750ede3e6
+
 Package: qemu-system-mips
 Architecture: amd64
 Version: 1:8.2.1+ppa1-noble9
@@ -3653,17 +3673,17 @@ Section: otherosfs
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 59607
+Installed-Size: 59623
 Provides: qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-mips64 (= 1:8.2.1+ppa1-noble9), qemu-system-mips64el (= 1:8.2.1+ppa1-noble9), qemu-system-mipsel (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
 Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-mips_8.2.1+ppa1-noble9_amd64.deb
-Size: 14006072
-MD5sum: 97a7befea4ff3090c6d37d288c583ba3
-SHA1: ea38dc20290f5199268c3e1173cb39defa955d77
-SHA256: f5af5425bcf6d4b1d4ae98c29350903847d4bc70493b4c8023f237f359bea427
-SHA512: 8f84cf58f544e181214ea467c6ca04fa02d82247c33fb3300d10d1c08d051b45de834f028b18f7ed7ac93d321ee7ef03ad6da7330dd400b896796a333048b1a5
+Size: 14008784
+MD5sum: 0e591f0eb3ea28df92799d48528abfaa
+SHA1: 101d425d821b162a2149bed4491630352e95c706
+SHA256: 1922fd623df1af291fdd01fb5067bf8b3f3dcdd4e40f6ffd4e6a06bb43f9ed8a
+SHA512: ddaebc9371c992ddea3c8549ef1f51176d85c3bad75bdc479570cb890a3f0f79d6e3cf669d65bf1328621f9e375473874bcdfdb278a6996ce768ca42f522957d
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (mips)
  QEMU is a fast processor emulator: currently the package supports
@@ -3687,17 +3707,17 @@ Section: otherosfs
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 223282
+Installed-Size: 223322
 Provides: qemu-system-alpha (= 1:8.2.1+ppa1-noble9), qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-avr (= 1:8.2.1+ppa1-noble9), qemu-system-cris (= 1:8.2.1+ppa1-noble9), qemu-system-hppa (= 1:8.2.1+ppa1-noble9), qemu-system-loong64 (= 1:8.2.1+ppa1-noble9), qemu-system-loongarch64 (= 1:8.2.1+ppa1-noble9), qemu-system-m68k (= 1:8.2.1+ppa1-noble9), qemu-system-microblaze (= 1:8.2.1+ppa1-noble9), qemu-system-microblazeel (= 1:8.2.1+ppa1-noble9), qemu-system-nios2 (= 1:8.2.1+ppa1-noble9), qemu-system-or1k (= 1:8.2.1+ppa1-noble9), qemu-system-riscv32 (= 1:8.2.1+ppa1-noble9), qemu-system-riscv64 (= 1:8.2.1+ppa1-noble9), qemu-system-rx (= 1:8.2.1+ppa1-noble9), qemu-system-s390x (= 1:8.2.1+ppa1-noble9), qemu-system-sh4 (= 1:8.2.1+ppa1-noble9), qemu-system-sh4eb (= 1:8.2.1+ppa1-noble9), qemu-system-tricore (= 1:8.2.1+ppa1-noble9), qemu-system-xtensa (= 1:8.2.1+ppa1-noble9), qemu-system-xtensaeb (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
 Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-misc_8.2.1+ppa1-noble9_amd64.deb
-Size: 50759884
-MD5sum: 40ff21ea73f76c28564acf7875045ce3
-SHA1: cf7bb00e9160408abf1427137c752ec37e1fe1df
-SHA256: 65a0bbfec6a4a25d7cb3e5e6574f70f0b5d41f59b41a568c5b1233f88c114b84
-SHA512: 4ea17e288714cfde23c9753ad0d9db5a7e1d239864ae7ba5ff6991131c71241959bbdaf5adf8196ef9af4cda718bebea46fe3641a8116cc50c8ab43819aa09f9
+Size: 50710960
+MD5sum: 87f34492412a27557627feba48f07276
+SHA1: 338bf49898af9ce5594a4275682e60e76c778a89
+SHA256: 8f504b90509365923532a9f012efb420ae3edba5718e76ccb148e744b5141670
+SHA512: e1b1dc22698af5c542a6451b29498b4d4ce06b7269a15647da9bc99ed55c2498121405cbd1a33a17f6b3263864e779daf9fb23400c13fccee7d180c6acecde7c
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (miscellaneous)
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -3812,16 +3832,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 36051
+Installed-Size: 36062
 Depends: qemu-system-ppc (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-ppc-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 32598596
-MD5sum: 64e90f2abed87e515d6a153f5862c0d7
-SHA1: 44f5671c37a156d6061a273a633217ec8191a283
-SHA256: 0cbadb4880bb93598b03b0bb229e9d12745f8b5a592c23d52bc5fa0e1ecefc38
-SHA512: 8e57f5a26298e73bc6e3a27ddc92586a12872c072b62984024ce043a3cf7e01c97f722623d47776eafd6c1ad3b8e9602a46939c708dcc42bd1d8e12c6ce52eff
+Size: 32609080
+MD5sum: 6fca28243b4f85c01ff19cc54d5ba223
+SHA1: ab9b71df883193f0f4d11e5c6491cf49b85cd726
+SHA256: b6367d47d570fe1707b3eb14e691ba5d19b20215435bd49a02ee1308657debea
+SHA512: 8ac169ab9046b76cf2514fbc1893a68576522f6216ccc8de2f3937a719b94b148755b745732d1157eb52da86d4f57e5c4c658dcf8ee5f2e86aeb86543e73d2ad
 Description: debug symbols for qemu-system-ppc
-Build-Ids: ce631ccbed3e9634923b8ee41e0a57f5904be809 dc16a19516082ffc1e3131205b630154d5343ce4
+Build-Ids: 6969b2ecca19328e7994182205bd5d82b7282d71 d4bb638a145ecf537b6d21618675e6497863d60a
 
 Package: qemu-system-ppc
 Architecture: amd64
@@ -3832,17 +3852,17 @@ Section: otherosfs
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 34145
+Installed-Size: 34149
 Provides: qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-powerpc (= 1:8.2.1+ppa1-noble9), qemu-system-ppc64 (= 1:8.2.1+ppa1-noble9), qemu-system-ppc64el (= 1:8.2.1+ppa1-noble9), qemu-system-ppc64le (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
 Recommends: qemu-utils, ipxe-qemu-256k-compat-efi-roms, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-ppc_8.2.1+ppa1-noble9_amd64.deb
-Size: 7764632
-MD5sum: 928e98d9a4aa1417356bc703d5fcce49
-SHA1: ad02af7f8538c6b341cc3e0842679d56830bdb8c
-SHA256: e683192818eae16615e243c4ad629409e116deb27199373c95bd2f56ffae8571
-SHA512: af85bcd3f7680a825fd4bd1e00291d462e2699ac3d6f801b8f41aa15f3db533e1ead84d9e85761c4330dbca1c6c977b2fb3f14f36928ddba857396d059e78796
+Size: 7807672
+MD5sum: c609b32adda601044b130fb5a0508f23
+SHA1: 266a1da81cec616454b8e1b917706c383df25b83
+SHA256: f4e3f3d6eb07de22bbd186b9f120253c3f33072fe7e34ead2fc880fbf06441c1
+SHA512: 1604e5781ca7987d9d617e8b2ea540f796ecbd3307806f414f2cb641997689acc24b7baa83194605f2467e1103cf7fd6a9ca1e3bd02b3067cb749dfe0ab47b19
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (ppc)
  QEMU is a fast processor emulator: currently the package supports
@@ -3898,16 +3918,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 24125
+Installed-Size: 24131
 Depends: qemu-system-sparc (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-sparc-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 21499388
-MD5sum: 67a3c309b9fb4181bae2a9723f25173b
-SHA1: 76d51e963a8d79ddad28da837d6f6610d7f719e5
-SHA256: 0608073ed015e3757a6b1bef105f8a39da61fb91e32726dd9181b1e0c2be8ad4
-SHA512: 7491d910e4f55a9aac9a40bbd86b9dbd1b8112659e9c52a21d598a2a01efdbf338064d16f8be0cfa001612068c255bf2274318ce0a437dd8e30b64842ef75cc2
+Size: 21506448
+MD5sum: c05414e1945e8f97c1160ae025e05255
+SHA1: 8f16f029871e2239f559d1bd2dc640b1f694b871
+SHA256: 49e4780c91d74725aec20580ef36a54d9f55c3a038da76677238684b00cf7624
+SHA512: 233f8af23a754f59b59d0fd79e97ba703b9c1b75a701c4a659cba29a80c928e50479f599f22b173cf135b4abbe84562f8258f98c32e927714876dccbb37e79f6
 Description: debug symbols for qemu-system-sparc
-Build-Ids: 4a3827cc4e3ac932c859124e1204ad0c9c290a1b e4935bed9c00c0805481125fd8cc24729c7a964a
+Build-Ids: 1241b9f2a11465b37470859c558ef747f9104d9d ffdd5e383236cae7fb1df2912aa85b26693a14c2
 
 Package: qemu-system-sparc
 Architecture: amd64
@@ -3920,15 +3940,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 22039
 Provides: qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-sparc64 (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
 Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-sparc_8.2.1+ppa1-noble9_amd64.deb
-Size: 5436988
-MD5sum: b0d4130fa02b56d8b6de6bf1e0d9eca4
-SHA1: d99d65bf0fdf36895ac87e60a7df5ad42060bb68
-SHA256: 20c92c65c449a38bf2c104dd803e64871f12b622b9599580503a69d979368dc6
-SHA512: ab6747029ac6c3eadc7b4a05b146b548845d849cfef3639eeccd05d57c6c056eff309e1863a87c8b0d963cc54370172f9f3b919cfb3d8902754bc5c5ce718fa4
+Size: 5436732
+MD5sum: c8c1d095a1a23bf89a5e90f5e3799489
+SHA1: ca8a0e76fea3ee6c2d7bd57bbdd29eeb069afdbe
+SHA256: 3bced9e9d9704af5d7a84ebf51d6eef1d68c41c774d51fc17010214a4ea077de
+SHA512: e440c7ede043caf1fdec5a07532ee96da91cedcc41b7d22ffbd15da8fe80aaa7c039fdd395f32cf1460ed75406d04842cc56fc07016d2ef20727c29394387115
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (sparc)
  QEMU is a fast processor emulator: currently the package supports
@@ -3952,16 +3972,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 44111
+Installed-Size: 44113
 Depends: qemu-system-x86 (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-x86-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 39590120
-MD5sum: 0da7b23e656553ebbd30624acec09e38
-SHA1: 622ef67f7a08646f07e09d64147f4f0d2f1393dc
-SHA256: 86282bed62cb01e8e497b25950ed3d638b0c79ac593508fd7b455fef6383f4fa
-SHA512: 817abb7bc4e536b673c2f8a9c883b0541a2bab7e2b3aebd106ae077f2b7cf8da003c0819492db83154a53f01cbf9eea1d058b283a0c4d8f13ccb987097a6abb2
+Size: 39591748
+MD5sum: 0fab074aaa120fae47d1e71166e7b717
+SHA1: 61859d786d4d178f656b87c9de00fe14e20203ff
+SHA256: 7b4984305b573cbc21a3422e58fc9944e1ba9cea6025e4a1208bb76902bc0d7a
+SHA512: 3550d5ebefca5724fd071f5a2d4cf0989c17aae7f01376fa220a6c6bc04fe2557daf1420f269c833ef0d37f4da9192c8c9274f131447fbf87c5b8a85edbc8e80
 Description: debug symbols for qemu-system-x86
-Build-Ids: 2c42fb6ef4d50d5f83cd6d772834e9e2c8a905c2 703bd560924c8c2c09726df8343bf07e60eb418f ca65ab37316841b1d0b8a9b917eeb5d452c2c775
+Build-Ids: 1b85a4f82762be74cbef224f94eb91caa611145d 339351314f238579ed10d34d7a57c4d04886c864 ca65ab37316841b1d0b8a9b917eeb5d452c2c775
 
 Package: qemu-system-x86-xen
 Architecture: amd64
@@ -3997,15 +4017,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 57878
 Provides: qemu-kvm (= 1:8.2.1+ppa1-noble9), qemu-system-amd64 (= 1:8.2.1+ppa1-noble9), qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-i386 (= 1:8.2.1+ppa1-noble9), qemu-system-x86-64 (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~), seabios, ipxe-qemu
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~), seabios, ipxe-qemu
 Recommends: qemu-utils, ipxe-qemu-256k-compat-efi-roms, ovmf, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9), cpu-checker
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-x86_8.2.1+ppa1-noble9_amd64.deb
-Size: 9838336
-MD5sum: 2eb9f088aa0bb4305379a5cc24e41f3d
-SHA1: 56f3b36f8b1f58c45e7467005588a8929289d12c
-SHA256: 75a083c9303c3455198e6d8ac61aff5844640e7090c621a2d912ec79e5f13848
-SHA512: 7dfee21a05520eff0d0cf753dbab74cec3a3c0c131c855ccd37f07c8a0e27e59335094cc711924a38bf7cb7fc969a9a8eb569f311cb2869b967b4a4ca0342688
+Size: 9867496
+MD5sum: a2a07c97615950b282a393822919b4b1
+SHA1: a9bbef8ae37a9145e3238e92bdf46bbdf13d8e0f
+SHA256: b2d02cd6c6d12f802d221fa33fd3a4c8297d05cd45d045fcb716062a1454686f
+SHA512: d46fece6b1d2492a41b128e9dd645fcdb98db2010707c602debc7f058090dbe1984139c5f5bb05de2f02bd8a39a302f5203f8007dd6002897b367040cfc29fbd
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (x86)
  QEMU is a fast processor emulator: currently the package supports
@@ -4133,7 +4153,7 @@ Description: QEMU user mode binfmt registration for qemu-user
 Package: qemu-user-static
 Architecture: amd64
 Version: 1:8.2.1+ppa1-noble9
-Built-Using: glib2.0 (= 2.74.6-2+deb12u5), glibc (= 2.36-9+deb12u9), zlib (= 1:1.2.13.dfsg-1)
+Built-Using: elfutils (= 0.188-2.1), glib2.0 (= 2.74.6-2+deb12u5), glibc (= 2.36-9+deb12u9), zlib (= 1:1.2.13.dfsg-1)
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
@@ -4145,11 +4165,11 @@ Provides: qemu-user-binfmt
 Recommends: systemd
 Conflicts: qemu-user-binfmt
 Filename: pool/main/q/qemu/qemu-user-static_8.2.1+ppa1-noble9_amd64.deb
-Size: 19576300
-MD5sum: a886eff7b016ccfe7079c23c1a50e5ed
-SHA1: 40e616309a47f626b5337924d804b1b9bbf28f59
-SHA256: d104cb6202305841faac344cc74eb59ccb36d9227cdee5803e03af0cafa2d0d4
-SHA512: fa27e491a9ae5fcdac465f93f9045d24af269b93302c4ae060e8273b918bdf2a4b726800c212dca5a95e54323f80b29f48d7d3304b243bc4c14bacc21b95e7cc
+Size: 19561564
+MD5sum: dfc4d613ee3c37b9afa641c490afe1b6
+SHA1: a7b3781348dcfd75bed048dc28f705fd5ce008d9
+SHA256: 9a5eb421ff9e0979367e2c235f436587f6573ca87d715e81dc1a57ccd30083fd
+SHA512: 21992aad9fb5da8896e4eb7c1481919bb7d4e8d051284bbca0f965ae26b7fa2b7e27b14bd6a5d8ef6448d8a50ac616c1341fd2271d7851de36d81d6dab05d35c
 Homepage: http://www.qemu.org/
 Description: QEMU user mode emulation binaries (static version)
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -4175,15 +4195,15 @@ Section: otherosfs
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 92506
-Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.61.2), zlib1g (>= 1:1.1.4)
+Installed-Size: 92582
+Depends: libc6 (>= 2.34), libdw1 (>= 0.158), libglib2.0-0 (>= 2.61.2), zlib1g (>= 1:1.1.4)
 Recommends: qemu-user-binfmt
 Filename: pool/main/q/qemu/qemu-user_8.2.1+ppa1-noble9_amd64.deb
-Size: 11067404
-MD5sum: 51ba3e68fe45deb4020d593d41fb59a3
-SHA1: 3ea415d8610fbd6340a06a8be718a6da319a43c1
-SHA256: 39d2a4ab2964c1160109aadecaaa38649e2c91c627e0ea1ebe0db4c11fe28974
-SHA512: bc1b4bbfa9a7ebac3e30eade48ee2f2f18ba761d4bcb619e899bf967e8a2670765b0061e8cddf99559b5fb9e5b43847a23269a8a6d10a90612c32e94fa12816d
+Size: 11075576
+MD5sum: b2f642271385c6a9f8eaf3cdbbd1834d
+SHA1: 8126f5c40da27f894fc866d3a9cf3b353ba03edb
+SHA256: 4fddd65130df01f04c19a71ac2efff770922d2deaa0fadbc993a4f09280c23a0
+SHA512: a14b3d297fe9941c45b7d1a0a360005e26996c6c2f9702ed63be31b9ba8a6b29442f085ef6f6e958d6488c98f0065891de120b9e3da2e83838dbacb5564e2606
 Homepage: http://www.qemu.org/
 Description: QEMU user mode emulation binaries
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
