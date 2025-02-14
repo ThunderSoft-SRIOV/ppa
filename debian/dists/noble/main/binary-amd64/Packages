@@ -6,14 +6,14 @@ Priority: optional
 Section: introspection
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 535
-Depends: gir1.2-gobject-2.0, gir1.2-gst-plugins-base-1.0 (>= 1.24.0), gir1.2-gstreamer-1.0 (>= 1.24.0), gir1.2-vulkan-1.0, libgstreamer-plugins-bad1.0-0 (>= 1.24.7)
+Installed-Size: 534
+Depends: gir1.2-freedesktop (>= 0.9.12-4~), gir1.2-glib-2.0 (>= 0.9.12-4~), gir1.2-gst-plugins-base-1.0 (>= 1.24.0), gir1.2-gstreamer-1.0 (>= 1.24.0), libgstreamer-plugins-bad1.0-0 (>= 1.24.7)
 Filename: pool/main/g/gst-plugins-bad1.0/gir1.2-gst-plugins-bad-1.0_1.24.7-1ppa1~noble3_amd64.deb
-Size: 252060
-MD5sum: 5ef610aef416240b53132f44264c8111
-SHA1: 1cb18e5af89f3673c36375f9ac2a5ea5428af905
-SHA256: ac085068de1ddce36e05e4859b37f2f40cb8a1463b391f576932c1f413dbde98
-SHA512: ab032464f1a54095c97c13def8a37b479b7660258ce3d738aafb2cb552fc527bfc5614578d81b13372470a79b56167e6aa2edde7e1a7226f3e77f28248b6875d
+Size: 251984
+MD5sum: ad0901be4f855f4451b8d1766730cfc7
+SHA1: 51b926116e5069e1fa272b3d466aadb948a64a78
+SHA256: a3485bc7d8ea5af199be7a7a1eea6419db06684f2cbdcf7eb8a54429efb782fe
+SHA512: e30eb16b5233f19b4a051bd2ce2c0c811221eb73a721ae8c77d521fcadacdc7fe62341c150116c449c862a52170e169449dbee0ff7ffa3935bfda4da2ed73a46
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer libraries from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -41,16 +41,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 1060
+Installed-Size: 1045
 Depends: gstreamer1.0-opencv (= 1.24.7-1ppa1~noble3)
 Filename: pool/main/g/gst-plugins-bad1.0/gstreamer1.0-opencv-dbgsym_1.24.7-1ppa1~noble3_amd64.deb
-Size: 1026424
-MD5sum: 2985b2d316682b781fafcc2b0919bf9d
-SHA1: a3b373030433ea4a1909f631eb4a1d8815bbce0b
-SHA256: e9c4a29263180ca8d67aea6b76c03ba900526da141a3a37ee2c5c557c463f022
-SHA512: cdbcb3cbadc583945ee42784253775afc9bee57fe7946b3065306cd7df8cd201c79fd83e7eaeb5336fff968c9f37ac5b230b850b87d9ff872d5b4dc2f9b6a9da
+Size: 1010928
+MD5sum: b5b919f64efa9c275e52224dadd6bb12
+SHA1: 18afc965787f434bd1ad10182394fe12117f407c
+SHA256: 58224ab4614b79b9e9667265533e235b0e9936e4ee743d302b5a536e5ee3eaae
+SHA512: 2690986d0b9091224b6d80704af862a768e79837f8c0ebd9e7639022db5d458ce7b6e5c4afbda1517cfdb72457a7855de95f83bf111ecfaac590f794500627c9
 Description: debug symbols for gstreamer1.0-opencv
-Build-Ids: ae5f3fc74b80a70a9558419dbdad459cc3e1189a
+Build-Ids: f5c7137965dc3d8e606c3407b80c687a794c0eca
 Gstreamer-Elements: cameracalibrate, cameraundistort, cvdilate, cvequalizehist, cverode, cvlaplace, cvsmooth, cvsobel, cvtracker, dewarp, disparity, edgedetect, faceblur, facedetect, grabcut, handdetect, motioncells, opencvtextoverlay, retinex, segmentation, skindetect, templatematch
 Gstreamer-Version: 1.24
 
@@ -62,17 +62,17 @@ Priority: optional
 Section: libs
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 481
-Depends: gstreamer1.0-plugins-base, libgstreamer-opencv1.0-0 (= 1.24.7-1ppa1~noble3), libgstreamer-plugins-bad1.0-0 (= 1.24.7-1ppa1~noble3), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libopencv-calib3d406t64 (>= 4.6.0+dfsg), libopencv-contrib406t64 (>= 4.6.0+dfsg), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-features2d406t64 (>= 4.6.0+dfsg), libopencv-imgcodecs406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), libopencv-objdetect406t64 (>= 4.6.0+dfsg), libopencv-video406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1)
+Installed-Size: 485
+Depends: gstreamer1.0-plugins-base, libgstreamer-opencv1.0-0 (= 1.24.7-1ppa1~noble3), libgstreamer-plugins-bad1.0-0 (= 1.24.7-1ppa1~noble3), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.68), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libopencv-calib3d406 (>= 4.6.0+dfsg), libopencv-contrib406 (>= 4.6.0+dfsg), libopencv-core406 (>= 4.6.0+dfsg), libopencv-features2d406 (>= 4.6.0+dfsg), libopencv-imgcodecs406 (>= 4.6.0+dfsg), libopencv-imgproc406 (>= 4.6.0+dfsg), libopencv-objdetect406 (>= 4.6.0+dfsg), libopencv-video406 (>= 4.6.0+dfsg), libstdc++6 (>= 11)
 Recommends: opencv-data
 Conflicts: gstreamer1.0-plugins-bad (<< 1.17.2~)
 Replaces: gstreamer1.0-plugins-bad (<< 1.17.2~)
 Filename: pool/main/g/gst-plugins-bad1.0/gstreamer1.0-opencv_1.24.7-1ppa1~noble3_amd64.deb
-Size: 266412
-MD5sum: 2cfee2e2ec18812f21d1b4d72d197db0
-SHA1: ac35ec56aeab772ba7139415eb44082389e49233
-SHA256: f3af0c39261b026bde977a3a1317c4c09547ca2e31a1ff8508055dec6d50bd67
-SHA512: b28d9fed67daf3c0288a61c567b27d6f32a32696b352d1a6d3feece2ae82943516f2744b93cfc8554ba74e8ea3dc57209d8dcb8976984cedb0987ab1e0be7942
+Size: 265264
+MD5sum: fd74b85c357d7abfc7927757c5d5c8e7
+SHA1: 87ef281132ff7378209a6ba77eebf2af10561234
+SHA256: 9a34ceaa5767a47f06517879aed6115d200bb2fc12a4b8a304114b6d089fd812
+SHA512: d35da554645b74c9b78f0fc2c7cf5a014d2c7dfb1e09395f2839a45cedd407071b892eb1f2f34bd9a8b2eb63643bb6d6ce51771d9ea164ed9dbb1e94b0a11a2c
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer OpenCV plugins
  GStreamer is a streaming media framework, based on graphs of filters
@@ -99,16 +99,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 47
+Installed-Size: 38
 Depends: gstreamer1.0-plugins-bad-apps (= 1.24.7-1ppa1~noble3)
 Filename: pool/main/g/gst-plugins-bad1.0/gstreamer1.0-plugins-bad-apps-dbgsym_1.24.7-1ppa1~noble3_amd64.deb
-Size: 23056
-MD5sum: c55336ef03c393bcc44cdaeb467afe8d
-SHA1: e4da40d6f5fd38794889a00c9c12cf1df6b965dc
-SHA256: f62a99a321112af51e0f1481bf92980201411b41b0ea75744eac23b18411b2b9
-SHA512: e455e85d1176157c2d9499cd2cbd18db409a147ebc88d968b95e6297e19aa3f528495ab3d28358f13b94433624eacd69b0e6937b498d25c94bb8c4aa1f7fb5b7
+Size: 21112
+MD5sum: de937ae12bf23b4f9bce7eef40f0a6dd
+SHA1: 52b174fea02e94d20fa13eec56a9d2470cace898
+SHA256: 595be81f2d9c110175504ea84feac665273e5e654331425ddf8855d1568b1973
+SHA512: 6b8ade21f85256f61be0272df734fdcf6f4d1b895dfe05d6319e8d6a55e3aa48e788cb77b24a335b08c9580caa210d4a33a410e3ecd85c191d6d1dd963374fc4
 Description: debug symbols for gstreamer1.0-plugins-bad-apps
-Build-Ids: a51ffdb62c76456bf1e618a52dd35d81efb4d6ad
+Build-Ids: 82745cda0e06bf71d08e67723a246277f5e941ba
 
 Package: gstreamer1.0-plugins-bad-apps
 Architecture: amd64
@@ -117,15 +117,15 @@ Priority: optional
 Section: utils
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 285
-Depends: gstreamer1.0-plugins-bad (= 1.24.7-1ppa1~noble3), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.68), libgstreamer-plugins-bad1.0-0 (>= 1.24.7), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0)
+Installed-Size: 281
+Depends: gstreamer1.0-plugins-bad (= 1.24.7-1ppa1~noble3), libc6 (>= 2.34), libglib2.0-0 (>= 2.68), libgstreamer-plugins-bad1.0-0 (>= 1.24.7), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0)
 Conflicts: pitivi (<< 0.9999)
 Filename: pool/main/g/gst-plugins-bad1.0/gstreamer1.0-plugins-bad-apps_1.24.7-1ppa1~noble3_amd64.deb
-Size: 196872
-MD5sum: b4c490d04cb8c4d4eefcc3f737923c0c
-SHA1: e1965d9edfb59d1d1add756a129beb68acd1be77
-SHA256: ed8a88d42b40ca7d3ee28723020057f5da46e89a307cf765a8db4fa17258e7bf
-SHA512: 8b33c5ed1e7b41e440757e41a4cd49ade5fc297ebeaa7453805c96d0b25020b7b961586343a98904c45be30b421704413567b5d4a1037b9d1020dbd195638556
+Size: 196648
+MD5sum: 51725e7f910fc15540a9dbcbef0a6956
+SHA1: f0b90e826118c57d5e0f9c9e5ed044ca4a238ad9
+SHA256: 28c290f9b115ceb4a4747070dc1f8019af947ac61ad47b760da9569186084b4d
+SHA512: 1e5e9ec8083ca41d6aeaf86480bcbe4e8a47133c844b9f5b01a160d1428b3fdb59160b52017fcd9adebe87694c371e2f91c1b77af88f806df544d29a9fc46ea8
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer helper programs from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -150,16 +150,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 14451
+Installed-Size: 13782
 Depends: gstreamer1.0-plugins-bad (= 1.24.7-1ppa1~noble3)
 Filename: pool/main/g/gst-plugins-bad1.0/gstreamer1.0-plugins-bad-dbgsym_1.24.7-1ppa1~noble3_amd64.deb
-Size: 12408724
-MD5sum: abb862a71c04031f3e2535fa2a084d53
-SHA1: 36a3fa94a345c0b5e4e8f4738bf5fc35567def20
-SHA256: 6d7a539f9511526bc59c8c2cd40dc28093e8b2bf64be32b31decc18ebf81e5a0
-SHA512: bf2fa3f1d0d6d7ef2c1498f2ab7e9a4c35e2f9cfe19927cdaf4867b4576f09a424c2528cd84cf8ba05ce24d51a63908f68df69edfa12c638cf66684f77945380
+Size: 11685416
+MD5sum: ed893643c83bb9fcb70dac23d5750d8b
+SHA1: 0f8e14b7d873478ae2a1d92e763f563d3bf884d1
+SHA256: 0656f88f482dcd2afcdb68ebd59a7e5b56554b3572ff3baae70ddc2b139f5673
+SHA512: 7dd71a474f1b042090d5228881806577969dc44921eea49ff00bdca498490803e7e3e09b5f160d7ea58d91f5e65c51a9507b76a61b4f7612a327175021679697
 Description: debug symbols for gstreamer1.0-plugins-bad
-Build-Ids: 00443a20dc2e719aede4411a08877a282c0aef02 0059359491c7f5db022d40214f44f592659388c2 014f030dcf703ce7776852268b41b3abb59c5894 019c6eea53b1939f95a0a9a23f84aef1caa11ae9 01b7616214f57ce5bce0f4a53068f52b69693318 0378e0fd767f8c8b8fc08bb8492f765b6bd913dd 03d605bbd242a0fa459e74a7113ee664324b08d3 049602601edfabf1c179420e4ae7ce7abd82c52d 061cfc270780d01757bad5f5885b3f4c26944f06 0667c3121ea0dd94589c1e23479ccfcf9acebed7 0749296c72d5834173f2426b103ba947bf179acc 075a4818ee1ea2bae16f59bb02fe4db3ada1c3f4 090ab613cc342de562810d44f988b14224bcfb63 0a74f1dfad0207dd480cd1786ad3c0b83eb956e5 0bf10ac89ea340e9de383028ccc431a168e3b1b5 0f757beb2548af8c7f0a4c13848bbd6e4dddd2fb 11fe0b71b7e07a2f258a76faa32e9d39c98f4ad4 1e1a5eb84fecb7117ba048fdab472d83269f73a2 20a38412df982bb4dcdeb45e10b4ee5e5a241010 21c5e0f9a58a0226f65d400c542edb83e6e1eb70 2449184aa5ffcf64652cc3deba2b9d9421e3d9fc 27c75c02a5bab290b3b9f43717c45eff3e172af4 2f27469d885ce1768fe49658625d6302a97d9c2c 2f32ea41ab6bbb38c4bc6e5954e75df29ff0d66b 2f67ed2beedc2c9c1bdcf1d5d6f6c2309e8435dd 3142d2d915e434df038b56d913f0a49cd2e82950 32315e483f9d93e165ff78e29b3437d377807a6c 327eb3d3cf5849df67de579746200e925d3e1947 359db34e1f2ed9094c61c56de45a3c34b2c582dc 37c3b423075df47b9c7bc7f8953fa8f3ab2c0050 39927e4afbffba04d98dee24e6b71b54607e29d9 39a9a02fdb19142f5c6ec9174dd9c4e9b4143a3a 39bea256405ceabdd64d4f5f8575cb28c2674619 3a141df3eabb16a7945154ec4e955d7e7cd15daf 3eda0a8f36acca5a3e157f12db689db9d479dc0a 3f29a01ea8a605ddbb975531d30a81215f8b3244 40d6a7fd228374a0b390849b894fa3154c39236d 40f62d527d95b648a22ff5e406b187e043a6323f 4263c8aba3cc3708b7d0ad122e8b6b71ffcbbcdd 44c209bdbb31c325f4e74bd4c01cdd60653a0482 45d1a83bb464db87ca669be2bb10da82a1079f11 46d7d5ba5840042b0e63bf8271e0d98bd38a8296 46f36eb818ca340521d3eea7891de93086f96139 48a09ba2ac80dff1be578a4c9ec7d2eaab6b1edc 4b1523deeeb62959c8dbd6ed87582bc7027d1b72 4c1c56608973aa778519552c2fae7422e36794c6 4d5ef37b7ce50d0f7ff50f60500494aa6ff832c7 50bdee49b245c4d4463914585d9d3fffa40674a2 5129805b93874426eff527c7acc8eaa4e20acc2f 548d0d8ce501a88d6f89c19170119a938ccabc49 56553ed15381de878e5c7394d126805a7bee363a 58dcc6a23d7dc8020240960569cbb8a0f4229644 594309338f561e6de08f698cd81949686b115247 5d4590bedb7e1de70ddba1820ab31ce7ee381cb0 5d7cd0aa9f95f0e25d6e6a38ba9ad8bbe376aa2b 63af0d35cb96202a4e288d702e08034c5ac4593b 652d915b26194b9e168fae453f52370115bbcc63 68704b86579dc0647e30e2437ae2ad56537a0d88 6ac8d365f359db731d9c0f609fd0f0ee9522b655 6bcfa689f375ab81fcc548b9ad4b1745a7a61058 6d2aadbd381fdb30482557088daca7eae36c9563 6db3f31afc2b3853a9bb59a1749bef39a9d08a0d 6e5fb3507290e72daed669fba2021b8e062fcba9 73f9f7e44100c277f6c1771b6e87bbc7633e9c49 79509356d8d8988ff3bbb82f44b5736d12fb3195 7a050e61a05975396226bca53cb268eca2510c26 7a4dcd2a64eefec9bba9720cab4ee06ddb3be01b 7e52a1ac588b92b40aae36b52c53e34876eefd1b 7f61bc38f71ea742373554e8d0e1471011405c85 7f9d1abf91de6e114c789d13c92191bc54a0b33d 814d3bc6c0dc711747c9e0f7eb39877f7e8a270c 820cd506a4253b3e937f634c800e5372581c2c3a 82e09611393a6bf4601af5e8a56141034199047f 8344f59b2dbc6e02cd9dc02b2d18d39780359d85 83ff5f2b77646cd66dddc038e5cf335275c3c131 84bf428a42ddd0cb06cbe8577c25aafc6c28271b 85f873b62ffb116ab82d6cd02acbdf67d0c984d7 8dec3e1706f565d7eddf9e5721dd16276a3f2a3e 8e027c7850cd15480cf3e92aaef123a477e72549 90e930f72452479f0753e9313fe34e9f3849f2c2 91f629d256599a744c93fbe6f9d9622d3a7dc09b 9518c05e4c8325067f58f94ef061f24e0915f5f7 992989b248a8f0eede7cfc18984f453512e16d8d 9ababcd4edde4f1f62729caec09ba2ac3652d75d 9d1039a84b68e47455404ccd5ce8fcf5029f01b8 9d1c4ca371f250eb4b55de2893cf87f30b83dbc0 9d530bb76e569b075fb41efc2a156ec2d3f5539b 9e4f58b8ab8cc0e21aae879fcd10d024bee20a5d 9e62fb49181dbb42128fa617e630b45450999a43 a1003167dfc01c01db002ebae2cc873908a0a7f4 a1396eeac2e7b33f81424c8a2fc6e2a36f20b6a2 a163767a41535f475f177e57a224ff9b5c6674fc a254665fb3d3c3b636a2909d521d947b5f155979 a2c9eaec09dc4f68cc5397b2547d43654fbf0992 a34109ae1beb4a77aab2e9df548c6cac228ad2a7 a509df935f67887cc99674f3e5140dcf18312a5e a57992bd50ae91f87ec7e7c0bad19e5921f50501 a5cbd87dbf340a9009d6b7329697f107efb06be6 a83f8ddb9bf1e864657102401dc4a417343007aa aa13d38d495416f364b0b66c095dccfe9991d3a2 ab17950b01bce5110a8c27868079efb56479f770 af0326dba92ac815eb37a40ea37027e8fa14853c b2b7e685264aa6f55d0f1a8ee740253b5b86e70c b30eb28963715ed00619798f5b2c9f7451f1c1e6 b34ade23c5fa39fe28e98e2ffde774ebfc3f79f5 b413f46cf44934a814165dd81cca5c2312abd23c b48ca7a9f556e6a4b4ebdcd0d9c1d265049aa77c b5289b3518cebafd3776175cdae660b055bbe912 b7b4a4a85d68b82da9cdc1e6b77e0ba1a0224cf4 b93094100ab877cc5940414957ff7587ab1fdda3 b955ce043d445aecf2b5112197f8b36d190f0588 bce24cc8a48b6b995c427bcf7ea9fd8c38a5b9f4 bd0cfcd6dd2283a8f1daea21c9330930358e089a bdf6416a62a1d3a84a090436c028a1fbc2a49b8e c23eb75bd58637d3494f32f148cc1c6651477ffd c3ec3f9d771ba848e71a592dad60f0d0106ad1af c3f94eb97fe369a2e195063746eae79c8439ebb8 c429454a6f375a8641f81285c33a3e889a36c167 c4d26a031bd61777c5de410349b07dee24f30dbb c695f03656d25a2c563390bd1853038d3b854444 c730d0c1d5134eb7227d324fc5a73bdc2fe77301 c7d6a6797149d5e9aceabb3b1fcfabb5107b83c1 c8ade6982d89e83ae1e70acbcdc1ac099389d314 cbbe3f973a1335cd997c1f6296b6afce7b65f70e cdf581597b7a88143f80c54e07701b9ca36b3d8a cf00c815deb9ed883acfed9634afcaa855a08ad1 d17c3ed1404bbd0e8e1a6995ce8bde09033cd86a d30ee65654420ea974405704768d82e539b4de93 d52913083383e6ca69086e8fdacb6b8974d80f5e d5762356d673ce4df4e1ba9b6f1d4dd487062f70 daf998871ad46aa131b244c91b4b904cf3a86caf dcc5680457e90b71f8f0d763ccd3b0856acd7ba2 dd444c96ca16f040a6f80d8cb55631ea173ba2f8 dd81e184696fd981e4a2d514736e30d2b1944c03 df50b9f2c38a1f4f52497dbd76c1739a37d87bc7 e287dd45a224669a9037d89d2213e959e8122725 e33d253a52a8e74d17ac60ac63d09322efee84bd e59295a14fbc76d9fd92af299795d010c9ca775a e6141be93cc648befb664e6989830a8a49a3d0a2 e7fc5d1e55411fca222bc50842aabbc0de1bba3b e9fd826cfac12079dc2f58b845635fbc7ca24aa8 ea09531afadab539a367dd2ad66ced360041f15c eb2d4309648eb40df7f07dccac5bac78ab27d913 ed92cae4ee174c18530ebbbfbe9e3d5b193293a1 edc18d85e38bffddd82390584bc8c78627284e78 ee8a33bedcd6399868c05e55ed3ba6434e410ab8 f552594a6249c15358017d213c8c759be5f259ac f696bb7a08bd5cc03b8d35d56532c40350360a77 f87d4174716e02237b005f3ebf28c04b8ab0e9eb fa295434eb8cbe201f923fa598d85be428650a0b fbd44b64510a83b99e632784760095e5b37bf110
+Build-Ids: 018039f3b9ced48b25e025c5ba806ba04b1663d8 0239d20694c5cf6c165291d79c2cb44929efcddc 048f0920754db032eeaf3215162966e9653c7dc5 10f3de7d547ece2ba756218e005e748dfd17df73 11988661b4c14d2856ca9dd4a2a4e165e3b44118 15b9e406cdfec342aa16c250568a91215345e266 1604b32e565459ef497560c6cbf08ab5d5655397 191c389fb8a5b99479bf19739b29c2447604830a 1931a326240a7a3ea5c79621a015d20ada08e536 1a66617e50c3179b14a20381cdd1f4dd43bf7083 1aba403fc92000666906d0d15b0c7c43ffb67a38 1c5cba1089b382001dbe7bcdc539aa7dc9d45638 1da66864357cd8a3ae7eeb5623aae245537fbaf8 21c568a15fa1b18520d7585599817f6ad27c8ba6 21f848b15c3bdc59eff9c042f0ff5397d92f6889 2545c5c7ea737485b3ebc7f7e92662504bd6fead 25a1403be2b9a41d0a6bea9a39bf73c6ae9be8ba 281049202bb15700f541dbd6d7a08f4596d9c1e0 2856ace38368cc57742eb00aed18f6dbe65c6957 2a017da0f45c90b05fcee481b0cb63d577406b19 2ef0d0383942fb0f851c4f014400455c739222d4 2f82f989ecabd144795795ddf4913702ccb9d6e8 3055b646d70126bbf84e40d276e903244b926f53 320cbbc463b8aef3ae856ec4d266475eea32a3d5 33469a7790282119baf11b239d75436d92804b21 3433ba3d743f37371b02b9bb510d48ec12fe972d 34e4feb88bf60e1571fa1cbe09380eaa2cab0bb8 3615a9e2070de9a807bd6cdde364433d95bf97d6 3628b53c2bc7f9691fa1845f95b57d18e3c6e952 36f8d106a741e5e433e9d3937ae99391a88b18bf 37b46b38191c40fe18c97a5ea2aed64cc6cad835 38b44d4eb4fdb39b59c77985aad5ff6b658422fa 3925dd9a8f29d8ad369b84086ae99a74a2b6cf2b 3ca2a2f120640aee9bcc640cf3817ff87eb39dfc 3da305e87d621968a636abd12cf7933b260187d6 3decec794a1b5681d6ff5ebee61a2b6ed7aa2c0e 3e2c8eade109b2d8e026de3367b707a7a9fc5b0c 407f96e1dc03c4a8b6b51d0d1b36a492f302d6dc 44011a658d8220b98413a970eaf8e1120c1bd7fd 484c3c6dd08dd311e97265b0c459718568381db5 48572c48beb4d8d9b6ce203beafd732aa95926da 49ebeaf27f8d956e17e19c604296d4ce3f863925 4b96900a506ca898bab5e1e55f0750b6f2f1fc91 4e4fb2935b4de81f3d2f67d87f6b39e1741aa640 4f25182a213ab45d658d993fcaaa93498441bf3c 5223c2cf9a843fefc8ba531679cdb6dcbc729801 52ba2c354de528835e3f3d7681e327dfc6ed93df 53b5394c89da67a8d77092948bb19b7e44b8ed74 54d719b7304c1a745dd0f1eb4a94dd050935eb52 55b7bb2c90c1b6db3aaadb49553c8a86f8e1087c 587928efc004e57f5a3abc4aeae972d612e4cc58 5a1dec1b60360ed09aeab4ba0e21c4483a4ff870 5b281a1580eaa14e79ce0c64a457aa1bd9e5ce7e 5b5debb2ebac159d0136edfd42cc3744c059437b 5b72d3b2df438896c6a1826d002a53db16dcdf6e 5bbc74783417df4f349be62924a7ab7204a80a20 5c7a2991160484604474dfa54fe3c475c7a6b205 5d0851fae4a77bfadca1aea5e91b8d6145bf3996 5fbc996be4648851e841c1b0dda19cc76001bc52 60ba4e33752c9d56e45630e0bd75b6867d76f9e6 64b35f8470c52d6f2d34adec7b921c991100906e 68b79cf88ca47614c8feae3a197ac5bda6f29f5a 69300d6952d8663feee7a56475312218f229be05 69eea12906c8fc7f40f96c01744e55b98dbcd67c 6a5c35a8c723c5ff399e5c087f887bc173e18048 6c7323264ef1028f242bb53ffceed82c3d529c07 6eee9762d75a29a0bf8c34e8613a4d068c954a09 712213450d9104665acd64a988c97def4c321382 72ef4b309d0c9d636388dddc296a2ba5441455c0 740f3f39fe4d7030a1f7152b31a264a6857536b6 768d89e1add92105d4ea8d7078c8c4fe893b7646 7c3b6ead993658ba38f5820d5461f94f646489a8 7de15498a592c97c9aab498ba4c0d9a157c07261 7fb153b8b7eb31bc49d32c9a120da5ba6d78df0b 804c4cb9251c618cdae7b83f68ad334a9ee1bde2 810d4c1873d4e254c330d2317fb218a5a080707c 8586c19f8a5350c74f2c7220efc455dcfe90c025 86117402557d92fdf4c0da42cd51e13e65cc93c6 88a5267b2a05cae6eb58c95e9cec00cda6868c0b 8df1cf1a3c603b4ac31b275696ebeca1433aa9f9 8e87009ceb9cac4a5ed0a9d44dcba08d07970202 8f46f103e84889cdacc1e8adf30f7db1fe1ef651 910b855da4bad4c20fd75e9a37ec097bfb2d2be7 915e9f5557829b02438f8b411accb86a949debc6 922a16f15a612053c40ae1c5fdc738c83fece5e8 937af084601a5ce794b470a5247f1e3054a6a576 94b172e8ee071220e4f31abd2865bc14622ac93b 981f5f321af7b8d9b77d8ed91af17c47678937f0 9961ed5d6f871c34240202849b6440d37f1c3935 9b3c01f8896bdb8542d9315ac0d981633f0acd98 9cb9db9772947235ba69fd19fe6e404d340fcdbc 9e3c471a21365dfca286a928863fc0b3df30ecd3 9e9a6a6bbe04a4d921fea96ef9e6da96e8928bef 9eaf24ca6b075016b372e6a0bb6b0ceb8176ecf7 a06c73668bfc05b4a569c43b2e34d9c95c3109df a2a367152a9f0b568f3f6db13dca886227a404f0 a4d911c0e751fce6c6f162ab6b02326327034dcd a5137aa3059d6e3695496c5d69a19ec78537bbb6 a560a21e3daa65cda4990eebb56845ba36ed3e6a a6b904ce9ba0a148c3b4997ebaa4d2b57b05d4fb ae0801a6fac2f6505e215349bb461cb26e67e0d2 ae81afc46aa65edd2245832f29c5dd8d81741b3b b1948da1736efe135d761eb6a99ff3335f1bc194 b1a97d0cdddeacddc20dd14839142d76d9dd1ce6 b2454b7ffe066afc7452acded75db401e54d9561 b3eb23ab6c0077ac132a60ed1bb1fb507df01879 b427c0f6fd5bb63422582a3e571b4c846c8ab648 b48c98f5e7818099d4924164038f80e938d94429 b4f34cc4bf9489e9beec1de6eedc767a97f64a49 b672d7955f5ea424d8134eb488a73629746daea4 b7442bc44b88a7ad686fbcf6cfe3aa7f5b7f7ca4 b8b29fbb9197c8d6cdfc2edf34723317959d1f8e bb108b93904e26cc0621390490354d11eab842f4 bbe104daa2b30be2f18dd3bdf1076a25819836ce bdc261abbec6c4242437925a29dad42925090489 bdd5a1947ef1d06de2f3955d4851263ab552381b c2b4089bd0e0fdc13e62ea8f3bf3c1f7cbb0c27f c4d9f3321643e358156ae646e26722ab0119e6ee c67cc237b297ddaaef30851dacabb1bc1163fc88 c7535dbba6bdc032f893e85c7ff2c5deada41e2a c796855e04fc32dfddba76401398443566b2394d c8bdcb5fe858c1848047e4f7e6dde700688cf4d9 cb65d298c2ee6612bf96af934f149aecc89b1a12 cc01b102782ae002d7c5b7d354e5bf5150581d62 d058662babcd122a43113cee3766f5eb12bbb4e0 d2afd8a9763ca61d8687bff3a7d4e4c2a042a18d d4564dc3e8e107c9336d572ee38ee2302534baac d5013068b0b5af8e32b43d39c618e3e558e5bba2 d552352fe496006b6fd3341150c4887ec70bcf06 d5552093acb1a67fa500771877fadbb3c42faa60 d6c6ba7f1dee27982bd627ee17c51ccba3d23587 d6f36a36e6397efdbbe1f6d199460a7245eb5930 d8d61b3e368cc957373d41f9a284f195e873af56 d9bbb7d34ba4e386fa2da78356836f4da8fa4d16 dc04ffa3c434426b668216ffd2655397a6331f98 e2a3c8ef037953a05499c8a562bfbaa3a3bb8973 e30e4d84b987af0b3edb36b09faf42e10d984a33 e35b63afc984c574ffcc06dda8c9efda243e66d8 e700d9de7529f270a29f5758eeb772a101a695fd e7ffbb99d34ca83fdc7e785ff330977a0b9dfa31 e864d3ebd4c32ec306d4229f8616a7fb6740bd5f e922ab99403cb41b3f76a5723e321890eb5412d6 ea0788af701754c77d586173608f8f3849c6545d ea4181c65a22f65eafc66d93f0a7fd0fb5cf51b4 f2fa0f813b4e111c9f461522727e8d54e5543799 f35872d4b3d7d9adf2a318dfe02bd24a82c900e8 fa672a1c4bedcd6154bfa8098021a81fa501be88 fb88f620190291b1e399a20244951e88ce418b11 fe1f241df7accf3863c8af6739299099806d8495 ff95c3f0386e4abd2cc702602fa2c6edaf5e7351 ffa9da36396e2983ab7fba0019ee326d81ef1200
 Gstreamer-Decoders: application/dash+xml; application/mxf; application/vnd.ms-sstr+xml; application/x-hls; application/x-yuv4mpeg, y4mversion=(int)2; audio/midi; audio/mpeg, mpegversion=(int)4, stream-format=(string){ raw, adts }; audio/mpeg, mpegversion=(int)2; audio/ms-gsm; audio/riff-midi; audio/x-adpcm, layout=(string){ microsoft, dvi }; audio/x-aiff; audio/x-ay; audio/x-dts; audio/x-gbs; audio/x-gsm; audio/x-gym; audio/x-hes; audio/x-ircam; audio/x-it; audio/x-kss; audio/x-midi-event; audio/x-mod; audio/x-musepack, streamversion=(int){ 7, 8 }; audio/x-nist; audio/x-nsf; audio/x-paris; audio/x-private1-dts; audio/x-rf64; audio/x-s3m; audio/x-sap; audio/x-sbc, parsed=(boolean)true; audio/x-sds; audio/x-siren, dct-length=(int)320; audio/x-spc; audio/x-stm; audio/x-svx; audio/x-vgm; audio/x-voc; audio/x-w64; audio/x-xi; audio/x-xm; image/jp2; image/jpeg; image/png; image/svg; image/svg+xml; image/webp; image/x-exr; image/x-j2c; image/x-jpc; image/x-jpc-striped; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, mpegversion=(int){ 1, 2 }, systemstream=(boolean){ true, false }; video/mpeg, mpegversion=(int)4, systemstream=(boolean)false; video/mpegts, systemstream=(boolean)true; video/x-av1; video/x-cdxa; video/x-divx, divxversion=(int)[ 4, 5 ]; video/x-h263, variant=(string)itu; video/x-h264; video/x-h265; video/x-h266; video/x-ivf; video/x-vmnc, version=(int)1; video/x-vp8, codec-alpha=(boolean)true; video/x-vp9
 Gstreamer-Elements: a2dpsink, accurip, adpcmdec, adpcmenc, aesdec, aesenc, aiffmux, aiffparse, alphacombine, asfmux, asfparse, assrender, atscmux, audiobuffersplit, audiochannelmix, audiolatency, audiomixmatrix, audioparse, audiosegmentclip, autoconvert, autodeinterlace, autovideoconvert, autovideoflip, av12json, av1dec, av1enc, av1parse, avdtpsink, avdtpsrc, avtpaafdepay, avtpaafpay, avtpcrfcheck, avtpcrfsync, avtpcvfdepay, avtpcvfpay, avtprvfdepay, avtprvfpay, avtpsink, avtpsrc, avwait, bayer2rgb, bpmdetect, bs2b, bulge, burn, bz2dec, bz2enc, camerabin, cc708overlay, cccombiner, ccconverter, ccextractor, cea608mux, checksumsink, chopmydata, chromahold, chromaprint, chromium, circle, clockselect, codecalphademux, coloreffects, combdetect, compare, curlfilesink, curlftpsink, curlhttpsink, curlhttpsrc, curlsftpsink, curlsmtpsink, dashdemux, dashsink, dc1394src, debugqroverlay, debugspy, decklinkaudiosink, decklinkaudiosrc, decklinkvideosink, decklinkvideosrc, dfbvideosink, diffuse, dilate, diracparse, dodge, dtlsdec, dtlsenc, dtlssrtpdec, dtlssrtpdemux, dtlssrtpenc, dtmfdetect, dtsdec, dvbbasebin, dvbsrc, dvbsubenc, dvbsuboverlay, dvdspu, errorignore, exclusion, faad, faceoverlay, fakeaudiosink, fakevideosink, fbdevsink, festival, fieldanalysis, fisheye, flitetestsrc, fluiddec, fpsdisplaysink, freeverb, gaussianblur, gdpdepay, gdppay, gmedec, gsmdec, gsmenc, gtkwaylandsink, h263parse, h2642json, h264parse, h264timestamper, h2652json, h265parse, h265timestamper, h266parse, hlsdemux, hlssink, hlssink2, id3mux, insertbin, interaudiosink, interaudiosrc, interlace, intersubsink, intersubsrc, intervideosink, intervideosrc, ipcpipelinesink, ipcpipelinesrc, ipcslavepipeline, irtspparse, ivfparse, ivtc, jifmux, jp2kdecimator, jpeg2000parse, jpegparse, kaleidoscope, kmssink, ladspa-amp-so-amp-mono, ladspa-amp-so-amp-stereo, ladspa-delay-so-delay-5s, ladspa-filter-so-hpf, ladspa-filter-so-lpf, ladspa-sine-so-sine-faaa, ladspa-sine-so-sine-faac, ladspa-sine-so-sine-fcaa, ladspasrc-noise-so-noise-white, ladspasrc-sine-so-sine-fcac, lc3dec, lc3enc, lcms, ldacenc, libde265dec, line21decoder, line21encoder, marble, midiparse, mirror, modplug, mpeg2enc, mpeg4videoparse, mpegpsdemux, mpegpsmux, mpegtsmux, mpegvideoparse, mplex, msesrc, mssdemux, musepackdec, mxfdemux, mxfmux, neonhttpsrc, netsim, objectdetectionoverlay, openalsink, openalsrc, openaptxdec, openaptxenc, openexrdec, openh264dec, openh264enc, openjpegdec, openjpegenc, openmptdec, openni2src, opusparse, pcapparse, perspective, pinch, pitch, pngparse, pnmdec, pnmenc, proxysink, proxysrc, qroverlay, removesilence, rfbsrc, rgb2bayer, ristrtpdeext, ristrtpext, ristrtxreceive, ristrtxsend, ristsink, ristsrc, rotate, roundrobin, rsndvdbin, rsvgdec, rsvgoverlay, rtmp2sink, rtmp2src, rtmpsink, rtmpsrc, rtpasfpay, rtponvifparse, rtponviftimestamp, rtpsink, rtpsrc, sbcdec, sbcenc, scenechange, sctpdec, sctpenc, sdpdemux, sdpsrc, sfdec, shmsink, shmsrc, simplevideomark, simplevideomarkdetect, sirendec, sirenenc, smooth, solarize, spacescope, spanplc, spectrascope, speed, sphere, square, srtclientsink, srtclientsrc, srtenc, srtpdec, srtpenc, srtserversink, srtserversrc, srtsink, srtsrc, stretch, svtav1enc, switchbin, synaescope, teletextdec, testsrcbin, timecodestamper, tonegeneratesrc, transcodebin, tsdemux, tsparse, ttmlparse, ttmlrender, tunnel, twirl, unixfdsink, unixfdsrc, uritranscodebin, uvch264mjpgdemux, uvch264src, uvcsink, vc1parse, videoanalyse, videocodectestsink, videodiff, videoframe-audiolevel, videoparse, videosegmentclip, viewfinderbin, vmncdec, voaacenc, voamrwbenc, vp82json, vp8alphadecodebin, vp9alphadecodebin, vp9parse, vulkancolorconvert, vulkandownload, vulkanh264dec, vulkanh265dec, vulkanimageidentity, vulkanoverlaycompositor, vulkanshaderspv, vulkansink, vulkanupload, vulkanviewconvert, watchdog, waterripple, wavescope, waylandsink, webpdec, webpenc, webrtcbin, webvttenc, wildmididec, wrappercamerabinsrc, x265enc, y4mdec, zbar, zebrastripe, zxing
 Gstreamer-Encoders: application/mxf; application/x-bzip; application/x-dtls; application/x-gdp; application/x-rtp, media=(string){ audio, video, application }, encoding-name=(string)X-ASF-PF; application/x-sctp; application/x-subtitle; application/x-subtitle-vtt; audio/AMR-WB; audio/aptx; audio/aptx-hd; audio/mpeg, mpegversion=(int)4, stream-format=(string){ adts, raw }, base-profile=(string)lc; audio/x-adpcm, layout=(string)dvi; audio/x-aiff; audio/x-gsm; audio/x-lc3, frame-bytes=(int)[ 20, 400 ], frame-duration-us=(int){ 10000, 7500 }, framed=(boolean)true; audio/x-ldac, channel-mode=(string){ mono, dual, stereo }; audio/x-sbc, channel-mode=(string){ mono, dual, stereo, joint }, blocks=(int){ 4, 8, 12, 16 }, subbands=(int){ 4, 8 }, allocation-method=(string){ snr, loudness }, bitpool=(int)[ 2, 64 ]; audio/x-siren, dct-length=(int)320; image/jp2; image/webp; image/x-j2c, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-jpc, num-components=(int)[ 1, 4 ], num-stripes=(int)[ 1, 2147483647 ], alignment=(string){ frame, stripe }, sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-jpc-striped, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }, num-stripes=(int)[ 2, 2147483647 ], stripe-height=(int)[ 1, 2147483647 ]; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, systemstream=(boolean)false, mpegversion=(int){ 1, 2 }; video/mpeg, systemstream=(boolean)true; video/mpegts, systemstream=(boolean)true, packetsize=(int){ 192, 188 }; video/x-av1, stream-format=(string)obu-stream, alignment=(string)tu; video/x-h264, stream-format=(string)byte-stream, alignment=(string)au, profile=(string){ constrained-baseline, baseline, main, constrained-high, high }; video/x-h265, stream-format=(string)byte-stream, alignment=(string)au, profile=(string){ main, main-still-picture, main-intra, main-444, main-444-intra, main-444-still-picture, main-10, main-10-intra, main-422-10, main-422-10-intra, main-444-10, main-444-10-intra, main-12, main-12-intra, main-422-12, main-422-12-intra, main-444-12, main-444-12-intra }; video/x-ms-asf, parsed=(boolean)true
@@ -175,19 +175,19 @@ Priority: optional
 Section: libs
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 11875
+Installed-Size: 11823
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-videoparsers, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
-Depends: gstreamer1.0-plugins-base (>= 1.24.0), gstreamer1.0-plugins-good (>= 1.24.0), libgstreamer-plugins-bad1.0-0 (= 1.24.7-1ppa1~noble3), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl3t64-gnutls (>= 7.55.0), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdirectfb-1.7-7 (>= 1.7.7), libdrm2 (>= 2.4.98), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 165), libimath-3-1-29t64 (>= 3.1.12), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.1-0t64 (>= 1:2.1.0+debian), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.1-0t64 (>= 1:2.1.0+debian), libmplex2-2.1-0t64 (>= 1:2.1.0+debian), libneon27t64, libnettle8t64 (>= 3), libopenal1 (>= 1:1.14), libopenexr-3-1-30 (>= 3.1.5), libopenh264-7 (>= 2.5.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.4), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc2 (>= 2.2.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libvpl2 (>= 1:2.13.0), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwildmidi2 (>= 0.2.3), libx11-6, libx265-209 (>= 3.6), libxml2 (>= 2.9.0), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing3 (>= 2.2.1)
+Depends: gstreamer1.0-plugins-base (>= 1.24.0), gstreamer1.0-plugins-good (>= 1.24.0), libgstreamer-plugins-bad1.0-0 (= 1.24.7-1ppa1~noble3), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl3-gnutls (>= 7.55.0), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdirectfb-1.7-7 (>= 1.7.7), libdrm2 (>= 2.4.62), libdvdnav4 (>= 4.1.3), libdvdread8 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.68), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libgtk-3-0 (>= 3.15.0), libgudev-1.0-0 (>= 165), libimath-3-1-29 (>= 3.1.6), libjson-glib-1.0-0 (>= 1.5.2), liblc3-0 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.1-0 (>= 1:2.1.0+debian), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.1-0 (>= 1:2.1.0+debian), libmplex2-2.1-0 (>= 1:2.1.0+debian), libneon27, libnettle8 (>= 3), libopenal1 (>= 1.14), libopenexr-3-1-30 (>= 3.1.5), libopenh264-7 (>= 2.3.1+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0 (>= 1:0.4.25), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.1), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 12), libsvtav1enc1 (>= 1.4.1+dfsg), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libvpl2 (>= 2023.1.1), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.2.4), libwebpmux3 (>= 1.2.4), libwildmidi2 (>= 0.2.3), libx11-6, libx265-199 (>= 3.5), libxml2 (>= 2.9.0), libzbar0 (>= 0.10), libzvbi0 (>= 0.2.35), libzxing2 (>= 1.4.0)
 Suggests: frei0r-plugins
 Conflicts: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1)
 Breaks: gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.24.7-1ppa1~noble1)
 Replaces: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-plugins-bad1.0/gstreamer1.0-plugins-bad_1.24.7-1ppa1~noble3_amd64.deb
-Size: 3346936
-MD5sum: 27e552b1aed10209f0bf2fef379c0d42
-SHA1: 223ce84f444ac30ea286a140efdd8e746b72e845
-SHA256: 07c28297f17f6a04aa34ca27812affcf6022490bdb4a0cb9081bc79b99ecca08
-SHA512: ee1b2be419d3f8b8a03ee41395d371c51a21c9a9e6e4723cc838153515d158ca8a06c64ea72c60f1fa42b406c958e7d7be4357d83240bd672de981d68d225c13
+Size: 3332728
+MD5sum: 109e54bc58d85f03dc8e42d1f21dd923
+SHA1: afb04771a4e42654ff5501442282241dbbdcfe01
+SHA256: b5361e54cb266ebc22a1231d5b421de8a633f05da46b0440d5bc0e32545251c5
+SHA512: bc9a76636fff724aaf6d08442bdd89d10c67e05db6f4bd65b72a659b79e04b94a0d6dae0bd30dcbc80b9620479c7a6480cf260b4a5c2bb80ea32ea8c91c2ea56
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -220,13 +220,13 @@ Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debia
 Installed-Size: 92
 Depends: libgstreamer-opencv1.0-0 (= 1.24.7-1ppa1~noble3)
 Filename: pool/main/g/gst-plugins-bad1.0/libgstreamer-opencv1.0-0-dbgsym_1.24.7-1ppa1~noble3_amd64.deb
-Size: 79256
-MD5sum: b0fbec0c1d1c952f0b9d06632219b7c6
-SHA1: bddce7e7cf5a23dce77ee216132307996837c4f6
-SHA256: c22a9da56869215867cef97d8d866371821d10f2dcd82b4c4e67e2d2e4eb5179
-SHA512: 12228c28b030b40573bad8a4d18b064c48b1b9fc3093c6fb0b2b7bf4113ef7c764e349a0edbab45bf3f5eeacff137a0e14f33f01ebc80df2f7967cacad87df13
+Size: 78916
+MD5sum: f9c7d43ea2a854c57f48264e1490b73b
+SHA1: 24876f3b209af668aee5db5eb239fdc4d7272433
+SHA256: 5b86f877ca890fa9d63565c512bffb9da1c424a61dfcc75f801fe964762c2f14
+SHA512: 759fc57711a70a896ae0cc58f074f751edadbb02667f4d274ae02cf5309ab704810ee26c13ac30f784d66f904da01cb65018b19189715eceeb81caa67f20c970
 Description: debug symbols for libgstreamer-opencv1.0-0
-Build-Ids: 6f6e66ad435cbcc2ba89c83bac9263d11f6b6b6c
+Build-Ids: bad6af023007b221451a9b7ac075d2502bf021d5
 
 Package: libgstreamer-opencv1.0-0
 Architecture: amd64
@@ -236,16 +236,16 @@ Priority: optional
 Section: libs
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 277
-Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libopencv-core406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 4.1.1)
+Installed-Size: 276
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.68), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libopencv-core406 (>= 4.6.0+dfsg), libstdc++6 (>= 4.1.1)
 Conflicts: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
 Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
 Filename: pool/main/g/gst-plugins-bad1.0/libgstreamer-opencv1.0-0_1.24.7-1ppa1~noble3_amd64.deb
-Size: 194212
-MD5sum: 638ff463610250e20baa700351d84dc7
-SHA1: 49378735945c0f5084ad2bf01659921301647cc7
-SHA256: d0aaf93e7de603c32fb6495ffa63a905dafda001ebb556110928f97010b8556f
-SHA512: b4c9c901504d2bc0cc02a18121750fbf627ef1a9c8791a44d17ec0509ec6d27e584023204ac96be1541408cf05987b48cb5276b4221af700f69f9241c34f681a
+Size: 194292
+MD5sum: c1b948a63fc9ba0ee62d786929eee4d2
+SHA1: 27a19416d7714fc0c7461adc42ed5a9ec0a5bfe9
+SHA256: 87d47c8b75569ee0fbef084db79a41872505bd2524071cc75c1ef9d8ee2a1f4d
+SHA512: 78ffb0357885ef7208654293ff360246eb0ef34326e73e469c29d9076fa9697b8eb5f420c173ed1083443fff020a5e781264331d2989c1724983a8317eab1d0a
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer OpenCV libraries
  GStreamer is a streaming media framework, based on graphs of filters
@@ -271,16 +271,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 3552
+Installed-Size: 3375
 Depends: libgstreamer-plugins-bad1.0-0 (= 1.24.7-1ppa1~noble3)
 Filename: pool/main/g/gst-plugins-bad1.0/libgstreamer-plugins-bad1.0-0-dbgsym_1.24.7-1ppa1~noble3_amd64.deb
-Size: 3151476
-MD5sum: b50fd260196468249f81d31f3ce2d70e
-SHA1: 5a9142dad578e657cc3826a72d21b27a5ddc705a
-SHA256: 163c775ca462d83eda2d7d14ed34183c3c7f092cbcb786eb4aa27a467b9d77dd
-SHA512: 58d32307f199892c89370286657ad1141adc7f2950b6400ef1537df738ab3a2133724730903d0d8b9427227e7cdd92e513b66f881c47c3b5cf7c8e662246e8dc
+Size: 2970772
+MD5sum: 9757a682e6834cd87e0c7f3f1a253181
+SHA1: 8b800e27841c88a53f67787b2a8a3702e3d87fd9
+SHA256: a3984e9cb20c6cbc8654b8f07d97c2d16b31109ffd16f600787aee61d29733f6
+SHA512: 0ec3c1e12b6327027ec50448206f2617e25957503b3b36b1d12b19c6f865546deed286bad4a3c123f7a908ce67a90630b8bde589cea9a45c69daaed188a2773c
 Description: debug symbols for libgstreamer-plugins-bad1.0-0
-Build-Ids: 1160ed7f5fd1bb74f979bf777eff42afd4b7561d 117b5eb007c078fd5063d1d0ff28600e816c2b06 180be0ba7defce20998f28868006b7e7af39c133 2c25f5f3f2e27797eefa40f727ad2e278117621a 51053a9d61296468d7890faf888a164fdc88c1a8 529cbb52484303e52d49f49adc08563e9694b41b 55014735bcca470d40d99ef6ef4f39e8d7e0540c 5dbf47b0efab08e529363a9201948129a79f4dba 5ff6d5bc9186ec43b59a2bcb4495ce8b902c5160 6478a7772decc7e2cc4536b11bebc0fc8cd17193 75bb9a4db75cdee840d9b3ca1a550e48e2ef1292 770c3e4fcaf9f433e6e02283dbbe5420a65966fb 7b87d57942f12ec19e7b89719bebd41306aeae12 8b98a6fe9f7d49add050a5e5626f854a3ba5b2fb 8ba5b4309ab98f2d3f81b7985c621c7e365a64df 91762e5a18c5f6b01d8ab4afa70f3c647d0bc8f8 a6f215c2bda01c59daefcf97aff52740b3dbcd79 b4f29fe9f9a4e629ff05a42f492f5acd909971e6 bfd27ebc9f6196b0b3ce4607ba6c8a2004a8c44e c6431909bccfd249811540f0802b98e67abba1e8 df124a92ac01386dd044c25f5bb48b38d501d709 e52663924b1e5d50d7f3c642014a7ce6ab0af7a7 fdd5085c52377e9267c5e0f0fb2bd654cee0a4b8
+Build-Ids: 0a3f2efdde537c921fdd4cbdf6477daf9784cd83 0ec90abe6c84cfab32af772478eecf2b48cfa3ed 1adae8ba1a67982151e688db3e544f40f6a01722 23072eae6e03fd30677dd37c636f5be5b295e73a 3ce42ab9c182f0b7f9481d51253db65804684070 4672290e2c53100cfc1cc0df11c0589834224df0 516269b746f65500919a86cd03bfc5f8310dc1e8 676e9111d0a843eb4307452671e3bf219a7de10e 69f9a66f1224d9faf0c3f909e48c3216ddab7f3f 78daaf679d9df88e47e3f22b62a69ee5373fcf7e 8049aeff269c7912429f2ef3f7980eea0d03ccce 81dab098cec7c30686ef66567e37c85d0f41e431 8e8c5f04c792f591005b43292b1891f5c7a9de3b 8f1e0afb2516b54771c8c8160b6ef867534521e2 94017d501f4c15f158b8a5fd6b65dc470dd1da25 9692fcc6fe20712373fa3b2cb33aadc4d7d86cae 9a698af97cce9707fa444420a23bf28c001194ad 9afd567e72390d2ea8845b7df6f7b42b1a6e5265 b3a6bb49b4f7e9fad9cbd8d73677e0c331496bb8 e6a968c57319c6f55c865dfa17bf70373001962c f06fae657c9b88ae833cdc20898c257c64e4c20a f7f48cfa5a759d545adfa28b37fe5e7ccdeefafe fc86d1e850cce37801daab810c70ee7ea80877fd
 
 Package: libgstreamer-plugins-bad1.0-0
 Architecture: amd64
@@ -290,17 +290,17 @@ Priority: optional
 Section: libs
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 3180
+Installed-Size: 3156
 Provides: libgstreamer-plugins-good1.0-0
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.98), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libnice10 (>= 0.1.21), libstdc++6 (>= 12), libva-drm2 (>= 1.8), libva2 (>= 2.21.0), libvulkan1 (>= 1.3.204.0), libwayland-client0 (>= 1.23.0), libxcb1, libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0)
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.3.1), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.68), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libnice10 (>= 0.1.21), libstdc++6 (>= 5.2), libva-drm2 (>= 1.8), libva2 (>= 2.21.0), libvulkan1 (>= 1.3.204.0), libwayland-client0 (>= 1.20.0), libxcb1, libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0)
 Conflicts: pitivi (<< 0.9999)
 Replaces: libgstreamer-plugins-good1.0-0 (<< 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-plugins-bad1.0/libgstreamer-plugins-bad1.0-0_1.24.7-1ppa1~noble3_amd64.deb
-Size: 1033992
-MD5sum: 5f60ce1e278c67be5fdc824200f2d50d
-SHA1: 590a721375e1f3d0be98362ac60bc182428c3231
-SHA256: 2aeb31bfad30f1ab780b2839f59a856811be687d275f495719b85283e4535740
-SHA512: 861059d247791cafc26a1a12c5d373a35a2efa93300434b54ddb28d3577ffce132efc8195b432d07ae614b288e0fe59c07dc14ff18673048cfc8f447cc967c0a
+Size: 1025032
+MD5sum: 3c06d7760c49ab85a4d6e07c3ea0e4d8
+SHA1: f5e35523d333363317b278c55bde9e32728e8afa
+SHA256: e753cca8c76dafceacabd76286b7abf2c8c748e75e7518fea6119ce9057ca404
+SHA512: e1244cb9dbd5b401e8bd15ad6ed7ced1b75ad355da97bb5588500924899f15362464e67236d81df1931a5465bbee2816f9cca0888d33f083f8cfca9366163079
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer libraries from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -326,17 +326,17 @@ Priority: optional
 Section: libdevel
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 4156
+Installed-Size: 4122
 Provides: libgstreamer-plugins-good1.0-dev
 Depends: gir1.2-gst-plugins-bad-1.0 (= 1.24.7-1ppa1~noble3), libgstreamer-opencv1.0-0 (= 1.24.7-1ppa1~noble3), libgstreamer-plugins-bad1.0-0 (= 1.24.7-1ppa1~noble3), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libopencv-dev (>= 2.3.0)
 Conflicts: pitivi (<< 0.9999)
 Replaces: libgstreamer-plugins-good1.0-dev (<< 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-plugins-bad1.0/libgstreamer-plugins-bad1.0-dev_1.24.7-1ppa1~noble3_amd64.deb
-Size: 500516
-MD5sum: 6c03dce7bf741975a05285981d06f717
-SHA1: 263d4aa3e8b70e6d8782c13c236a4ce51411b3a4
-SHA256: 38218bec17c79ab0f3942200b7399283757d7fa8d9cb8771811171196b18a60b
-SHA512: 2fcfc2c057c64599ace567aaffed59653746b41f4575ec0a2da989520c5673c5659e1bfcaf6d404679b65c10a598cca0c362a6e77369da4ab15d108ecf2a11c8
+Size: 499220
+MD5sum: d533a2ade6fe9c8b792a235637dfc23d
+SHA1: 677809ab4357bdf595ac3e6f9665ab3f14bbfd2b
+SHA256: a5b4ad1baaf3844f3a41744ae14d8f196998cdb57414e0cb9b1851fadbf7c59a
+SHA512: 1115a1fd4283bd4b4941fc56f93e446050bd3cbd06748b60d73896a63b20fa89891bff3af63c302f50c8862cb79ea4424479ac7d88662f83dbd97b9c175d0aae
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer development files for libraries from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -363,13 +363,13 @@ Section: introspection
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 536
-Depends: gir1.2-gio-2.0, gir1.2-glib-2.0 (>= 0.9.12-4~), gir1.2-gmodule-2.0, gir1.2-gobject-2.0, gir1.2-gstreamer-1.0 (>= 1.24.0), libgstreamer-gl1.0-0 (>= 1.23.1), libgstreamer-plugins-base1.0-0 (>= 1.23.2)
+Depends: gir1.2-glib-2.0 (>= 0.9.12-4~), gir1.2-gstreamer-1.0 (>= 1.24.0), libgstreamer-gl1.0-0 (>= 1.23.1), libgstreamer-plugins-base1.0-0 (>= 1.23.2)
 Filename: pool/main/g/gst-plugins-base1.0/gir1.2-gst-plugins-base-1.0_1.24.7-1ppa1~noble1_amd64.deb
-Size: 169748
-MD5sum: 789dbd1b8c66f28bb4e924f2389d5c74
-SHA1: b47cfa4fb25d082b807040faf550b647f954e9fc
-SHA256: 5a92d943e296bde24642396e9f9aa497de5705f01f17d27bb6d60ee711596efb
-SHA512: c72547a5ac0b9f0fad7c51f6388bd151c5e7ff0d022609e9e42e5106015b3cfaf62dafdaa7815ad0d4d271b53670e96ca62c3518e7aa14efbfcf2bf4a71b4a05
+Size: 169620
+MD5sum: ed9d1207b21d900c7e7be754085bf68c
+SHA1: 24dd2e147d8fb045ff15b449670b861d69012cb6
+SHA256: 6a22e26201dfb03ee0513be8baf78ab472bbbf088c1f71acf1b3287026f38103
+SHA512: 12e2f42dc71e554ddfd73cb8c60b84166a6f9a60df687eb3ccd7fd3bc4a277455ee1a9235ee3eaa8d42da6575e7febcfad7cfc2a1908e7db050bb9e65d336fe2
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer Plugins Base library
  This package contains introspection data for the GStreamer Plugins Base
@@ -394,16 +394,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 136
+Installed-Size: 130
 Depends: gstreamer1.0-alsa (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-alsa-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 109316
-MD5sum: b94c1580c797bfee6ab805fc54b27bc0
-SHA1: b5c5984c1f908dac0ca2d1a141c1e393d4149253
-SHA256: 8f5b23c0790c6245405b6e0b95b139ce0c4d824bcb2d39a03f3e4b9042cc78eb
-SHA512: 5b9f797dc39ece629bf83c151463dd0e52e7d4c21fe08d1ba9be7f028e3931fe67950ef26cf440c2e669cd5076202fd31c88bcde19496d32cfbbf080ce5f3e49
+Size: 103720
+MD5sum: e8575be03343a50126494e6a606afdff
+SHA1: fc78df94b4be9a1d8d62ada2a0ee8e2a6337719c
+SHA256: 7f2fef7bfc6b2b8e403e2edb309b096c4591b42386d25aae8417afe5fd96572b
+SHA512: a727c6a85ce5fe036c8a5418f3a8cbe562302c0cfb8c636202bad7a654f96a130abbc2aa8fb793f76b8d7af65159bf96bff53ed3538f08a6df2ec5725c116251
 Description: debug symbols for gstreamer1.0-alsa
-Build-Ids: efc083c511f52c17985a2e6004e7cb59a7704bd4
+Build-Ids: cb1744b07661b7fe38baab512f66a7dd1bc1462d
 Gstreamer-Elements: alsamidisrc, alsasink, alsasrc
 Gstreamer-Version: 1.24
 
@@ -417,14 +417,14 @@ Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 225
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource
-Depends: libasound2t64 (>= 1.0.27), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0)
+Depends: libasound2 (>= 1.0.27), libc6 (>= 2.4), libglib2.0-0 (>= 2.67.3), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0)
 Suggests: alsa-utils (>= 0.9.0)
 Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-alsa_1.24.7-1ppa1~noble1_amd64.deb
-Size: 112508
-MD5sum: aeab27279e862249b1af911d362e2e6e
-SHA1: 2bf1259f96f155d757fc5efc87e42cb902fa05ae
-SHA256: 4d16acd4f01b38cf4a925f8da3a904ba9a17c107a191aea962e8841fae40f09e
-SHA512: ff8e9d1fc9d43119af5cbfbf1733647f50353f5adf4ba8b5cd504489c4204c8d47b6a708f5989aa65a732ce4a129e9e494e9294e8ecaf5996346c535f2f37224
+Size: 112272
+MD5sum: 4d745278b5bb5d705c93d8cb690a5d33
+SHA1: 2bf9f99e00c6f8d90e66f9180b0bb367abbb9bf6
+SHA256: a89203ce9e13ff38e3bed7b8e2d758fb9b6a37dfc459b6582236fd0d61e769e4
+SHA512: d73afcb8f16298f12383088797b5d7b29d2bc3be9b16791a8ece1db1d81bba0b2610368cc56db69ba7967d2f1366adb409904cde342dc40bcd5de614ae6cadb1
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugin for ALSA
  GStreamer is a streaming media framework, based on graphs of filters
@@ -448,16 +448,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 396
+Installed-Size: 402
 Depends: gstreamer1.0-gl (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-gl-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 331828
-MD5sum: f83070f925b3c1e12de2c7ce16a5ef58
-SHA1: b649bfde08f9bc4cf4757b4ac2ce4e9a294dc626
-SHA256: d7558e068982afeedb48b744cd7bcc2d7d6ce5c616bac52ef9892760aa68bdba
-SHA512: d4216323a9bc58f3977db235adf7d0089d2d6c65e8ba93701619b2d32924a3827b0364902f03622e6eaa22d5ccabadd2f186b87646c1db7bd7f73fc3adc3c70c
+Size: 337104
+MD5sum: 246ce0854bfced832bd5392493acd39f
+SHA1: 65a8b4474db35a300bd014808ad324ec64a3bf82
+SHA256: e9937154c843bad01a88d01e68ae8595f5f03c96cf82fd4fcbdceb23d1a5278e
+SHA512: cef422babe0def0f3143da7d50ada8836020b6ae5b131db366aba6c9e8eaf545d2275130b9cdcb3b537f13ac60fb88ab0f36095ed5b866fcf070ffa2499f6b6a
 Description: debug symbols for gstreamer1.0-gl
-Build-Ids: 581ee920f4dea2b36d66462240e1450cef03ec46
+Build-Ids: 22552dd182208280f1f2077b778ef8d32058ffad
 Gstreamer-Elements: glalpha, glcolorbalance, glcolorconvert, glcolorscale, gldeinterlace, gldifferencematte, gldownload, gleffects, gleffects_blur, gleffects_bulge, gleffects_fisheye, gleffects_glow, gleffects_heat, gleffects_identity, gleffects_laplacian, gleffects_lumaxpro, gleffects_mirror, gleffects_sepia, gleffects_sin, gleffects_sobel, gleffects_square, gleffects_squeeze, gleffects_stretch, gleffects_tunnel, gleffects_twirl, gleffects_xpro, gleffects_xray, glfilterapp, glfilterbin, glfiltercube, glfilterglass, glimagesink, glimagesinkelement, glmixerbin, glmosaic, gloverlay, gloverlaycompositor, glshader, glsinkbin, glsrcbin, glstereomix, glstereosplit, gltestsrc, gltransformation, glupload, glvideoflip, glvideomixer, glvideomixerelement, glviewconvert
 Gstreamer-Version: 1.24
 
@@ -469,17 +469,17 @@ Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 446
+Installed-Size: 466
 Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
-Depends: libc6 (>= 2.27), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.2), libx11-6
+Depends: libc6 (>= 2.27), libglib2.0-0 (>= 2.62), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libx11-6
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
 Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-gl_1.24.7-1ppa1~noble1_amd64.deb
-Size: 182932
-MD5sum: fb4cd6f5d4fb0f5194b757d673245eba
-SHA1: 1222846446e996b7efb1d3d2f5707167972d26c9
-SHA256: 704bbd555e897f5cae260a0c1fbda92627e026d174c5f92328422d34d1d07598
-SHA512: 80bf1d04d36a403cfa915868dd421f0f0977d5e80c8b8d5b7a3a39d8da8dfc6e8e39fcdc64370431eabdabefb5dcba775bd3fe51525cd3d53066da55cc4c651a
+Size: 187900
+MD5sum: e0a736e26109d980754d3a2a08af3664
+SHA1: 8b83260a66d1fedd862dad8e6f95a1dc4439d00a
+SHA256: a673b3cbd64b5dac38ec25be8a30b93aaa528a8b41cd076760a0795ffd17fbca
+SHA512: b858cfa76b3a181fd4d57daa76c2afbbd9796615e440fe2ffdc5acaf5d9af3b21d21e92b3da3a0c11f913ab2d55d8b00ed9c339babf344136b40055a63b478ee
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins for GL
  GStreamer is a streaming media framework, based on graphs of filters
@@ -501,16 +501,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 134
+Installed-Size: 112
 Depends: gstreamer1.0-plugins-base-apps (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-plugins-base-apps-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 72196
-MD5sum: bcb4f266e883d7b5f04179b6a32e479a
-SHA1: 90cd0b2ed9ac6864b39039a108b2ff289def9107
-SHA256: ba89d852952ae115e03b73ba4503002c8d7380792c9111560386cd76a5134e9f
-SHA512: d29b0648fc715f69fabeab3020206ba5154b37f2286184c3e14390864ed19010ee5f76602fee7c982e65b49001b50109f96292f9646e7043e68e6fb43a1cf306
+Size: 69120
+MD5sum: cce2a43102a9b440ec9f10c95a73c2e0
+SHA1: 62ae37f845991118f94e40ca339d44408b450bee
+SHA256: 9e92e955fd14a22db41c83c195bbc5a6b863bb5db0b08f87a48ad28061522b0d
+SHA512: c1839ac7fe6013dc5f68de1d11fdc2a3903ee836d286c22b82784af2c30073230918a08890317d08e59d35aad43a3a2acdf679480cbb1296a1d7bab3339b187c
 Description: debug symbols for gstreamer1.0-plugins-base-apps
-Build-Ids: 76573620513365e25478f2e1f566720148a1bac4 bbb6e3741cb591506fbbcb77d22dd2d3d41e0391 d56d83893dbdd49fa46e0c25f57560e280e7ecb1
+Build-Ids: 0736a04283a21e15f3796720e5c3338810ac964f 208e85a46f5d0d45ea152ffd6d2df58f6d56b922 ad0dcf7b917c2d4dffb7aafa185115bee814ebbc
 
 Package: gstreamer1.0-plugins-base-apps
 Architecture: amd64
@@ -520,13 +520,13 @@ Section: utils
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 227
-Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.76.0), libgstreamer-plugins-base1.0-0 (>= 1.20.0), libgstreamer1.0-0 (>= 1.24.0), gstreamer1.0-tools
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.62), libgstreamer-plugins-base1.0-0 (>= 1.20.0), libgstreamer1.0-0 (>= 1.24.0), gstreamer1.0-tools
 Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-plugins-base-apps_1.24.7-1ppa1~noble1_amd64.deb
-Size: 106340
-MD5sum: b1854c0fe162d31482d66b441399eb90
-SHA1: 686067054b67d48207926b47790e16312a7c84a2
-SHA256: b0a6ef7104be2c5c3d891c6b2b20e57c57b3fb4cc7e2280637734fd6b3040cdf
-SHA512: df2763c2b3a1cb5a1c9a2bc7b3c0b97b6de5d019769138b54578b01c30382954195ac532aef391b9aa0d8dd920730c1ce47321cc18ca319a6023b64f2819db06
+Size: 105956
+MD5sum: 105d1b33eede4310612d599929e72eb1
+SHA1: fa5e19ea450b8a0002e2983fdafdad335ee23418
+SHA256: 9f10732d3a04bd9e338a1b0cc3340f954d1979dff37bcd9ce304ea8dd41e2886
+SHA512: 46a2e03f97f781d13a8f8b075f5e1c8b524745de1b3d99588276828c71dd2711a84a2df9096f8e5600f881c1c96d54a02811ecdb3fb05c5e141126f40783aac3
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer helper programs from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -548,16 +548,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 2568
+Installed-Size: 2472
 Depends: gstreamer1.0-plugins-base (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-plugins-base-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 2148420
-MD5sum: 2de4409defb86cdbbd302de0e22500c3
-SHA1: e4b1c2b8cede482ec7487a1a294ac6449f989351
-SHA256: a48cb346f8f128a3c0808568cb691d721332c245bba96791f92717f1c8a270cf
-SHA512: a867ffb1f0aca330155115966e0e22c33fc99365ebc9fd44fdb9d7abf477793ddf8212712179ca9a045493ebda14c7b006c09c8809f0893786a1eecb563bc55f
+Size: 2038612
+MD5sum: 1711ce082bfc71c237a5e87f89d18ad0
+SHA1: 48388a7bf01b2daffd62672cedc517e26864422f
+SHA256: defb20f645e08f877dc9ca7c3711472644e8c70d5ed4de73965737985750220a
+SHA512: 4936ef991b755e7c10fb5105342eef0f114ae623ff507f8a2c4d1ccc525b15aa33da79967dabe661ba7dc4c1ae8b7f6e52ea6eec73e14223e4495552c39bea6f
 Description: debug symbols for gstreamer1.0-plugins-base
-Build-Ids: 00dc46415c290efe340b1d4a35a9c17284c71630 019bdb3415bc963aba486009a11da2ea40ee685a 0734cd68143b0ea14b3e43084e262811bb2a9bee 1c13aff93df1862dae115f4da14a45f46cc5f290 3d047bff7f6f0cfb8c3189b43cf0d904d9bbe967 4eab0ca8f091eb2fd55999c841566b84fa30f892 5edd30fee995b69ec78717dfb55dd3f6f90b0d51 644a1eead5d16ef21b0c3231c910ebcf88ad2394 72e9ad03f8b3145af0e5cfed59e91c182f56df26 73cb8226c0a0d458511513a99c7e253fba0b935c 78ed7d2f4bf516007ef6ba6542dbef2a7b132ab5 8445677fb288e39ba0b9fbe234b475d2906f382e 8cf2fa15177f004f0f01a4634cac09953c01cc52 91620822b877699ce552af54626aa37f09cd74ab 935f7a780b4bf324d371c7ceba39cfae5c51fd7e a1128cd03cd490c1a57e6191cf06019c45d26d7a a80d2f6b59854514f0c20efa9fc36a3a6bb4ee7e a856a210c81c85c23cb6395bf6f653e7340cacf5 b35493350ddb162852e97e49a73f994d69035ab7 b5915e2e456c70d2ab84a8d6c659e68f225b1130 b81896f959cdd5549ce8ad2ee0ea4962f2ec7032 b98f4531a5684f5da254692fec340423d6fefb6e cb32dc88f2137ab3660ed5f52adacafcda49f0f0 cc493c3ff5ccbd04fa7916490259677e89a9a74e ce1ba986d3d5735c41dfd66cc5a75ce3e09bb527 cec24e37dc20b736da9e04bfb40c19dccfe9eb26 ea49dd13d2f05b55323597d062a54407a0dd7171 ebedb56239ac241289e7cef32d1cde9dc0bb85a5 ec1d846fc412c9ff444c74fedc14a4932d18e62d
+Build-Ids: 073f4f8d32412b4d1a7958fe8da6b71e35ceff8d 1b7d520ff9fcb837727d8b2ab768771c7f78fd3b 2287a6e2cbef0c36cdb81c7372ed7f4cf8c55128 277d9f1cf32855eb5b1cdb6afc5e56b5bf47b429 2b66410fff074f32f624abb4053b84e4041da15c 33f6a369ac7da634b216f17d88a0874f5acf1380 3853df58a1f8b6cb3232309e9d6afe705dd241c2 3ba816ba02b73d486687dff215b0bf18d64bffe6 3d5c87f8ad05c0823dbf4bfddc5622af2c8ea58b 52af53a2e3d71b6e2cd3220f5ac425318d12a943 5880900343089f52fe2233545352b554ba4d2385 738009f391779c1cae55ccb9d079c7f1e23a89a4 850a92cb36dc84ead7a48744eab148a519371da4 99cc2cefb9647306a66ee4f13d8bb0137099db63 9b9d1c6e269ea3c3c1a8c1ac45b5fc4546500fa7 a6eb772ff8549ebaac44984089e89fb57d17273e affefae57cf1e843837ae701cfa652e9a7af1078 b2c1471ba59a11fc20d0308372d3a1b3ebc3649b b84a881a55fec54d115b1f0ae9f3c5535da64c44 bb56dbed0614804cc2f505bcabf9ace3f5567909 bf16ff11c82b3d0c8b38a5d036bef02d2d70dcb5 cd094e764fbec9c9a1a3eb22f7a4aa86c3674258 d3c96651418a260e888bde3443327b54a880ca45 e023d65b33c77106a2c35a313e1afc186ad2cd06 e147895acf0367ab95da02373b317c12a6d0e9f2 e492b0cb0370f003709704094d54676d67190be6 e956d8e73f55991fec1c9a9a5cef241a7d5b7f0d f335083440d14bc27278cabd2ab8195b08f5b127 f85eeb5e5d47ba50057edd538dbcccbf4653cded
 Gstreamer-Decoders: application/kate; application/ogg; application/x-ass; application/x-ogg-avi; application/x-ogm-audio; application/x-ogm-text; application/x-ogm-video; application/x-ssa; application/x-subtitle; application/x-subtitle-dks; application/x-subtitle-lrc; application/x-subtitle-mpl2; application/x-subtitle-qttext; application/x-subtitle-sami; application/x-subtitle-tmplayer; application/x-subtitle-vtt; audio/ogg; audio/x-opus, channel-mapping-family=(int)[ 1, 255 ], stream-count=(int)[ 1, 255 ], coupled-count=(int)[ 0, 255 ]; audio/x-opus, channel-mapping-family=(int)0; audio/x-unaligned-raw, format=(string){ F64LE, F64BE, F32LE, F32BE, S32LE, S32BE, U32LE, U32BE, S24_32LE, S24_32BE, U24_32LE, U24_32BE, S24LE, S24BE, U24LE, U24BE, S20LE, S20BE, U20LE, U20BE, S18LE, S18BE, U18LE, U18BE, S16LE, S16BE, U16LE, U16BE, S8, U8 }, layout=(string){ interleaved, non-interleaved }; audio/x-vorbis; video/ogg; video/x-theora; video/x-unaligned-raw, format=(string){ A444_16LE, A444_16BE, AYUV64, RGBA64_LE, ARGB64, ARGB64_LE, BGRA64_LE, ABGR64_LE, RGBA64_BE, ARGB64_BE, BGRA64_BE, ABGR64_BE, A422_16LE, A422_16BE, A420_16LE, A420_16BE, A444_12LE, GBRA_12LE, A444_12BE, GBRA_12BE, Y412_LE, Y412_BE, A422_12LE, A422_12BE, A420_12LE, A420_12BE, A444_10LE, GBRA_10LE, A444_10BE, GBRA_10BE, A422_10LE, A422_10BE, A420_10LE, A420_10BE, BGR10A2_LE, RGB10A2_LE, Y410, A444, GBRA, AYUV, VUYA, RGBA, RBGA, ARGB, BGRA, ABGR, A422, A420, AV12, Y444_16LE, GBR_16LE, Y444_16BE, GBR_16BE, v216, P016_LE, P016_BE, Y444_12LE, GBR_12LE, Y444_12BE, GBR_12BE, I422_12LE, I422_12BE, Y212_LE, Y212_BE, I420_12LE, I420_12BE, P012_LE, P012_BE, Y444_10LE, GBR_10LE, Y444_10BE, GBR_10BE, r210, I422_10LE, I422_10BE, NV16_10LE32, Y210, UYVP, v210, I420_10LE, I420_10BE, P010_10LE, NV12_10LE40, NV12_10LE32, P010_10BE, MT2110R, MT2110T, NV12_10BE_8L128, NV12_10LE40_4L4, Y444, BGRP, GBR, RGBP, NV24, v308, IYU2, RGBx, xRGB, BGRx, xBGR, RGB, BGR, Y42B, NV16, NV61, YUY2, YVYU, UYVY, VYUY, I420, YV12, NV12, NV21, NV12_16L32S, NV12_32L32, NV12_4L4, NV12_64Z32, NV12_8L128, Y41B, IYU1, YUV9, YVU9, BGR16, RGB16, BGR15, RGB15, RGB8P, GRAY16_LE, GRAY16_BE, GRAY10_LE32, GRAY8 }
 Gstreamer-Elements: adder, appsink, appsrc, audioconvert, audiointerleave, audiomixer, audiorate, audioresample, audiotestsrc, cdparanoiasrc, compositor, decodebin, decodebin3, dsdconvert, encodebin, encodebin2, fakevideodec, giosink, giosrc, giostreamsink, giostreamsrc, liveadder, multifdsink, multisocketsink, oggaviparse, oggdemux, oggmux, oggparse, ogmaudioparse, ogmtextparse, ogmvideoparse, opusdec, opusenc, overlaycomposition, parsebin, playbin, playbin3, playsink, rawaudioparse, rawvideoparse, socketsrc, ssaparse, streamsynchronizer, subparse, subtitleoverlay, tcpclientsink, tcpclientsrc, tcpserversink, tcpserversrc, theoradec, theoraenc, theoraparse, unalignedaudioparse, unalignedvideoparse, uridecodebin, uridecodebin3, urisourcebin, videoconvert, videoconvertscale, videorate, videoscale, videotestsrc, volume, vorbisdec, vorbisenc, vorbisparse, vorbistag
 Gstreamer-Encoders: application/ogg; audio/ogg; audio/x-opus; audio/x-vorbis; video/ogg; video/x-theora
@@ -573,18 +573,18 @@ Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 2580
+Installed-Size: 2568
 Provides: gstreamer1.0-audiosource, gstreamer1.0-videosource
-Depends: libc6 (>= 2.33), libcdparanoia0 (>= 3.10.2+debian), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libtheoradec1 (>= 1.1), libtheoraenc1 (>= 1.1), libvisual-0.4-0 (>= 0.4.0), libvorbis0a (>= 1.3.1), libvorbisenc2 (>= 1.3.1)
+Depends: libc6 (>= 2.33), libcdparanoia0 (>= 3.10.2+debian), libglib2.0-0 (>= 2.67.3), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), liborc-0.4-0 (>= 1:0.4.25), libtheora0 (>= 1.1), libvisual-0.4-0 (>= 0.4.0), libvorbis0a (>= 1.3.1), libvorbisenc2 (>= 1.3.1)
 Suggests: gvfs
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
 Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-plugins-base_1.24.7-1ppa1~noble1_amd64.deb
-Size: 778796
-MD5sum: 3ec90f5c9a641eba7aa2ca647b78ca96
-SHA1: 9323da1f61b49a00bef122cdd9f6885966aee387
-SHA256: 867aec4cdfcd67fd051f373cfaa92bc00c169de723b063f11b01b2231a758f20
-SHA512: b95afbdfcc3eff192d49faca3ca41171ce01eb11c214c5cb72c88112c40271a35d152b3a9035de794c1b5b30f9623c16ae6bf5d6f80d81b56c3a4c42521791a9
+Size: 775140
+MD5sum: 4b8a9e58fc410f6521c1ce15ee0a20e4
+SHA1: ef9ec3e21bc874f0fc61ab51c0a1c45c094d7022
+SHA256: bcb5da9f6845222996271ee2166e973544892eb1d62360534a2293ce5aa63afb
+SHA512: 554519eeb39cb6dc59c6ca1a4d89c311a1e5da9c8a53e04fe4f650734659a75829e9fce86664d6977d367857c9cdb74f501a9da0cfde0dc732884926d3f2435e
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -612,16 +612,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 294
+Installed-Size: 288
 Depends: gstreamer1.0-x (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-x-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 233028
-MD5sum: b42155d66d3fe2f27c735f9ba877185b
-SHA1: f59045053c571c95cd858959c5df72adc0381f7b
-SHA256: 1f1c30cc09df29156ef847f3633363acc7588d5c1908da14755e2a9b2ee9af75
-SHA512: d94f35fe3f61f846911145cb89c35c22665e4c202b2935b67bb55c00cec2db3a795a2f6126898ef538896ace1502733cf5c315ef1fa8e4a2714b2602ec37967f
+Size: 227236
+MD5sum: 06cb44bdb6cebdc95f4738c305e3e23c
+SHA1: 090dc90ccf4d893404bc32fc941f13dce899b9c0
+SHA256: b75ec1ba376a5fa4d80dffb92e23267a1291c732d5df4dba6e05237f27f68640
+SHA512: 5b681b09d4a72cbef809c76f5a51fd81a3c2121bcce0e271ce659ad4d0dcecc38a72c6c0f597e6059c3d4e32e5ac70c060791165a30bf00983a55110d7133fb8
 Description: debug symbols for gstreamer1.0-x
-Build-Ids: 034d311402d15af87d0402097f7676acf49df29a 05c7637499c191f5044a2e48a557e50dc1a2549c b6fb43e88c33c7d9866c169a85e8c5106eaee09f
+Build-Ids: 14b7fee8b9179a6af5ed0e27903d638134cbba9a 9fcf5741bc550b5b6e5dfbc13adcf54c005a949f c1c8406cbd8914aa4300546f60de0f684e8d29df
 Gstreamer-Elements: clockoverlay, textoverlay, textrender, timeoverlay, ximagesink, xvimagesink
 Gstreamer-Version: 1.24
 
@@ -635,13 +635,13 @@ Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 367
 Provides: gstreamer1.0-videosink
-Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxv1
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.62), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxv1
 Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-x_1.24.7-1ppa1~noble1_amd64.deb
-Size: 153092
-MD5sum: 7141e095d5d859b339501010625ffeea
-SHA1: c70e5f3c1b7bd34d10e7d4c939b96a982dfe4975
-SHA256: 965a409ae434df684dc1c2526257f8cbf5737c385c6de7872523287c267061dd
-SHA512: 49700342482e54be5e20064c954293ff48d2b0c51aecc90876d11d17f3410a92c43724772103c064d14c9e78c29edbef93fd065552711f820bdef66b053ff6d6
+Size: 153284
+MD5sum: 93496a7ddebe601859d06ecf42960e24
+SHA1: 694402b2c9e5a19ab56c9eed49c9a9b53918b7dc
+SHA256: 4cd790afac46c5ea68a0c8aba5f6e02a940caacc59dddb86ebbc6e426fdd63c7
+SHA512: fcd454857140ceb781fcedea4c36967f345bcd6fb66060010d8d5fd5138574d0bd77c2c92c4659469ec2c05bb1a03f72a1473190470ef61bcc4e56cfa862ca66
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins for X11 and Pango
  GStreamer is a streaming media framework, based on graphs of filters
@@ -666,16 +666,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 688
+Installed-Size: 659
 Depends: libgstreamer-gl1.0-0 (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-plugins-base1.0/libgstreamer-gl1.0-0-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 602420
-MD5sum: 652b4c41ac2c420f34be81cd6b2e6df4
-SHA1: bd02afaeabad6d0b334c5fc4efad357d8d406653
-SHA256: fc1b8f71c128dbdddee9d3d7096916f8c0fd7b75274f706c173a9430d4c708c5
-SHA512: ea292ca81d99a0a88255b2d6d4de2b218fd2d541ce3b6ab778839dd10d52d28c8ed0cecf6e284b9eb79e7ffd17c2fa15dbcb249caa19d41e789995d3d2655b22
+Size: 572732
+MD5sum: bd805dc0ebd3202bef9124e1652a9b99
+SHA1: 331368658f3aa3fcc7932ebdb1974414a8e4763a
+SHA256: 060a420b73ca7b8c6dfa2132e790d8adcde449980ef773427923515137f4a942
+SHA512: 45d596eeaf46d4a324125f7028dff1dadefd84f5e60784eaacb47d5878ac5e9a5ae093578189148d9df1e6fc6f3c2ab4f71b2a9a0b414f31904340aa9067f980
 Description: debug symbols for libgstreamer-gl1.0-0
-Build-Ids: 53ae71af75509d1875e4dc898b96f9c516229011
+Build-Ids: 11b94ce6742192bbce8091b9deac7a5a5ce03053
 
 Package: libgstreamer-gl1.0-0
 Architecture: amd64
@@ -686,16 +686,16 @@ Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 719
-Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.55), libegl1, libgbm1 (>= 8.1~0), libglib2.0-0t64 (>= 2.80.0), libglx0, libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.24.0), libgudev-1.0-0 (>= 165), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.11), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1, libxcb1
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.17), libegl1, libgbm1 (>= 8.1~0), libglib2.0-0 (>= 2.67.3), libglx0, libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.24.0), libgudev-1.0-0 (>= 165), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.11), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1 (>= 2:1.8.4), libxcb1
 Recommends: gstreamer1.0-gl
 Breaks: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
 Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
 Filename: pool/main/g/gst-plugins-base1.0/libgstreamer-gl1.0-0_1.24.7-1ppa1~noble1_amd64.deb
-Size: 275520
-MD5sum: 2819dfe116a4805af951d190220c4de1
-SHA1: b3c27f12456ef7c7892592b20c1d93a72ab4acf0
-SHA256: 9a82d4e51c59722f67d99a02552f9f20ca2c48cf1c14b6e5cceb4add6cd1297f
-SHA512: 8575c0c799817e458e325e6256746f70fcc3bf0dae20f81f596cf09471ec490ae1d7f77dddb8e8db52c068ce510ee1ad2f76daddce5b5ddd3b6c98efe2ef1f32
+Size: 273996
+MD5sum: b63e9539ca7e283100aae308fc6b87f6
+SHA1: 10d7ed0002356ba09ed7d3a059417a558eeb0635
+SHA256: dcbca9fbc98fb588650ef06a82e16cfac984014c2ec1b086af7770bcb271b0e9
+SHA512: 31643d0424ae87c9fac0fcd7b1126c6619cd49dac745200e17f575baa80b317df3b18c3d3c6b26afdee91d0e667e21d2657eb54f36634a821142c26facba7834
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer GL libraries
  GStreamer is a streaming media framework, based on graphs of filters
@@ -716,16 +716,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 2918
+Installed-Size: 2704
 Depends: libgstreamer-plugins-base1.0-0 (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-plugins-base1.0/libgstreamer-plugins-base1.0-0-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 2578256
-MD5sum: 2d9cfa3e4ed0111a066d76e8f95260a1
-SHA1: 944622ef21f24de8f8410aa9cf6462501fa6a4dd
-SHA256: b5b8c9c230cd75853e8e5511fb08528fa516cbe555f4207d27f6acef618c405e
-SHA512: 50b0beefc95a8d8dca29bdf51f9f6149c968876bbc167ed8d5e92de76a07f3137880fa7d5685b8aced71e12122f400164e647671b29b22a2fc817abc253f4a35
+Size: 2360316
+MD5sum: 970d6f032a01a6e5774953335802d317
+SHA1: 2b8c85b93970beaaaa6f1c17fea78608526379c1
+SHA256: 58c1a925f85af02261db36e0e6f5b7b0d4343bae604df38061f82bf994f83fc2
+SHA512: 6c36dbc1817f689c057b02812dea1a14ef3eb42066d2f297b5cefe2e4c895a33efaa1e1e271c24f6396270cce30a426c214eaf2e06d4bebf04b2af03c70ec1f3
 Description: debug symbols for libgstreamer-plugins-base1.0-0
-Build-Ids: 0dfcb131b224ff92e44c3214009a4e8e30488155 23d7d2fd82aaebf7a2d45f78853f44fbc23f350e 4babda7b654fc00f3acb4eb1eec33048703ce43e 6560fe87972032238097e82e7a7ffdaa7398da5c 77ce6671863c65a6b021e16acf375af1cd56b6e3 994e534d63ebce5c6e110d9496eec150a5cd2948 be31774e56599fc94895c1d82e7ca09fb1b2c913 c3ede3a693f8eef0615d80a3eff188ab382090ee d5737617efb9419d395f07a91860dbb67d5df2fc e7e5f80a5fe69c43a20080bace70f11c56ebfb5c fff54e9705f4433c4d91d6f60198533a73eea8a9
+Build-Ids: 0a41f9b1584787256ead3a5eb15dfd031d8a4eae 0f70920e890adc783ac8f500693c5fe96c103c3c 3ec04409371c7665f6275503bcb48f585e5f0429 609df096056fbd081a6fd1d2ce32557064b8874c 634495d8492f05e3665841b455ca882317374b53 7b0c48d3a3456018b1052e83936ca65e4d632a88 9ed305ff8a403eb5d927ea3af12da3bfa10f5f67 b69a8a982ac706651ba0c49ac5f30c2c84219b14 cf6c98f3060923ee2d866a79a70f5d547a367661 f04b76ccea4fa2be6329c320cbd2c06354321a70 fcae4cdfb2e335412292627efd1bec0f15dfe9ef
 
 Package: libgstreamer-plugins-base1.0-0
 Architecture: amd64
@@ -735,18 +735,18 @@ Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 3593
-Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.74), libglib2.0-0t64 (>= 2.80.0), libgstreamer1.0-0 (>= 1.24.0), liborc-0.4-0t64 (>= 1:0.4.34), zlib1g (>= 1:1.1.4), iso-codes
+Installed-Size: 3569
+Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.74), libglib2.0-0 (>= 2.67.3), libgstreamer1.0-0 (>= 1.24.0), liborc-0.4-0 (>= 1:0.4.25), zlib1g (>= 1:1.1.4), iso-codes
 Recommends: gstreamer1.0-plugins-base
 Suggests: libvisual-0.4-plugins
 Conflicts: libgstreamer-plugins-bad1.0-0 (<< 1.15.1)
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), libgstreamer-plugins-bad1.0-0 (<< 1.15.1), totem-gstreamer (<= 2.17.92-0ubuntu1)
 Filename: pool/main/g/gst-plugins-base1.0/libgstreamer-plugins-base1.0-0_1.24.7-1ppa1~noble1_amd64.deb
-Size: 991392
-MD5sum: eaeec283906864021ed6cc52b07797b2
-SHA1: 410d3f9d72f63d0151a2e6074c97b49c99483cc0
-SHA256: 97e254b03eceaff6f4e78068e2edd3f3907e8ffeda251ecf83e3d058b1a9f63e
-SHA512: 1b9539112edc6f7e9c2b373f08bab9aa5221a281c35cd8c04206ece812145fa8916a15eef547219997535200a6af320fe3af518baec67bd9bdcfce753c200811
+Size: 978312
+MD5sum: e07d5f6589d87dd9a2491b95083f93af
+SHA1: 5ffa4374b6b72c0395484e3ee87234d09af6e695
+SHA256: 2e0ac6c2ac540eb7b8f3ca198ac53b9ef7f21a6e25af18e39597505df0706f8c
+SHA512: a7714859874a3e83eafec0b9870a6547d6c9f2b069cb41e95bf641e144bbd9a4cc7f49adfdd6104618362316debb5d0c8abddc3085e756102b3adfc0f92809d5
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer libraries from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -766,16 +766,16 @@ Priority: optional
 Section: libdevel
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 6337
+Installed-Size: 6229
 Depends: libgstreamer-plugins-base1.0-0 (= 1.24.7-1ppa1~noble1), libgstreamer-gl1.0-0 (= 1.24.7-1ppa1~noble1), libc6-dev | libc-dev, pkgconf, libgstreamer1.0-dev (>= 1.16.2), libglib2.0-dev, liborc-0.4-dev (>= 1:0.4.24), libgl-dev, libegl-dev, libgles-dev, libx11-xcb-dev, libwayland-dev (>= 1.11), libdrm-dev (>= 2.4.55), libgbm-dev, libgudev-1.0-dev (>= 147), gir1.2-gst-plugins-base-1.0 (= 1.24.7-1ppa1~noble1)
 Conflicts: libgstreamer-plugins-bad1.0-dev (<< 1.15.1)
 Breaks: libgstreamer-plugins-bad1.0-dev (<< 1.15.1)
 Filename: pool/main/g/gst-plugins-base1.0/libgstreamer-plugins-base1.0-dev_1.24.7-1ppa1~noble1_amd64.deb
-Size: 545880
-MD5sum: ee474b0297ee0be8bfcc594d6f752f3e
-SHA1: 12dc5d6e22fc7b566af678a3e10972bfe904395c
-SHA256: f732d9582601391a709c08c98b47d058b65f807aa8382bb5f5dd30d06d9ba784
-SHA512: 23cdf2db6d51f2c6d71926fa98bf8eeca952c7280aa1667df353537ffb0f63528f64220ea3d387e2d711636edf588a9690ba1fb2fa29aaa9b528a737f67153af
+Size: 541472
+MD5sum: c5d0d19435af1c5167ac92795a306924
+SHA1: a9c7f7b897f80423491847688a5365269f9b4c50
+SHA256: 5dd35b804725d3860824213aca923a0ac83f29330af665eb62516784660ade1f
+SHA512: a2b390ae57cdef6c9a563061c444a4e8bd8c55c423434e555b8b5117525b1d2dcb9a3b1d681f7853797e93ef65198c389b027f6239b8bb971fdc0cea1cc53aab
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer development files for libraries from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -797,16 +797,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-good1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
-Installed-Size: 110
+Installed-Size: 111
 Depends: gstreamer1.0-gtk3 (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-gtk3-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 86600
-MD5sum: 473f8943568cf29425610928d1d022a5
-SHA1: 538c5ffe89a2e27580cea308193d7fdeae03b82d
-SHA256: 9c38dee4bec54938b90e8f70c282a13199ae3d5ca4bf58001ce17a2951b60c9e
-SHA512: db8465fdcde6187a47f3df8065f3727ff08093ebf7b4de6132b163cc91741241355439fc65f0266bcd0eeef8e5933049c4f1b0e1f58a6b715918e77a8abd1e52
+Size: 87376
+MD5sum: 973ab1b91ee45d025c494aeef2449a9f
+SHA1: f95f260c6fda8f8bb4f18fe607f08553d5a35f40
+SHA256: 30e6fa0e7950453e764eb2948a7ffeca3aaa27561b10c95889d5b9e12fa40271
+SHA512: c8b70b758754252af19cc43afcff815ff3f3daad9d23cd76ce4760ad203bca0af6f486e734ddff966df5d2132a7713eb1e9deb52f8dbffda0641cc3ef7c50ca6
 Description: debug symbols for gstreamer1.0-gtk3
-Build-Ids: 0a2fd40cd3ed3eb5fc72bdb334d1fb34fcf07a72
+Build-Ids: c40554a9b128118978d478812a589e2d9fddcec5
 Gstreamer-Elements: gtkglsink, gtksink
 Gstreamer-Version: 1.24
 
@@ -820,15 +820,15 @@ Source: gst-plugins-good1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
 Installed-Size: 206
 Provides: gstreamer1.0-videosink
-Depends: libc6 (>= 2.4), libcairo2 (>= 1.10.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libgtk-3-0t64 (>= 3.16.2)
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.10.0), libglib2.0-0 (>= 2.62), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libgtk-3-0 (>= 3.16.2)
 Breaks: gstreamer1.0-plugins-bad (<< 1.13.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.13.1)
 Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-gtk3_1.24.7-1ppa1~noble1_amd64.deb
-Size: 107472
-MD5sum: d9ce339c6fa6ff2d7bb44471b5bd6f82
-SHA1: 610fe7b51b175ac9c2d88fd091d8ef3edd073a46
-SHA256: 62116435462700ee54b4a1a5937a930034c495d8d3ce9697614a401eff97981b
-SHA512: eb5838223a11be513cff104411c9315f3c73557d4583fe0cd41759ea2a6618173397a19aa1f277dc132459f3b5fbcc6bd79de8786abe469f08f2ba47b5cc979c
+Size: 108076
+MD5sum: c8808ba39931476d3162594128bb5335
+SHA1: 661a33f334a324d05b2f033a30b7ecc887b8ac5f
+SHA256: 5d34ad75b886919301ab474588177ae22a132c40fe92c945d58e2fe43b2c208e
+SHA512: 2f37fe7a006eed972aa56bc5d8c07ccb85e745c1ab426b9892d03853e2f7a42a9d558404c005944bfd609a4e874c99ad75b694af27c0f23411e2296d1676ed05
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugin for GTK+3
  GStreamer is a streaming media framework, based on graphs of filters
@@ -851,16 +851,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-good1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
-Installed-Size: 7750
+Installed-Size: 7401
 Depends: gstreamer1.0-plugins-good (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-plugins-good-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 6577836
-MD5sum: 21e1c45ceea3fbc9e52006cbd79df067
-SHA1: 4589d5345f5b8fc8862d33e2c69f36aaa6ae1f9c
-SHA256: 1772da981f0a6e6b39b04f5ede64d9001041f55759c6637866d6d31e1c054ae3
-SHA512: 19d8c491336121daa65b4bf8837fd7e9c1082ac1f59bebc9d4e187c2943a758b25bd54fa987ee1e78cf859d692574d338934058c02ad535ea0f80d78e20ab68c
+Size: 6212432
+MD5sum: 357c9485a2a39875af7e4b3b38233606
+SHA1: ad27bc43c40e2c294c01443a7f3b1e1e13c96fa7
+SHA256: fcb8f5c52d569fe03cd5ea66056fed19658039932bb3020aed5ce0860d512a87
+SHA512: 86d3749865e58915cf32b617298b81a514954d9132e2764e0a30247afb765cc0327e33c7d0f52010c6f0be62698e315d55c5c8d51136f5bc03b2a99168e0dcc4
 Description: debug symbols for gstreamer1.0-plugins-good
-Build-Ids: 033e226350754a86c70ec5069050cd02f920b0fe 06928c56a29d62912735d227494e4b15a90b92b9 0738df217f3c37a26f04bd785ac9b055e11002ba 0b41aa59481636ad84c938666cf44bbc2ad8da03 1111e733b66d3155f324bf591683ca2778e3c707 129894a7fcad28eb2bfebc616350d4bc62ad5511 18142d12068d87c2fcdea67e4dcf51ac5a4419a2 1922d19d69be12cc8d29a7ace155f7835543978e 1c97184077cc64923cb4119fa7108abe0afee9c9 22acff8d62c0ee9a9a940addaff8e16c76cec6b4 2347a22cf4535dfa44c671b86bd129ffdd53673c 29d1fa9af19d7da7b81c424d59ddd421737a250e 2a422be7da65e65f84aab6c7f12221324fcf272c 34b6d39f474f4f9c8a4c6c808eaf5c2e1fb5dcf0 34dda64343effa7e5645a65040bba014d95f9613 3f3d8770300e23ca08bf3f5b80d1948563407552 3f51f14091d26e4aa42a538f78c9671f0bfd36c2 41220305fb534d387108d1e4ff59b4932e24950a 417f9269b75a879451deba644ef2f5d43357c077 419dbd4cfda423e29d45d392e854df82940e9eb0 4e4b395c49762eb43616bfc825c2cf7baa5e0af4 4fb1e0b98a6ad76493fa2f394d3be949f43d3c59 52cd05fc82d3f79310e50fea46f6ceee6b9b8a9d 55f5a4ffa765229e56cd4198b4738cd8cc361bbf 569ad276f01a76d1b5e21faf37ec59311418a0a7 5744284e2d69309d67a0047b4b6c54157ad5295f 5e70d2969b4af845ca443325857aba8bfbc5e92a 5f97cf723187ab6d7c9dbb5fb67f77d8405df562 64d7eaf3168e2403fe7e7a11b475601c21747cbe 66ca0c2bbe7fa029c1156de6c720d59b75068127 688517cd88520be9fa5a976dfd8e1884f65f1f75 68b2bcd810627600ce252af6fd3eaa2c07d73580 68fd906fa558ec24f2ffacb5103d89d66588eeb6 73d8c00061fb9b9cc3d30a7f2987ec7793e98403 76d41b5bcfa81c8b677adb3b5cdeae326ac04610 77fd1dabd596e422cbfb6d0bd80913a2bbcfbfe4 7ad0b4e4a4b1587ff7598dd4dacf057ab2b6eb6e 7d188d8c0f22be79570ad283dedf44630f1746e9 7dd3a2d70d9efd8eca4217d20d79e752ba4f11dc 86b35f75646b460cd58f21492790060fb8d6c7ba 8cb737b2a5dbb11051e4341170fc3bdb430bcb46 8f3501ffe4c9dadd54d752ffb20d2c0cf8c9e53f 904f6ae7d3155e725d5769c02885bec71b5a047c 95a16a0f1e622408b08df338bb0a2bd34f257008 982a917d6f4b0b48fdd76043c13babe8830623fc 9a9446d6bcc6036c8c68b0fc6d67a9009ea6a540 9b50cc69a9ff2d8bf6c9a84e63a0dfbaa1976c4e 9d743cc2e9e15463d6a68ac558d1f393470d9575 abca768593251c1eaf1b21e6005e5b33b4658bd7 ac709135a74fdd444565b28150197a6015ce86ce aca9c36baa7ab03535aee7542e04c390c6c5f4f5 b09494b83b35ccff86a38bc549839d883bc5087e b5bf62f944687abff90662cc1f01daa00e575058 b5e702817a19656e1c1fb275d89c0a4c61a2c2e3 b9a51d1498b10d79deaa7623f43589bc78898a9d bcae278f7ec306aeae5c9371b550e33ef362b784 bf937c1254502d70c05a3aa50ebfe86f9ca92568 c00cfe1a1cd724addcbbbb56759ce11e8a622252 c37ae1ac0e3937e8d674b397e8218790cdb67143 c3d58cb0b2cf2c97422a4630fdbaa695be07d6de cb1cf9a6b7a8ddf545d17aecf9cd7177d54c1c76 d115a878c04a3ab7be3a937670fe2293bcba1d9b d51f8fcb1fc6ca5c96122f511b6f4a31212e040b d7785fee1a4d0c2188ce4b8e30ecb29b09b5a570 db93640f2c9f2c3cb1cd073b8d4174401d670e34 dc305f79cae0ffeb51b96792842f6d4cd2702681 e09f0adb3bf153d71289a8f7ab3321437271558d e09f39f10d6e6b4021c93c9dde9ab47ddfc5ec1e e0c1f0359e207802e2b8589dacbb86b6b68c4ac1 e260db1488121ecfe83e08c33c20b0e7d8eccab2 e339169a466b6bdb1b4b75bab18371df8fcfb737 e3a21fa85d90e2d54aa65bc2e596b57386180e91 e47494247c9eaab23b1fa93f0af747558a89a1b6 f509dcbb14a3797b92701082ddfad3098140c897
+Build-Ids: 018223b1c8055bf2eedeb03563eb8ca65d97fe89 083823ac0cddfa76dabcfc5cea4cd2782d250a81 0ee03cc9eec6ec50abea7cf8bb8200ba6338ea65 100d6d6e4362a1b9c19593e25bd7a17c4df0de58 189c52f2cbfb9a0d9e075c083b7b31595bbe3348 18c3f8076e54e81bafc5bc16fffbf430a232f320 1d4201a72bd6ed09add2cada95beebe4741aa5bd 1f3d6e6c206c158e91412e48cc027af24f2fd611 1ff3173eee4540dbeef70f2b3eedb680a61a188c 21190ec58dbca3b344153a99f12389496502916e 24fdd600bbde15280cbb650e8d4f6f46b981293f 25c967d9e5ff94983512bb53501f43d8c410db2c 2a3294ce5297cacdbe261bff902766073d0ac2bc 2d0d728dfdbcfe6667dc16b1575fadd083eb199d 2d3f7c7593c716ffb9dbcb5a01400de6d4aee753 2f201cd3a0819747aeb0373d036e875cac88b598 31b07e98b4be0da3ae995403414ee9ef1397d772 32b3ae8bb138ebf45f74470be4fee003f26f2880 379fbd17284c9baad5162c849a3bb10178d7e488 38f7a500132b72097d18ad3365c22ceb04b00690 3fa7357e3dcc234497d25338a358f4f92ee4ca42 435e38765a211a4b8e396c8e1da36b11b4725b54 43f63e7d2dc60647089a88c279e843dd4fb5a47a 46f389790ef0aed9d3bbccaf3b4034042608b071 47d1fc36cc9e06efec1aa4271940b48cc76e7925 4be566f184279f5e21a63686385eff1b224d4eb9 52456b4b9da6523af1eff7a9a3857a9c4085f7cc 5a7f989f5719148bef71ccb5c60e3a156980b8fd 5bf4bb9c4c470aa54e07b3f642521cb809c42040 5f1be43da68f322e930d267b85d3e8f77ed8a3db 5f3886656b2144d3440bb58a4afe4e4b9734b7a9 60020e833a9b7e8a3d8e4b2c73584f1c1b964758 609f36809f1f218256e70d7a37bd42cd8c69fd6b 6b405bce117dce3bf5099a7df32d7db90ff037ba 6d8255f6092f4148cb339c67bcbef9dc5125b77f 6e05412e70e6177ac8180d5d9223d3aef483c32b 72b9e57db3eae8f43e9204af60f2ba4f59d9039e 77f19d743f26e1c355e252c5d174ab50c897f2e6 7892c035eb92340cf2d5871e3bab01a58b15686e 78fa91c1e92595e098262c8ccdcadb5e0c35b13a 844ddee923d8d90667d39c384dbe5d1c8ce8f039 85382bade642ffe4f81eff0c7763d7b7a562b146 8804afcbaeaa686695390cb3b8325e18dcea0a4c 8883cdeb3030b8d4e93edcb20701fb341de61a82 920ec426903d041222d4681a30879e6c463ba2d3 94cbb2344bd7640d3f2d1470573abcc97158bc58 9af160256893f43aaaf09fbade034bd2c8e802c5 9d105302ccf8e1618e408ae4be94a5da423fd1ee a2cf6f205d1e855f549e2fed84f838e8de47e283 a4542b04fb8c5bb575294b50c8244657f7c5aa87 a6afc0e63940bfbbc9c15560843c135fea0b5941 ab5ae3f7bbaea9c783dd7cf9d381e68ec44afd64 b8699f0de881ed6826cb6366ac76ebd8be78c910 bb4c2961da55d7c1eeccdd331eb4d426b1789dfa be46914e8cf1a113cf67f5c7c0583209f898d775 c9f944835590fa00b8f6a4958d32d034de352694 ca5214817e5be53bc84049e46122e95a87894fdf cac6b3a6250f186e64e825e18f08429dd559ea5b ccce0f545c43ccb958e37cdabf543c325c9d960f cef47efc6774ca9cd25c1aae588cb779743fdcee d0252924e0dd11fdb2ade0e595bfd03fee8b8abe d33087f62176d7a1a8e799bc7cb91783d40418a6 d8a9659416ead78e8fb3891cb4c89d7d5e60238d dcdffb509dd110de5f6e99df3d1f11cc0713910d e08597558a39f925f7dc9f3b889e4b90380603cd e43f378c9e56be166579042998e91fbf76e70fe5 e60fe3de3cdd658ebe8e00d4b68704241d1526af f2367a34a3a6c96b5d36490afe7d8aaecda2d94f f32d8e744a13ec1b45264d64b4275e29db528f72 f56c06b405c484f078ec138df5cf506363417d7c f846e8502c7e6174352783d7e0b94d78855b81b5 f9159b78c8e1cbd0239959a6787112279456cac2 f95e876f15f96a8c49de6f75c3af98e18bd120e5 fe50c2dbc4edbfc1d39e2870d4725f5a0ffca562
 Gstreamer-Decoders: application/dash+xml; application/vnd.ms-sstr+xml; application/x-3gp; application/x-apetag; application/x-hls; application/x-icy; application/x-id3; application/x-navi-animation; application/x-rtp, media=(string)audio, payload=(int)[ 96, 127 ], encoding-name=(string){ TELEPHONE-EVENT, ISAC, SBC, OPUS, X-GST-OPUS-DRAFT-SPITTKA-00, MULTIOPUS }; application/x-rtp, payload=(int)[ 96, 127 ], media=(string){ audio, video }, encoding-name=(string){ X-QT, X-QUICKTIME }; application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string){ RGB, RGBA, BGR, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1 }; application/x-rtp, media=(string){ video, audio, application }, encoding-name=(string)MPEG4-GENERIC, mode=(string){ generic, CELP-cbr, CELP-vbr, AAC-lbr, AAC-hbr, aac-hbr }; application/x-rtp, media=(string)video, sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCrA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, GRAYSCALE }, encoding-name=(string)JPEG2000; application/x-rtp, media=(string)video, colorspace=(string){ sRGB, sYUV, GRAY }, encoding-name=(string)JPEG2000; application/x-rtp, media=(string)video, payload=(int)31, encoding-name=(string)H261; application/x-rtp, media=(string)video, payload=(int)[ 96, 127 ], encoding-name=(string)H261; application/x-rtp, media=(string)audio, encoding-name=(string){ AMR, AMR-WB }, octet-align=(string)1; application/x-rtp, media=(string){ video, audio }, encoding-name=(string)DV, encode=(string){ SD-VCR/525-60, SD-VCR/625-50, HD-VCR/1125-60, HD-VCR/1250-50, SDL-VCR/525-60, SDL-VCR/625-50, 306M/525-60, 306M/625-50, 314M-25/525-60, 314M-25/625-50, 314M-50/525-60, 314M-50/625-50 }; application/x-rtp, media=(string)video, encoding-name=(string){ VP9, VP9-DRAFT-IETF-01, VP8, VP8-DRAFT-IETF-01, THEORA, X-SV3V-ES, X-SORENSON-VIDEO, X-SORENSONVIDEO, X-SorensonVideo, MP4V-ES, MP2T, MP2T-ES, MP1S, JPEG, H265, H264, H263, H263-1998, H263-2000, MPV }; application/x-rtp, media=(string)audio, encoding-name=(string){ VORBIS, SPEEX, SIREN, X-QDM, QCELP, MP4A-LATM, L24, L16, L8, MPA-ROBUST, X-MP3-DRAFT-00, X-MP3-DRAFT-01, X-MP3-DRAFT-02, X-MP3-DRAFT-03, X-MP3-DRAFT-04, X-MP3-DRAFT-05, X-MP3-DRAFT-06, MPA, PCMU, PCMA, GSM, G729, G726, G726-16, G726-24, G726-32, G726-40, AAL2-G726-16, AAL2-G726-24, AAL2-G726-32, AAL2-G726-40, G723, G722, ILBC, CELT, BV16, BV32, AC3 }; application/x-rtp, media=(string)audio, payload=(int){ 12, 10, 11, 14, 0, 8, 3, 18, 4, 9 }; application/x-rtp, media=(string)video, payload=(int){ 33, 26, 34, 32 }; application/x-rtp, media=(string)other, encoding-name=(string)MP1S; application/x-rtp, media=(string)application, encoding-name=(string){ SMPTE336M, X-GST }; application/x-subtitle-avi; audio/AMR; audio/AMR-WB; audio/ac3; audio/mpeg, mpegversion=(int){ 1, 2, 4 }; audio/webm; audio/x-ac3; audio/x-alaw; audio/x-amr-nb-sh; audio/x-amr-wb-sh; audio/x-au; audio/x-dts; audio/x-eac3; audio/x-flac; audio/x-m4a; audio/x-matroska; audio/x-mulaw; audio/x-private1-ac3; audio/x-private1-dts; audio/x-rf64; audio/x-sbc; audio/x-speex; audio/x-wav; audio/x-wavpack; audio/x-wavpack-correction; image/bmp; image/jpeg; image/png; image/svg; image/svg+xml; image/tiff; image/vnd.wap.wbmp; image/x-MS-bmp; image/x-bitmap; image/x-bmp; image/x-cmu-raster; image/x-icon; image/x-pcx; image/x-pixmap; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; image/x-sun-raster; image/x-tga; multipart/x-mixed-replace; video/mj2; video/quicktime; video/webm; video/x-dv, systemstream=(boolean){ false, true }; video/x-fli; video/x-flv; video/x-matroska; video/x-matroska-3d; video/x-msvideo; video/x-vp8; video/x-vp9
 Gstreamer-Elements: 3gppmux, aacparse, aasink, aatv, ac3parse, agingtv, alawdec, alawenc, alpha, alphacolor, amrnbdec, amrnbenc, amrparse, amrwbdec, apedemux, apev2mux, aspectratiocrop, asteriskh263, audioamplify, audiochebband, audiocheblimit, audiodynamic, audioecho, audiofirfilter, audioiirfilter, audioinvert, audiokaraoke, audiopanorama, audiowsincband, audiowsinclimit, auparse, autoaudiosink, autoaudiosrc, autovideosink, autovideosrc, avidemux, avimux, avisubtitle, breakmydata, cacasink, cacatv, cairooverlay, capssetter, cpureport, cutter, dashdemux2, dcaparse, deinterlace, deinterleave, dicetv, dtmfsrc, dv1394src, dvdec, dvdemux, dynudpsink, edgetv, equalizer-10bands, equalizer-3bands, equalizer-nbands, flacdec, flacenc, flacparse, flactag, flvdemux, flvmux, flxdec, gamma, gdkpixbufdec, gdkpixbufoverlay, gdkpixbufsink, goom, goom2k1, hdv1394src, hlsdemux2, icydemux, id3demux, id3v2mux, imagefreeze, imagesequencesrc, interleave, ismlmux, jackaudiosink, jackaudiosrc, jpegdec, jpegenc, lamemp3enc, level, matroskademux, matroskamux, matroskaparse, mj2mux, monoscope, mp4mux, mpegaudioparse, mpg123audiodec, mssdemux2, mulawdec, mulawenc, multifilesink, multifilesrc, multipartdemux, multipartmux, multiudpsink, navigationtest, navseek, optv, oss4sink, oss4src, osssink, osssrc, pngdec, pngenc, progressreport, pulsesink, pulsesrc, pushfilesrc, qtdemux, qtmoovrecover, qtmux, quarktv, radioactv, revtv, rganalysis, rglimiter, rgvolume, rippletv, rndbuffersize, rtpL16depay, rtpL16pay, rtpL24depay, rtpL24pay, rtpL8depay, rtpL8pay, rtpac3depay, rtpac3pay, rtpamrdepay, rtpamrpay, rtpbin, rtpbvdepay, rtpbvpay, rtpceltdepay, rtpceltpay, rtpdec, rtpdtmfdepay, rtpdtmfmux, rtpdtmfsrc, rtpdvdepay, rtpdvpay, rtpfunnel, rtpg722depay, rtpg722pay, rtpg723depay, rtpg723pay, rtpg726depay, rtpg726pay, rtpg729depay, rtpg729pay, rtpgsmdepay, rtpgsmpay, rtpgstdepay, rtpgstpay, rtph261depay, rtph261pay, rtph263depay, rtph263pay, rtph263pdepay, rtph263ppay, rtph264depay, rtph264pay, rtph265depay, rtph265pay, rtphdrextclientaudiolevel, rtphdrextcolorspace, rtphdrextmid, rtphdrextntp64, rtphdrextrepairedstreamid, rtphdrextstreamid, rtphdrexttwcc, rtpilbcdepay, rtpilbcpay, rtpisacdepay, rtpisacpay, rtpj2kdepay, rtpj2kpay, rtpjitterbuffer, rtpjpegdepay, rtpjpegpay, rtpklvdepay, rtpklvpay, rtpldacpay, rtpmp1sdepay, rtpmp2tdepay, rtpmp2tpay, rtpmp4adepay, rtpmp4apay, rtpmp4gdepay, rtpmp4gpay, rtpmp4vdepay, rtpmp4vpay, rtpmpadepay, rtpmpapay, rtpmparobustdepay, rtpmpvdepay, rtpmpvpay, rtpmux, rtpopusdepay, rtpopuspay, rtppassthroughpay, rtppcmadepay, rtppcmapay, rtppcmudepay, rtppcmupay, rtpptdemux, rtpqcelpdepay, rtpqdm2depay, rtpreddec, rtpredenc, rtprtxqueue, rtprtxreceive, rtprtxsend, rtpsbcdepay, rtpsbcpay, rtpsession, rtpsirendepay, rtpsirenpay, rtpspeexdepay, rtpspeexpay, rtpssrcdemux, rtpst2022-1-fecdec, rtpst2022-1-fecenc, rtpstorage, rtpstreamdepay, rtpstreampay, rtpsv3vdepay, rtptheoradepay, rtptheorapay, rtpulpfecdec, rtpulpfecenc, rtpvorbisdepay, rtpvorbispay, rtpvp8depay, rtpvp8pay, rtpvp9depay, rtpvp9pay, rtpvrawdepay, rtpvrawpay, rtpxqtdepay, rtspsrc, sbcparse, scaletempo, shagadelictv, shapewipe, shout2send, smpte, smptealpha, souphttpclientsink, souphttpsrc, spectrum, speexdec, speexenc, splitfilesrc, splitmuxsink, splitmuxsrc, stereo, streaktv, taginject, testsink, twolamemp2enc, udpsink, udpsrc, v4l2radio, v4l2sink, v4l2src, vertigotv, videobalance, videobox, videocrop, videoflip, videomedian, videomixer, vp8dec, vp8enc, vp9dec, vp9enc, warptv, wavenc, wavpackdec, wavpackenc, wavpackparse, wavparse, webmmux, ximagesrc, xingmux, y4menc
 Gstreamer-Encoders: application/x-rtcp-stream; application/x-rtp; application/x-rtp-stream; application/x-srtcp-stream; application/x-srtp-stream; application/x-yuv4mpeg, y4mversion=(int)2; audio/AMR; audio/mpeg, mpegversion=(int)1, layer=(int){ 1, 2, 3 }; audio/webm; audio/x-alaw; audio/x-flac, framed=(boolean)true; audio/x-matroska; audio/x-mulaw; audio/x-rf64; audio/x-speex; audio/x-wav; audio/x-wavpack-correction, framed=(boolean)true; image/jpeg, sof-marker=(int){ 0, 1, 2, 4, 9 }; image/png; multipart/x-mixed-replace; video/mj2; video/quicktime; video/webm; video/x-flv; video/x-matroska; video/x-matroska-3d; video/x-msvideo; video/x-vp8, profile=(string){ 0, 1, 2, 3 }; video/x-vp9, profile=(string){ 0, 1, 2, 3 }
@@ -876,18 +876,18 @@ Priority: optional
 Section: libs
 Source: gst-plugins-good1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
-Installed-Size: 8011
+Installed-Size: 7971
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
-Depends: libaa1 (>= 1.4p5), libavc1394-0 (>= 0.5.3), libbz2-1.0, libc6 (>= 2.34), libcaca0 (>= 0.99.beta20), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdv4t64 (>= 1.0.0), libflac12t64 (>= 1.3.0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libgudev-1.0-0 (>= 147), libiec61883-0 (>= 1.2.0), libjpeg62-turbo (>= 1.3.1), libmp3lame0 (>= 3.100), libmpg123-0t64 (>= 1.28.0), libnettle8t64, libopencore-amrnb0 (>= 0.1.6), libopencore-amrwb0 (>= 0.1.6), liborc-0.4-0t64 (>= 1:0.4.34), libpng16-16t64 (>= 1.6.2), libpulse0 (>= 2.0), libraw1394-11 (>= 2.1.2), libshout3 (>= 2.4.6), libspeex1 (>= 1.2~), libstdc++6 (>= 5), libtag2 (>= 2.0), libtwolame0 (>= 0.3.10), libv4l-0t64 (>= 0.5.0), libvpx9 (>= 1.12.0), libwavpack1 (>= 4.60), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxml2 (>= 2.9.0), libxtst6, zlib1g (>= 1:1.1.4), gstreamer1.0-plugins-base (>= 1.24.0), libsoup-3.0-0
+Depends: libaa1 (>= 1.4p5), libavc1394-0 (>= 0.5.3), libbz2-1.0, libc6 (>= 2.34), libcaca0 (>= 0.99.beta20), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdv4 (>= 1.0.0), libflac12 (>= 1.3.0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.67.3+git20210214), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libgudev-1.0-0 (>= 147), libiec61883-0 (>= 1.2.0), libjpeg62-turbo (>= 1.3.1), libmp3lame0 (>= 3.100), libmpg123-0 (>= 1.28.0), libnettle8, libopencore-amrnb0 (>= 0.1.6), libopencore-amrwb0 (>= 0.1.6), liborc-0.4-0 (>= 1:0.4.25), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 2.0), libraw1394-11 (>= 2.1.2), libshout3 (>= 2.4.6), libspeex1 (>= 1.2~), libstdc++6 (>= 5), libtag1v5 (>= 1.9.1-2.2~), libtwolame0 (>= 0.3.10), libv4l-0 (>= 0.5.0), libvpx7 (>= 1.12.0), libwavpack1 (>= 4.60), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxml2 (>= 2.9.0), libxtst6, zlib1g (>= 1:1.1.4), gstreamer1.0-plugins-base (>= 1.24.0), libsoup-3.0-0
 Recommends: gstreamer1.0-x
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), gstreamer1.0-plugins-ugly (<< 1.24), gstreamer1.0-pulseaudio (<< 1.18.0), libv4l-0 (<< 1.26.1-4~), libv4lconvert0 (<< 1.26.1-4~)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1), gstreamer1.0-plugins-ugly (<< 1.24), gstreamer1.0-pulseaudio (<< 1.18.0)
 Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-plugins-good_1.24.7-1ppa1~noble1_amd64.deb
-Size: 2318024
-MD5sum: 81daa44182e86e53da68a32801010cb5
-SHA1: 2798973ed7496eb41b742aa6e061b06d555218cf
-SHA256: 9827bd3aaade1dd649352f944cb7dfe2aba1446c9cf7ae48053a6b79105f4dc4
-SHA512: c3518f35129d2cb335a0bafe25d1ffe783ac59525652a27308974305f8b2584bff6658a3764e973f5ff6a8fb49ba03773cee97db9aa7d269de901ebc237038a6
+Size: 2302412
+MD5sum: 5f2d6c00e701f24230df6e94636225ef
+SHA1: fd249d34597818ed0ab150b5b830c75909bf157c
+SHA256: daadb2e5bb2aaf5b904c7322bc6402d60d5ba4861d656414a7da841fadeb2caa
+SHA512: 5acc2f3276b8daf9f40b3c45312eb7752f7d5513ad739fbe8b48965013507baeb157709891fb5e87e18c6becb5bd3181fccfc3dc38d82f08e28b4370446d4afd
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "good" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -945,16 +945,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-good1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
-Installed-Size: 1450
+Installed-Size: 1447
 Depends: gstreamer1.0-qt5 (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-qt5-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 1424936
-MD5sum: e21c9c78b3c80e1b526de8e86e1bf968
-SHA1: 53c3ba719de5edeb66f5d726349cb0c8be7646f5
-SHA256: e6922d716c79bc8b38cf8a03c0eeaef252463c3bd1603c463802a6284a180fa7
-SHA512: c4301b94428888d84979b8ea5050195d9dd2546186bd3f5f474921932f5dcd4274c1a21fb3a83f49c14315be66a3155dc8cdb2511f7f32a2c7307460af238cbb
+Size: 1421088
+MD5sum: 7957d99a78bd84501af49b880410a0f4
+SHA1: f419e9a0a0a4336df0fa02b77557ee19c16e57a1
+SHA256: e0598a67c3533f045e6fe7fcda928e53a9fafe94ba3f7d1b39869b1a498e37b3
+SHA512: 60fabc2bc3a95af42d2ecf627e13004ebbbd468736b0567fc77fe1f2d0472341110c3f397618d15fbe0f3afb47704f51904b6bbc636069675ca66a51107765b8
 Description: debug symbols for gstreamer1.0-qt5
-Build-Ids: 847463da8086c3c9a68e19890382dd32a20c06f9
+Build-Ids: 58884505ce90238e7bf6d53a1591ce1de4c22bc6
 Gstreamer-Elements: qmlgloverlay, qmlglsink, qmlglsrc
 Gstreamer-Version: 1.24
 
@@ -968,15 +968,15 @@ Source: gst-plugins-good1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
 Installed-Size: 330
 Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5waylandclient5 (>= 5.10.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.5)
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.62), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libopengl0, libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5waylandclient5 (>= 5.10.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.5)
 Breaks: gstreamer1.0-plugins-bad (<< 1.13.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.13.1)
 Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-qt5_1.24.7-1ppa1~noble1_amd64.deb
-Size: 143144
-MD5sum: 299160f223cc0830b4abab5d9b76df81
-SHA1: 29d9f1571ee9ad350ec04b578b136ba8a94869d2
-SHA256: fc76e3bb48b618a43dd68b6ebaf4fdabfb4d89f5fc91f6732ad72bbef2b261a7
-SHA512: fe46584b18d600ae340923ef99508b1bd305812dadae9a5f0b73434f26cc7685f4815508033487bbbb63de82128bc93cffc24a8da3db9e0953e27f45c647e992
+Size: 143436
+MD5sum: 6cb8376bcb3b9f0211f15ec7bb619534
+SHA1: deb4c77feb3e6c678fb3ee5aa8bd9c8ec3ff9da0
+SHA256: c545c12854739ad56679271dcb836f0256d56accdc9864b3b09bd19ebab89c37
+SHA512: 2cf861b615e82ba20d018317a0c4a0c5506c9f72762999d7023844ed4269572ba3eb37e184affb22a8093088b35c523c24e152e19a5b68dd001a80b0fce56b21
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugin for Qt5
  GStreamer is a streaming media framework, based on graphs of filters
@@ -999,16 +999,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-good1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
-Installed-Size: 1522
+Installed-Size: 1368
 Depends: gstreamer1.0-qt6 (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-qt6-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 1490680
-MD5sum: b8ea1bb8f624ef0448a8dda96e83c389
-SHA1: a5de63ec6206fc1b76fa18664a4681a1350b2bdb
-SHA256: 5938f5f2c916014c3ceb49dcf83774f8aa5019400d7737d4b79b59b4059afbc5
-SHA512: 39c7bb55b7f58d7ca0280310bacd921e663babc77736316fdc9c572c352ece4be444da512babdd804dc081c11d58aafa922505f3bd800449134e3c763bfdde02
+Size: 1333088
+MD5sum: d05a9b5ea5e31700a697100e318ca85f
+SHA1: 7ee281a08ed21ea2f868ef65a1e40b8cfb3fb510
+SHA256: 9630d5ec642f605171864b13292c35b5dbbad5e91ac862f1cb1f5fc70ad6d8ac
+SHA512: b2ac2210f85652cc6b402a09b464270efcd7881b71d46d3674951affd69d582254611461da40fdefec7f9df885adabe773fbcaa9365e8509c3b0b2c780e60370
 Description: debug symbols for gstreamer1.0-qt6
-Build-Ids: e5f47a543d0b698d4bd36d79bc3f5cc661783b93
+Build-Ids: 8df9760bb513ca24a3e4d0f2f14178c9a1120c1b
 Gstreamer-Elements: qml6glmixer, qml6gloverlay, qml6glsink, qml6glsrc
 Gstreamer-Version: 1.24
 
@@ -1022,13 +1022,13 @@ Source: gst-plugins-good1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
 Installed-Size: 347
 Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
-Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libgles2, libglib2.0-0t64 (>= 2.80.0), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libqt6core6t64 (>= 6.7.2), libqt6gui6 (>= 6.6.0), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libstdc++6 (>= 5), qt6-base-private-abi (= 6.7.2)
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libgles2, libglib2.0-0 (>= 2.62), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.2.0), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libqt6waylandclient6 (>= 6.2.2), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-qt6_1.24.7-1ppa1~noble1_amd64.deb
-Size: 152728
-MD5sum: e99719373bd96b5cd3869ef60acb8135
-SHA1: d21f3ba7ef07e87e5b3a979dd1ff8b0ed0614688
-SHA256: 9b0890e2e1d6871c381cfafba8d3e469376b22a22ef95ea1b6c3b8a59cacd611
-SHA512: 290b48328744608d7e8a2db7d97f67a8a50df3e0628469221a661bbfc56f96ea947a414538c3de0fbc1346236cd006fdb43fd764a9c023e1d024c374a575c824
+Size: 153392
+MD5sum: 58bb20403d381c4a94d1b13073c50ec6
+SHA1: 8c3af15409292a94742d7e8b773295db517dc28d
+SHA256: d1a6af12fa39b398939f22db7f0f02c54c86e1b0f2c64cd698d9577e86ab3539
+SHA512: c9894a18f311db3099a4bbb6bb6fd95c8ee6630fd4de3d9dc73f78b132b33b27d204f46a0f1859f0b1dabb21aa9c3f9b14c56f4b261911493a8fc1b332744c53
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugin for Qt6
  GStreamer is a streaming media framework, based on graphs of filters
@@ -1051,16 +1051,16 @@ Priority: optional
 Section: debug
 Source: gst-plugins-ugly1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-ugly1.0@packages.debian.org>
-Installed-Size: 578
+Installed-Size: 555
 Depends: gstreamer1.0-plugins-ugly (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-plugins-ugly1.0/gstreamer1.0-plugins-ugly-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 463276
-MD5sum: 537c11c28073b9e22b3dd51c37dbd1e5
-SHA1: d3221a9e953c91ecd543884edf8a474ab2a86a69
-SHA256: 8e0dcb4815e794814c4cae874d8ad1fbb8925b85750079432daa761b7383f484
-SHA512: e9e26c6f3fc84f55df4215cbc083cd8f45a7834ac8f7413424b79c5b695b5d82c2802ad397018841d960cf4dd559fc26cc1e37ca7bfea100dab3afb8a62d2a69
+Size: 438876
+MD5sum: 1dd53293e82922a18a586f06ed2158c0
+SHA1: 7044d6db404fcee68b0932dd7f9044f8d10979d4
+SHA256: 06800239bd4a1407893d7fde16307b2ca8acdf5b9ecf28c1027dfc0444e69f94
+SHA512: 6588c6a4a208fea367d2477ec04a4ea180b8535ef764e2628e6b043de247a7cbb4b6ab165e4372cfbf2f810bb067f902b23064548b144f674ce895b28241bc3f
 Description: debug symbols for gstreamer1.0-plugins-ugly
-Build-Ids: 0bc27c6d3615d590020589d019eb66a12bf200f6 0d3a41d0b62d64de11bd4eaee7d58f7852adc059 16f68da430c426bcba8d7947caa923666e753730 1b2e00a9fcb306a5ef3cc57e6387394d8950701e 4e972d54e408ca0ea6aaa8f8f3f3581855e6fd7e 6a7a1858a2c0a7fd64af42fb4035554b5d118e77 792fd7a26ee7fc256f442129481272e14924918d 85f220b9398301ddfeec28f95608a1446c3e5a81 9f8bbf55f22c2089278af2f16adcc70784657a3e da573443ba4c91e09a02bff82f67aab11ea5f4bb
+Build-Ids: 01b4e70a9acbf8c660e48cdc82118d61f6087a48 056ee7274d5fb6f8cbf4cf189eb918b5e1262daf 0ac01b814d6d4db38c9f281faeea314a50a58b91 0eee6ef67a5755dababe8896c8fb20e4eba657a2 70a32a66aa3bcf4974a67c13682af9e209dad857 907db3c74a24617795d34398c9304043af45ff7a 9701de155ba5f1db41d2adaa55d4c9181da27d35 a19739c745d056fc84f017d20f0cf2da05c77c50 e6b5a0217405694a6793362684fb65615b496372 f4a5a3c3f38fba6a134ea763630ef84702f675ac
 Gstreamer-Decoders: application/vnd.rn-realmedia; application/x-pn-realaudio; application/x-rtp, media=(string){ application, video, audio }, payload=(int)[ 96, 127 ], encoding-name=(string)X-ASF-PF; audio/ac3; audio/x-ac3; audio/x-lpcm; audio/x-private-ts-lpcm; audio/x-private1-ac3; audio/x-private1-lpcm; audio/x-private2-lpcm; audio/x-sid; video/mpeg, mpegversion=(int)[ 1, 2 ], systemstream=(boolean)false; video/x-ms-asf
 Gstreamer-Elements: a52dec, asfdemux, cdiocddasrc, dvdlpcmdec, dvdreadsrc, dvdsubdec, dvdsubparse, mpeg2dec, rademux, rmdemux, rtpasfdepay, rtspwms, siddec, x264enc
 Gstreamer-Encoders: video/x-h264, stream-format=(string){ avc, byte-stream }, alignment=(string)au, profile=(string){ high-4:4:4, high-4:2:2, high-10, high, main, baseline, constrained-baseline, high-4:4:4-intra, high-4:2:2-intra, high-10-intra }
@@ -1076,13 +1076,13 @@ Section: libs
 Source: gst-plugins-ugly1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-ugly1.0@packages.debian.org>
 Installed-Size: 758
-Depends: liba52-0.7.4 (>= 0.7.4), libc6 (>= 2.14), libcdio19t64 (>= 2.1.0), libdvdread8t64 (>= 4.1.3), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libmpeg2-4 (>= 0.5.1), liborc-0.4-0t64 (>= 1:0.4.34), libsidplay1v5, libstdc++6 (>= 5), libx264-164 (>= 2:0.164.3108+git31e19f9)
+Depends: liba52-0.7.4 (>= 0.7.4), libc6 (>= 2.14), libcdio19 (>= 2.1.0), libdvdread8 (>= 4.1.3), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.67.3), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libmpeg2-4 (>= 0.5.1), liborc-0.4-0 (>= 1:0.4.25), libsidplay1v5, libstdc++6 (>= 5), libx264-164 (>= 2:0.164.3095+gitbaee400)
 Filename: pool/main/g/gst-plugins-ugly1.0/gstreamer1.0-plugins-ugly_1.24.7-1ppa1~noble1_amd64.deb
-Size: 186400
-MD5sum: a5de77dfb4d0591fbba18064ff69f84e
-SHA1: 104355bfc25297a53c9060bfa9811fedc7541dc5
-SHA256: 5085e58ab88e4c0f55130a1be910ad6f5b5c4dc26d9e6c54117e2f5b89922533
-SHA512: dda36d9239349aa3212e47f74f278ff950f184d002a623f173bc03746b9a3899060d72dade20398a1a4021c242a7ad471cc8b9599d53cf0a6b1e47b0df06193f
+Size: 186412
+MD5sum: bed4b6ce7f86b7973f13f43ee25be987
+SHA1: 4ab4a40870e7dd4e0be69c06c1db4062ad6927a2
+SHA256: 28a20e9296f5b9fe4bde68db1b0c98129bd82fccb2b7a03d01191ed902aa1673
+SHA512: 6250394c261380cb32a2f0d6e3f5e95c0dd69452cd17d732f248bd97530ea8fee1953f4428b5b88df697e4401b7f3078dc92a35481a70fe27e233b02bc3e2aad
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "ugly" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -1111,11 +1111,11 @@ Maintainer: Maintainers of GStreamer packages <gst-rtsp-server1.0@packages.debia
 Installed-Size: 83
 Depends: gir1.2-gst-plugins-base-1.0 (>= 1.24.0), gir1.2-gstreamer-1.0 (>= 1.24.0), libgstrtspserver-1.0-0 (>= 1.24.0)
 Filename: pool/main/g/gst-rtsp-server1.0/gir1.2-gst-rtsp-server-1.0_1.24.7-1ppa1~noble1_amd64.deb
-Size: 22356
-MD5sum: 1a068e93712e08ddc79dcff2669e1134
-SHA1: 0198efb18c0b1c63ce485e4726ad7dea7b0971cd
-SHA256: c485687ffc3e7044582763d66c94706036c060ce6e3e9bb7b6af774defa3399b
-SHA512: 31e5ffe7d9ba9b44d74bf4057f3280e09a9659834fb942a123ac5a6cb35ef4a772e07cb31b1e5eb64e54439c33c89bbd095e68ce82bd94a64234fd1a9589f32e
+Size: 22368
+MD5sum: 210bda182207af4846edba3de49c8151
+SHA1: 539ab6b713c57fcf085756f721af3ae8e2540131
+SHA256: 1848504d5cb3c5b9ea82f334bb21079a6d87fd6d3ae16013e4e82ce843648420
+SHA512: f62154e0d214421dfa538166a215f3a8d1ca35d17141fee6fe2be79646ea7b2e0565e1a1ea3c2f1d56f792be88d640338e0aa1286733c58ced89f7b127dc8f40
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer RTSP Server
  gst-rtsp-server is a library on top of GStreamer for building an RTSP
@@ -1139,16 +1139,16 @@ Priority: optional
 Section: debug
 Source: gst-rtsp-server1.0
 Maintainer: Maintainers of GStreamer packages <gst-rtsp-server1.0@packages.debian.org>
-Installed-Size: 139
+Installed-Size: 130
 Depends: gstreamer1.0-rtsp (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-rtsp-server1.0/gstreamer1.0-rtsp-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 113804
-MD5sum: ece0b93c79b8abe0ca88784d581e29a2
-SHA1: a47df8ad5618c5d3a5f8711f7060441a9582b52d
-SHA256: 2e4cf3b6e896ccfe0486ac4af89fed2f5bfd68f3267a86885258ca41eaa28c22
-SHA512: 347e6bbade1a6d04d2bce1d00da8be7e98ceef1a91396bb66f54101f52f6eeb243773e583c1b221659bc793cd96bf300fb414bb0b9c31f82401c9f0044c7e3aa
+Size: 105216
+MD5sum: ea453d0cc9525127991b9ec70e2a20aa
+SHA1: 218add0b87c9defee4474349e335b7a4cabed654
+SHA256: ebd83b5c7d67795d165fc5db7510d1c3ae838fa1fec3da6aa8cec3a0cdc33729
+SHA512: 4e705d9f7752c6b1740ef98544691f31587209c2e7be0dc8cfefae35872d25f99e726f0656514615096ad0459ffee2fa6fac77911958fcb99acf90f78bf14135
 Description: debug symbols for gstreamer1.0-rtsp
-Build-Ids: 3783bd1f3c5243fe0428db1073172797f404fa8a
+Build-Ids: 0dd40a652bb6be416cf82a42d8ca3b7815295be2
 
 Package: gstreamer1.0-rtsp
 Architecture: amd64
@@ -1158,14 +1158,14 @@ Priority: optional
 Section: libs
 Source: gst-rtsp-server1.0
 Maintainer: Maintainers of GStreamer packages <gst-rtsp-server1.0@packages.debian.org>
-Installed-Size: 138
-Depends: libc6 (>= 2.7), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libgstrtspserver-1.0-0 (= 1.24.7-1ppa1~noble1)
+Installed-Size: 134
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.67.3+git20210214), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libgstrtspserver-1.0-0 (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-rtsp-server1.0/gstreamer1.0-rtsp_1.24.7-1ppa1~noble1_amd64.deb
-Size: 47076
-MD5sum: fa485300fc71d10476468d90c39164c0
-SHA1: 8bcfa0019d7aa65158877d4a4cb788ef6734c94c
-SHA256: 0b531780feac64db964488d290c380a7352834e86c8c2a0a8237a7d43844e7a8
-SHA512: aed03c805926f894561082968d6de434f09da10dbc8b6ed8616a11f05ae9080dc541dbb348d6807af4f41a89faf4ea46cccbd046740458eba3d12a343451fb6d
+Size: 46800
+MD5sum: a5a12b1e5c346c225f261f42d286c8aa
+SHA1: b9d65e601cca6db987cef99698dabcd465c62444
+SHA256: 5f08e2254bb645997cdc87d81fddd1605920ced4affb3ab8d00f8a562b5c2c49
+SHA512: 85da86af914617aa7e825a46781462581180bc95ecbf290c62ed087770d2bca9179c5bae9bca6dae9fbcefa43d6fbb3ebbd52a2294fdc50f335a8f625bb8943d
 Homepage: https://gstreamer.freedesktop.org
 Description: RTSP plugin for GStreamer
  GStreamer is a streaming media framework, based on graphs of filters
@@ -1185,16 +1185,16 @@ Priority: optional
 Section: debug
 Source: gst-rtsp-server1.0
 Maintainer: Maintainers of GStreamer packages <gst-rtsp-server1.0@packages.debian.org>
-Installed-Size: 547
+Installed-Size: 514
 Depends: libgstrtspserver-1.0-0 (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-rtsp-server1.0/libgstrtspserver-1.0-0-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 477336
-MD5sum: f0754a6b5fe3474e3ad6a0f3f6254e63
-SHA1: 02169896fdb4a566843227a8d3518951b6b51d00
-SHA256: 3addc2ab06a93eea036c871bb9409deb7ee975e412e58ec29ac147b426a22369
-SHA512: 77d189d324ac00cf9773bc256f24cf5ba6602f59d17f294e05cad915c4aaccb90b80bbf544729832248f0c279f178c12af185ccff28506c7f30a3933cdeb7724
+Size: 443712
+MD5sum: 17b3006e3ac827f4e31bdae02903bb2a
+SHA1: 9a7fac59547ebcdaddeabd30012bf9d6e96a2704
+SHA256: 7e6454ff66b2318ea216a5199c6875ecd0423c16a5d6361432a1608efb360d3b
+SHA512: 5a643b95744640a2d04a87c25e632d0dd2863fb43622e013079377760e0ea5dd788d35e040737ae5c4695bc7e433461de53e10b133634fb3120dd427007a1044
 Description: debug symbols for libgstrtspserver-1.0-0
-Build-Ids: acc3dc9124be21ad9588fd8490d8fcab334a76a3
+Build-Ids: 8c1fd1d35563f3247f8f753785e950cb0eb6982c
 
 Package: libgstrtspserver-1.0-0
 Architecture: amd64
@@ -1204,13 +1204,13 @@ Section: libs
 Source: gst-rtsp-server1.0
 Maintainer: Maintainers of GStreamer packages <gst-rtsp-server1.0@packages.debian.org>
 Installed-Size: 472
-Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), gstreamer1.0-plugins-base (>= 1.24.0), gstreamer1.0-plugins-good (>= 1.24.0), gstreamer1.0-plugins-bad (>= 1.24.0)
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.67.3), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), gstreamer1.0-plugins-base (>= 1.24.0), gstreamer1.0-plugins-good (>= 1.24.0), gstreamer1.0-plugins-bad (>= 1.24.0)
 Filename: pool/main/g/gst-rtsp-server1.0/libgstrtspserver-1.0-0_1.24.7-1ppa1~noble1_amd64.deb
-Size: 153780
-MD5sum: 851aae5373ef7109fbc9703c3a06d0e4
-SHA1: 814b74b02880acadf154076430011f339152e25d
-SHA256: 69cffc8b3650f44a55613f2ac4c3cf60d51288ece842a9d5b558b4e922b98bb4
-SHA512: 75b53a13d36a90688c2b51fceb3cae13ada9567aa63f999de09e59f1ce6df15b3900bd4d7e5ea22aa6275d344a6f96206f817237e6a7fca2fc2b02fe821d81f5
+Size: 151876
+MD5sum: 1bbc8fa74cb1d8c834b3dda46d53e966
+SHA1: 41f87a8324c9871b14eefdcdf204901a459ea35b
+SHA256: 0718d983a8ca2606f573f6b9baa99baf99bd3536f36ecf4ea78d0371fca4fb6a
+SHA512: f67b7438cb54b5539549b23c00b40fd38c8a70d0d613e0cd7f8ca2a471907b8be13691ddb152589f0fcc37ba8c870e5657e4c25c8acae32d2438b2f79f71e8ce
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer RTSP Server (shared library)
  gst-rtsp-server is a library on top of GStreamer for building an RTSP
@@ -1233,14 +1233,14 @@ Priority: optional
 Section: libdevel
 Source: gst-rtsp-server1.0
 Maintainer: Maintainers of GStreamer packages <gst-rtsp-server1.0@packages.debian.org>
-Installed-Size: 1024
+Installed-Size: 1007
 Depends: libgstrtspserver-1.0-0 (= 1.24.7-1ppa1~noble1), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libglib2.0-dev, gir1.2-gst-rtsp-server-1.0 (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gst-rtsp-server1.0/libgstrtspserver-1.0-dev_1.24.7-1ppa1~noble1_amd64.deb
-Size: 75632
-MD5sum: 0d7b978a6ec0d9ae0e3add18f71ecf2c
-SHA1: b7d5486fd36731e36bedfd02947013bc96020e84
-SHA256: c3bd11e635b3e6a9b2de87a4725ee2867ca4ce5ac271975734aadc4fc30691df
-SHA512: d044e297d59c119f26b323a76aeaaa5b1b053188cf62099e5a22c7eeb0202c9a6214ed5ddda8624b805eb10eb88412d3f81484be77674cff90eb5093541f8edf
+Size: 74852
+MD5sum: 8ddc754840a57e1b51e731ebb90da717
+SHA1: 741c41d0f07788c883fc5d90abfe3eb5608abbc3
+SHA256: 5dbaa86a8d9912833eee49b79af5c145c0966dfa4d2c620acb304e2b972cde67
+SHA512: e84f2588375ad6de5dbb8bd373f5b6ff1c7543c738ef1113ffac9e05288d52bc16ccca7c8b791ab2324ce0eb6979eb86776a19697b483d711035c5163ae97b3a
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer RTSP Server (development files)
  gst-rtsp-server is a library on top of GStreamer for building an RTSP
@@ -1264,16 +1264,16 @@ Priority: optional
 Section: debug
 Source: gstreamer-vaapi
 Maintainer: Maintainers of GStreamer packages <gstreamer-vaapi@packages.debian.org>
-Installed-Size: 1346
+Installed-Size: 1293
 Depends: gstreamer1.0-vaapi (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gstreamer-vaapi/gstreamer1.0-vaapi-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 1218852
-MD5sum: b2760ceea4b497ce31b2d3cce9d9887f
-SHA1: 1cf798fa87c7f6143f67c6b3376a330d2f26c459
-SHA256: 1d359bd9235c4b8dcac77c3579ba75c3d91d3de2d02803ad642c6bb52d111d94
-SHA512: 1b7ec1b73e5d0a6488aa6b00209532e0c8fd3a0b950fabca1f539347ba5e5354afec0674138493e5b624c4af7ab8848632b93b2d1c7a1987a4ed453a8aaa1e75
+Size: 1165344
+MD5sum: 7815eda011c30d47b4399625b3c75879
+SHA1: ed0a970e8aebc2d3acaa986edaa0cdd887b5590e
+SHA256: 3eae877f95593bfd2b55dd4c70b10f892666bc4d1294f742b16f730d3fa8077e
+SHA512: e8ef3fece2d64c0e0fbfc8b433cb4b86acb1c1e9d05bb5129411e328c76661dfa72e43afe9cd3707b4fec8adbcda05860959bdd251da19ad4780570c2244f7b9
 Description: debug symbols for gstreamer1.0-vaapi
-Build-Ids: 1e806648e23cd6b218f6d0e593c47c57a8adb06e
+Build-Ids: e57a78ba54164baa7619744d26c645c9346ee757
 
 Package: gstreamer1.0-vaapi
 Architecture: amd64
@@ -1283,15 +1283,15 @@ Priority: optional
 Section: libs
 Source: gstreamer-vaapi
 Maintainer: Maintainers of GStreamer packages <gstreamer-vaapi@packages.debian.org>
-Installed-Size: 904
-Depends: libc6 (>= 2.38), libegl1, libgl1, libgles2 (>= 1.0.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-bad1.0-0 (>= 1.24.11), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libudev1 (>= 183), libva-drm2 (>= 1.1.0), libva-wayland2 (>= 1.3.0), libva-x11-2 (>= 1.0.3), libva2 (>= 2.2.0), libwayland-client0 (>= 1.20.0), libx11-6, libxrandr2
+Installed-Size: 900
+Depends: libc6 (>= 2.38), libegl1, libgl1, libgles2 (>= 1.0.0), libglib2.0-0 (>= 2.67.3), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-bad1.0-0 (>= 1.24.7), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libopengl0, libudev1 (>= 183), libva-drm2 (>= 1.1.0), libva-wayland2 (>= 1.3.0), libva-x11-2 (>= 1.0.3), libva2 (>= 2.2.0), libwayland-client0 (>= 1.20.0), libx11-6, libxrandr2
 Suggests: gstreamer1.0-vaapi-doc
 Filename: pool/main/g/gstreamer-vaapi/gstreamer1.0-vaapi_1.24.7-1ppa1~noble1_amd64.deb
-Size: 319884
-MD5sum: 63fa5b59bbf44eb44feda63c49136731
-SHA1: 2539755c8f31ee18b06c646c2d47d1e9cb544419
-SHA256: 5a8c3915b02d6741cb4d565f6c28a74ba7956bc4831269a9c1224c82ffc2d5ad
-SHA512: 092ea74193e2c476917ed18743f17f55f90200d7d17dc544833ddbc9734ab74b95cc3869c1359a13124ace791adc003a2f745ccc535f2f2e257694088b3fe590
+Size: 320268
+MD5sum: 3e341d6cfe220c42369ffcdea89e3cb3
+SHA1: 0341aee2052ca2f6d6d66c45d6d3518dd8255fb0
+SHA256: 1d8152fc42fb026e3cd77104f1a0b0d40ae6738089a4585a3da8b6f12575cd1a
+SHA512: 0d9b41a66a5032664957dc07573fc2f1100e00ba15f9fa22e36b876c0f088d56d65e00213af91c75f520186bdf493502a67fc73990f4696a1d144c1348165d0e
 Homepage: https://gstreamer.freedesktop.org
 Description: VA-API plugins for GStreamer
  Gstreamer-vaapi is a collection of GStreamer plugins and helper libraries that
@@ -1311,13 +1311,13 @@ Section: introspection
 Source: gstreamer1.0
 Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
 Installed-Size: 393
-Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gmodule-2.0, gir1.2-gobject-2.0, libgstreamer1.0-0 (>= 1.23.90)
+Depends: gir1.2-glib-2.0, libgstreamer1.0-0 (>= 1.23.90)
 Filename: pool/main/g/gstreamer1.0/gir1.2-gstreamer-1.0_1.24.7-1ppa1~noble1_amd64.deb
-Size: 115088
-MD5sum: d482a386625fef0b9a75a8dddc683826
-SHA1: 2e123c4d1cc01a1879ce119187ff02f68fb66979
-SHA256: d3a2cb19a0a0325be16fc6c7a088732d3fcb11df17fc986244ccb94b40df0ab5
-SHA512: 6692fe067ba2faea9a968964ec411329985cd494bf168375e267706d51adbd2d79aef3149134bf7b62a2ee4f57b41705a9e28702912d3b5152999ea51531aa11
+Size: 115072
+MD5sum: 161fe9476883bdcef12fbeb010cb1b2c
+SHA1: 3d0a1492aa716b29c19548c02d4013749707a106
+SHA256: bd249cbe23420c62fdcfd66ecfa4b13a8961d41d2171aa3769cb220dc66e1022
+SHA512: b482d414ad2c0870d10c1cbae37a72dc7d21fc407b08136b6bb1d3d50e46f9df9cfb88a629b52201187f90cd4a428668023fe50707ac6a609ab09b4068bf1727
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer library
  This package contains introspection data for the GStreamer streaming media
@@ -1341,16 +1341,16 @@ Priority: optional
 Section: debug
 Source: gstreamer1.0
 Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
-Installed-Size: 242
+Installed-Size: 197
 Depends: gstreamer1.0-tools (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gstreamer1.0/gstreamer1.0-tools-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 133820
-MD5sum: 33e9d3f1a164ac7a93cab3e4cb36fdb0
-SHA1: 3234c40d69c06c867a785b52a4c831782bca0ee1
-SHA256: 3119297cda29498d59c3215c8d2e7bfe639e59d50d605d8e32e0d02c67ae1e7c
-SHA512: 015ea0f0f7c1367d340037946affd8f3a3fd3fe96b93a65df2894424613aed3d1264e8915e248f33a13e1eafca8eef831c4a30bbba78a198e239fbb969269f0d
+Size: 128884
+MD5sum: 507d58400a6cde2cb27f1bd2e0a7ac47
+SHA1: 2a8e1b6c0986b928965aa9f66e7243da6d8a6458
+SHA256: bb653ce0cd547494b03605a0c5bcec997b9208fc33040acc61dbc156f5f34baf
+SHA512: 673fdde37a4f4eca74071846439a2668a7c23e0112fd7e2027da3cc635098e353577bfcf14b4f011dd09d509e025075864b8c3f2f37284951716f3978e08628d
 Description: debug symbols for gstreamer1.0-tools
-Build-Ids: 1d03170d89094d1760bc1a3534f3173b6dcbee33 6ea2482c3907f50a5b6553ea9921f0bf083fdabe 7a1e3fe96a5ff281d4dc1d68dd18b90076036d8d 95b149fdc148f799a23553bd699e3d3c15b1e3a8 ddd9e33c8a48394c5be164a3394f0286d55f7c12 f0a60e64fd0d4e35350cd9df3566ad9208db9895
+Build-Ids: 113e02c4abc2c930df6b7a350d92f396d0575c8e 24debb3528a746d5573b44236f18fe006bb47037 40780145525b0053943d9d96998aef424cd9900d 98e4d71e52c153e5288a26b0fe49a665d0dfe713 b9cc2a843e322d07fc2a651aa76b54d9629f225a d291d9d5f86454323a8ee4b666f79c1a533e4761
 
 Package: gstreamer1.0-tools
 Architecture: amd64
@@ -1360,14 +1360,14 @@ Section: utils
 Source: gstreamer1.0
 Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
 Installed-Size: 290
-Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.76.0), libgstreamer1.0-0 (>= 1.23.90)
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.53.2), libgstreamer1.0-0 (>= 1.23.90)
 Suggests: gstreamer1.0-plugins-base
 Filename: pool/main/g/gstreamer1.0/gstreamer1.0-tools_1.24.7-1ppa1~noble1_amd64.deb
-Size: 102728
-MD5sum: 762bcca177536615f1be0ceafa9f545e
-SHA1: 8e644fd4e0ac7df802694a2792cccf4a034d3525
-SHA256: 58c720c91ea096b8a7261eaa3abfb1819cd30d5f1922e698c158188b7d9104dc
-SHA512: 1ab5196bf1df1854ba52884fe7d76e19f06110cc11158567ebc2026d2f7f12955917592746b04a044fafe2b07580eb48f0f9ee5c360492f745169a53b6085840
+Size: 103044
+MD5sum: 835b5ea068f5374ddfa77dc9c035000f
+SHA1: 631ccad4259547622be24fee85219f569e93d153
+SHA256: 33ed76955d0b715731882afbfa84cad9f5293348ee72284570ba86458f862f64
+SHA512: 0cab7a7b69dbabe07a8b0187244f3ed6bae8a48da815f2d40b160e05b23e386a420118f9cdde44a94ba30acb0541603e6035143e787010bad3cf9bba410432f3
 Homepage: https://gstreamer.freedesktop.org
 Description: Tools for use with GStreamer
  GStreamer is a streaming media framework, based on graphs of filters
@@ -1388,16 +1388,16 @@ Priority: optional
 Section: debug
 Source: gstreamer1.0
 Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
-Installed-Size: 5756
+Installed-Size: 5180
 Depends: libgstreamer1.0-0 (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gstreamer1.0/libgstreamer1.0-0-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 5231496
-MD5sum: d7e168dbd19ed1885c7402f4b99e7fdc
-SHA1: 1afd677add24ddc2550b90f047564f4e81f4a533
-SHA256: 8b5fd883f323c0cc2d6032e96ccd766f710d044dbf46595f2d5140c5bce293dc
-SHA512: 14d1ae09d18bbe977185e4558740b14bb53ca537f230282b2ac25178f8da9bb8cfd26698719329e6028f36c7de0afdf39d536a66236def6fa3086ea7f0cf10ca
+Size: 4678092
+MD5sum: d737063972a959fc12a2493c4dd27de1
+SHA1: 0b5c28eb122cefd8d023fff0f34e03cba892f989
+SHA256: c889cbb69fbdf3a4436772b2ec5827be4f6e0123629b1c97d9ead26877a6e82b
+SHA512: 13c37cdc4de3e54472ce01a4766b384e5286352f7ed2d8260ec391c851e723f2b388bc4050138e02c832e1ea5e541cf513948e692007b87de2582adfec4ecafa
 Description: debug symbols for libgstreamer1.0-0
-Build-Ids: 0c0a145da7958a874d178b2f52527e091212e5cd 5521e96051e11d78be6b2e29b6f12599a377fa37 557a03dc387bcfbf972c8b0c8bf3c34b2314b048 5af000d756a6f48e372b023eb94650ea5b3d202a 862df14970b261ffdf7c6518591ec2f8c7490092 981cf07871991c5bd83378f969a4d2ccc0786341 b33d4839a9e3f4f41618465058abfcd512144a23 c92c2567cf67b4063f82368bde00db35458ee167 fa96149aed96a2d6605874615d8e856b5db81080
+Build-Ids: 0381013fa36bbfab2c03164c1f0f85ec85ae07e2 4a29460fcfd4d1fb91a51b73b1911d9f8bdd1d15 93e09252a14b436e838e72c8d28cd0ce62642a16 97a65578d83057dd652819eab825ba8508108019 9c1dc755cd4ff2b62965978bb10365d3bb790fe2 b4385b1d9835b0807058188a3c48951a829e46ed ba3d1069c48075f38deabbf10bf0b4228d2265d5 cea0a0c5a74f8929bfec2384bc5153555c257ee9 e996254eb0e785c285343f07058230a8ec8bcebc
 
 Package: libgstreamer1.0-0
 Architecture: amd64
@@ -1407,15 +1407,15 @@ Priority: optional
 Section: libs
 Source: gstreamer1.0
 Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
-Installed-Size: 5049
-Depends: libc6 (>= 2.38), libcap2 (>= 1:2.10), libdw1t64 (>= 0.126), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.80.0), libunwind8, libcap2-bin
+Installed-Size: 4989
+Depends: libc6 (>= 2.34), libcap2 (>= 1:2.10), libdw1 (>= 0.126), libgcc-s1 (>= 3.3), libglib2.0-0 (>= 2.70.0), libunwind8, libcap2-bin
 Suggests: gstreamer1.0-tools
 Filename: pool/main/g/gstreamer1.0/libgstreamer1.0-0_1.24.7-1ppa1~noble1_amd64.deb
-Size: 1397152
-MD5sum: d83a8531ee587da3c34bf2d96264c296
-SHA1: e15046beba474bf33afefe2d70f5c892a5cca3b8
-SHA256: 874c0090d987309c96cb7cb0e5012edbff72fe481198369feaa2908fedf8dbd2
-SHA512: 10fa464732780e9815e5e8c65ad254174f2e482b074afcd3170b35429222bb0ebff89e1c835a9b620ef8491ca50a8b0539f8ad1acd119b9fa90228ee182db34e
+Size: 1366980
+MD5sum: 0f1d6c1b4b500becf7eb9c6c9a19c69f
+SHA1: 27cdda799fbb26f6758c38a2a6a849c8dddbacbe
+SHA256: a3e0646b4b1d6164f4e69afe0fda62114f78169713d1b4870766bfefba864f03
+SHA512: 53668382f079a392214f8f5e2ac4545bcbd988506e438f503d06575c6a075c167baedffd10b74c3f5db8c43b9a37065186e7c57bd716dc6cf1459ce518e77cd7
 Homepage: https://gstreamer.freedesktop.org
 Description: Core GStreamer libraries and elements
  GStreamer is a streaming media framework, based on graphs of filters
@@ -1436,16 +1436,16 @@ Priority: optional
 Section: debug
 Source: gstreamer1.0
 Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
-Installed-Size: 33
+Installed-Size: 28
 Depends: libgstreamer1.0-dev (= 1.24.7-1ppa1~noble1)
 Filename: pool/main/g/gstreamer1.0/libgstreamer1.0-dev-dbgsym_1.24.7-1ppa1~noble1_amd64.deb
-Size: 13756
-MD5sum: 55a6d501d8b31c5b01adea6bc95a0d33
-SHA1: 6d8204fd901bd94c83c010c025800ddc51bece0a
-SHA256: 23088c4500792cc276f7c6e8aeb987242de273560802ff530c82b266efcedcae
-SHA512: 2e54e2e61eb452418043d7be187a1069ee83ff508d55573e19e1b27e856adbb17f3855679c7af76d356c0bc708c39d293254b3db706b65e56689a70516724b51
+Size: 13172
+MD5sum: e827f89ccee150668781e9cc8948836b
+SHA1: a85b3d6c826f6c738a52baa0ba08b6b75f5b2782
+SHA256: 4c07e591c93abc9f8b8654897fef3f399cc23c3eefae1797f20a631156a3a25f
+SHA512: de07d442dc09f5e4bf2cb560c4a991a527e03e6e94b16ca915f18ddcf725a766473e399e5ced61fd3843f30754f09cc2782053556fdf81c5019429a7e5962db5
 Description: debug symbols for libgstreamer1.0-dev
-Build-Ids: b9f2113ddb291d59fb1a1ce81231cee39fcb9678
+Build-Ids: 24eeff0586409bfa8a5ecfbecff83cce4e78b333
 
 Package: libgstreamer1.0-dev
 Architecture: amd64
@@ -1455,15 +1455,15 @@ Priority: optional
 Section: libdevel
 Source: gstreamer1.0
 Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
-Installed-Size: 6275
-Depends: libgstreamer1.0-0 (= 1.24.7-1ppa1~noble1), libc6-dev | libc-dev, pkgconf, libglib2.0-dev, libunwind-dev, libdw-dev, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), gir1.2-gstreamer-1.0 (= 1.24.7-1ppa1~noble1)
+Installed-Size: 6211
+Depends: libgstreamer1.0-0 (= 1.24.7-1ppa1~noble1), libc6-dev | libc-dev, pkgconf, libglib2.0-dev, libunwind-dev, libdw-dev, libc6 (>= 2.34), libglib2.0-0 (>= 2.12.0), gir1.2-gstreamer-1.0 (= 1.24.7-1ppa1~noble1)
 Suggests: gstreamer1.0-doc
 Filename: pool/main/g/gstreamer1.0/libgstreamer1.0-dev_1.24.7-1ppa1~noble1_amd64.deb
-Size: 568404
-MD5sum: 5409cdaf480a7cf828227266270225fc
-SHA1: fcd9c9ab940fd5a8788f7d2986bde7ded72e744f
-SHA256: 76f8f622929f5493d8599e48e01ab867a4e19f7a3c2dfa921765fb9b632ee2a6
-SHA512: 50264a585d08f6e291d3ef6ad0624cb3284b8229110db38da54ff62ecda3e7b3d9a143f27179df8ae7f5913a23debdf39c8a41712fd025d94b969008d2ab886e
+Size: 565520
+MD5sum: e3fb46557f1cfa653bc3d66cc07d5f59
+SHA1: 5b4874b706001840969de04f51bfe8d933a7c90e
+SHA256: 34dffc19e4e41970b755a601fa8d07d09901c1642ae4675e5ae6bb14def2534a
+SHA512: a4444ba6e374fe91250ef414efbaafdac3d5b0c356af9eab3713d5bd6e083fa829de197ae074a21f0282ae977b3011eee42c6eec6fdb0a3e0e18d473814b34bf
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer core development files
  GStreamer is a streaming media framework, based on graphs of filters
@@ -2423,6 +2423,55 @@ Description: Video Acceleration (VA) API -- driver metapackage
  API (VA API). It does not provide any drivers itself, and may be removed if
  you wish to only have certain drivers installed.
 
+Package: libvpl-tools-dbgsym
+Architecture: amd64
+Version: 2:1.0.0~1ppa1-noble5
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: libvpl-tools
+Maintainer: Lee Chee Yang <chee.yang.lee@intel.com>
+Installed-Size: 17697
+Depends: libvpl-tools (= 2:1.0.0~1ppa1-noble5)
+Filename: pool/main/libv/libvpl-tools/libvpl-tools-dbgsym_1.0.0~1ppa1-noble5_amd64.deb
+Size: 17153240
+MD5sum: abd79c83f4451753e695c2e9de8caa38
+SHA1: 72a795d86e628c5f335fea5a4845435c339eb63a
+SHA256: cf8526eff28e0165f8b7253f44a76733248141cc4867cbcb550f15ca9e6982d1
+SHA512: 421fd9582e64a46538e1ce96bb2523743d5a59b1ec352a207fa68157fc220c0b848dec1da644f5d341202486495970385646efe9ea085d24e5b6028857cd5688
+Description: debug symbols for libvpl-tools
+Build-Ids: 21a3e6ecae6ca7be4bda0a8bf036929ecc597398 2316b05444d554e8136d80ad6102cb8c22fa7f99 3befd366d2cfecd510e887120371dae05fcc8437 5502928f62055723d59f92fcb50ab3f0465f4829 6c3bc13d7e78bf0824ee3c1d99c953994696d3d7 75723ab92bcce4dca654629735a2aca180f9fc90 75f8549d0489eb77413a31288a9443299523720d 773f223647fcc8b555be57ea604ee9cad2a4b51f 8c2cabb1dab5d97af1deed1aaafba67342c91a39 a4d259d5d353b0b5f2b5839b5a0347db76c2f528 fbdb0e29debdc4b0759282b05ef792f9f0703290
+
+Package: libvpl-tools
+Architecture: amd64
+Version: 2:1.0.0~1ppa1-noble5
+Priority: optional
+Section: libs
+Maintainer: Lee Chee Yang <chee.yang.lee@intel.com>
+Installed-Size: 4464
+Depends: libc6 (>= 2.38), libdrm-intel1 (>= 2.4.1), libdrm2 (>= 2.4.60), libepoxy0 (>= 1.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libglibmm-2.68-1 (>= 2.74.0), libgtk-4-1 (>= 4.0.0), libgtkmm-4.0-0 (>= 4.8.0), libsigc++-3.0-0 (>= 3.2.0), libstdc++6 (>= 12), libva-drm2 (>= 1.1.0), libva-x11-2 (>= 1.0.3), libva2 (>= 1.4.0), libvpl2 (>= 1:2.12.0), libwayland-client0 (>= 1.20.0), libx11-6
+Filename: pool/main/libv/libvpl-tools/libvpl-tools_1.0.0~1ppa1-noble5_amd64.deb
+Size: 969552
+MD5sum: e5114256b3c4d941142ab5b844c68063
+SHA1: bd821c5c695067c0a6114ccf99463cc5a1bacada
+SHA256: 45cf3deb7199a90756cf2d1a41bea361f0d39912e5f7c98e94b984e46100bbde
+SHA512: 5365149c4016379dfe12853b6e9245ce29e909978bb099829dc7adaf75f171ca968c15aec18d319ed9665524c2dd37cde51aef7d22f75b8b85c52b3b274a59e9
+Description: oneAPI Video Processing Library -- command line tools
+ The oneAPI Video Processing Library (oneVPL) provides a single video processing
+ API for encode, decode, and video processing that works across a wide range of
+ accelerators.
+ .
+ This repository contains the following components of oneVPL:
+ .
+  - Copies of the oneVPL Specification API header files
+  - oneVPL dispatcher
+  - Examples demonstrating API usage
+  - oneVPL command line tools
+ .
+ This project is part of the larger oneAPI project.
+ .
+ This package includes the command line tools.
+
 Package: libvpl-dev
 Architecture: amd64
 Version: 1:2.12.0-1ppa1~noble1
@@ -3321,16 +3370,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 311
+Installed-Size: 319
 Depends: qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-block-extra-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 256144
-MD5sum: 654ca24c208b9509e8028e70b8c1b5b3
-SHA1: a6e7c8eab5f4f53a6e14432c150f24529d89a66c
-SHA256: cbc2678af25d5e87d1d7c3a2b53ee67d151289f2919db335676adf3d709491f1
-SHA512: 26796000cbe1eb0cdd2727b07898883c9a3754d86ebf3b417ab42982688babea39e3c4485005d0f76e6309f199b689f95194fc980350d934e6cafef918060bf2
+Size: 258252
+MD5sum: 37f6068d8891827cc8a902409270a0d9
+SHA1: 42392e1f1283008b0a94589c3ab46ec0e9c61e2c
+SHA256: 642ba9a44574a46b45b3e8bfe344e11620e7b84a428c6636f84246e972b9c71a
+SHA512: 585339273f35d86814b0c118641bdc174cd7dd930620a796e6b7491454ca3363c78f445f803d7a6841a4cf5a328241e9becfc38c64ce4fc64f8b775fef7d46e9
 Description: debug symbols for qemu-block-extra
-Build-Ids: 00c78529cd852c03809fd06b6478661ebe7e0a26 4404153c9a575753ab2294975f95b90e0e6c2a43 936a960b7d7938e99f249fb83d10376b8513cc69 df3349368fc01296f12fcde61a8332fab8dc2d39 ff1c78423cc82048b7ecadeb9722521bb31f9656
+Build-Ids: 60a78320645aec66bf9a7e5f9dbe53cde0581881 621535673d923283fb6f692650c03322d1337659 88b9b1a84d87ac77188550d5387d6f4bcd6df51a c78fe7fdbbd6e0868c091eda9078b7dcda9eb566 e885103542d4f7c14ba7a80a7e223cbcea73a00c ff593cb8ed9086ed0afb86e50d037660841828a9
 
 Package: qemu-block-extra
 Architecture: amd64
@@ -3340,15 +3389,15 @@ Section: otherosfs
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 346
-Depends: libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.3), libiscsi7 (>= 1.18.0), libnfs13 (>= 1.11.0), librados2 (>= 16.2.15+ds), librbd1 (>= 16.2.6+ds), libssh-4 (>= 0.8.4), qemu-system-any (= 1:8.2.1+ppa1-noble9) | qemu-utils (= 1:8.2.1+ppa1-noble9)
+Installed-Size: 360
+Depends: libbz2-1.0, libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.3), libiscsi7 (>= 1.18.0), libnfs13 (>= 1.11.0), librados2 (>= 16.2.15+ds), librbd1 (>= 16.2.6+ds), libssh-4 (>= 0.8.4), qemu-system-any (= 1:8.2.1+ppa1-noble9) | qemu-utils (= 1:8.2.1+ppa1-noble9)
 Enhances: qemu-system-arm, qemu-system-mips, qemu-system-misc, qemu-system-sparc, qemu-system-x86, qemu-utils
 Filename: pool/main/q/qemu/qemu-block-extra_8.2.1+ppa1-noble9_amd64.deb
-Size: 157284
-MD5sum: 06af7045f7d3efbdbc4c5b6ba1bf3776
-SHA1: 799b649aed0d4fe968bb8c1afa90d41ddd808c32
-SHA256: 8713b631c1b12dbbf1c273c4dfedf6f7fdeaf3020d957d81c553eb9a0c29bebd
-SHA512: af080f03112ad7fbd4fa19182f5a45261a0eb961fd4c71cc9af3546e1e478806e56cecd68d15a96b3ffb1e201e39d5496eae60d231cd1108a5e16107d2364d5f
+Size: 158256
+MD5sum: c2e9311d3fcf62ea993de97b832a8dda
+SHA1: ba428132912d04239a9d261dcefe3355463fb723
+SHA256: c18551ae41190ebb2ec0301bc1218a7b5e737de8cb5273c6bb7d6185b352e7dd
+SHA512: f975bf848153e5155c2093e85b7f35ae39e64df8931f767ab40d0e95dbb593a8317ebf2ecd3bca49f1b683f67cd0e837906cddd0e30bf68e8c783ce96a9345ae
 Homepage: http://www.qemu.org/
 Description: extra block backend modules for qemu-system and qemu-utils
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -3373,13 +3422,13 @@ Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 64
 Depends: qemu-block-supplemental (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-block-supplemental-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 48728
-MD5sum: 9a00b5299b2f6cf51c89bd6947319eed
-SHA1: 71b66c6f37be9ccd5c08af8aa36d57ba2928c566
-SHA256: eb40ff4a288c292aeae848d0f16b81a30f521de3b38a2b309d2f4411920a3fb0
-SHA512: 307aafc87839be51dcc363c3fd53704c8587a3fc4e0625dab027c6b7334005e8407c6585904a834e1a11f5c80bc584d0a01575c44e78583d751020968efd1c37
+Size: 48756
+MD5sum: 0f65d2381c872e7ddb4b8485c5398187
+SHA1: 415881286637c99b19e29a9216e68ae1d3554e00
+SHA256: 074a03bb56424199a602a5bdc7a1b28db994cf048b2845907ba07881528dff28
+SHA512: a3998c9eb1094fa9e4e41f292b31d834149704ae41787be962b638f9ed1cb22074abf34ced8357a317f5ba62c36fb1b52c293599564ace8293063c493eb17673
 Description: debug symbols for qemu-block-supplemental
-Build-Ids: 67abf147f55233bcdfcaba995514188d1156003b
+Build-Ids: 0c320349dd68c21b8ac76bb9daf768bd90920d16
 
 Package: qemu-block-supplemental
 Architecture: amd64
@@ -3395,11 +3444,11 @@ Breaks: qemu-block-extra (<< 1:8.2.0+ds-4ubuntu2~)
 Replaces: qemu-block-extra (<< 1:8.2.0+ds-4ubuntu2)
 Enhances: qemu-system-arm, qemu-system-mips, qemu-system-misc, qemu-system-sparc, qemu-system-x86, qemu-utils
 Filename: pool/main/q/qemu/qemu-block-supplemental_8.2.1+ppa1-noble9_amd64.deb
-Size: 11108
-MD5sum: ff57e8893b563a2f3c6c6eb8b0847a0e
-SHA1: 8e0f789e440044f57cab29b17901227f0f5b41a7
-SHA256: c421f7f35f30391167faf5d75c6b6e9cc28fe06be019786e45ef878b93d00bba
-SHA512: 716cbd390eff9ec3c9dbe0b34cc9ef22be52525544f7b97c957bd6bc3839672e7eb35979f73d74bca8d526235e0aa8c7208dfbdc3437e4ce189d7549257cce6e
+Size: 11112
+MD5sum: 986ab837ca56e186e06c03cb397e58e9
+SHA1: 4f9302208943c3068125db1efdbf77cbc49100f5
+SHA256: 9b31a989a768276710a4cd5c556419dda20461f67323d0ba233bc9430634f65c
+SHA512: b2db18c982c09299d1f688b16b5b95463d31a9f9d29f51047ef4caafbb994126bb0cd3b4e36f9ba08a377e206c7653c505a93b296f5d5e280377375652b032f6
 Homepage: http://www.qemu.org/
 Description: supplemental block backend modules for qemu-system and qemu-utils
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -3422,16 +3471,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 1121
+Installed-Size: 1122
 Depends: qemu-guest-agent (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-guest-agent-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 959476
-MD5sum: 05309b01ba0fb7bbf3b94dab9b1e449f
-SHA1: a663e638335861cea41edb2ad11998e158669bdc
-SHA256: c320b9dbaa72d3426ada424ffdb83b4dbb3fb7d493eb9cc8d0ed1194b6ec451f
-SHA512: 9f08496860d1723bbf0f96195064d43818a4c01ea8fb9614d96afc660f4b427b5f60a4e7950eed66707ddacfde42fea770cfffc1b5d3abdb45fc93a5839c4367
+Size: 960528
+MD5sum: 10291d82ed5b47bb836b154780e02a8b
+SHA1: c535e110cec11dd5159e8ead6fc9cc7410f7e140
+SHA256: 18736748ae7c7f7c3bb4e1181c3fc8c2a68a4266db22d4110a718527384ac97f
+SHA512: c7b8b68139f9e71752e92b98c48c1cd3403a4a940f82c74aaaba85a50d1de309f8c88face7043784848b90885906302d9076dbd0f18ed447bb6487d744f92efb
 Description: debug symbols for qemu-guest-agent
-Build-Ids: 40cff7f8d3af22e03e0bb3aad3d2282e54703ab1
+Build-Ids: 386b87a636eed7becdfa98c0a23be40e7091f927
 
 Package: qemu-guest-agent
 Architecture: amd64
@@ -3444,13 +3493,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 1188
 Pre-Depends: init-system-helpers (>= 1.54~)
-Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.63.3), libnuma1 (>= 2.0.11), libudev1 (>= 183), liburing2 (>= 2.3)
+Depends: libc6 (>= 2.38), libglib2.0-0 (>= 2.63.3), libnuma1 (>= 2.0.11), libudev1 (>= 183), liburing2 (>= 2.3)
 Filename: pool/main/q/qemu/qemu-guest-agent_8.2.1+ppa1-noble9_amd64.deb
-Size: 406452
-MD5sum: dcc4d64166cb2dcefe85efa67cdd1016
-SHA1: 98873179ad47a641fdb76a5b97986efc5f56730c
-SHA256: 78b859a20ca7d8975eaf7fe2180b90af7e47f867596fe2628308f88896d22148
-SHA512: f0084dbfa4ab4ba99a11d9ca3b903c15e506316d9f91f3de5fb947fc8baf198c417331a6b7193fe366cbea6165250d696527a4fea5ced654d3e0319758b05eb1
+Size: 406512
+MD5sum: 3982e28c4354e02cba8f4a7f62b75c03
+SHA1: 6953d216b0d7d5922882c96a63f64755f26089a7
+SHA256: e5acd62d538203e2267453c42d2f5cad4bc5684ca0b070b15997d43b16164568
+SHA512: 5ba9fb9f1670f861435ae863e54a38e8979e21c23b8ee9662904b40400545c03e0e4e2248384b1f39103387fb36bbfd4513a08884e5b4dca908039fd7d4c192a
 Homepage: http://www.qemu.org/
 Description: Guest-side qemu-system agent
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -3482,16 +3531,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 45750
+Installed-Size: 45752
 Depends: qemu-system-arm (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-arm-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 41659808
-MD5sum: b256a85736ac84173c79b4fa75261aaf
-SHA1: b1ba044108265286e1fc6fcd205b3816397de515
-SHA256: 9ea8b286d656cf5b13a6bf710974c24d0f83f7c7ce6d8e0bea54b28f16097cd7
-SHA512: 8cfd02bd791e503acf2719ef518e219b153bf4d1b975255301dbfa0d48f2e3685a26dd6c93aaea4d2b9fc2ce42cd95c505df70a1c10da02b40071cd0669b36a4
+Size: 41661256
+MD5sum: c06db8ae4bc5eb7062a27e539c6bd9f9
+SHA1: 35eab7f97eecc00cdc65d9befc204488a023a1a9
+SHA256: ca657be78133113cfa5179f0b055c91651e1c88b3add426d4db834bde02ccf34
+SHA512: 03d0b8f641a635b58839086d5cd4f05b8c8283b1ff10e4b4b48671ff3cae1364621e402371c94d7da4761dfc338483737eccced9177967fc90b72c18034c7ff1
 Description: debug symbols for qemu-system-arm
-Build-Ids: 3137a1aee7c5e7eac2766e2de68d16603fe530b2 e3d2ae6a32bcdd973f9b05ddb778435b5489ecbe
+Build-Ids: 4e6a0bcab13b219837b6e3b4ccb12d65f4005da5 bbc5e75d0c569981dd5a5c9ac8fa73da90b3adb0
 
 Package: qemu-system-arm
 Architecture: amd64
@@ -3504,15 +3553,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 57070
 Provides: qemu-system-aarch64 (= 1:8.2.1+ppa1-noble9), qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-arm64 (= 1:8.2.1+ppa1-noble9), qemu-system-armel (= 1:8.2.1+ppa1-noble9), qemu-system-armhf (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.30.0), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.38), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.30.0), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
 Recommends: qemu-utils, ipxe-qemu, ipxe-qemu-256k-compat-efi-roms, qemu-efi-aarch64, qemu-efi-arm, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-arm_8.2.1+ppa1-noble9_amd64.deb
-Size: 9420032
-MD5sum: d6686c7d5061c5409733002f00290a7c
-SHA1: c5e34c3857c2e1c1902a6909f8517877d9487f3d
-SHA256: c1de75e3217d68e299504b224ee552a5e3c04c914eb5a3b656f527c9d87676ce
-SHA512: 098e077e7645183684f4e8ae785be28354d04d82ff73bc3bd3c76116774358fbb7ff0b89032e096552b5bd3ee6d3e83c8dac06cd50a6c1d2cdc8a1cd57745bc2
+Size: 9400156
+MD5sum: 7f815aa8cc6827cfd4bcbb6ac621d03d
+SHA1: fa91e384806edd0b05eb41c48d4fb9e3838d864a
+SHA256: b8090ab3123e450405fd9a1def9f5983fcf3434d032db13b30b0471d7012beec
+SHA512: 3cd1d567eac36f30341b9ba6252b3ac5c9785b816501f1e3b9793a5a0160a92fd05b7bf1cd66bbac29079a61736df535d6978bee0bff1572364b5ffae4dd237b
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (arm)
  QEMU is a fast processor emulator: currently the package supports
@@ -3536,16 +3585,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 3378
+Installed-Size: 3381
 Depends: qemu-system-common (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-common-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 2861000
-MD5sum: e482136e745ddf509276f045e28a7f47
-SHA1: d7455f42c1f959585dc1a716afd962d46b35fe70
-SHA256: 660e1bf84f68848a4ff94c143ff08aa6d23b4ca07fe9647073f8d2335a47d85e
-SHA512: af2cae4145a2c4008db8aaedfdc90263ac5d5559341ec1ee895f1fe91547491f851c57505a6fefccf4fd43db9c4a9835b0bf0152c44d14a25d6731a1fb2eedfd
+Size: 2865508
+MD5sum: 7a5d7667a2a2647f4a2f95bd3db9fbb7
+SHA1: e50887efa43cae07068913686c349d6faac00fb2
+SHA256: 5dc4319a3b5d576d8df6b88e4087acffff366721e9f38ee5edd49cced86597b9
+SHA512: 4482a5996d75bdb1285ad26009f6a8bc73f8665c524d65eb9467fec0050639ec1a72342fa55d778c1d5e1c9e7f4e955f48177deb40c2ee5849b9b82d6bb6b76c
 Description: debug symbols for qemu-system-common
-Build-Ids: 08ff01d41e6f8d1404674fc6fa6ea9958426c147 0d9eba6b6f2a3b7545186a7f2695b9b15fb82017 1f861c6aeec62185055f143fbd5152edb1368309 2a1ccbfcc7728e0d7c755c233dafda23ab72a6de 2bdd6c8907113fe1f9fe1d56736a52149aa3a0e2 3eac4de0865894778070396bd11348e270a8b0eb 4ec694411d6989e4731db106afcf7047ef736274 5e32aa5d5e4b74fdacdf04c6ce26b4ef3a87a647 74582d016da018bac099f36ab49b9312f329e68c ad56d6e55c98c8e2a478749ab5740eb04cfead2f ae27e9f2892dca40903ac5930abc47ae85fd1ecb c3acecc0a8e9a11f47597ba7e97e5bc76ca6f68d cfca598bbf4695fcf7f4ca1bdcae7c577a74f273 d9df1b4bc2e08686abbd984c61a07679966a660a e456c86fa098f9b893de6d7d7bbb25eb2cd09108
+Build-Ids: 077f0cbfdceb4e1deaebdab6b8d2c47fd9be6eb3 3b5dc98cc662816e128d3cd3b2ab81f57f6e11c4 3f80cb897e4d1643144b10a601c0f83ab85c35f9 48b8fae4de20319d4e0e465856210dcfebbf678f 53a13f48bb22109b35fc0bf31674aa73289b0a2b 78975bd4eb819bde76bddcb1bf531b85d61548bb 7ab7bbb56cda1ad694d16b99d03c0706a06b03bc 940b62c515e03306a09fad9ce7455ddc8ade9649 c32814dedb16c29e78a8a75da20d3890a56396e7 c800f6aab5dbf9a451bdd1ba063334319d3d98c5 cce0f99fae0b9fc3914cf2f038781fcb02e95bc6 d1ee20dd617ae520cedfbec490cff46375bb6f8b d40a0f7c0635b337d24a89c4fe95b90cd37d7348 ed73a48458e3c48262f882dc1ef956fb8dfdd1f9 f01c4688fc6dd21221296c8651b18daabe3c3b82
 
 Package: qemu-system-common
 Architecture: amd64
@@ -3556,14 +3605,14 @@ Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 7062
-Depends: libasound2 (>= 1.0.16), libbrlapi0.8 (>= 6.5), libc6 (>= 2.34), libcacard0 (>= 2.2), libcap-ng0 (>= 0.7.9), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libncursesw6 (>= 6), libnettle8, libnuma1 (>= 2.0.11), libpixman-1-0 (>= 0.19.6), libtinfo6 (>= 6), liburing2 (>= 2.3), libusb-1.0-0 (>= 2:1.0.23~), libusbredirparser1 (>= 0.8.0), acl
+Depends: libasound2 (>= 1.0.16), libbrlapi0.8 (>= 6.5), libc6 (>= 2.38), libcacard0 (>= 2.2), libcap-ng0 (>= 0.7.9), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libncursesw6 (>= 6), libnettle8, libnuma1 (>= 2.0.11), libpixman-1-0 (>= 0.19.6), libtinfo6 (>= 6), liburing2 (>= 2.3), libusb-1.0-0 (>= 2:1.0.23~), libusbredirparser1 (>= 0.8.0), acl
 Breaks: libvirt-daemon (<< 7.2.0-1)
 Filename: pool/main/q/qemu/qemu-system-common_8.2.1+ppa1-noble9_amd64.deb
-Size: 1207244
-MD5sum: 174993ed5b590554ce044b64a414efde
-SHA1: beca023a126449545669a5aaf8669542771a2c2d
-SHA256: 0507682b9bf212da0cc1604122caa654eb3ccd861f83fe7e6bbae2ddc215ea30
-SHA512: 8739afb156d8339effc5f3ba612ec71022c1949b367557bf9b68f446fd26c5dfcdf2f13ce5bf36b04b44e0622bc0d11ad7bbe6fcbb7a6b3ff5a4b7daa341c26c
+Size: 1206496
+MD5sum: 084348942511ab766a533aba6b607983
+SHA1: 43832933fd91529b9cd10eb908ec11c2a0a276c4
+SHA256: 542ed92444547bb99f1e12f376dea0514676660d89fffc9852d38f11b5bef71c
+SHA512: 7f4c50beaf114e6f10fc11a96023a162498998e71a2bc1d845c8c31b19fae2c7a2f72c50691ee54b0d82f01548ca287cf7d052f56579a1d9cfa0b60f28b24f75
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (common files)
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -3590,11 +3639,11 @@ Conflicts: openbios-ppc, openbios-sparc, qemu-skiboot, qemu-slof, sgabios
 Breaks: qemu-system-ppc (<< 1:6.1-4~)
 Replaces: openbios-ppc, openbios-sparc, qemu-slof, qemu-system-ppc (<< 1:6.1-4~), sgabios
 Filename: pool/main/q/qemu/qemu-system-data_8.2.1+ppa1-noble9_all.deb
-Size: 1617952
-MD5sum: 3e39647e70c29193255bab9b709e5905
-SHA1: 212ca85c3b4fcdd0e229fe6c501334877411c06c
-SHA256: 646c7da0db5e81859f6bce253c9af35debc64b472b6df60f9eb221809bc90821
-SHA512: 24558a1a588539be99fbb01b08bf276068cf19bdd8d540e770bc88af929f39bf1f2768fe2739cb8c6d3198313e53e3108facf3470086f8b53508e093d54eb1d1
+Size: 1617752
+MD5sum: c35cbd66e5011c3e9b42c12007179ec3
+SHA1: cb62b72748543c28bbd76b19ba70ac140dd95ced
+SHA256: 590d2891bfb26cf4765c78997a668302cef85bf2cf1251254100f17889dae73c
+SHA512: d214d5edae9a769f4a3687d1329f5b0e6051a2bdb811f3e030dcde8bcfa0051bc4d432efd901e6ecd26aad8ebcef406ed858c656ee31ff81b5a40ba835d4dbca
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation (data files)
  This package provides architecture-neutral data files
@@ -3613,13 +3662,13 @@ Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 1262
 Depends: qemu-system-gui (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-gui-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 1077852
-MD5sum: 941e6c932a201c4e402ba965471014e8
-SHA1: 2c1e08b69f843f5e9f1b60c7f936bc7b25953005
-SHA256: bd30d58428f4d8dfb6605ac357670c4e06ca8207be54df0ac189c57790158270
-SHA512: dce316948ce9c9315f13554df1fd7771e98318229fbd4c5b4c6884b65e3d54e16bc2c2f4c6bf1bc8f289b07e10ff9372d0311fc2ac8a641884c3aab141dc18dc
+Size: 1078428
+MD5sum: 63db565ae26f43b4937127e075438d6a
+SHA1: 743b3d6d018a2d3fb274eee8f7112f336b7e0bb3
+SHA256: 309a32207ac4548357052fa4d2e3b5d0f9ecc59bfadc5c10d54f2e937d81e172
+SHA512: 4b1e7a5e35a1c8ef0919687c1b6e83ae23af6c8b297a441677c90a28d63bf1050f9ced8ef87b64904780d87e743b6d66d5d8da3c27b93c7d07e6b170b6c20d07
 Description: debug symbols for qemu-system-gui
-Build-Ids: 0a04469bf45352f8eb0a27371e812b52e3445606 38320604b9e771333db3ba5183ecc38a4cec11d1 629388c137d444300ec585d478720379ee8db950 b0303a7cf254439a3a3e665b6e302f7e7344712d cee6c4e589384babaa46ec6f59d1c885f6b96850 ddcc92384f00dc458578cad2eeb88073205851d6 e03ceda2a1262c881cdf9b8a267ace9926ca71e8
+Build-Ids: 847e555c25e0805efbe64e28ae433521972706eb c3390ea9cdeea3325d7811c326b90a484f7e4b07 c757a3f9f34c32016a79b06b07587a4503038b1e c97a9799e11ecb3e548d8dfe3729217c21df8729 e429ee6afbee5c46386481d7d415f830d2969cc5 e74e749670ad9fd8ec0ebfeea864cf255ad9c0b3 fb9134abc7ad6419701e9a3a160041e9defa6adb
 
 Package: qemu-system-gui
 Architecture: amd64
@@ -3630,14 +3679,14 @@ Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 1156
-Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libepoxy0 (>= 1.2), libgbm1 (>= 12.0.0~0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.61.2), libgtk-3-0 (>= 3.21.4), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libnuma1 (>= 2.0.11), libpipewire-0.3-0 (>= 0.3.60), libpixman-1-0 (>= 0.19.6), libpulse0 (>= 0.99.1), libsdl2-2.0-0 (>= 2.0.12), libvirglrenderer1 (>= 0.8.0), libvte-2.91-0 (>= 0.49.92), libx11-6, qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-system-any (= 1:8.2.1+ppa1-noble9), libgl1
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libepoxy0 (>= 1.2), libgbm1 (>= 12.0.0~0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.61.2), libgtk-3-0 (>= 3.21.4), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libnuma1 (>= 2.0.11), libpipewire-0.3-0 (>= 0.3.60), libpixman-1-0 (>= 0.19.6), libpulse0 (>= 0.99.1), libsdl2-2.0-0 (>= 2.0.12), libvirglrenderer1 (>= 0.8.0), libvte-2.91-0 (>= 0.49.92), libx11-6, qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-system-any (= 1:8.2.1+ppa1-noble9), libgl1
 Replaces: qemu-system-common (<< 1:6.1+dfsg-4~)
 Filename: pool/main/q/qemu/qemu-system-gui_8.2.1+ppa1-noble9_amd64.deb
-Size: 385480
-MD5sum: a108f6f93773042e114a5997c7c0002a
-SHA1: 4dae50f0cfcdab27d57ff53886866c7ceb2ccc01
-SHA256: f164364083697bc775aae19b8475ef8f7ca3ef9076e0ea93900716c045a0dc71
-SHA512: fc164ca636e7739917add6ef5f9255ca0166611c49b67ea2add238e19b14b55fe3047e6af709d29070a290cc88640d0a05cdedc5e4bb48477ffb42b9a83133f9
+Size: 385968
+MD5sum: b36e7124c3e60c5084cc34f740fa6db8
+SHA1: 8056ba62568c3a73e04b3b1511c563a3a6c95b6b
+SHA256: 7c08e92b719b511eb78478ee6e64f5895fa37091cfe46136919e5a30ddd11902
+SHA512: d8aaf624843406aee4827eeb757b66237409f67f892d23d2a5d3491a4bc0eba4388bc13ae34d8ba539c04cd6ba3f82c079bf490a89934b8abd95c2370faed0f0
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (graphical display and audio modules)
  This package provides optional graphical guest display modules (currently GTK
@@ -3653,16 +3702,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 64077
+Installed-Size: 64090
 Depends: qemu-system-mips (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-mips-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 57782384
-MD5sum: dc1e470ccbe58f39c3fd54939787a87c
-SHA1: d6684cf49dc5ef31bfdd168e6caf478b82427847
-SHA256: 146ed9f9bdb1542b55b70e761e97dfa4b8d4027c1647c0078d84dc55ea735d06
-SHA512: f963412f00558ed75f111cbfb863afca1c021220119bceaf95dd8cfe3f095276898eb1726fe7fcf89ac787fb51e5f84d0485053d00fa9f06dfc34e1f6e204fe9
+Size: 57791592
+MD5sum: 2dcb71aa44a1e9c53a3910827ba5ad51
+SHA1: 8f926e4325491542303935c5e03c5a0cb0ea8503
+SHA256: 62d9e2fc2b95ef3c64c74e2d245325957d0b67e7e79df5ff34d9145198ef910e
+SHA512: 4a9ef79e804295c636c566d87ff3e8dc96c07f8e2b4a6d0b2ac1051ace669306535fdd3b07333fa835cae6294116c9fc3d5960a84efdee91a0718f54ec4614ce
 Description: debug symbols for qemu-system-mips
-Build-Ids: 31fce8d17aa8f63b699e7f74f0e7a3ecd8e96cca 8c59e7d28f97b05750f7ea4e123a840e900c118f e51c02f1e0758ff983a3600a3b8a927748f819cc e868ff7ef0fb54ff964f470477ced17750ede3e6
+Build-Ids: 13f6a956f76c873ca988fc1d4abb9b59664b00f1 a115e5896c8f58568b4bafc6b9498ba9f7be1f31 e086342ff1d267e658856e4dabf31357650cb443 e271b8a33692e3446823d2c9560f2cde021e6e9c
 
 Package: qemu-system-mips
 Architecture: amd64
@@ -3675,15 +3724,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 59623
 Provides: qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-mips64 (= 1:8.2.1+ppa1-noble9), qemu-system-mips64el (= 1:8.2.1+ppa1-noble9), qemu-system-mipsel (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.38), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
 Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-mips_8.2.1+ppa1-noble9_amd64.deb
-Size: 14008784
-MD5sum: 0e591f0eb3ea28df92799d48528abfaa
-SHA1: 101d425d821b162a2149bed4491630352e95c706
-SHA256: 1922fd623df1af291fdd01fb5067bf8b3f3dcdd4e40f6ffd4e6a06bb43f9ed8a
-SHA512: ddaebc9371c992ddea3c8549ef1f51176d85c3bad75bdc479570cb890a3f0f79d6e3cf669d65bf1328621f9e375473874bcdfdb278a6996ce768ca42f522957d
+Size: 14007072
+MD5sum: b2d93d85646a64179d902d0734c5ae41
+SHA1: e020d40bb1ddf7ef712a74613cbc1342425c7d9f
+SHA256: 02d06df64677722d815146617afb44c362b3c8dae07f1b3a203c17f24670e5d8
+SHA512: 1c68605ef4b4adfcb7f9c260e61b5b7da17aa9737f7005e60bb33a97720ad079bd78d02b12148c3f07c4b88cb3a6653f2d8edeb528e79a5fa11dba7066fe1c8f
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (mips)
  QEMU is a fast processor emulator: currently the package supports
@@ -3707,17 +3756,17 @@ Section: otherosfs
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 223322
+Installed-Size: 223338
 Provides: qemu-system-alpha (= 1:8.2.1+ppa1-noble9), qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-avr (= 1:8.2.1+ppa1-noble9), qemu-system-cris (= 1:8.2.1+ppa1-noble9), qemu-system-hppa (= 1:8.2.1+ppa1-noble9), qemu-system-loong64 (= 1:8.2.1+ppa1-noble9), qemu-system-loongarch64 (= 1:8.2.1+ppa1-noble9), qemu-system-m68k (= 1:8.2.1+ppa1-noble9), qemu-system-microblaze (= 1:8.2.1+ppa1-noble9), qemu-system-microblazeel (= 1:8.2.1+ppa1-noble9), qemu-system-nios2 (= 1:8.2.1+ppa1-noble9), qemu-system-or1k (= 1:8.2.1+ppa1-noble9), qemu-system-riscv32 (= 1:8.2.1+ppa1-noble9), qemu-system-riscv64 (= 1:8.2.1+ppa1-noble9), qemu-system-rx (= 1:8.2.1+ppa1-noble9), qemu-system-s390x (= 1:8.2.1+ppa1-noble9), qemu-system-sh4 (= 1:8.2.1+ppa1-noble9), qemu-system-sh4eb (= 1:8.2.1+ppa1-noble9), qemu-system-tricore (= 1:8.2.1+ppa1-noble9), qemu-system-xtensa (= 1:8.2.1+ppa1-noble9), qemu-system-xtensaeb (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.38), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
 Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-misc_8.2.1+ppa1-noble9_amd64.deb
-Size: 50710960
-MD5sum: 87f34492412a27557627feba48f07276
-SHA1: 338bf49898af9ce5594a4275682e60e76c778a89
-SHA256: 8f504b90509365923532a9f012efb420ae3edba5718e76ccb148e744b5141670
-SHA512: e1b1dc22698af5c542a6451b29498b4d4ce06b7269a15647da9bc99ed55c2498121405cbd1a33a17f6b3263864e779daf9fb23400c13fccee7d180c6acecde7c
+Size: 50712336
+MD5sum: 14b71fb58481c7621b41021bf0701169
+SHA1: b878d41373ac0bca056e0cab4326189f43e56bd7
+SHA256: 769ab10481773a27683ef00048e6235a26da1ed13fae542488e01826a6a3cd28
+SHA512: 2d4adc32a0a3971abc807bed37ed3716bd59b65bc16c1f5310fc0b9101b0b24dee463dd896af36fec29ed7594d360a9862bb57069bcf13da4ebeceb6ebe21751
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (miscellaneous)
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -3749,13 +3798,13 @@ Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 547
 Depends: qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-modules-opengl-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 399556
-MD5sum: 1f769f1b008805a2e08e55dc4e1d16f2
-SHA1: 030e81f3a1da7587aa4a528fd935aac59808f760
-SHA256: c002393ddb1df322291611d1271dd50459d2e62fc698478a2c729e5bfcb28240
-SHA512: b7815b015f1c050cf89fb20c5bb55218030ef428a1a5ea4c801c10cd935665a5ace4cfcef2120ba64d71e39955a950d33aba781c15900d390fadaffff0c31e26
+Size: 399308
+MD5sum: ff1d28d03622594be26d7247f35918d0
+SHA1: 1489f4a8f4374c3d8b0292ff6ccce5dc271d73b4
+SHA256: cac313ebfec2db6a786aa78a5546691a6e9851c31784f1e013860e6cde63d7d3
+SHA512: 903827a9102dcbda03766d0542ea387bd8ec0c00dda0d1422e54c7cd7063005b85eff5712b1a7e4d7d36d0eb614eebfb48922f5c6bcdb05c3951b97faf9baccf
 Description: debug symbols for qemu-system-modules-opengl
-Build-Ids: 01a9bb5882603b3104b608f58f725dc41e7aa99a 4ef088e288bd5c89d907c81b014a24108d3c533a 53e6576bfbe86ee5ad041cc8d74a512f3c934c2a 5a8b54e1bc04225fe11d2a03b0b9ede01301ae2f a5e5e139de2b66d84db160d38e62b59d3aa2a9b3 d93626284ac201312e05c24fc2148c5029ddd480 e69e585290165e2e51996a0d9b5ab7f2fe026689
+Build-Ids: 0ed98e0db7cefe4706f92b5acbc5444ced2dc43e 159a3777149406b738494347ce54ab77465b4c2b 19975072d8e6047d871bafd1e3cbe72324162556 7dcf4b7cd333fb8acd8aef109823f8122b11bc6d 918a2dea6f9a473149ce76420ececf8385431639 975cb37ad45d0428f9c004eaf06edc633d13ce8a ec6ef81f61f74704044ae8b967c8adf75ec9c9e2
 
 Package: qemu-system-modules-opengl
 Architecture: amd64
@@ -3770,11 +3819,11 @@ Depends: libc6 (>= 2.14), libepoxy0 (>= 1.5.2), libgbm1 (>= 7.11~1), libglib2.0-
 Breaks: qemu-system-common (<< 1:8.1.0+ds-1~exp2~), qemu-system-gui (<< 1:8.1.0+ds-1~exp2~)
 Replaces: qemu-system-common (<< 1:8.1.0+ds-1~exp2~), qemu-system-gui (<< 1:8.1.0+ds-1~exp2~)
 Filename: pool/main/q/qemu/qemu-system-modules-opengl_8.2.1+ppa1-noble9_amd64.deb
-Size: 194960
-MD5sum: 1106a1d84c636a5c2508da66daf2f0b6
-SHA1: 47065a3a2252408de0e63b3a2c1a84755aea59ef
-SHA256: b9122cd84dd028288519104b26ac65978002f0ff3f2dbbf25c70e6149b3cbfe7
-SHA512: 82e6a92d84dd56996f237e10dcee3d38e306d89af6ad471fe8378b136526a993ef607d38b6ce39c9ff2790ff94ec610e34a868994fed38360bf5b76e5df56f47
+Size: 195948
+MD5sum: 4615d0757aebafeb19dca917fb19d061
+SHA1: 2ff43d301fa8a917218d6cf88cbf1d943c78d878
+SHA256: a9b67b8b6f450bd7d655316dcd8d1ba0ee340bf694789e7cec3a961282472358
+SHA512: ae3331026d97eb68257f498fa6443003f5b35c8331509327f855b763eb013a15693dc201aaae8479fca9a5f4ec147648dfa0f0d44c2630ed785833caa41e2ff5
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (OpenGL display modules)
  This package provides optional OpenGL display support modules for QEMU full
@@ -3792,13 +3841,13 @@ Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 284
 Depends: qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-modules-spice-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 220884
-MD5sum: 6345f7968ddbf7992e527dcb7f0cdf26
-SHA1: ee8974cb722b4b2c08588c96bc9815986fcfd18c
-SHA256: 13bc3743c86b4fac6715c01f090673db1c0de66b10d4d5c5631187a5f6c0a53b
-SHA512: 1987e4fca0dde6cf5ed6bb00077780638b55938768785cbe9ce9d6a9cd4d415963dad435b051f735224206a0570938f865b6f048ac4a84a02c56186b69aa80b6
+Size: 220952
+MD5sum: 11f8fee9c2b17bfc692c3815efcfbf32
+SHA1: 11a004e360341f1943fcbd5a02bd44cc8e595d87
+SHA256: d9c26038e8162dfaa9e92548597c7ef290e81679606dd3b0e4aa585079f81bb4
+SHA512: d889338902afee8962a6762bc53af74bd770451987d483e1e38563dd7cfc875fe6887c6d5db9ccab1d2095da3d40f48ed87bd53b8cd89c7123c1d9c05492adc5
 Description: debug symbols for qemu-system-modules-spice
-Build-Ids: 128c5cd42663c2f42fe17a48f1176c2707607a63 34f8a91e3c7d422373f2d304261b47385d31fc02 5c1e036a74a4fa71066eed9e321d85672d92bba0 cec4214c4e83f190afb37fd8229adfafa820020c e654b3825ccdf2686e51d5fe16f2d9b73c079bcf
+Build-Ids: 087ff8961a540f512efda36c74441fd2b3d1344b 22efa4bba21c796d4fd21fad868952a0db82bc01 42075c200db035455b0e915eccbd9982177982ec 4d054501bb6ac565c1eec1ddac2f959dd95f0b8d b06513a23cf54e9051636850e01c046a22c32fb4
 
 Package: qemu-system-modules-spice
 Architecture: amd64
@@ -3813,11 +3862,11 @@ Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.30.0), libpixman-1-0 (>= 0.19.6), l
 Breaks: qemu-system-common (<< 1:8.1.0+ds-1~exp2~)
 Replaces: qemu-system-common (<< 1:8.1.0+ds-1~exp2~)
 Filename: pool/main/q/qemu/qemu-system-modules-spice_8.2.1+ppa1-noble9_amd64.deb
-Size: 162504
-MD5sum: d96dc76d31d685b67e9c5c9e7a46ddba
-SHA1: 87ce7e5c737084b4622f13ca69e28059aff3d9f3
-SHA256: d6bbde876ab8f668fecd3a5af7e2131996e31c57ba8616a15e1d52048e417191
-SHA512: f06bbafa6953df999d5cbf397ee7abafc552c46765c6931328f4542ced545b57c6c43a04e114a58bcb6bf5937a51c78409d2fe4fe743c60409927aa1de3f5572
+Size: 162376
+MD5sum: 6820cdf6e667355404684001ed04d007
+SHA1: b6cbbfb85655f9bc6a5f111084f893be0fed21e1
+SHA256: 6acd6a7c8c0b97bd18df56c7ef2e2500ba039f8df0701b65a16090ec2c23cbd9
+SHA512: 6dd4c889d031b2871eafa1a064a7c5d62b721f340c8e35e45cd692a831428e6557258645f82fac0abbfffe4f896a9f6666202eb023c55207b7eb5208b327f0b5
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (spice display modules)
  This package provides optional spice display (qxl and spice-app) and audio
@@ -3832,16 +3881,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 36062
+Installed-Size: 36070
 Depends: qemu-system-ppc (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-ppc-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 32609080
-MD5sum: 6fca28243b4f85c01ff19cc54d5ba223
-SHA1: ab9b71df883193f0f4d11e5c6491cf49b85cd726
-SHA256: b6367d47d570fe1707b3eb14e691ba5d19b20215435bd49a02ee1308657debea
-SHA512: 8ac169ab9046b76cf2514fbc1893a68576522f6216ccc8de2f3937a719b94b148755b745732d1157eb52da86d4f57e5c4c658dcf8ee5f2e86aeb86543e73d2ad
+Size: 32612640
+MD5sum: c3ce99317617f1e1a66b5e14fc10f4ff
+SHA1: 45e2c9d4099d10b19ca4f7041df7e1fa7cefa121
+SHA256: 6de6702ca77863c98d0222e552a1897526e9e5d06fdeef0225b70ac5143aeba5
+SHA512: fc58f5957121b11d958ff84eee6e1cfeafd5f63db848238ce6e7e5a0e96023eb1386d542142764ac34002e507395e7006ef4e632095907d33e81cf2e97ebaa8c
 Description: debug symbols for qemu-system-ppc
-Build-Ids: 6969b2ecca19328e7994182205bd5d82b7282d71 d4bb638a145ecf537b6d21618675e6497863d60a
+Build-Ids: a9860c8d04e0d4fc29caad0f3086d3860fa78d20 c00248006af0896a5cdabcbeddf146bf091a6358
 
 Package: qemu-system-ppc
 Architecture: amd64
@@ -3854,15 +3903,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 34149
 Provides: qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-powerpc (= 1:8.2.1+ppa1-noble9), qemu-system-ppc64 (= 1:8.2.1+ppa1-noble9), qemu-system-ppc64el (= 1:8.2.1+ppa1-noble9), qemu-system-ppc64le (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.38), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
 Recommends: qemu-utils, ipxe-qemu-256k-compat-efi-roms, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-ppc_8.2.1+ppa1-noble9_amd64.deb
-Size: 7807672
-MD5sum: c609b32adda601044b130fb5a0508f23
-SHA1: 266a1da81cec616454b8e1b917706c383df25b83
-SHA256: f4e3f3d6eb07de22bbd186b9f120253c3f33072fe7e34ead2fc880fbf06441c1
-SHA512: 1604e5781ca7987d9d617e8b2ea540f796ecbd3307806f414f2cb641997689acc24b7baa83194605f2467e1103cf7fd6a9ca1e3bd02b3067cb749dfe0ab47b19
+Size: 7784644
+MD5sum: c11f7a05450a8e34ab67d79a0f2dd4eb
+SHA1: 03e6901054367fa0a3eca0ee3e957dfeb049bb00
+SHA256: 645fd862dd4f3259c56b03a322f0fb00c822b94506075f7449934df53bbc98a7
+SHA512: 11c375d5cca28d4b510355bad6dea09bc3ccd799c1e5b061f715ce826fef26c2a6ab7063f62658d1b99facb089e5a7eb0119451a2c7fe7330ef05d386aaca565
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (ppc)
  QEMU is a fast processor emulator: currently the package supports
@@ -3918,16 +3967,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 24131
+Installed-Size: 24135
 Depends: qemu-system-sparc (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-sparc-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 21506448
-MD5sum: c05414e1945e8f97c1160ae025e05255
-SHA1: 8f16f029871e2239f559d1bd2dc640b1f694b871
-SHA256: 49e4780c91d74725aec20580ef36a54d9f55c3a038da76677238684b00cf7624
-SHA512: 233f8af23a754f59b59d0fd79e97ba703b9c1b75a701c4a659cba29a80c928e50479f599f22b173cf135b4abbe84562f8258f98c32e927714876dccbb37e79f6
+Size: 21509684
+MD5sum: 73664a5acb97b4813d6d82047ddd1d61
+SHA1: a3023dac9a8752b36201d1139f8fad7ce37e06a5
+SHA256: e6050ceb18e2ce1bb6397539d510305494a516052af4237517c67edbe97fa6b9
+SHA512: c8b43e27cbbba24fd0754e6fb05afd7bb6d779e44419a9c68c30c1c3081765713d5d29765190bd1b5a53c20b2bb89f88a41e22cdfe96a72c5268fafac8b8dbbd
 Description: debug symbols for qemu-system-sparc
-Build-Ids: 1241b9f2a11465b37470859c558ef747f9104d9d ffdd5e383236cae7fb1df2912aa85b26693a14c2
+Build-Ids: 07e7b219863d4e2eaffe511a51408811533fc6e0 fb22115ad93a7c7eae7463933b38dc92f5be9384
 
 Package: qemu-system-sparc
 Architecture: amd64
@@ -3940,15 +3989,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 22039
 Provides: qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-sparc64 (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.38), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
 Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-sparc_8.2.1+ppa1-noble9_amd64.deb
-Size: 5436732
-MD5sum: c8c1d095a1a23bf89a5e90f5e3799489
-SHA1: ca8a0e76fea3ee6c2d7bd57bbdd29eeb069afdbe
-SHA256: 3bced9e9d9704af5d7a84ebf51d6eef1d68c41c774d51fc17010214a4ea077de
-SHA512: e440c7ede043caf1fdec5a07532ee96da91cedcc41b7d22ffbd15da8fe80aaa7c039fdd395f32cf1460ed75406d04842cc56fc07016d2ef20727c29394387115
+Size: 5435116
+MD5sum: 6158c17775951fc3752e76e29040441c
+SHA1: 42ebc2d50cc8e451bd9375e72057f40789ba70a2
+SHA256: a0ff9ff12006add7d0bba753a57348a1cb06c745730b1cc8b7634456443c1fbc
+SHA512: 29fa8484b64a95ecde89424397f08739d726c153974bed2f23adcc6a5aa70a9003b1dea3788dfc0c5305b0fbd971d4ad22f3b3d21e0856e6f0997412fd43e052
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (sparc)
  QEMU is a fast processor emulator: currently the package supports
@@ -3972,16 +4021,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 44113
+Installed-Size: 44117
 Depends: qemu-system-x86 (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-x86-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 39591748
-MD5sum: 0fab074aaa120fae47d1e71166e7b717
-SHA1: 61859d786d4d178f656b87c9de00fe14e20203ff
-SHA256: 7b4984305b573cbc21a3422e58fc9944e1ba9cea6025e4a1208bb76902bc0d7a
-SHA512: 3550d5ebefca5724fd071f5a2d4cf0989c17aae7f01376fa220a6c6bc04fe2557daf1420f269c833ef0d37f4da9192c8c9274f131447fbf87c5b8a85edbc8e80
+Size: 39588952
+MD5sum: d6e0c191e3fad2ca5b262841d0222872
+SHA1: 90cf929dac903c265c4086235dea4ebd1503e8a7
+SHA256: 4a6b869420bb5bbdfa225426851b0354de23a3fbb590db4adcc567a825314c1a
+SHA512: c10b74a799e9cb75cdf1ee970bb513d3be5da3552e942030eaaa6410619e657f1f30878f372db8a91b4fb72ce31e1d071e600d4744d4f999a382c9b584832635
 Description: debug symbols for qemu-system-x86
-Build-Ids: 1b85a4f82762be74cbef224f94eb91caa611145d 339351314f238579ed10d34d7a57c4d04886c864 ca65ab37316841b1d0b8a9b917eeb5d452c2c775
+Build-Ids: 1c6faeb8e80eac981dfaf78143a3b195652b639d 6e401ad2d4c66279a49f88060fe45b2b7b5a9301 a79a7f5ad4909ceaa59319d3a9487f233fc8dd59
 
 Package: qemu-system-x86-xen
 Architecture: amd64
@@ -4017,15 +4066,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 57878
 Provides: qemu-kvm (= 1:8.2.1+ppa1-noble9), qemu-system-amd64 (= 1:8.2.1+ppa1-noble9), qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-i386 (= 1:8.2.1+ppa1-noble9), qemu-system-x86-64 (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~), seabios, ipxe-qemu
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.38), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~), seabios, ipxe-qemu
 Recommends: qemu-utils, ipxe-qemu-256k-compat-efi-roms, ovmf, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9), cpu-checker
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-x86_8.2.1+ppa1-noble9_amd64.deb
-Size: 9867496
-MD5sum: a2a07c97615950b282a393822919b4b1
-SHA1: a9bbef8ae37a9145e3238e92bdf46bbdf13d8e0f
-SHA256: b2d02cd6c6d12f802d221fa33fd3a4c8297d05cd45d045fcb716062a1454686f
-SHA512: d46fece6b1d2492a41b128e9dd645fcdb98db2010707c602debc7f058090dbe1984139c5f5bb05de2f02bd8a39a302f5203f8007dd6002897b367040cfc29fbd
+Size: 9814548
+MD5sum: e7775867005a96dd07cae40fcb7186b6
+SHA1: 7ccc597f7255af2f78cf8fdf730ac5f6a196692b
+SHA256: a5bc432f89909bc06832ce343ef1142c8114edb9e9d94825baf4e43b5ec9ae5e
+SHA512: 906705f65714c31bf52e97228e239fe3cb77e1f2ffc1d2080094e8a26bac4e4ac7e1ac11b16875edbc67c41212fb784721a59d7134df7fdc10c0a25b508609f1
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (x86)
  QEMU is a fast processor emulator: currently the package supports
@@ -4052,16 +4101,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 12912
+Installed-Size: 12918
 Depends: qemu-system-xen (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-xen-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 11495692
-MD5sum: 959d608aa87ccdbd0528b764323168e0
-SHA1: 945d11720dac226a7ece9dacd6fa1d6b43e86d02
-SHA256: d61dec63b1f851459de47048645c51f2c00fea3f44dab962030c719d1483d604
-SHA512: 2e0c6ef612f24e1197c70682cdf3a2cc7413728d094d0eb3ba646d49655dc9d5a4f1921c6052c5930c07aa4d83556ddd2d9c8dc3ef94ff606e8f767c30b7da71
+Size: 11501520
+MD5sum: 33b71eb1311df3fb5e99a02a27ecec3a
+SHA1: c5538229fc039463548e7e7b78c0eabc05d40032
+SHA256: d2efcf8c2d87b088caa4f0079a3ec63f4a069cf92761295b14a2ebb447024b08
+SHA512: 6fa0cd1bf023bc5a94cd97883eb2eeee3210cb9361f7e42dc3ba2032036f8171839528ff2beefb7b757b1e25a63d92668f7abbe5aa7e77a0b81ce576f0329fa9
 Description: debug symbols for qemu-system-xen
-Build-Ids: 90929825c458eaf130352704d71a8f0c2a65205d
+Build-Ids: 7560a0fd6897dd3f63f2129252c9fd42e35dff24
 
 Package: qemu-system-xen
 Architecture: amd64
@@ -4073,16 +4122,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 21640
 Provides: qemu-system-x86-xen
-Depends: libc6 (>= 2.34), libfdt1 (>= 1.6.1), libglib2.0-0 (>= 2.67.3), libjpeg62-turbo (>= 1.3.1), libpixman-1-0 (>= 0.19.6), libspice-server1 (>= 0.14.2), libusb-1.0-0 (>= 2:1.0.23~), libxendevicemodel1 (>= 4.17.5+23-ga4e5191dc0), libxenevtchn1 (>= 4.17.5+23-ga4e5191dc0), libxenforeignmemory1 (>= 4.17.5+23-ga4e5191dc0), libxengnttab1 (>= 4.17.5+23-ga4e5191dc0), libxenmisc4.17 (>= 4.17.5+23-ga4e5191dc0), libxenstore4 (>= 4.16.0), libxentoolcore1 (>= 4.17.5+23-ga4e5191dc0), zlib1g (>= 1:1.2.0), qemu-system-data (>> 1:8.2.1+ppa1~), seabios
+Depends: libc6 (>= 2.38), libfdt1 (>= 1.6.1), libglib2.0-0 (>= 2.67.3), libjpeg62-turbo (>= 1.3.1), libpixman-1-0 (>= 0.19.6), libspice-server1 (>= 0.14.2), libusb-1.0-0 (>= 2:1.0.23~), libxendevicemodel1 (>= 4.17.5+23-ga4e5191dc0), libxenevtchn1 (>= 4.17.5+23-ga4e5191dc0), libxenforeignmemory1 (>= 4.17.5+23-ga4e5191dc0), libxengnttab1 (>= 4.17.5+23-ga4e5191dc0), libxenmisc4.17 (>= 4.17.5+23-ga4e5191dc0), libxenstore4 (>= 4.16.0), libxentoolcore1 (>= 4.17.5+23-ga4e5191dc0), zlib1g (>= 1:1.2.0), qemu-system-data (>> 1:8.2.1+ppa1~), seabios
 Recommends: qemu-utils, ovmf
 Breaks: qemu-system-x86-xen (<< 1:7.0+dfsg-7ubuntu1)
 Replaces: qemu-system-x86-xen (<< 1:7.0+dfsg-7ubuntu1)
 Filename: pool/main/q/qemu/qemu-system-xen_8.2.1+ppa1-noble9_amd64.deb
-Size: 2926464
-MD5sum: a4747423ace61304a80f97a0f9e2991a
-SHA1: 52678848af4dbdf2b83ae45b34d30b6ff88f79b0
-SHA256: f0720ca061eb14f9a7f811fa39962889dcb1fdafe222b67a27bb8c0b3cd1eea3
-SHA512: 1586418b0ba57141cb0728550940b6266a7b5b711434e1efbcfbced0e157bf7a4c1ec32a80376aede1b0f26af514a0087d5ce814b4f46445daa72fe4a2274444
+Size: 2931536
+MD5sum: f9a2508aacc5fec387e004e137dd71e2
+SHA1: 7334189d616da99fcf0100796049d19cafd6709b
+SHA256: 05c2873f5d60145c014187d0e43b64be203191f362e029a6a48774339c400f9b
+SHA512: 95fd68cffdaf782ffbef79fffb148a1d4457ec73ae86a8cf32d67f4303d04c37deb5d81026176bb14818e55f49e9a0380f7de5f146aed5acb6e359f87835407d
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation (Xen helper package)
  This package provides the i386 system emulation binary to work
@@ -4153,23 +4202,23 @@ Description: QEMU user mode binfmt registration for qemu-user
 Package: qemu-user-static
 Architecture: amd64
 Version: 1:8.2.1+ppa1-noble9
-Built-Using: elfutils (= 0.188-2.1), glib2.0 (= 2.74.6-2+deb12u5), glibc (= 2.36-9+deb12u9), zlib (= 1:1.2.13.dfsg-1)
+Built-Using: elfutils (= 0.188-2.1), glib2.0 (= 2.74.6-2+deb12u5), glibc (= 2.40-6), zlib (= 1:1.2.13.dfsg-1)
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 157152
+Installed-Size: 157537
 Provides: qemu-user-binfmt
 Recommends: systemd
 Conflicts: qemu-user-binfmt
 Filename: pool/main/q/qemu/qemu-user-static_8.2.1+ppa1-noble9_amd64.deb
-Size: 19561564
-MD5sum: dfc4d613ee3c37b9afa641c490afe1b6
-SHA1: a7b3781348dcfd75bed048dc28f705fd5ce008d9
-SHA256: 9a5eb421ff9e0979367e2c235f436587f6573ca87d715e81dc1a57ccd30083fd
-SHA512: 21992aad9fb5da8896e4eb7c1481919bb7d4e8d051284bbca0f965ae26b7fa2b7e27b14bd6a5d8ef6448d8a50ac616c1341fd2271d7851de36d81d6dab05d35c
+Size: 19571660
+MD5sum: 3517bfd0865041a446f07a3c47bc3cc9
+SHA1: e9439b3251a6bc641f4aaba4ce472edd487068be
+SHA256: 954874c4226e4eba4d2575b5b2855a3e70ddace3c41587c1da45b85d8145702b
+SHA512: d3f6a12b4d892325cea874a2e3e421cc22562341ca2bbfedfa9a52d84fe66d501ab46f724a07319e96bd9a6a536a9269e78515cd8b8ee2ed12978d4bb7b50b09
 Homepage: http://www.qemu.org/
 Description: QEMU user mode emulation binaries (static version)
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -4195,15 +4244,15 @@ Section: otherosfs
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 92582
-Depends: libc6 (>= 2.34), libdw1 (>= 0.158), libglib2.0-0 (>= 2.61.2), zlib1g (>= 1:1.1.4)
+Installed-Size: 92602
+Depends: libc6 (>= 2.38), libdw1 (>= 0.158), libglib2.0-0 (>= 2.61.2), zlib1g (>= 1:1.1.4)
 Recommends: qemu-user-binfmt
 Filename: pool/main/q/qemu/qemu-user_8.2.1+ppa1-noble9_amd64.deb
-Size: 11075576
-MD5sum: b2f642271385c6a9f8eaf3cdbbd1834d
-SHA1: 8126f5c40da27f894fc866d3a9cf3b353ba03edb
-SHA256: 4fddd65130df01f04c19a71ac2efff770922d2deaa0fadbc993a4f09280c23a0
-SHA512: a14b3d297fe9941c45b7d1a0a360005e26996c6c2f9702ed63be31b9ba8a6b29442f085ef6f6e958d6488c98f0065891de120b9e3da2e83838dbacb5564e2606
+Size: 11093692
+MD5sum: 4c40bf4d4de955373efac11f4c345c78
+SHA1: 1984fe954b34f36bdbac3098f78bd956e563a976
+SHA256: 6d3f3e74dbf93d1a1998ef9bc224a28ef83c1342fadcde1fca4320c462f5551b
+SHA512: b3f2ff60eb23b173a733dae41b49f637fc9733add1dda169a3599dd3d528a9fba351f617ba32065b86706ea06a41e28abd08ee802d873d595b898cdbc378a839
 Homepage: http://www.qemu.org/
 Description: QEMU user mode emulation binaries
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -4231,16 +4280,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 13259
+Installed-Size: 13272
 Depends: qemu-utils (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-utils-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 11762616
-MD5sum: 5d0856a76bde902da373868b64833efa
-SHA1: b8359a56e2306d7083884ea2372cb3ae723309dd
-SHA256: c2c574c188e4408d783da74175df8f2e697c4cf6d423fca0d9b43f73ae1c4597
-SHA512: e6c8b2c7a4bc37fc43470cb904b73b9775166a306ee6f4045ab5be7e97421bfe042153c7cdd8472d10f96bf8fa5135ee6d2ecdefcd969ef532cc03619a86fb06
+Size: 11786548
+MD5sum: 2e3e5413b60c3346e688d2a4317d3e1b
+SHA1: 71da3c2be5b0bc6a9b6a9b8ff2f04bee934c3ff7
+SHA256: 3460b181d4f7e53cb297789643030fe34ada38412449adf8e3839783609ee344
+SHA512: 074d92bf31159e066c990e0e4c89177ab59db2daea7237a0a2e291a0a88212821b4451db9d7f86309680c0692eea90a949c2552acd908b860b259c7fe419b71b
 Description: debug symbols for qemu-utils
-Build-Ids: 2b45580c6dfed08fd2edcadc0391f80f48ed0447 516cdbcfb4a53aa91ab035b3797552815796388a 51ad4e5a63e518b124d21e19639512d0708a85a7 582c353df2af53670c331095ae7095f850cbfc9e
+Build-Ids: 409fb8c1e7563a1876c0df9bce179a718799a3cd 6ae8fdf45d90cf99957929ccdee376990087e8e7 8ce811b45f79c8173ca58085a7f3dcb49ccb93ae aee684d1b281c64578ed1463955343cb71859887
 
 Package: qemu-utils
 Architecture: amd64
@@ -4252,16 +4301,16 @@ Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 10622
-Depends: libaio1 (>= 0.3.93), libc6 (>= 2.34), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libnettle8, libnuma1 (>= 2.0.11), libselinux1 (>= 3.1~), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Depends: libaio1 (>= 0.3.93), libc6 (>= 2.38), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libnettle8, libnuma1 (>= 2.0.11), libselinux1 (>= 3.1~), liburing2 (>= 2.3), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
 Recommends: qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Breaks: qemu-system-common (<< 1:8.0+dfsg-5~)
 Replaces: qemu-system-common (<< 1:8.0+dfsg-5~)
 Filename: pool/main/q/qemu/qemu-utils_8.2.1+ppa1-noble9_amd64.deb
-Size: 1859236
-MD5sum: 405cb47d9988cca80e5ebd82fe8c4c07
-SHA1: 526ff0f0c99a787eedb51a2107bdf406e25172bd
-SHA256: 4ceb083f67c7c13b98ea378c62a2ea1e57ba1ba7b6d935c7fd038b19d515c63d
-SHA512: 84a41740f0a6c3c9966ae0971e4642ac5aa97ee43b2d70e19353d06f1c34adbbcf6945a2365291f64d5f3839637af6e82da7af2bf829b62936c54584f6bd7e31
+Size: 1861992
+MD5sum: dc9d1de004f0df9785ffef2c807bb8d4
+SHA1: 2d2bac13ddf1343c6ad347397a964cccc74facc7
+SHA256: f7db1be1f6e03922dcbd57b5faa3adc132a4ae7979605265137390a86fc5c998
+SHA512: efa79bf50d6d07a50095bc2ab9c5d481068c632421697f74641edb9e9a0f1dc1c9c90c6177f0f5feac5699f722cb7d2c7cf0da3abe9c225554c2210700cc7d9c
 Homepage: http://www.qemu.org/
 Description: QEMU utilities
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
