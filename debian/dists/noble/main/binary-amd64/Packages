@@ -3370,16 +3370,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 319
+Installed-Size: 311
 Depends: qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-block-extra-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 258252
-MD5sum: 37f6068d8891827cc8a902409270a0d9
-SHA1: 42392e1f1283008b0a94589c3ab46ec0e9c61e2c
-SHA256: 642ba9a44574a46b45b3e8bfe344e11620e7b84a428c6636f84246e972b9c71a
-SHA512: 585339273f35d86814b0c118641bdc174cd7dd930620a796e6b7491454ca3363c78f445f803d7a6841a4cf5a328241e9becfc38c64ce4fc64f8b775fef7d46e9
+Size: 256176
+MD5sum: ea3eb78a633b182dd00bb7e908d45d2c
+SHA1: f804bda0ccb95aa06a4e7575761637ad87c696fd
+SHA256: af2ffc58590a538f97af382884b845f8098b4a94c457aa42b8188bf77c4aa1e7
+SHA512: 7b60874dab463ea790e470bcf0df168ef0c34831ad9e38e86f3c48426036c9b9e8c69a4e58286ff52ba8ab8f0f9a45ded018a97ab4c70e891c2747af4d35053c
 Description: debug symbols for qemu-block-extra
-Build-Ids: 60a78320645aec66bf9a7e5f9dbe53cde0581881 621535673d923283fb6f692650c03322d1337659 88b9b1a84d87ac77188550d5387d6f4bcd6df51a c78fe7fdbbd6e0868c091eda9078b7dcda9eb566 e885103542d4f7c14ba7a80a7e223cbcea73a00c ff593cb8ed9086ed0afb86e50d037660841828a9
+Build-Ids: 0707107d9296a7cae8a30c08935aec7d81fca333 2ea5fa5f2277bd1871980830e91e4ac7941ef173 36ff6130b3e50d73e4fec28e326545a58a49e3d7 67e3ca03a1b5537a39e3bc1eab694ba1d8e870ac ef70506c425500e8c37ff9619119eee44e403f2d
 
 Package: qemu-block-extra
 Architecture: amd64
@@ -3389,15 +3389,15 @@ Section: otherosfs
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 360
-Depends: libbz2-1.0, libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.3), libiscsi7 (>= 1.18.0), libnfs13 (>= 1.11.0), librados2 (>= 16.2.15+ds), librbd1 (>= 16.2.6+ds), libssh-4 (>= 0.8.4), qemu-system-any (= 1:8.2.1+ppa1-noble9) | qemu-utils (= 1:8.2.1+ppa1-noble9)
+Installed-Size: 346
+Depends: libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.3), libiscsi7 (>= 1.18.0), libnfs13 (>= 1.11.0), librados2 (>= 16.2.15+ds), librbd1 (>= 16.2.6+ds), libssh-4 (>= 0.8.4), qemu-system-any (= 1:8.2.1+ppa1-noble9) | qemu-utils (= 1:8.2.1+ppa1-noble9)
 Enhances: qemu-system-arm, qemu-system-mips, qemu-system-misc, qemu-system-sparc, qemu-system-x86, qemu-utils
 Filename: pool/main/q/qemu/qemu-block-extra_8.2.1+ppa1-noble9_amd64.deb
-Size: 158256
-MD5sum: c2e9311d3fcf62ea993de97b832a8dda
-SHA1: ba428132912d04239a9d261dcefe3355463fb723
-SHA256: c18551ae41190ebb2ec0301bc1218a7b5e737de8cb5273c6bb7d6185b352e7dd
-SHA512: f975bf848153e5155c2093e85b7f35ae39e64df8931f767ab40d0e95dbb593a8317ebf2ecd3bca49f1b683f67cd0e837906cddd0e30bf68e8c783ce96a9345ae
+Size: 157404
+MD5sum: 7fc5db424ab1d02b57fef84bd1ef0ab2
+SHA1: 9b86fc36564dd2829db408efdfdf446b3d3eeab0
+SHA256: e5a8777aedb3dd4d50d8c8170e00f70bcb459d48ab0bce462687d675963f9397
+SHA512: 37d132190be3ed0c061b68186f4c7b67c43a692b876e85df4b0826363b174de5ed55780e1d06e7e3df06bb1f81772e3c4f00414450b3634807db018a0c67c1d1
 Homepage: http://www.qemu.org/
 Description: extra block backend modules for qemu-system and qemu-utils
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -3422,13 +3422,13 @@ Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 64
 Depends: qemu-block-supplemental (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-block-supplemental-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 48756
-MD5sum: 0f65d2381c872e7ddb4b8485c5398187
-SHA1: 415881286637c99b19e29a9216e68ae1d3554e00
-SHA256: 074a03bb56424199a602a5bdc7a1b28db994cf048b2845907ba07881528dff28
-SHA512: a3998c9eb1094fa9e4e41f292b31d834149704ae41787be962b638f9ed1cb22074abf34ced8357a317f5ba62c36fb1b52c293599564ace8293063c493eb17673
+Size: 48716
+MD5sum: 73d872b6dc862e0dc37af81c6e579f44
+SHA1: 23528ec647a757f4619bb24d637fe4321da6cedb
+SHA256: d8ce042c7c2fc05473c23bb71c64f6daee056ff0f23668634428b115d16e286a
+SHA512: 978d923b63eac5c6421b7bf232619cf14f8fcdd555f7aabdaf8b7465859870ff296278531d228855aa5ba73b26f4fec3f754847e076dbef0790e82a4fdddc887
 Description: debug symbols for qemu-block-supplemental
-Build-Ids: 0c320349dd68c21b8ac76bb9daf768bd90920d16
+Build-Ids: 0ab717055453bec9a7ba49b6124c946fe500eb3a
 
 Package: qemu-block-supplemental
 Architecture: amd64
@@ -3444,11 +3444,11 @@ Breaks: qemu-block-extra (<< 1:8.2.0+ds-4ubuntu2~)
 Replaces: qemu-block-extra (<< 1:8.2.0+ds-4ubuntu2)
 Enhances: qemu-system-arm, qemu-system-mips, qemu-system-misc, qemu-system-sparc, qemu-system-x86, qemu-utils
 Filename: pool/main/q/qemu/qemu-block-supplemental_8.2.1+ppa1-noble9_amd64.deb
-Size: 11112
-MD5sum: 986ab837ca56e186e06c03cb397e58e9
-SHA1: 4f9302208943c3068125db1efdbf77cbc49100f5
-SHA256: 9b31a989a768276710a4cd5c556419dda20461f67323d0ba233bc9430634f65c
-SHA512: b2db18c982c09299d1f688b16b5b95463d31a9f9d29f51047ef4caafbb994126bb0cd3b4e36f9ba08a377e206c7653c505a93b296f5d5e280377375652b032f6
+Size: 11120
+MD5sum: f5efe628092e5a259ef7e2d8fffce5ac
+SHA1: 3744ceaf72950a68e934ad488d6930d8efecc281
+SHA256: 16ef52f5e0565c109892f050685f9f4eca0b940dc7b0ac3fd3e8e883f12bdf32
+SHA512: c375b6b765db7a0c83778e7ac112c69657353ee2c40b6ad16e7becc3f067c18df2b0771a2fb01c2d4422d6ca7791fdad803e8849c21f453f97604d4cdccff5c6
 Homepage: http://www.qemu.org/
 Description: supplemental block backend modules for qemu-system and qemu-utils
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -3471,16 +3471,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 1122
+Installed-Size: 1121
 Depends: qemu-guest-agent (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-guest-agent-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 960528
-MD5sum: 10291d82ed5b47bb836b154780e02a8b
-SHA1: c535e110cec11dd5159e8ead6fc9cc7410f7e140
-SHA256: 18736748ae7c7f7c3bb4e1181c3fc8c2a68a4266db22d4110a718527384ac97f
-SHA512: c7b8b68139f9e71752e92b98c48c1cd3403a4a940f82c74aaaba85a50d1de309f8c88face7043784848b90885906302d9076dbd0f18ed447bb6487d744f92efb
+Size: 959424
+MD5sum: 661d31597fdf9a9172962c3c732e9a9f
+SHA1: 76e4ab88e2321f85b96d70817215ce32ad9232cb
+SHA256: dd60caf07e18fe012ad6f03a00b069ca5331f1a53af28e2f0f6772f3053d4583
+SHA512: cf86d70aa6ced61a9b4d068aaeda73f6e8a401e6186192477624e0eed7f033af7bdee7c6e17d18970d89e93cd6f987b7bcd94ad4903a488ac6c161bda1ccc8a2
 Description: debug symbols for qemu-guest-agent
-Build-Ids: 386b87a636eed7becdfa98c0a23be40e7091f927
+Build-Ids: 1aa0d71c7e8e8595f75137d3fece92dcb1bb996d
 
 Package: qemu-guest-agent
 Architecture: amd64
@@ -3493,13 +3493,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 1188
 Pre-Depends: init-system-helpers (>= 1.54~)
-Depends: libc6 (>= 2.38), libglib2.0-0 (>= 2.63.3), libnuma1 (>= 2.0.11), libudev1 (>= 183), liburing2 (>= 2.3)
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.63.3), libnuma1 (>= 2.0.11), libudev1 (>= 183), liburing2 (>= 2.3)
 Filename: pool/main/q/qemu/qemu-guest-agent_8.2.1+ppa1-noble9_amd64.deb
-Size: 406512
-MD5sum: 3982e28c4354e02cba8f4a7f62b75c03
-SHA1: 6953d216b0d7d5922882c96a63f64755f26089a7
-SHA256: e5acd62d538203e2267453c42d2f5cad4bc5684ca0b070b15997d43b16164568
-SHA512: 5ba9fb9f1670f861435ae863e54a38e8979e21c23b8ee9662904b40400545c03e0e4e2248384b1f39103387fb36bbfd4513a08884e5b4dca908039fd7d4c192a
+Size: 406324
+MD5sum: c42e6a4bb31c25a44d964ac71e12e198
+SHA1: d9701dfe868864de9bf6d14d5231d3a773b08eae
+SHA256: 9b0ce86c4575ef9952120eefb27a6d598e2a17e742cdde08ff7b4104cbf20641
+SHA512: c8a37a9c634bac9ee0d92421f1a2d3a710ddaa457f1aad15861b02d56803c5d321ddf112a308752d6de42adc43967575009111557e6bfca8b83199eb29e18009
 Homepage: http://www.qemu.org/
 Description: Guest-side qemu-system agent
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -3531,16 +3531,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 45752
+Installed-Size: 45750
 Depends: qemu-system-arm (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-arm-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 41661256
-MD5sum: c06db8ae4bc5eb7062a27e539c6bd9f9
-SHA1: 35eab7f97eecc00cdc65d9befc204488a023a1a9
-SHA256: ca657be78133113cfa5179f0b055c91651e1c88b3add426d4db834bde02ccf34
-SHA512: 03d0b8f641a635b58839086d5cd4f05b8c8283b1ff10e4b4b48671ff3cae1364621e402371c94d7da4761dfc338483737eccced9177967fc90b72c18034c7ff1
+Size: 41658976
+MD5sum: d4f9eeefb7f25ea13c90fa0f492ecca0
+SHA1: ce44aa60fa4da4726e7bf2e61bd5cae29a1fcaaf
+SHA256: 4fc8560df2c67aa373db0cf3ca146a2fa8fb138816eb6794b625dd86daf176d7
+SHA512: 4ab1d31d6ba8db962f3eb4640cfdbd6463e645f616297bdea035e684bb71250da6b432e7b5fd035f554b8aba58d661707b6a441e551a4a1b5ac0be5a2f0e9667
 Description: debug symbols for qemu-system-arm
-Build-Ids: 4e6a0bcab13b219837b6e3b4ccb12d65f4005da5 bbc5e75d0c569981dd5a5c9ac8fa73da90b3adb0
+Build-Ids: 7910a60ba4b3bfa7fbf78aa078d97614007d1af9 ab9fced35b1048a4cbc93e8c0774bd4467fe4696
 
 Package: qemu-system-arm
 Architecture: amd64
@@ -3553,15 +3553,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 57070
 Provides: qemu-system-aarch64 (= 1:8.2.1+ppa1-noble9), qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-arm64 (= 1:8.2.1+ppa1-noble9), qemu-system-armel (= 1:8.2.1+ppa1-noble9), qemu-system-armhf (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.38), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.30.0), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.30.0), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
 Recommends: qemu-utils, ipxe-qemu, ipxe-qemu-256k-compat-efi-roms, qemu-efi-aarch64, qemu-efi-arm, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-arm_8.2.1+ppa1-noble9_amd64.deb
-Size: 9400156
-MD5sum: 7f815aa8cc6827cfd4bcbb6ac621d03d
-SHA1: fa91e384806edd0b05eb41c48d4fb9e3838d864a
-SHA256: b8090ab3123e450405fd9a1def9f5983fcf3434d032db13b30b0471d7012beec
-SHA512: 3cd1d567eac36f30341b9ba6252b3ac5c9785b816501f1e3b9793a5a0160a92fd05b7bf1cd66bbac29079a61736df535d6978bee0bff1572364b5ffae4dd237b
+Size: 9428512
+MD5sum: 29b2d17eece788eeb56eadf427113896
+SHA1: bb3b082de2b1386328e82cd2331c70cc9d53f62b
+SHA256: 9c1141e2ea4cdc9aa3ed1082b605406bab7a6be94ae76ff7af191271d8fe0a57
+SHA512: 4866269be1ffb0bb0787199c7b7a4ba3f4c7778dde2663e0000a7fb2507542658304fffb9ec109ec0f7d03af4a564978842643e43d7710558c8212a07ec0836a
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (arm)
  QEMU is a fast processor emulator: currently the package supports
@@ -3585,16 +3585,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 3381
+Installed-Size: 3378
 Depends: qemu-system-common (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-common-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 2865508
-MD5sum: 7a5d7667a2a2647f4a2f95bd3db9fbb7
-SHA1: e50887efa43cae07068913686c349d6faac00fb2
-SHA256: 5dc4319a3b5d576d8df6b88e4087acffff366721e9f38ee5edd49cced86597b9
-SHA512: 4482a5996d75bdb1285ad26009f6a8bc73f8665c524d65eb9467fec0050639ec1a72342fa55d778c1d5e1c9e7f4e955f48177deb40c2ee5849b9b82d6bb6b76c
+Size: 2862332
+MD5sum: 3f2bce8c806ac2adbb561968eb5a9b9b
+SHA1: c8815822a2ed2b6b2d7f44b50fb8e8b303799f10
+SHA256: 5dd369ce877313fba3aa072b3e187131f2bc35d28c6b33a141ec1fbc0c1292b2
+SHA512: 948f5979a6b38a1e71a2687216b5ef716aedcc29e2a7373f78791a0dbe149d8fdcf37c3e6bb92723a97691b4313c4f6a61f2c5bc85ec4d2efdc495988deed5b4
 Description: debug symbols for qemu-system-common
-Build-Ids: 077f0cbfdceb4e1deaebdab6b8d2c47fd9be6eb3 3b5dc98cc662816e128d3cd3b2ab81f57f6e11c4 3f80cb897e4d1643144b10a601c0f83ab85c35f9 48b8fae4de20319d4e0e465856210dcfebbf678f 53a13f48bb22109b35fc0bf31674aa73289b0a2b 78975bd4eb819bde76bddcb1bf531b85d61548bb 7ab7bbb56cda1ad694d16b99d03c0706a06b03bc 940b62c515e03306a09fad9ce7455ddc8ade9649 c32814dedb16c29e78a8a75da20d3890a56396e7 c800f6aab5dbf9a451bdd1ba063334319d3d98c5 cce0f99fae0b9fc3914cf2f038781fcb02e95bc6 d1ee20dd617ae520cedfbec490cff46375bb6f8b d40a0f7c0635b337d24a89c4fe95b90cd37d7348 ed73a48458e3c48262f882dc1ef956fb8dfdd1f9 f01c4688fc6dd21221296c8651b18daabe3c3b82
+Build-Ids: 1012bb088068ad33e6b9ec1843a7e04f3c9ee1e0 1a4c2e06309fd5c1cc48eb4a4ba47b71b2c22e33 2c122e8846e9a44e1c5ce6b4be4c139588a9736d 67e27bda5160934671dc0f76175751c6083f95f2 74f7197671e8cf1bd700d0683b6018a48e72a562 86acce900a9fb9ba0261a3aaaad2cd8c78ec63d6 b42908c509999911d93584138f13980ad45c149d c64fc047860e12f71076335ecc0bd0adab30a7ba c955786e016d7686dda6e5b20b631cfcedb4b7d9 d49e91ce0e4cbcc568c4221d43c7b07f89da75d2 e72e77f6426ae916a666409b22c7bbbd3098205c eeaddae1d3ac56123fa9374b6b47156da90edeae f84799883050acce86f0e717491f8a280f91261c fa99b35742bdbcb25a5f5bee73ba389aafb29a09 fceb58046a7c24680f48cfe725c3b9aec11189bb
 
 Package: qemu-system-common
 Architecture: amd64
@@ -3605,14 +3605,14 @@ Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 7062
-Depends: libasound2 (>= 1.0.16), libbrlapi0.8 (>= 6.5), libc6 (>= 2.38), libcacard0 (>= 2.2), libcap-ng0 (>= 0.7.9), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libncursesw6 (>= 6), libnettle8, libnuma1 (>= 2.0.11), libpixman-1-0 (>= 0.19.6), libtinfo6 (>= 6), liburing2 (>= 2.3), libusb-1.0-0 (>= 2:1.0.23~), libusbredirparser1 (>= 0.8.0), acl
+Depends: libasound2 (>= 1.0.16), libbrlapi0.8 (>= 6.5), libc6 (>= 2.34), libcacard0 (>= 2.2), libcap-ng0 (>= 0.7.9), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libncursesw6 (>= 6), libnettle8, libnuma1 (>= 2.0.11), libpixman-1-0 (>= 0.19.6), libtinfo6 (>= 6), liburing2 (>= 2.3), libusb-1.0-0 (>= 2:1.0.23~), libusbredirparser1 (>= 0.8.0), acl
 Breaks: libvirt-daemon (<< 7.2.0-1)
 Filename: pool/main/q/qemu/qemu-system-common_8.2.1+ppa1-noble9_amd64.deb
-Size: 1206496
-MD5sum: 084348942511ab766a533aba6b607983
-SHA1: 43832933fd91529b9cd10eb908ec11c2a0a276c4
-SHA256: 542ed92444547bb99f1e12f376dea0514676660d89fffc9852d38f11b5bef71c
-SHA512: 7f4c50beaf114e6f10fc11a96023a162498998e71a2bc1d845c8c31b19fae2c7a2f72c50691ee54b0d82f01548ca287cf7d052f56579a1d9cfa0b60f28b24f75
+Size: 1206336
+MD5sum: 92e01eca35b95691fdb1af0e93698c60
+SHA1: 2a86d2a217d7f36373aff06daa99d1a9925fe363
+SHA256: 2e68da53484b3ec2c0b86f033076683e5d96c0e295c14ecee08aec785b3d9ab7
+SHA512: bb212c41f71035fb2bceb61dde12bb6a0e7734cfb0ba32a50635fce038e456c1b30071bd6c2912bd4c3cbce6781468b2c788c3b2f3996a61d229c1680b036889
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (common files)
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -3639,11 +3639,11 @@ Conflicts: openbios-ppc, openbios-sparc, qemu-skiboot, qemu-slof, sgabios
 Breaks: qemu-system-ppc (<< 1:6.1-4~)
 Replaces: openbios-ppc, openbios-sparc, qemu-slof, qemu-system-ppc (<< 1:6.1-4~), sgabios
 Filename: pool/main/q/qemu/qemu-system-data_8.2.1+ppa1-noble9_all.deb
-Size: 1617752
-MD5sum: c35cbd66e5011c3e9b42c12007179ec3
-SHA1: cb62b72748543c28bbd76b19ba70ac140dd95ced
-SHA256: 590d2891bfb26cf4765c78997a668302cef85bf2cf1251254100f17889dae73c
-SHA512: d214d5edae9a769f4a3687d1329f5b0e6051a2bdb811f3e030dcde8bcfa0051bc4d432efd901e6ecd26aad8ebcef406ed858c656ee31ff81b5a40ba835d4dbca
+Size: 1617032
+MD5sum: 12263c2a04939ebd8f8b779339e173d1
+SHA1: e3b5ac9a74281ca3043dc1d50227c755aada7e22
+SHA256: 18fb18015310ad91119a675c2cbdbc3b2855fc1991e957902381804188dcc79b
+SHA512: 14736f1f22f796c9fc886c246202a284f13b1adc182febc6875bf97ef933f9e0f47f47faba5329a7f758ac6f03379d35ebf0c71a0ecdd2a0f373e34cba0d58f9
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation (data files)
  This package provides architecture-neutral data files
@@ -3659,16 +3659,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 1262
+Installed-Size: 1261
 Depends: qemu-system-gui (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-gui-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 1078428
-MD5sum: 63db565ae26f43b4937127e075438d6a
-SHA1: 743b3d6d018a2d3fb274eee8f7112f336b7e0bb3
-SHA256: 309a32207ac4548357052fa4d2e3b5d0f9ecc59bfadc5c10d54f2e937d81e172
-SHA512: 4b1e7a5e35a1c8ef0919687c1b6e83ae23af6c8b297a441677c90a28d63bf1050f9ced8ef87b64904780d87e743b6d66d5d8da3c27b93c7d07e6b170b6c20d07
+Size: 1077304
+MD5sum: a97845eae9dd9feccff96cd799b2ff95
+SHA1: e2d2ca457e9be8d8be8a23d744413886edf5c0c0
+SHA256: 3acb3f40726dbfb05fd7787e001cfde9fc65eba0b25753c4fb8fafe48b9afda9
+SHA512: 128b3da40c51c32dbbd717af168df3fb892a27c443388b38015f61e78160bfa9e280ca731a84ce6053857265d271b0b8769a2354844f78f23e6882574fdce535
 Description: debug symbols for qemu-system-gui
-Build-Ids: 847e555c25e0805efbe64e28ae433521972706eb c3390ea9cdeea3325d7811c326b90a484f7e4b07 c757a3f9f34c32016a79b06b07587a4503038b1e c97a9799e11ecb3e548d8dfe3729217c21df8729 e429ee6afbee5c46386481d7d415f830d2969cc5 e74e749670ad9fd8ec0ebfeea864cf255ad9c0b3 fb9134abc7ad6419701e9a3a160041e9defa6adb
+Build-Ids: 020f3d0106854ca309572d598a4e0f3d2dd9b1ed 08ba322b88862c9707a0ff214ee8eb2fc39a8209 1b8e1bfca543024755698e9b750488d60a94bec9 3b44a797a6d3a047e927b97d6e81efcb29a74db7 42058d7aa6aaf7eb7bf1417b54b4a75ae1a5d339 66ef14d00dac7f108f599ff035eaf9bd3ba45d32 ddcd261dac380f7e0d1425bb65b9e7091785648a
 
 Package: qemu-system-gui
 Architecture: amd64
@@ -3679,14 +3679,14 @@ Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 1156
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libepoxy0 (>= 1.2), libgbm1 (>= 12.0.0~0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.61.2), libgtk-3-0 (>= 3.21.4), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libnuma1 (>= 2.0.11), libpipewire-0.3-0 (>= 0.3.60), libpixman-1-0 (>= 0.19.6), libpulse0 (>= 0.99.1), libsdl2-2.0-0 (>= 2.0.12), libvirglrenderer1 (>= 0.8.0), libvte-2.91-0 (>= 0.49.92), libx11-6, qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-system-any (= 1:8.2.1+ppa1-noble9), libgl1
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libepoxy0 (>= 1.2), libgbm1 (>= 12.0.0~0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.61.2), libgtk-3-0 (>= 3.21.4), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libnuma1 (>= 2.0.11), libpipewire-0.3-0 (>= 0.3.60), libpixman-1-0 (>= 0.19.6), libpulse0 (>= 0.99.1), libsdl2-2.0-0 (>= 2.0.12), libvirglrenderer1 (>= 0.8.0), libvte-2.91-0 (>= 0.49.92), libx11-6, qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-system-any (= 1:8.2.1+ppa1-noble9), libgl1
 Replaces: qemu-system-common (<< 1:6.1+dfsg-4~)
 Filename: pool/main/q/qemu/qemu-system-gui_8.2.1+ppa1-noble9_amd64.deb
-Size: 385968
-MD5sum: b36e7124c3e60c5084cc34f740fa6db8
-SHA1: 8056ba62568c3a73e04b3b1511c563a3a6c95b6b
-SHA256: 7c08e92b719b511eb78478ee6e64f5895fa37091cfe46136919e5a30ddd11902
-SHA512: d8aaf624843406aee4827eeb757b66237409f67f892d23d2a5d3491a4bc0eba4388bc13ae34d8ba539c04cd6ba3f82c079bf490a89934b8abd95c2370faed0f0
+Size: 385720
+MD5sum: e06dfb1507c57a9c12f794279f438e18
+SHA1: 860727da80bc6ed4d5acb4e909cee97f76d08bdb
+SHA256: ba8eb5dc0a64305a3334435a482c53a9e4ed8e46946dd159d4477715de791f3e
+SHA512: 55d4199a8d34c30f21ff4b8cc26d82d69b98ffa8d5ba3312d0dc686bf4dbe79d0da202f504216694aece8e52b32b16414f08d00cef3075a09a8657a2c0122369
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (graphical display and audio modules)
  This package provides optional graphical guest display modules (currently GTK
@@ -3702,16 +3702,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 64090
+Installed-Size: 64072
 Depends: qemu-system-mips (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-mips-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 57791592
-MD5sum: 2dcb71aa44a1e9c53a3910827ba5ad51
-SHA1: 8f926e4325491542303935c5e03c5a0cb0ea8503
-SHA256: 62d9e2fc2b95ef3c64c74e2d245325957d0b67e7e79df5ff34d9145198ef910e
-SHA512: 4a9ef79e804295c636c566d87ff3e8dc96c07f8e2b4a6d0b2ac1051ace669306535fdd3b07333fa835cae6294116c9fc3d5960a84efdee91a0718f54ec4614ce
+Size: 57774196
+MD5sum: 81a447732c777e9d309bcec9235e79ed
+SHA1: 8feed97763613fb31a9ceabec71a7d88907c6389
+SHA256: a17be4deef345e3f3fb80ff1e62acf1f0fece6fc1d7915cfb45977bf9755c9e4
+SHA512: b25a218da11ff78217de8d9012198c796bc434896c17297e74a269a4abec2579ef516f57c4a7ef2bef3b779f64512866884b385eab7ffcd9790940403a957323
 Description: debug symbols for qemu-system-mips
-Build-Ids: 13f6a956f76c873ca988fc1d4abb9b59664b00f1 a115e5896c8f58568b4bafc6b9498ba9f7be1f31 e086342ff1d267e658856e4dabf31357650cb443 e271b8a33692e3446823d2c9560f2cde021e6e9c
+Build-Ids: 00aa1191629e3a45b00398b4e9151e1607efdc37 4cb135f0a21969fea1f3b8298d1ad738d621b1d0 9440082306aec25911102b8bde353d17af16c8c4 dbd0151d6fa20ff68f4ed8863f012d19682bbe14
 
 Package: qemu-system-mips
 Architecture: amd64
@@ -3724,15 +3724,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 59623
 Provides: qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-mips64 (= 1:8.2.1+ppa1-noble9), qemu-system-mips64el (= 1:8.2.1+ppa1-noble9), qemu-system-mipsel (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.38), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
 Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-mips_8.2.1+ppa1-noble9_amd64.deb
-Size: 14007072
-MD5sum: b2d93d85646a64179d902d0734c5ae41
-SHA1: e020d40bb1ddf7ef712a74613cbc1342425c7d9f
-SHA256: 02d06df64677722d815146617afb44c362b3c8dae07f1b3a203c17f24670e5d8
-SHA512: 1c68605ef4b4adfcb7f9c260e61b5b7da17aa9737f7005e60bb33a97720ad079bd78d02b12148c3f07c4b88cb3a6653f2d8edeb528e79a5fa11dba7066fe1c8f
+Size: 14002596
+MD5sum: 0e27371bd455a04e87e07079660f94eb
+SHA1: 68b5ec791d936c69187623b90854363862452c89
+SHA256: 149de3c823a5e68d61800582268800e3ad24ddb9ba207774afffd2d918d6ca5e
+SHA512: f4a665e6349a62291adbca6f0948130490c9d481e361418baf4a409b3ff2a5026e4e554b58784cf09f6fe018870ab8475575e8543d29a5c0da53456a79a72b3e
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (mips)
  QEMU is a fast processor emulator: currently the package supports
@@ -3756,17 +3756,17 @@ Section: otherosfs
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 223338
+Installed-Size: 223322
 Provides: qemu-system-alpha (= 1:8.2.1+ppa1-noble9), qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-avr (= 1:8.2.1+ppa1-noble9), qemu-system-cris (= 1:8.2.1+ppa1-noble9), qemu-system-hppa (= 1:8.2.1+ppa1-noble9), qemu-system-loong64 (= 1:8.2.1+ppa1-noble9), qemu-system-loongarch64 (= 1:8.2.1+ppa1-noble9), qemu-system-m68k (= 1:8.2.1+ppa1-noble9), qemu-system-microblaze (= 1:8.2.1+ppa1-noble9), qemu-system-microblazeel (= 1:8.2.1+ppa1-noble9), qemu-system-nios2 (= 1:8.2.1+ppa1-noble9), qemu-system-or1k (= 1:8.2.1+ppa1-noble9), qemu-system-riscv32 (= 1:8.2.1+ppa1-noble9), qemu-system-riscv64 (= 1:8.2.1+ppa1-noble9), qemu-system-rx (= 1:8.2.1+ppa1-noble9), qemu-system-s390x (= 1:8.2.1+ppa1-noble9), qemu-system-sh4 (= 1:8.2.1+ppa1-noble9), qemu-system-sh4eb (= 1:8.2.1+ppa1-noble9), qemu-system-tricore (= 1:8.2.1+ppa1-noble9), qemu-system-xtensa (= 1:8.2.1+ppa1-noble9), qemu-system-xtensaeb (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.38), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
 Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-misc_8.2.1+ppa1-noble9_amd64.deb
-Size: 50712336
-MD5sum: 14b71fb58481c7621b41021bf0701169
-SHA1: b878d41373ac0bca056e0cab4326189f43e56bd7
-SHA256: 769ab10481773a27683ef00048e6235a26da1ed13fae542488e01826a6a3cd28
-SHA512: 2d4adc32a0a3971abc807bed37ed3716bd59b65bc16c1f5310fc0b9101b0b24dee463dd896af36fec29ed7594d360a9862bb57069bcf13da4ebeceb6ebe21751
+Size: 50733304
+MD5sum: b550815a5cda7b44a26d8c740c7c09cf
+SHA1: 81774dcef1d961159bab840fbd581cfe6fc8abea
+SHA256: 59abe4f47ff95bdb4965140ba05761eab10f5f9c24f1e115f3df2685693e3a29
+SHA512: 77258046b609e4f12b47d0a1ed731c612b0cf57d3bcf6126a5269620954eb3532c8a1cc79b7abe62ae942348d2d05c29ec27d33a03acb00fee8bd4ae3f813cf3
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (miscellaneous)
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -3795,16 +3795,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 547
+Installed-Size: 546
 Depends: qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-modules-opengl-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 399308
-MD5sum: ff1d28d03622594be26d7247f35918d0
-SHA1: 1489f4a8f4374c3d8b0292ff6ccce5dc271d73b4
-SHA256: cac313ebfec2db6a786aa78a5546691a6e9851c31784f1e013860e6cde63d7d3
-SHA512: 903827a9102dcbda03766d0542ea387bd8ec0c00dda0d1422e54c7cd7063005b85eff5712b1a7e4d7d36d0eb614eebfb48922f5c6bcdb05c3951b97faf9baccf
+Size: 399056
+MD5sum: d3d54fdf5b6300397e98071f14f2f10c
+SHA1: d6bf17dc4f296370f34bdd79681502491c380de3
+SHA256: 27066a5f01039114889c752c5f18ae853f17a7a1686fc96f97aac0514707d0f6
+SHA512: 0f9814b03233552a218838fd321799213b8f9f4aa309d885c0db66d5e8731da823ac3c7280d5630456ece5f1ede35433603faa1f87391f2a3691f0d6bf69656a
 Description: debug symbols for qemu-system-modules-opengl
-Build-Ids: 0ed98e0db7cefe4706f92b5acbc5444ced2dc43e 159a3777149406b738494347ce54ab77465b4c2b 19975072d8e6047d871bafd1e3cbe72324162556 7dcf4b7cd333fb8acd8aef109823f8122b11bc6d 918a2dea6f9a473149ce76420ececf8385431639 975cb37ad45d0428f9c004eaf06edc633d13ce8a ec6ef81f61f74704044ae8b967c8adf75ec9c9e2
+Build-Ids: 2186d47286760001ed1f8209b47c78551cb45f9d 39b1694bd6f5cb92a90f8daad269ee75fd4920f4 39cae6c31b2471ae75541884a220d43857607815 4ab1a6566f45dbca918171731197214e5b06d2fc 780c32bdf3899908f21b0c945e5259e3f43fa6a4 b3e164e205def3e9d72205b7fd36d1e1200174c8 fd8be6b0c9cf77e9eaca7a749ff78227425df750
 
 Package: qemu-system-modules-opengl
 Architecture: amd64
@@ -3819,11 +3819,11 @@ Depends: libc6 (>= 2.14), libepoxy0 (>= 1.5.2), libgbm1 (>= 7.11~1), libglib2.0-
 Breaks: qemu-system-common (<< 1:8.1.0+ds-1~exp2~), qemu-system-gui (<< 1:8.1.0+ds-1~exp2~)
 Replaces: qemu-system-common (<< 1:8.1.0+ds-1~exp2~), qemu-system-gui (<< 1:8.1.0+ds-1~exp2~)
 Filename: pool/main/q/qemu/qemu-system-modules-opengl_8.2.1+ppa1-noble9_amd64.deb
-Size: 195948
-MD5sum: 4615d0757aebafeb19dca917fb19d061
-SHA1: 2ff43d301fa8a917218d6cf88cbf1d943c78d878
-SHA256: a9b67b8b6f450bd7d655316dcd8d1ba0ee340bf694789e7cec3a961282472358
-SHA512: ae3331026d97eb68257f498fa6443003f5b35c8331509327f855b763eb013a15693dc201aaae8479fca9a5f4ec147648dfa0f0d44c2630ed785833caa41e2ff5
+Size: 195256
+MD5sum: ecaf37d2ab1f45bda0a4b5e66da47bea
+SHA1: 93230372675c2428f17187f0989b39c030721b03
+SHA256: bb1efa03b95b3908b391e2ba82b1b13d2a51f82bf5fee5dad3f68ebdd107d851
+SHA512: 0ed4f1bb3779d77a6f6fdd1e41918d2b4187dd773ba035dfe13874f3e95fba8dc8f9cdd7ab1aeb756c88f2054bb1838f2502ecd987a9bc14cc3245dfe68c1bed
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (OpenGL display modules)
  This package provides optional OpenGL display support modules for QEMU full
@@ -3841,13 +3841,13 @@ Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 284
 Depends: qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-modules-spice-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 220952
-MD5sum: 11f8fee9c2b17bfc692c3815efcfbf32
-SHA1: 11a004e360341f1943fcbd5a02bd44cc8e595d87
-SHA256: d9c26038e8162dfaa9e92548597c7ef290e81679606dd3b0e4aa585079f81bb4
-SHA512: d889338902afee8962a6762bc53af74bd770451987d483e1e38563dd7cfc875fe6887c6d5db9ccab1d2095da3d40f48ed87bd53b8cd89c7123c1d9c05492adc5
+Size: 220556
+MD5sum: 55b2acf0b59c1b1392b8ceb8cd21b618
+SHA1: 7eaafd8b3bd73e5c5ef54f4847ddbe8022287f9a
+SHA256: 868fc9b98718a5c28da92ef841d91d14be028e9449772513b9d13bbfc843f42e
+SHA512: af64f3e21bbbb5fbc2c2259f44d6dea1d32dd8455b103642e5255f3f52d07278347d39712ae1686cb13f1f802749f5a8824664222bfd0fc4494dfd9613e9df6e
 Description: debug symbols for qemu-system-modules-spice
-Build-Ids: 087ff8961a540f512efda36c74441fd2b3d1344b 22efa4bba21c796d4fd21fad868952a0db82bc01 42075c200db035455b0e915eccbd9982177982ec 4d054501bb6ac565c1eec1ddac2f959dd95f0b8d b06513a23cf54e9051636850e01c046a22c32fb4
+Build-Ids: 0948208edbfe38d9a9bd2c0f0deeb2656932591f 704d202ec82c8279d407f4d6b075fc1e5f3b2d17 ab507d03ad594e3d30dd2fccfba6de6cce842ccf d927630d8dc8d00906f34502370ce530ced19baa f5f9d716cb663aafbd99b240df379a520bf34f7a
 
 Package: qemu-system-modules-spice
 Architecture: amd64
@@ -3862,11 +3862,11 @@ Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.30.0), libpixman-1-0 (>= 0.19.6), l
 Breaks: qemu-system-common (<< 1:8.1.0+ds-1~exp2~)
 Replaces: qemu-system-common (<< 1:8.1.0+ds-1~exp2~)
 Filename: pool/main/q/qemu/qemu-system-modules-spice_8.2.1+ppa1-noble9_amd64.deb
-Size: 162376
-MD5sum: 6820cdf6e667355404684001ed04d007
-SHA1: b6cbbfb85655f9bc6a5f111084f893be0fed21e1
-SHA256: 6acd6a7c8c0b97bd18df56c7ef2e2500ba039f8df0701b65a16090ec2c23cbd9
-SHA512: 6dd4c889d031b2871eafa1a064a7c5d62b721f340c8e35e45cd692a831428e6557258645f82fac0abbfffe4f896a9f6666202eb023c55207b7eb5208b327f0b5
+Size: 162412
+MD5sum: 22ae3b9def8d24040a0d18782fd0d3a7
+SHA1: 037954f6130cbe16a114cf3ec9b329ae519eb0e0
+SHA256: 9ab9a5bdbfbaa1c70a9bd126fec03ba8be564a8f7df2f375ac83d64fb02b4632
+SHA512: e33cac51377e3345c6b34b3c23aec73239bd5eef072b926f51fd22c6106be57855a7bccb2074e23a4713c0fce07c4d26e1fb013aeec7f11c35d8a6ba3cd1d232
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (spice display modules)
  This package provides optional spice display (qxl and spice-app) and audio
@@ -3881,16 +3881,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 36070
+Installed-Size: 36059
 Depends: qemu-system-ppc (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-ppc-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 32612640
-MD5sum: c3ce99317617f1e1a66b5e14fc10f4ff
-SHA1: 45e2c9d4099d10b19ca4f7041df7e1fa7cefa121
-SHA256: 6de6702ca77863c98d0222e552a1897526e9e5d06fdeef0225b70ac5143aeba5
-SHA512: fc58f5957121b11d958ff84eee6e1cfeafd5f63db848238ce6e7e5a0e96023eb1386d542142764ac34002e507395e7006ef4e632095907d33e81cf2e97ebaa8c
+Size: 32604688
+MD5sum: 436a0cd369ad7f5f3516396b00b632ab
+SHA1: 3b6dd137ab0b41cae7300adc8055102616b16784
+SHA256: 8314b79a4c332dd51fb11aa87be8e76463bcca31a8e28a9ee06f61148af45953
+SHA512: 0a3dec7a06f2aa686baf5f9976fe6e7766a43ee1f96d205484f1dbb0b78fbce555547b50276e4f1262efe8d583dfe7f453feb088f8b60799eaf1466e42204800
 Description: debug symbols for qemu-system-ppc
-Build-Ids: a9860c8d04e0d4fc29caad0f3086d3860fa78d20 c00248006af0896a5cdabcbeddf146bf091a6358
+Build-Ids: f459f7dd7796a2c3bae3d49f961219345bd5b383 fcb1db5638e0c736a223963d4fcbafea2be490d3
 
 Package: qemu-system-ppc
 Architecture: amd64
@@ -3903,15 +3903,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 34149
 Provides: qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-powerpc (= 1:8.2.1+ppa1-noble9), qemu-system-ppc64 (= 1:8.2.1+ppa1-noble9), qemu-system-ppc64el (= 1:8.2.1+ppa1-noble9), qemu-system-ppc64le (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.38), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
 Recommends: qemu-utils, ipxe-qemu-256k-compat-efi-roms, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-ppc_8.2.1+ppa1-noble9_amd64.deb
-Size: 7784644
-MD5sum: c11f7a05450a8e34ab67d79a0f2dd4eb
-SHA1: 03e6901054367fa0a3eca0ee3e957dfeb049bb00
-SHA256: 645fd862dd4f3259c56b03a322f0fb00c822b94506075f7449934df53bbc98a7
-SHA512: 11c375d5cca28d4b510355bad6dea09bc3ccd799c1e5b061f715ce826fef26c2a6ab7063f62658d1b99facb089e5a7eb0119451a2c7fe7330ef05d386aaca565
+Size: 7792480
+MD5sum: ed644fc2c457acf98d0c15b97d402421
+SHA1: 979dab9a7326ac0c6519edf24e187979947f2bdf
+SHA256: 5b785a89877184a9ea3e47467b4c766c146bcbf0a20cccf1a6e4fb06d0d5d3d2
+SHA512: cb93010adbd2bf362f73993128889d20d788253096fcffca6be3c44e09a30b7726612398fe0a78080797337f75c6513674ddf3de0d591f71149725d3596e8ab7
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (ppc)
  QEMU is a fast processor emulator: currently the package supports
@@ -3967,16 +3967,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 24135
+Installed-Size: 24128
 Depends: qemu-system-sparc (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-sparc-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 21509684
-MD5sum: 73664a5acb97b4813d6d82047ddd1d61
-SHA1: a3023dac9a8752b36201d1139f8fad7ce37e06a5
-SHA256: e6050ceb18e2ce1bb6397539d510305494a516052af4237517c67edbe97fa6b9
-SHA512: c8b43e27cbbba24fd0754e6fb05afd7bb6d779e44419a9c68c30c1c3081765713d5d29765190bd1b5a53c20b2bb89f88a41e22cdfe96a72c5268fafac8b8dbbd
+Size: 21504444
+MD5sum: 7cb86edae5fc05e5c924baaa84f0ad72
+SHA1: 13e54c8a1273127d3c98abf5d0e99ed9f8326ed4
+SHA256: 73a0060e7ab15549fee5bb13f2ed13bf13b884a2f1acf64df33e482d0011d341
+SHA512: e4d5c926f925b91ea90aa12c11ad411284f23127beb7a474bf1e540f46372961120e938f5d846f7d750535a0e74fa5ba406f2989ba71f115ae961c4789591d0c
 Description: debug symbols for qemu-system-sparc
-Build-Ids: 07e7b219863d4e2eaffe511a51408811533fc6e0 fb22115ad93a7c7eae7463933b38dc92f5be9384
+Build-Ids: c74aa3ca7931906602955be99d8a0d58f303288b f2041c37acbf66df9c22827247442d9b14aa6479
 
 Package: qemu-system-sparc
 Architecture: amd64
@@ -3989,15 +3989,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 22039
 Provides: qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-sparc64 (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.38), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~)
 Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-sparc_8.2.1+ppa1-noble9_amd64.deb
-Size: 5435116
-MD5sum: 6158c17775951fc3752e76e29040441c
-SHA1: 42ebc2d50cc8e451bd9375e72057f40789ba70a2
-SHA256: a0ff9ff12006add7d0bba753a57348a1cb06c745730b1cc8b7634456443c1fbc
-SHA512: 29fa8484b64a95ecde89424397f08739d726c153974bed2f23adcc6a5aa70a9003b1dea3788dfc0c5305b0fbd971d4ad22f3b3d21e0856e6f0997412fd43e052
+Size: 5434236
+MD5sum: 5611498b17b619a607e293ba4feae752
+SHA1: 0edf8a128f949c4ff2077024efbb97005f4e3727
+SHA256: 093d22ab7cd1fce13a0d2973ae67d324fe3edfc97d6a5cf2ab6c57392310a255
+SHA512: 80821c4d53aaa9368baf84c7b23b5bf5ea88a584949745591448f7922bfd01badd17a3a76563eeaa19e89d800003b4b042a4b72434a24a14d8b866bdd93fc0c7
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (sparc)
  QEMU is a fast processor emulator: currently the package supports
@@ -4021,16 +4021,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 44117
+Installed-Size: 44105
 Depends: qemu-system-x86 (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-x86-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 39588952
-MD5sum: d6e0c191e3fad2ca5b262841d0222872
-SHA1: 90cf929dac903c265c4086235dea4ebd1503e8a7
-SHA256: 4a6b869420bb5bbdfa225426851b0354de23a3fbb590db4adcc567a825314c1a
-SHA512: c10b74a799e9cb75cdf1ee970bb513d3be5da3552e942030eaaa6410619e657f1f30878f372db8a91b4fb72ce31e1d071e600d4744d4f999a382c9b584832635
+Size: 39580296
+MD5sum: 87b4c6465365f76cb6f103dbabf647f3
+SHA1: 8655ac4ae607eb05cecab6dae63837eb8977b745
+SHA256: 0f95c79f322bb4034af1f4f42dafc126fecd9a28039b40442e151683d6fbf04a
+SHA512: bc8a73d701feef343397aeca33f41ea49f522dbad116166d84432743dca8343e349e2ae21b33f692452f0f72698cec074bc7ebfbfed2402346f315694c9e3525
 Description: debug symbols for qemu-system-x86
-Build-Ids: 1c6faeb8e80eac981dfaf78143a3b195652b639d 6e401ad2d4c66279a49f88060fe45b2b7b5a9301 a79a7f5ad4909ceaa59319d3a9487f233fc8dd59
+Build-Ids: 570e405d7c4626e0cbebaa2b1b2f71dc21cc562c a08b28483c97449eeadbe765dfa66e933aefc1a1 c033041a377b8d0b292faec95735cf35f767316c
 
 Package: qemu-system-x86-xen
 Architecture: amd64
@@ -4066,15 +4066,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 57878
 Provides: qemu-kvm (= 1:8.2.1+ppa1-noble9), qemu-system-amd64 (= 1:8.2.1+ppa1-noble9), qemu-system-any (= 1:8.2.1+ppa1-noble9), qemu-system-i386 (= 1:8.2.1+ppa1-noble9), qemu-system-x86-64 (= 1:8.2.1+ppa1-noble9)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.38), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~), seabios, ipxe-qemu
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1+ppa1-noble9), qemu-system-data (>> 1:8.2.1+ppa1~), seabios, ipxe-qemu
 Recommends: qemu-utils, ipxe-qemu-256k-compat-efi-roms, ovmf, qemu-system-gui (= 1:8.2.1+ppa1-noble9), qemu-system-modules-spice (= 1:8.2.1+ppa1-noble9), qemu-system-modules-opengl (= 1:8.2.1+ppa1-noble9), qemu-block-extra (= 1:8.2.1+ppa1-noble9), cpu-checker
 Suggests: samba, vde2
 Filename: pool/main/q/qemu/qemu-system-x86_8.2.1+ppa1-noble9_amd64.deb
-Size: 9814548
-MD5sum: e7775867005a96dd07cae40fcb7186b6
-SHA1: 7ccc597f7255af2f78cf8fdf730ac5f6a196692b
-SHA256: a5bc432f89909bc06832ce343ef1142c8114edb9e9d94825baf4e43b5ec9ae5e
-SHA512: 906705f65714c31bf52e97228e239fe3cb77e1f2ffc1d2080094e8a26bac4e4ac7e1ac11b16875edbc67c41212fb784721a59d7134df7fdc10c0a25b508609f1
+Size: 9849072
+MD5sum: cf4288a23a1d180d4f474c706fd43174
+SHA1: b02cc0f2c812349d9354ecd395dc9c292f037dae
+SHA256: 84836f20b4075fa3f2cc709a45cd3533005c0211f15e135fe3e69cc6e54ab639
+SHA512: e9fef9d87fd571f662b6341083b0c6cfc7eb3b9bc5ea5600b19b36e0e8893409e8bb4f722daf60683afb377d3f15a371633c68dd67593d5a168e74c0c87f1236
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (x86)
  QEMU is a fast processor emulator: currently the package supports
@@ -4101,16 +4101,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 12918
+Installed-Size: 12914
 Depends: qemu-system-xen (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-system-xen-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 11501520
-MD5sum: 33b71eb1311df3fb5e99a02a27ecec3a
-SHA1: c5538229fc039463548e7e7b78c0eabc05d40032
-SHA256: d2efcf8c2d87b088caa4f0079a3ec63f4a069cf92761295b14a2ebb447024b08
-SHA512: 6fa0cd1bf023bc5a94cd97883eb2eeee3210cb9361f7e42dc3ba2032036f8171839528ff2beefb7b757b1e25a63d92668f7abbe5aa7e77a0b81ce576f0329fa9
+Size: 11496796
+MD5sum: 107e165f199ae3092b70143fa3ab3941
+SHA1: db9ee92abc4614376eecfe70d0a9b90e58f1ca6a
+SHA256: ef54bdb4c84e035733dd84981cd27db2c81ec42360a3f772e32879fde4e58a60
+SHA512: f512fc39062695f0f3177360286886b00025a9ed77cdd7e3b39eae0d53a273d98ac8e7a3190eb5c828e25726285618885c36490a9f7f0dcefbd18dfb65bb7656
 Description: debug symbols for qemu-system-xen
-Build-Ids: 7560a0fd6897dd3f63f2129252c9fd42e35dff24
+Build-Ids: a32aab224a31f73986b885d2fb01242de98b16ca
 
 Package: qemu-system-xen
 Architecture: amd64
@@ -4122,16 +4122,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 21640
 Provides: qemu-system-x86-xen
-Depends: libc6 (>= 2.38), libfdt1 (>= 1.6.1), libglib2.0-0 (>= 2.67.3), libjpeg62-turbo (>= 1.3.1), libpixman-1-0 (>= 0.19.6), libspice-server1 (>= 0.14.2), libusb-1.0-0 (>= 2:1.0.23~), libxendevicemodel1 (>= 4.17.5+23-ga4e5191dc0), libxenevtchn1 (>= 4.17.5+23-ga4e5191dc0), libxenforeignmemory1 (>= 4.17.5+23-ga4e5191dc0), libxengnttab1 (>= 4.17.5+23-ga4e5191dc0), libxenmisc4.17 (>= 4.17.5+23-ga4e5191dc0), libxenstore4 (>= 4.16.0), libxentoolcore1 (>= 4.17.5+23-ga4e5191dc0), zlib1g (>= 1:1.2.0), qemu-system-data (>> 1:8.2.1+ppa1~), seabios
+Depends: libc6 (>= 2.34), libfdt1 (>= 1.6.1), libglib2.0-0 (>= 2.67.3), libjpeg62-turbo (>= 1.3.1), libpixman-1-0 (>= 0.19.6), libspice-server1 (>= 0.14.2), libusb-1.0-0 (>= 2:1.0.23~), libxendevicemodel1 (>= 4.17.5+23-ga4e5191dc0), libxenevtchn1 (>= 4.17.5+23-ga4e5191dc0), libxenforeignmemory1 (>= 4.17.5+23-ga4e5191dc0), libxengnttab1 (>= 4.17.5+23-ga4e5191dc0), libxenmisc4.17 (>= 4.17.5+23-ga4e5191dc0), libxenstore4 (>= 4.16.0), libxentoolcore1 (>= 4.17.5+23-ga4e5191dc0), zlib1g (>= 1:1.2.0), qemu-system-data (>> 1:8.2.1+ppa1~), seabios
 Recommends: qemu-utils, ovmf
 Breaks: qemu-system-x86-xen (<< 1:7.0+dfsg-7ubuntu1)
 Replaces: qemu-system-x86-xen (<< 1:7.0+dfsg-7ubuntu1)
 Filename: pool/main/q/qemu/qemu-system-xen_8.2.1+ppa1-noble9_amd64.deb
-Size: 2931536
-MD5sum: f9a2508aacc5fec387e004e137dd71e2
-SHA1: 7334189d616da99fcf0100796049d19cafd6709b
-SHA256: 05c2873f5d60145c014187d0e43b64be203191f362e029a6a48774339c400f9b
-SHA512: 95fd68cffdaf782ffbef79fffb148a1d4457ec73ae86a8cf32d67f4303d04c37deb5d81026176bb14818e55f49e9a0380f7de5f146aed5acb6e359f87835407d
+Size: 2930692
+MD5sum: a7df6c5cc1b3c95c74d5270c0d3ec6eb
+SHA1: 797b822974ab835eca0df19578f53a6f61adcf7d
+SHA256: bf04377fe6245c878c70d6afe04493f8c3a703da82ab7b42e030630138a4aa76
+SHA512: a80575e2126ab2c542b453f88d49623cda3c7a988bbcad698192506dfcfd9edafbb5790bafc18f59fe4a9054e704e846f243566f5ced617af25405d275d65ae6
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation (Xen helper package)
  This package provides the i386 system emulation binary to work
@@ -4202,23 +4202,23 @@ Description: QEMU user mode binfmt registration for qemu-user
 Package: qemu-user-static
 Architecture: amd64
 Version: 1:8.2.1+ppa1-noble9
-Built-Using: elfutils (= 0.188-2.1), glib2.0 (= 2.74.6-2+deb12u5), glibc (= 2.40-6), zlib (= 1:1.2.13.dfsg-1)
+Built-Using: elfutils (= 0.188-2.1), glib2.0 (= 2.74.6-2+deb12u5), glibc (= 2.36-9+deb12u9), zlib (= 1:1.2.13.dfsg-1)
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 157537
+Installed-Size: 157152
 Provides: qemu-user-binfmt
 Recommends: systemd
 Conflicts: qemu-user-binfmt
 Filename: pool/main/q/qemu/qemu-user-static_8.2.1+ppa1-noble9_amd64.deb
-Size: 19571660
-MD5sum: 3517bfd0865041a446f07a3c47bc3cc9
-SHA1: e9439b3251a6bc641f4aaba4ce472edd487068be
-SHA256: 954874c4226e4eba4d2575b5b2855a3e70ddace3c41587c1da45b85d8145702b
-SHA512: d3f6a12b4d892325cea874a2e3e421cc22562341ca2bbfedfa9a52d84fe66d501ab46f724a07319e96bd9a6a536a9269e78515cd8b8ee2ed12978d4bb7b50b09
+Size: 19546644
+MD5sum: 77fcf331e15dfd8de799779558935f27
+SHA1: 5371159443a69a7440ae0420f66396bed47b6dce
+SHA256: 923769c05954744c9adaf9de902f802b25765512593b70398d61cee75fc5c873
+SHA512: 87502feb5d2c26e5ebe97fe51e3beaf278c0d9c9bcd157ce84b7b1ee9f26ca6448e9978c01f6c6bf17ae23213745da420aa51ae7eee71bb19471677d34546d37
 Homepage: http://www.qemu.org/
 Description: QEMU user mode emulation binaries (static version)
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -4244,15 +4244,15 @@ Section: otherosfs
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 92602
-Depends: libc6 (>= 2.38), libdw1 (>= 0.158), libglib2.0-0 (>= 2.61.2), zlib1g (>= 1:1.1.4)
+Installed-Size: 92582
+Depends: libc6 (>= 2.34), libdw1 (>= 0.158), libglib2.0-0 (>= 2.61.2), zlib1g (>= 1:1.1.4)
 Recommends: qemu-user-binfmt
 Filename: pool/main/q/qemu/qemu-user_8.2.1+ppa1-noble9_amd64.deb
-Size: 11093692
-MD5sum: 4c40bf4d4de955373efac11f4c345c78
-SHA1: 1984fe954b34f36bdbac3098f78bd956e563a976
-SHA256: 6d3f3e74dbf93d1a1998ef9bc224a28ef83c1342fadcde1fca4320c462f5551b
-SHA512: b3f2ff60eb23b173a733dae41b49f637fc9733add1dda169a3599dd3d528a9fba351f617ba32065b86706ea06a41e28abd08ee802d873d595b898cdbc378a839
+Size: 11057624
+MD5sum: d6b0572544e8786502c23872affd17d6
+SHA1: 3fce818dc244ccbe31f25c6bbc35a80ed8cb9eb2
+SHA256: e4d9cdeb6992ca5b50956a95ac122be622753b111e4194dd18c919e0f700f80d
+SHA512: 71498b6451c316a6126285930facafabc9b8dbd8176bd3e6239d6337a01498be1ab67f564f37057d15cbd8780d66b2f07a73e0689ba9facdff6bf20a99b7d336
 Homepage: http://www.qemu.org/
 Description: QEMU user mode emulation binaries
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -4280,16 +4280,16 @@ Section: debug
 Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 13272
+Installed-Size: 13262
 Depends: qemu-utils (= 1:8.2.1+ppa1-noble9)
 Filename: pool/main/q/qemu/qemu-utils-dbgsym_8.2.1+ppa1-noble9_amd64.deb
-Size: 11786548
-MD5sum: 2e3e5413b60c3346e688d2a4317d3e1b
-SHA1: 71da3c2be5b0bc6a9b6a9b8ff2f04bee934c3ff7
-SHA256: 3460b181d4f7e53cb297789643030fe34ada38412449adf8e3839783609ee344
-SHA512: 074d92bf31159e066c990e0e4c89177ab59db2daea7237a0a2e291a0a88212821b4451db9d7f86309680c0692eea90a949c2552acd908b860b259c7fe419b71b
+Size: 11762512
+MD5sum: 26dd39153a0af43c3429135435bb403c
+SHA1: e12e82115ea09edba702a4869b3b3e858142991e
+SHA256: 9234984dfd4963a815bbabb790a234a32b8ddb28c7173dab96d6bb1a41986173
+SHA512: 6c86e66a447f9ee48d2f14c48a3ee9606468c064e2a82e369071535c69cc6303e1c4c4ea92bca455389f60fdd158b3261954f4a4c77f251b914a912049fb9d06
 Description: debug symbols for qemu-utils
-Build-Ids: 409fb8c1e7563a1876c0df9bce179a718799a3cd 6ae8fdf45d90cf99957929ccdee376990087e8e7 8ce811b45f79c8173ca58085a7f3dcb49ccb93ae aee684d1b281c64578ed1463955343cb71859887
+Build-Ids: 013135b595d44f52069b565ec8be5949e527f424 0772dc4ad97604159e9ce27089bd28dde974ded7 8a6a8f27e21f1e529d7c0175478fa4ae3b938876 ece708fa580a07175209abdd3a8507d5ce8010d0
 
 Package: qemu-utils
 Architecture: amd64
@@ -4301,16 +4301,16 @@ Source: qemu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 10622
-Depends: libaio1 (>= 0.3.93), libc6 (>= 2.38), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libnettle8, libnuma1 (>= 2.0.11), libselinux1 (>= 3.1~), liburing2 (>= 2.3), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
+Depends: libaio1 (>= 0.3.93), libc6 (>= 2.34), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libnettle8, libnuma1 (>= 2.0.11), libselinux1 (>= 3.1~), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
 Recommends: qemu-block-extra (= 1:8.2.1+ppa1-noble9)
 Breaks: qemu-system-common (<< 1:8.0+dfsg-5~)
 Replaces: qemu-system-common (<< 1:8.0+dfsg-5~)
 Filename: pool/main/q/qemu/qemu-utils_8.2.1+ppa1-noble9_amd64.deb
-Size: 1861992
-MD5sum: dc9d1de004f0df9785ffef2c807bb8d4
-SHA1: 2d2bac13ddf1343c6ad347397a964cccc74facc7
-SHA256: f7db1be1f6e03922dcbd57b5faa3adc132a4ae7979605265137390a86fc5c998
-SHA512: efa79bf50d6d07a50095bc2ab9c5d481068c632421697f74641edb9e9a0f1dc1c9c90c6177f0f5feac5699f722cb7d2c7cf0da3abe9c225554c2210700cc7d9c
+Size: 1859412
+MD5sum: ce2b6c81fd868f4cda44b236ba9e956b
+SHA1: 94575748ffc16d6d033764061231dea006de47a8
+SHA256: 21dc37cae6c7f7c2f7d342d320f575338f3b10c35c6ff0f2869515632daa4029
+SHA512: afb231e49f3209fae02b59910c1bd9de1af20e3c8577b9a21469706082bd67d4a4d040d30b6d1216c765b25088533388efa67233addc8ddaa83b1b54a8ea9f81
 Homepage: http://www.qemu.org/
 Description: QEMU utilities
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -4334,14 +4334,14 @@ Source: spice-gtk
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 69
-Depends: gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-gstreamer-1.0 (>= 1.10), libspice-client-glib-2.0-8 (>= 0.41)
+Depends: gir1.2-glib-2.0, gir1.2-gstreamer-1.0 (>= 1.10), libspice-client-glib-2.0-8 (>= 0.41)
 Breaks: gir1.2-spice-client-glib-2.0 (<< 0.34)
 Filename: pool/main/s/spice-gtk/gir1.2-spiceclientglib-2.0_0.42-1ppa1~noble1_amd64.deb
-Size: 24596
-MD5sum: 8317a83d95c8423e5716d99ef9be69e3
-SHA1: 9798b7b07e7961b0e369d5ccaefdfaa30bca78b9
-SHA256: 485f43f4783a6ee10dce05287406c6d6db325e03dc39a24053b7dba744e14a9b
-SHA512: b90cea33a8bb33296f8f1f41b33a473866d9b2f0551787446af932d4f6f6d64bf6d3e34cd25a6669551f981c49fc15162654d3afbda76565f012b5406ebed881
+Size: 24580
+MD5sum: 17323a7b8dde16dd705321c12e093d72
+SHA1: d095f73e4b4923b16a26692ca231a34403646287
+SHA256: bda5f6176f80c77da21042926ac96ed8b43de5ddb21f3a7f5deef89c150830f1
+SHA512: ef8a33f74e35ec017016cc846316b8c74562d61a168aba1d9630594780c573095f26a880d5b02a5fb90d07552d0cf91a977c4ed526cb2c911780d7d32b0a60a6
 Homepage: https://www.spice-space.org/
 Description: GObject for communicating with Spice servers (GObject-Introspection)
  libspice-glib4 provides glib objects for spice protocol
@@ -4359,14 +4359,14 @@ Source: spice-gtk
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 36
-Depends: gir1.2-gobject-2.0, gir1.2-gtk-3.0 (>= 3.22), gir1.2-spiceclientglib-2.0 (= 0.42-1ppa1~noble1), libspice-client-gtk-3.0-5 (>= 0.41)
+Depends: gir1.2-glib-2.0, gir1.2-gtk-3.0 (>= 3.22), gir1.2-spiceclientglib-2.0 (= 0.42-1ppa1~noble1), libspice-client-gtk-3.0-5 (>= 0.41)
 Breaks: gir1.2-spice-client-gtk-3.0 (<< 0.34)
 Filename: pool/main/s/spice-gtk/gir1.2-spiceclientgtk-3.0_0.42-1ppa1~noble1_amd64.deb
-Size: 16824
-MD5sum: bf0bfb940005165b77bf503c1d6a3de5
-SHA1: 46d77d2a8041a882027c49011bdd7c5508537c83
-SHA256: e4006ba4c30e4afed3eed1013dff4ca17b6e3a7681b4df4be732c168339bc8be
-SHA512: 27cd9475dbeec3902cb1f511b38563008e8aab87ec1d24d71d802aa2285d8d39b9a7c5a76209af8d93e7ee45031198a2abaf6cdc23ec98aa473d68ac254481f4
+Size: 16820
+MD5sum: 6bfda7df31410125bc142537cdf0a5c7
+SHA1: d9fd0965e50870c9b2c9a945f9c77a9a6a9b9202
+SHA256: e5cf255d14be0b605dbc461b1b687c836c43364c3cb2eeae32e3c7f9f2983ec0
+SHA512: 29a763022d61e34b033940a2d55d3bc058a606dfad8e03371fdff2fed4126870dee8a83a0ef20232b560b60822f5b150284cb10875a39f276ccc451a0d894033
 Homepage: https://www.spice-space.org/
 Description: GTK3 widget for SPICE clients (GObject-Introspection)
  libspice-gtk3 provides gtk3 widget to show spice display
@@ -4384,16 +4384,16 @@ Section: debug
 Source: spice-gtk
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1561
+Installed-Size: 1533
 Depends: libspice-client-glib-2.0-8 (= 0.42-1ppa1~noble1)
 Filename: pool/main/s/spice-gtk/libspice-client-glib-2.0-8-dbgsym_0.42-1ppa1~noble1_amd64.deb
-Size: 1407068
-MD5sum: ef4e0d900bc57903f140c104c9ffbb94
-SHA1: db8009642ee068ac30ed8bbbee40ffdec7753de8
-SHA256: 8f68a195891ead13f1aa5391fff74371d7486aa65001471eee77dee856f41bc4
-SHA512: 74a14db9ad27cc708b185cb254c7d34f91d95a402361ebf105748a58e1e5c4021355fe4ef943983f1e678995699fc49b2f90ef6c9d2e7501d1f8d77c56985b2d
+Size: 1377264
+MD5sum: c6e40d7901a788729daf601dbf543517
+SHA1: bb7ff89fdc45966120854111e7a9f8dd2c917937
+SHA256: 554317dd7dc1d452fe490cccb9f3f0ccc718499d464ab5e271d5033683eee973
+SHA512: 6d1fc9e9635844dfa51f8ff4ce79a38702a2946bfab42de18691458a0965071c79b34fd5ce3c5a735bf3ac0e01917c99afc2e3aa6aabaf0922aef7b3b51f2918
 Description: debug symbols for libspice-client-glib-2.0-8
-Build-Ids: ec5eb7299bfd5c90d2887393ea2d0953fa5f9f65
+Build-Ids: e6eac90963c03c9f011d3c1ce2c25b676750a527
 
 Package: libspice-client-glib-2.0-8
 Architecture: amd64
@@ -4404,16 +4404,16 @@ Section: libs
 Source: spice-gtk
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1246
-Depends: spice-client-glib-usb-acl-helper (= 0.42-1ppa1~noble1), usb.ids, libc6 (>= 2.35), libcacard0 (>= 2.2), libglib2.0-0t64 (>= 2.44.0), libgstreamer-plugins-base1.0-0 (>= 1.10), libgstreamer1.0-0 (>= 1.14.0), libjpeg62-turbo (>= 1.3.1), libjson-glib-1.0-0 (>= 1.5.2), liblz4-1 (>= 0.0~r130), libopus0 (>= 1.1), libphodav-3.0-0 (>= 2.5), libpixman-1-0 (>= 0.30.0), libsasl2-2 (>= 2.1.28+dfsg1), libsoup-3.0-0 (>= 2.49.91.1), libssl3t64 (>= 3.0.0), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.23~), libusbredirhost1t64 (>= 0.8.0), libusbredirparser1t64 (>= 0.8.0), zlib1g (>= 1:1.1.4)
+Installed-Size: 1214
+Depends: spice-client-glib-usb-acl-helper (= 0.42-1ppa1~noble1), usb.ids, libc6 (>= 2.35), libcacard0 (>= 2.2), libglib2.0-0 (>= 2.43.90), libgstreamer-plugins-base1.0-0 (>= 1.10), libgstreamer1.0-0 (>= 1.14.0), libjpeg62-turbo (>= 1.3.1), libjson-glib-1.0-0 (>= 1.5.2), liblz4-1 (>= 0.0~r130), libopus0 (>= 1.1), libphodav-3.0-0 (>= 2.5), libpixman-1-0 (>= 0.30.0), libsasl2-2 (>= 2.1.28+dfsg), libsoup-3.0-0 (>= 2.49.91.1), libssl3 (>= 3.0.0), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.23~), libusbredirhost1 (>= 0.8.0), libusbredirparser1 (>= 0.8.0), zlib1g (>= 1:1.1.4)
 Suggests: gstreamer1.0-libav, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good
 Breaks: gnome-boxes (<< 42.3), remmina-plugin-spice (<< 1.4.28), virt-viewer (<< 11.0-2~)
 Filename: pool/main/s/spice-gtk/libspice-client-glib-2.0-8_0.42-1ppa1~noble1_amd64.deb
-Size: 326096
-MD5sum: d42bae3d1c93f713414a7b374449050d
-SHA1: 70b1bfe82ec468513f971869c6d4aa804bd64344
-SHA256: 4c399f892a267de57d8552e7f65f9b69f4021b6561b8067ac09d3a63bda31840
-SHA512: 9421d9639225611ee9844bb059d51f411dd5c820369023299446046a0b025c5a14060bc015a732db4d54c26fa6abc70deda86e035858ef062e5d78b4f4847d50
+Size: 328464
+MD5sum: 73ff20fa9c68b9f821aff63e762fdba1
+SHA1: 684ddabe616c115c50060ceb4e5c593e43294929
+SHA256: b1df03a1bc0b17af661306b410b01d89b808d25ae4a20e8b3baacd2c0897caee
+SHA512: 51f7718166b98e1ef8559cc64eff9c5e42ad8d56f776008a0226eba650f172556f1bfe2dbb85d1566055b1b8132da435165cfdfb0cd479c06a075e8c5127adab
 Homepage: https://www.spice-space.org/
 Description: GObject for communicating with Spice servers (runtime library)
  libspice-glib4 provides glib objects for spice protocol
@@ -4430,14 +4430,14 @@ Section: libdevel
 Source: spice-gtk
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1587
+Installed-Size: 1614
 Depends: gir1.2-spiceclientglib-2.0 (= 0.42-1ppa1~noble1), libglib2.0-dev (>= 2.46), libspice-client-glib-2.0-8 (= 0.42-1ppa1~noble1), libspice-protocol-dev (>= 0.14.1)
 Filename: pool/main/s/spice-gtk/libspice-client-glib-2.0-dev_0.42-1ppa1~noble1_amd64.deb
-Size: 112536
-MD5sum: 0b185b5ec37e02538314dfbe85f33731
-SHA1: 82c9b56aad256d9250a926c5db88b701553779f7
-SHA256: b87c4d8b8ea5d67beba789e28350340f80c216f56611e58c8f2c0d9b495c1a86
-SHA512: a749545213761c75223528cd8c452197fc8578107a2c58d4f57197c5808cc5cef09762efcde15ddad153478e3e272d532d86d97330714867ee0d98d2e5a55fcf
+Size: 112996
+MD5sum: 3e8dd9bd39be9a4c5120d5e4e29cc7a6
+SHA1: e3a7e88a19406864ea37416a8f903241b0adab4b
+SHA256: 2feb5cc19bdc91d1bdeeab3a86a912123ea83e5909fbdf250c3177a8e34593ac
+SHA512: bc58f3bebb8465fae19c01f6c00686817d4e526e4fce8a2cff1f13643bd784b6ba93d20ab8af29ecbe2eac3ac83b10898305a1d668dc4fc5960e9300122075da
 Homepage: https://www.spice-space.org/
 Description: GObject for communicating with Spice servers (development files)
  libspice-glib4 provides glib objects for spice protocol
@@ -4455,16 +4455,16 @@ Section: debug
 Source: spice-gtk
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 231
+Installed-Size: 232
 Depends: libspice-client-gtk-3.0-5 (= 0.42-1ppa1~noble1)
 Filename: pool/main/s/spice-gtk/libspice-client-gtk-3.0-5-dbgsym_0.42-1ppa1~noble1_amd64.deb
-Size: 193660
-MD5sum: 19bcf7c83a3aefd4a83c53f479592e29
-SHA1: 52c2b4d0af0c9b99d3e3fb9027489ca74ec17807
-SHA256: 16acfaeaad26ef22321e31185ed92d41ee83899418190ec85dd62cb3e4f8e683
-SHA512: f72dac41261fb0aec70314023a4c2f386de9991f8c385ee9775f3b3c719374ff41a2be7cb79d479010742e2791f38661c6f9c06f9169883e03d0a4684783289e
+Size: 193676
+MD5sum: 4f014493e9f45f458e1d073b29e884e2
+SHA1: 65ee9f3e68e394a112cfd803dfcdb4cfb3369e15
+SHA256: 9dac37a8ecc543031c58f7fe68039beab8e2ad6dc7de653ceacf4032bdca7e61
+SHA512: 94563a9796ad087174625573342e39fe6d5e3f4802ae8fec8af7d79f4e67912899dd17b7ee6acf0051e120b707f121f21957159d5b7a13c421f9cf631ae9696d
 Description: debug symbols for libspice-client-gtk-3.0-5
-Build-Ids: 8d0235df728264238e1cb1316fcfc66d1526b727
+Build-Ids: a4f63d435846ce5b14f16ff01582342a6ecab52a
 
 Package: libspice-client-gtk-3.0-5
 Architecture: amd64
@@ -4475,14 +4475,14 @@ Section: libs
 Source: spice-gtk
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 322
-Depends: libc6 (>= 2.14), libcairo2 (>= 1.14.0), libepoxy0 (>= 1.0), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.52.0), libgstreamer-plugins-base1.0-0 (>= 1.10), libgstreamer1.0-0 (>= 1.10), libgtk-3-0t64 (>= 3.22), libphodav-3.0-0 (>= 2.5), libspice-client-glib-2.0-8 (>= 0.39), libva-x11-2 (>= 1.0.3), libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.0.2), libx11-6
+Installed-Size: 326
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.14.0), libepoxy0 (>= 1.0), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0 (>= 2.51.2), libgstreamer-plugins-base1.0-0 (>= 1.10), libgstreamer1.0-0 (>= 1.10), libgtk-3-0 (>= 3.22), libphodav-3.0-0 (>= 2.5), libspice-client-glib-2.0-8 (>= 0.39), libva-x11-2 (>= 1.0.3), libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.0.2), libx11-6
 Filename: pool/main/s/spice-gtk/libspice-client-gtk-3.0-5_0.42-1ppa1~noble1_amd64.deb
-Size: 66672
-MD5sum: 2034d3b8f98fef277bff1cd15387654e
-SHA1: 8461e185f83606618d438cbbbed02f6bc6b94cfe
-SHA256: bc8d710049cd2608e2e3394798d6a4e061b3f80ce454656e5ee6a84ca40dd1ea
-SHA512: 502a099cfe166de65cc3060b8fb8a550c339638e3ad7f3132b7f2f7d2ddecf4e892a3efadadfb589f28456121c43bf64d741ad27db911837a094d5ea5b83a4f1
+Size: 68836
+MD5sum: 4de7a45224a1f69bacd900d7f621caf8
+SHA1: 26e99600e3a4a2de69bbe41715d6f2582588a64a
+SHA256: dbb1ade9710a663037d9df16da27ec91bc963d727bae241f8abc21a00228aa72
+SHA512: 2f715e5fc25686641898e9adbaae920c130882f781ceb523a14bdc5b16b36c352ed28d24214d2d5ec4ac4eb8df4a02a5de480872d850e308082e8f46e5ee11b6
 Homepage: https://www.spice-space.org/
 Description: GTK3 widget for SPICE clients (runtime library)
  libspice-gtk3 provides gtk3 widget to show spice display
@@ -4499,14 +4499,14 @@ Section: libdevel
 Source: spice-gtk
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 101
+Installed-Size: 100
 Depends: gir1.2-spiceclientgtk-3.0 (= 0.42-1ppa1~noble1), libglib2.0-dev (>= 2.46), libgtk-3-dev (>= 3.22), libspice-client-glib-2.0-dev (= 0.42-1ppa1~noble1), libspice-client-gtk-3.0-5 (= 0.42-1ppa1~noble1)
 Filename: pool/main/s/spice-gtk/libspice-client-gtk-3.0-dev_0.42-1ppa1~noble1_amd64.deb
-Size: 23344
-MD5sum: 1ffc95c06b4b7f0f2b06c7ef547d79f4
-SHA1: 02eb2be12981cdc7075581c530d0868527f6a00b
-SHA256: c70dca1e9e55dffe1369879842071fd5b62b26951aa2fa3ce6815f096932d978
-SHA512: a4d4272d4a7bd59ab4c14faa768eb65227c20b33875f1ea219d6401a0561112d4840c78461d45b950e940eb114f42c90375a2e7d1bc9d47d2c5939689e08d3ef
+Size: 23280
+MD5sum: fb035cf97a4b99429738741f65614985
+SHA1: 284905ee839b87cdda4bc462557210c2d9219893
+SHA256: ec3c1990c067c3465686b2468441c7877d68739247f5325683bd541a7f3a99e4
+SHA512: 928fb6a3bc4587a82e851b00ed6187e4ba44e79196426daba00e0603a676e468681247e81e180c51644a43ec8ac7fec3a306874b536706a1874c17f38371a1cb
 Homepage: https://www.spice-space.org/
 Description: GTK3 widget for SPICE clients (development files)
  libspice-gtk3 provides gtk3 widget to show spice display
@@ -4523,16 +4523,16 @@ Section: debug
 Source: spice-gtk
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 34
+Installed-Size: 29
 Depends: spice-client-glib-usb-acl-helper (= 0.42-1ppa1~noble1)
 Filename: pool/main/s/spice-gtk/spice-client-glib-usb-acl-helper-dbgsym_0.42-1ppa1~noble1_amd64.deb
-Size: 13564
-MD5sum: 3413a7f89808f5a5f8b68f26c574dd42
-SHA1: 29ac6870099d22c83e02c4ad1aa80a82e07e30c0
-SHA256: 45c07d8405ae7562a8c140eaba5820ce2d84bd84fe0c7e35887db91e94b0ac7c
-SHA512: ee04216a31453cc70c21225b620388f23c1d89604e89fbd3b79f45df1bc02df3218383ee201f75341857fe34a0e747e743635e6398d6fad448a93a0214f80822
+Size: 13572
+MD5sum: ba168bb101a23e1a3340d2161ae9d2ce
+SHA1: 86902ea9a1bd808403bd340c542f74a138c68ea0
+SHA256: d4a363c0f72f02ecd8dace965bf3bf8c1d7b356679babfd1267611cbc8ee6512
+SHA512: ef653c6e6381547edd3a6589e7c2ca831daa2b3c3041d15ddaa8f0bd773ad3482fd9afd8a83f1e2900a88e2b392c2887dfccdc01f281601181cac8c9a7568584
 Description: debug symbols for spice-client-glib-usb-acl-helper
-Build-Ids: 777c4e3aef7c75c6501d4c5f9b2e96e8c68f0578
+Build-Ids: 78ce94781805a6deb1cef69c50d8557736102c6d
 
 Package: spice-client-glib-usb-acl-helper
 Architecture: amd64
@@ -4544,14 +4544,14 @@ Source: spice-gtk
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 54
-Depends: libacl1 (>= 2.2.23), libc6 (>= 2.34), libcap-ng0 (>= 0.7.9), libglib2.0-0t64 (>= 2.20.0), libpolkit-gobject-1-0 (>= 0.101)
+Depends: libacl1 (>= 2.2.23), libc6 (>= 2.34), libcap-ng0 (>= 0.7.9), libglib2.0-0 (>= 2.20.0), libpolkit-gobject-1-0 (>= 0.101)
 Breaks: libspice-client-glib-2.0-8 (<< 0.37-3~)
 Filename: pool/main/s/spice-gtk/spice-client-glib-usb-acl-helper_0.42-1ppa1~noble1_amd64.deb
-Size: 20360
-MD5sum: 3a08fa3739f5511e2b1e36cdb813c640
-SHA1: be10b54aed0a3a3d8db55ace7ff1edffa93ed0e3
-SHA256: 33d0b2128ed72c3c4068e8128f0501da4ab87e7ad39517f9e2badd5c6a3902fc
-SHA512: 207cde73d7d07b8139bf6b3cd98021e95df84a69111f8fe918d18ec791d6566af1432162002e36d7d2cf454a3117ef372aa3166ee489a7932615d7e533a784b7
+Size: 20420
+MD5sum: 9f323aa4929170cee4118f3a44535349
+SHA1: 4f1c5a85fea8a1fe78db9099e46535568fc3193d
+SHA256: 180db338a0a946088a256242f99746d566490e3eb87847520922e4bd49f14bcf
+SHA512: 1183076dce794b3400e74606d592f714289f80a9e3c79c7aff1261e8edfab07575ad0eef206d480fd04602988b4427aa83ffaa723a0beda8334d99e94dbd07d8
 Homepage: https://www.spice-space.org/
 Description: Helper tool to validate usb ACLs
  When passthrough USB devices to VMs, spice-client-glib-usb-acl-helper
@@ -4566,16 +4566,16 @@ Section: debug
 Source: spice-gtk
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 140
+Installed-Size: 120
 Depends: spice-client-gtk (= 0.42-1ppa1~noble1)
 Filename: pool/main/s/spice-gtk/spice-client-gtk-dbgsym_0.42-1ppa1~noble1_amd64.deb
-Size: 75748
-MD5sum: c82c58f42a5aaa5b62b6ef1934ad930f
-SHA1: f5f38ba71af1fdf332a80d9030caca15b2ec430b
-SHA256: 9a4b68dfde0168bcc04185e09dfecc5044e84508c1e6477156192acdc50ee182
-SHA512: 56370d47e795621cc2bd27ac9d081a673eb38f6af8d2d8ad8a4554b399d32b02f3d40289b97c4d7c9e6f4e016f1bd7c22cdd4afa5cb7f93790b330c523b93ada
+Size: 76460
+MD5sum: 4ae35308f245b4351fb63e8e2c82fba5
+SHA1: bec92afd323712506b32de8bbf45f1316071974b
+SHA256: edafdf36a5e728e68778ab4250e6c386fc6c145f3cfa473fa8bb86cf8ca9b93b
+SHA512: 3c231b359928e69e5c27032f7d12c544df810eb7a771b57af742de5dbc0ad3e3cfa05921face72880eede5d5bbacf690129fc0dab716590216e7f192de91dae2
 Description: debug symbols for spice-client-gtk
-Build-Ids: 1bdfd090618c8e4b83c94cf4932f2202f39ae41f 5a8ce4cf0c3b39103275d7a8ace2437868592ab1 62c26b4ed3e13ef87aa2c9544c43fe887cfa25d7
+Build-Ids: 048d0a9ba9d56cfc3acfe257a8d6ad739a8d3c26 7ae5be9573a0abdbe9fca1666f3bbaf1114e9cbe dafb8a1a0777831f2ab825e20e2a038bd78f7489
 
 Package: spice-client-gtk
 Architecture: amd64
@@ -4585,14 +4585,14 @@ Section: misc
 Source: spice-gtk
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 201
-Depends: libspice-client-glib-2.0-8 (= 0.42-1ppa1~noble1), libspice-client-gtk-3.0-5 (= 0.42-1ppa1~noble1), libusbredirhost1t64, libusbredirparser1t64, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.38.0), libgstreamer1.0-0 (>= 1.10), libgtk-3-0t64 (>= 3.22)
+Installed-Size: 206
+Depends: libspice-client-glib-2.0-8 (= 0.42-1ppa1~noble1), libspice-client-gtk-3.0-5 (= 0.42-1ppa1~noble1), libusbredirhost1, libusbredirparser1, libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3), libgstreamer1.0-0 (>= 1.10), libgtk-3-0 (>= 3.22)
 Filename: pool/main/s/spice-gtk/spice-client-gtk_0.42-1ppa1~noble1_amd64.deb
-Size: 54616
-MD5sum: 07ade298cf09fa32e6ff11ff81c736a6
-SHA1: ec8e285ff7fe61a5b5c9fd5b515071e041744849
-SHA256: 40bfe3c22c173de40e86f49130e188a482d412084778887b0ec1eca0114531dd
-SHA512: 0cb057153c357f0c80d08ca63c95e4b1989892903b4f992e2e8f25ddde30690d122fdc4a172bc64200fc3fad97f4ca45333ec2968c68f08c90baa4ecb908401f
+Size: 57296
+MD5sum: ff9cce91dec976ebb005aea9b3819715
+SHA1: fdff04432a5c369c246318593489bb005c84491b
+SHA256: 7f486db05063d733671f4edd3b5eb836d036b7d97d181adcbd97ef24f798c379
+SHA512: 5a6bc72bdc3513ecdd4f6ba730b3fdaa37d7416ec1457bc31fb762a100455623134b840a1f5a554a91d25c7c596513d4712ce837216fa6c49a3649823d14b4b9
 Homepage: https://www.spice-space.org/
 Description: Simple clients for interacting with SPICE servers
  Simple clients for interacting with SPICE servers. This package
@@ -4641,16 +4641,16 @@ Section: debug
 Source: spice
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 2118
+Installed-Size: 2085
 Depends: libspice-server1 (= 0.15.2-1ppa1~noble2)
 Filename: pool/main/s/spice/libspice-server1-dbgsym_0.15.2-1ppa1~noble2_amd64.deb
-Size: 1958988
-MD5sum: 9e04ef9e270207535c1add839433e5a6
-SHA1: ca27322b307caa3cfa05b56ae6784f021f1d4895
-SHA256: f1c96a9ff980c774c1d966dbcfccfe7174769e038300c066fc26f7cbf4523928
-SHA512: ed13fa5ccebd4e146d3d9ebbd5979e2c0421c6e12b697ac1cb5002b829542bfa03d07a8e3bf4ff43412b59f3abe40a7cd77de0750ddb04d97666af9331ff9a41
+Size: 1926376
+MD5sum: 6146e38be57b379d6c7883d006ec5646
+SHA1: b33a8e9175dbcafd2b559427e63876d2b458e9bc
+SHA256: 5d76366e163201ed53fbf1c47ea9e928a3290735297ee02d3ca44ffacc893897
+SHA512: a3d9c3b9c94dcfa49c252086e16b0a0e764fe6bb55f8c2263fb0c837e76e19246d93a0298c4599b9c05270794a7f50fd3327729bb91e157a2908aa8b81d6a825
 Description: debug symbols for libspice-server1
-Build-Ids: dc2de0f148f6d9303e9083d0147b75cbf17260aa
+Build-Ids: 5e38591d46fd3569bcd64408271cf19c64088ee4
 
 Package: libspice-server1
 Architecture: amd64
@@ -4661,16 +4661,16 @@ Section: libs
 Source: spice
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 1263
-Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.68.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.4.0), libjpeg62-turbo (>= 1.3.1), liblz4-1 (>= 0.0~r130), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpixman-1-0 (>= 0.30.0), libsasl2-2 (>= 2.1.28+dfsg1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 12), libudev1 (>= 183), zlib1g (>= 1:1.1.4)
+Installed-Size: 1223
+Depends: libc6 (>= 2.35), libglib2.0-0 (>= 2.67.3), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.4.0), libjpeg62-turbo (>= 1.3.1), liblz4-1 (>= 0.0~r130), libopus0 (>= 1.1), liborc-0.4-0 (>= 1:0.4.25), libpixman-1-0 (>= 0.30.0), libsasl2-2 (>= 2.1.28+dfsg), libssl3 (>= 3.0.0), libstdc++6 (>= 5), libudev1 (>= 183), zlib1g (>= 1:1.1.4)
 Recommends: gstreamer1.0-libav, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good
 Suggests: gstreamer1.0-plugins-ugly
 Filename: pool/main/s/spice/libspice-server1_0.15.2-1ppa1~noble2_amd64.deb
-Size: 352520
-MD5sum: a4a277425b9f034c8bca538a3dd5bbfc
-SHA1: 24f81fe0fe916e4a5b2677ea1eb392d910d512c4
-SHA256: 29e2f7e63660f35c24aa43f43f8cf8c3bce980f14078235135fb2c4896bccc22
-SHA512: e4b6f0c6604a7731ada6bd5f3c5c11d3d2e503f3fc273392ef3825778f7f99db24ba48d575f35c569afd2d87d81b80ad5616b45a5160366cc2604428d6963876
+Size: 350888
+MD5sum: 88155bb7ed386c2defc4604580ecf7cc
+SHA1: cdd3e940f8f33a9f5f2593d3586d55ba8b0abdce
+SHA256: 9ec92ef0d7f0d6df103d845a209bd23d5612c4d3a5d11b1571cea6854b021c0e
+SHA512: 36ce9233f17a343ae2e823f086756bcc3202bfc751e803e880d2903bbb8ccc04d3348ff5ca5731e712b3ddb2318e1724870224249c9e82fcdeba43348e461643
 Homepage: https://www.spice-space.org
 Description: Implements the server side of the SPICE protocol
  The Simple Protocol for Independent Computing Environments (SPICE) is
@@ -4718,16 +4718,16 @@ Priority: optional
 Section: debug
 Source: vpl-gpu-rt
 Maintainer: Timo Aaltonen <tjaalton@debian.org>
-Installed-Size: 37814
+Installed-Size: 37817
 Depends: libmfx-gen1.2 (= 24.3.2-1ppa1~noble1)
 Filename: pool/main/v/vpl-gpu-rt/libmfx-gen1.2-dbgsym_24.3.2-1ppa1~noble1_amd64.deb
-Size: 36366108
-MD5sum: 09d10c0ad5c3989f75f88564e623b25b
-SHA1: 6e10d9b3073f28998f06de1532e5097dacd55566
-SHA256: 4c760342cdb41ff7a2c0ea37fef97b0e42b3dcc8492de17059e8c6f5545af09c
-SHA512: 68a37eea97180eb7ff3ab9e32ec90cea5b1d4514f2c83840c9e7b7ed12befb49411f6c2db166172a5818bd1d995a62b26e43871b5adcfade1322ecb573dbf10b
+Size: 36361480
+MD5sum: 3f903c31d94d8f4114f1be60dfc03ea4
+SHA1: 484b3ddf33a875bcc7a850774cc519d4d43dc97b
+SHA256: 093a79be870fb63c602c76128291feb741a90e368d928127e726e0c70be1f20c
+SHA512: 18da3931c0c647fbfbea1d329d2294a4a016ad15ecd98d84ebd80e247ccaffc18384ada3a154bab01c80e1c50e2480ea739b773c544cad3ec8cb83d47b531eb2
 Description: debug symbols for libmfx-gen1.2
-Build-Ids: 48b6b5bffcb873a8b21bf0dc16d6139c684e91d1 7c6337defe5eada4f620416082d241b87e0a9d9f
+Build-Ids: b3c36be2e835f58b226d2608fd28bd5bfd59baba e95893476dd348a116822923a73b1ac4aa8c8305
 
 Package: libmfx-gen1.2
 Architecture: amd64
@@ -4737,13 +4737,13 @@ Section: graphics
 Source: vpl-gpu-rt
 Maintainer: Timo Aaltonen <tjaalton@debian.org>
 Installed-Size: 8149
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.66), libgcc-s1 (>= 3.0), libstdc++6 (>= 12), libva-drm2 (>= 1.1.0), libva2 (>= 2.10.0)
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.66), libgcc-s1 (>= 3.0), libstdc++6 (>= 12), libva-drm2 (>= 1.1.0), libva2 (>= 2.10.0)
 Filename: pool/main/v/vpl-gpu-rt/libmfx-gen1.2_24.3.2-1ppa1~noble1_amd64.deb
-Size: 2131988
-MD5sum: c0a9fdcfb55e7d2fa72c731a5220012b
-SHA1: 44513b72b9dd6d1f293d1aa10fe667c711911b8b
-SHA256: a6b46b8506f31e56265f342531c57fff2fc415ec91ecb3c96146a22ecbcda9d5
-SHA512: c3cc902ffb1994b68ab8a7a6e340dce37753a56c5ee17b872b42d9e20c7cb7759eb1659e297932d5854d994f999382a3bcf79cebb74b60790aeb914b1af093e7
+Size: 2131696
+MD5sum: 3977c44a02ab28c70b6f0bedc7caade1
+SHA1: cc08374a3c42cfd3d6908e23de3edb01ab08ced4
+SHA256: 5c55729e1cc531d0b36e81c974f3a0336670c03fa0d566c32ae839abd374f524
+SHA512: 11f23bb7fee538715207ae1da86a07a68ad2d29bdd0e71c70774a2664ace02fd649b79caeab685f729761b34ec5e74b6032bf804ac78c35ea3abd483c3eae8d1
 Homepage: https://github.com/oneapi-src/oneVPL-intel-gpu
 Description: Intel oneVPL GPU Runtime -- shared library
  Intel oneVPL GPU Runtime is a Runtime implementation of oneVPL
