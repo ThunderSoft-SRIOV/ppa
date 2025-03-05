@@ -1,0 +1,317 @@
+Package: libdrm-nouveau2-dbgsym
+Architecture: amd64
+Version: 2.4.120-1ppa1~sriov~bookworm1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 56
+Depends: libdrm-nouveau2 (= 2.4.120-1ppa1~sriov~bookworm1)
+Filename: pool/main/libd/libdrm/libdrm-nouveau2-dbgsym_2.4.120-1ppa1~sriov~bookworm1_amd64.deb
+Size: 40740
+MD5sum: f163b49e1b8977a8886b5392d1f51ae0
+SHA1: 2efbc377a9d0be6e1513637197023b613682b78b
+SHA256: 9149b16c11a7938ed7e056c876610609b1e9c5bf56ea4e85973ec2c2dc20da6e
+SHA512: 3e51aaf18bb4d2e4adb4994a7ef19d0d75fb78d3448e95ffeb059fc478bb6c838217f13329045c74f302e35585bf596c699de5205cc51e71c19653297fc97628
+Description: debug symbols for libdrm-nouveau2
+Build-Ids: a6c8989c85037a4ba5a33503284dfdf4874d1d4f
+
+Package: libdrm-radeon1
+Architecture: amd64
+Version: 2.4.120-1ppa1~sriov~bookworm1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 82
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.108)
+Filename: pool/main/libd/libdrm/libdrm-radeon1_2.4.120-1ppa1~sriov~bookworm1_amd64.deb
+Size: 21728
+MD5sum: 26efa8b2ad493a19f95cd4371ead39b3
+SHA1: ccdd91bca3be1e8cef4d8bf9be86d4096f74e276
+SHA256: 84384fa1b1d3b2d304cafa2c4f1e45721c33d708ea12b0e910c7fa1c55f5c5be
+SHA512: c74564924e7fb11ec5b0cd60a6cc9fc4d4e7180ecc70d86fe8fd87ca5a522c9744a287179e775ff0947cef11767c419a1b84534c3dea3c151c0079b485cb28e2
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
+Description: Userspace interface to radeon-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-amdgpu1-dbgsym
+Architecture: amd64
+Version: 2.4.120-1ppa1~sriov~bookworm1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 70
+Depends: libdrm-amdgpu1 (= 2.4.120-1ppa1~sriov~bookworm1)
+Filename: pool/main/libd/libdrm/libdrm-amdgpu1-dbgsym_2.4.120-1ppa1~sriov~bookworm1_amd64.deb
+Size: 52884
+MD5sum: f16e0caef2a48ea985be993a51ce053d
+SHA1: caf735770b84d6cb1745bb8aeb05b2af41f4fd89
+SHA256: 962e09c126d88ed2960a09f9a8a616a1f7c756c9fc80b677cf0e90be88de5828
+SHA512: ff699a16080dd362d8a1e0d88087a4e52e390328cc5c6439e2c1e931f64b8f90ed08aa18c235a368a6a0a1136942c69340959ead9df5147396fe5b433b5452df
+Description: debug symbols for libdrm-amdgpu1
+Build-Ids: 281649b43d19a46492cc2735502c092e53ea4a44
+
+Package: libdrm-tests
+Architecture: amd64
+Version: 2.4.120-1ppa1~sriov~bookworm1
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 196
+Depends: libdrm2 (= 2.4.120-1ppa1~sriov~bookworm1), libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.77)
+Filename: pool/main/libd/libdrm/libdrm-tests_2.4.120-1ppa1~sriov~bookworm1_amd64.deb
+Size: 53400
+MD5sum: ec6e329eec98bd86b2fff906e5c25481
+SHA1: 66566cdf6c3a05b2fcadd566fa4d5617bbcba8c3
+SHA256: 1c74e6e4cc122f7388d38dbdf782125a6e0033d6b5c328ede8370bb08d5d1982
+SHA512: 4b425ea80d1a779e457c14263ad5889c6103e7e3fc99e53220bbf9b143d030e69971a149690f37febe9acabacb30790ad68c145c8d6d3f3fd9412af5a1d34f3e
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
+Description: Testing tools from the libdrm project
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package contains a variety of tools for testing from the libdrm project.
+
+Package: libdrm2
+Architecture: amd64
+Version: 2.4.120-1ppa1~sriov~bookworm1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 124
+Depends: libdrm-common (>= 2.4.120-1ppa1~sriov~bookworm1), libc6 (>= 2.33)
+Filename: pool/main/libd/libdrm/libdrm2_2.4.120-1ppa1~sriov~bookworm1_amd64.deb
+Size: 38056
+MD5sum: 9eaef4885d722ba9ba0bde3edeee5a83
+SHA1: d6f585d9488000c773a44adbc4d81493381f1afb
+SHA256: 5b088d45c02687b894b3c81c37f9c1ef755c26ee768cf4f369ae6ec49c6eb213
+SHA512: 441ea36fb72906c3bcb91cfbd1b199db98f04b2d43d0708532e1493b7e1678eda9c14341628034358daa88c34989e390c158c53fe42b51281960b697e316f3b8
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
+Description: Userspace interface to kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides the runtime environment for libdrm.
+
+Package: libdrm-radeon1-dbgsym
+Architecture: amd64
+Version: 2.4.120-1ppa1~sriov~bookworm1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 63
+Depends: libdrm-radeon1 (= 2.4.120-1ppa1~sriov~bookworm1)
+Filename: pool/main/libd/libdrm/libdrm-radeon1-dbgsym_2.4.120-1ppa1~sriov~bookworm1_amd64.deb
+Size: 47748
+MD5sum: 412824ed7379911195d15561ce15c19e
+SHA1: df957678a10a93c6efb477556a43e1facd03c403
+SHA256: fe3c2dd8f847261395a4e1f824dc8cd6c65e03ce4477e58710f97d23431bdbc9
+SHA512: 242c13c97f73a376a59997292c336fea0db2536db725e2af21dc55d14c6ef5a4f99a0afe5c9b3a1a81ebdd7bdd154d885e56583567d1fbab9848d1b9bf07a7d2
+Description: debug symbols for libdrm-radeon1
+Build-Ids: 219b3a33a0b32b7fcce11f3e801000780e9d3018
+
+Package: libdrm-intel1
+Architecture: amd64
+Version: 2.4.120-1ppa1~sriov~bookworm1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 177
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.108), libpciaccess0
+Filename: pool/main/libd/libdrm/libdrm-intel1_2.4.120-1ppa1~sriov~bookworm1_amd64.deb
+Size: 62872
+MD5sum: c393e4d37c6ad75aee5a85d59190187a
+SHA1: 2ed3bc305b456379fc22af09fb3a38e7ce82d5e7
+SHA256: 7af1540a01ede0a27aa6bff8592dabcba5728c8b2036199c648d52e587c7314d
+SHA512: 2117e24921c8e14e568125b048c004608ffb97cc5b466156d632c03aafecc15113c8b3a62317bd314e8080b253617bf1c778885a7d57a59d08baf9180a6a3d5a
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
+Description: Userspace interface to intel-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-amdgpu1
+Architecture: amd64
+Version: 2.4.120-1ppa1~sriov~bookworm1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 76
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.108)
+Filename: pool/main/libd/libdrm/libdrm-amdgpu1_2.4.120-1ppa1~sriov~bookworm1_amd64.deb
+Size: 20952
+MD5sum: f65d353bb2da305cf7188ac4be6f18c2
+SHA1: 17fb83796a85dd1a98fbe6e095d23fdfa162bb6f
+SHA256: 697c868dbb332ad2c0b7797cd87588f7a73449d6c7385ca01e892a1fa5b3a9f0
+SHA512: c84da6cfbbca27bd925d82d427f145ce51ee18e98a1e1b0a76863e48eda54240def7111efe20c6fedeaf1d61d257edd3e2f18c0c941daaa3711659b3be35ab62
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
+Description: Userspace interface to amdgpu-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-common
+Architecture: all
+Version: 2.4.120-1ppa1~sriov~bookworm1
+Multi-Arch: foreign
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 42
+Filename: pool/main/libd/libdrm/libdrm-common_2.4.120-1ppa1~sriov~bookworm1_all.deb
+Size: 7332
+MD5sum: 6dcd54459d7b053a19f49ce335c63675
+SHA1: 9eec8cc23ef33da9700ade5c87b445fa5c790f40
+SHA256: 523950930d92f0512dc3998790e40e992566ee7258306834a88652024db206a5
+SHA512: 812a9d911449d89afae488931fdd3ecdc5f4b6427d7d7a0f60595e4436208a9d4228c478a78b54551aa042696b1f7a90e7ef668ea0e4fa35d38ab85ba1d4d692
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
+Description: Userspace interface to kernel DRM services -- common files
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides common files for libdrm.
+
+Package: libdrm-dev
+Architecture: amd64
+Version: 2.4.120-1ppa1~sriov~bookworm1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1354
+Depends: libdrm2 (= 2.4.120-1ppa1~sriov~bookworm1), libdrm-intel1 (= 2.4.120-1ppa1~sriov~bookworm1), libdrm-radeon1 (= 2.4.120-1ppa1~sriov~bookworm1), libdrm-nouveau2 (= 2.4.120-1ppa1~sriov~bookworm1), libdrm-amdgpu1 (= 2.4.120-1ppa1~sriov~bookworm1), libpciaccess-dev
+Filename: pool/main/libd/libdrm/libdrm-dev_2.4.120-1ppa1~sriov~bookworm1_amd64.deb
+Size: 292184
+MD5sum: b3f6b9ad41bfaffb6016597e1176884d
+SHA1: 900f833028b0778e2531e65a19c5ddde7798fc19
+SHA256: 608d85e25b206505e2cda3e0234cad23ce5d3d6556916bba4e744d8ef9157206
+SHA512: 7329f7d8d66a18c2fba6c22bd9d6690038ed77f69c76810642112e69a7291502e2bebdeac64f4d096851368110a2ebd4a89b1cbb7d857e60f62f9c2bb2cd2337
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
+Description: Userspace interface to kernel DRM services -- development files
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides the development environment for libdrm.
+
+Package: libdrm-intel1-dbgsym
+Architecture: amd64
+Version: 2.4.120-1ppa1~sriov~bookworm1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 149
+Depends: libdrm-intel1 (= 2.4.120-1ppa1~sriov~bookworm1)
+Filename: pool/main/libd/libdrm/libdrm-intel1-dbgsym_2.4.120-1ppa1~sriov~bookworm1_amd64.deb
+Size: 129364
+MD5sum: afbd38bcd3a6cae6b7b98fdb104878ff
+SHA1: de109bab7949c3e2078ba6791ab31adf5df83891
+SHA256: 560cc22ff666b24f3842fc3d3fd9a88fb45f95ca22f4b5d5b40c2068391de004
+SHA512: 8bbc53a5b69f090c6c156477ee0e74087d0356035861e85aaf083eee3c47dd111470531c22f12a4eaa603b47214185cd013dc3b27252de9eae566b68ae1f3edb
+Description: debug symbols for libdrm-intel1
+Build-Ids: 8e447d2a07fe30002ceee257a155c1b9ca0c21e8
+
+Package: libdrm2-dbgsym
+Architecture: amd64
+Version: 2.4.120-1ppa1~sriov~bookworm1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 125
+Depends: libdrm2 (= 2.4.120-1ppa1~sriov~bookworm1)
+Filename: pool/main/libd/libdrm/libdrm2-dbgsym_2.4.120-1ppa1~sriov~bookworm1_amd64.deb
+Size: 106792
+MD5sum: 8dc0168d2fbc2e79583dab21d1a04de6
+SHA1: fa026312be572572b7babe2baadbd6ae9ce550df
+SHA256: 8bd2344505d6bb42e344f7edc5b0c26e6ebc08304dec298666bc97c055fc4ec9
+SHA512: d32dc41b4f1937dde28fdb2bf7279340e8d94405ecdc56c91315acfbe1e0c5d7f64d8d0bd0899d8d60bcb95d43f89e039a59bbe4e4181a430f8c73f072531a25
+Description: debug symbols for libdrm2
+Build-Ids: f5c295e550a033f183d7dcd334fc57a5bf706481
+
+Package: libdrm-nouveau2
+Architecture: amd64
+Version: 2.4.120-1ppa1~sriov~bookworm1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 73
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.108)
+Filename: pool/main/libd/libdrm/libdrm-nouveau2_2.4.120-1ppa1~sriov~bookworm1_amd64.deb
+Size: 19024
+MD5sum: 929ffd48c94bdd1839a9e879b462e991
+SHA1: 62620da92abb722eb3c0cbc5e48f9589a00a4676
+SHA256: 5db31f035da12304f74553630bd90aae6c56067d5b7e478036dcdaeba204335b
+SHA512: ca49b5c70b610424b137ff2564867914b63fe60be421b934b3fffe105ff6c0bf285d56791f4dc348f8aebfebbe540c6fc99cd3659d2c747c11d4eca766024258
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
+Description: Userspace interface to nouveau-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-tests-dbgsym
+Architecture: amd64
+Version: 2.4.120-1ppa1~sriov~bookworm1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: libdrm
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 199
+Depends: libdrm-tests (= 2.4.120-1ppa1~sriov~bookworm1)
+Filename: pool/main/libd/libdrm/libdrm-tests-dbgsym_2.4.120-1ppa1~sriov~bookworm1_amd64.deb
+Size: 145000
+MD5sum: 25ef62c6b58920f7e0408c018acd95f1
+SHA1: 8f4ce07fa3fd4331a891ade934741cb189590758
+SHA256: 806b9851cbe76890f5411d2b283f2d467b034c11ecc6a98c16b2184df42d85ff
+SHA512: 4e3bc88550ea1dcc76bee658a82ce8db19e9f1f72184b2c2de9c3b0c4d07da51964906cf63a5dc72ae3089304b8a1bdf3403be35a761bb32bf7ba6606e8e49fa
+Description: debug symbols for libdrm-tests
+Build-Ids: 01eb0bb0b0b7417f7ed4eababcb8e70c8fbf8d91 1c8e1c7ce696b0ad978e9e087190c681a0d7e113 90160146655e9e5a4c9b4883f399c1eb9df62053 b28ad9a9fb6dad6e5d90ada2833aafbdc2e9f142 bbfa6867a66bccaaa38da0e4d8e7dc59267f0f6c d2fdce605c0cc5db3359d903ab9187dbd540aa72
+

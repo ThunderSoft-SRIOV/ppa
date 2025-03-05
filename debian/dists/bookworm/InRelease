@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: thundersoft-sriov-bookworm
+Label: thundersoft-sriov-bookworm
+Suite: stable
+Codename: bookworm
+Version: 1.0
+Date: Wed, 05 Mar 2025 01:01:47 +0000
+Architectures: amd64
+Components: main
+Description: Intel Graphics SR-IOV On Debian
+MD5Sum:
+ 7be10db8e7949b66917fba2fec7af65d               38 Release
+ bdc86bd36bc9b16e221a73cde57560bc            14351 main/binary-amd64/Packages
+ 3e078674f120d9adfea25830e31e7d19             3940 main/binary-amd64/Packages.gz
+ 6647e27c5c62fe2befaf2b32ce8f5633              179 main/binary-amd64/Release
+SHA1:
+ 8504882748c7fb687e38fe6f27a45a5798e2f0bf               38 Release
+ c1250fc3476ca164066edc5aae22c9710093e285            14351 main/binary-amd64/Packages
+ f4a8441bfe8a1596b7e5fdb29d60d6e5e5b5dde3             3940 main/binary-amd64/Packages.gz
+ 2e6bf0facf3c6107214b37b2d16fdee4c1d11f67              179 main/binary-amd64/Release
+SHA256:
+ 5d3499adb47fbf0795a2cbe04338a3af6e920a03fd1d6d709b7c875aeebd958d               38 Release
+ 778a6adae7c3652643d617416a03fdd15341d3032bbd5411e2bd697f2c24af47            14351 main/binary-amd64/Packages
+ 44dc82ebaf3afea6cf910536809547c71fe89edc4b20a42019e9a2ce42179719             3940 main/binary-amd64/Packages.gz
+ c0b1fa160ef5feefc12d98fafbf71d04af9086152f68166b23bca7fc8555db0c              179 main/binary-amd64/Release
+SHA512:
+ b07b279e4040d77f0682c28502faf8fb12f559d46499ed2b593d77d2e1235b50d25034278bbd8b5903498548d8c282fad9a43cbeb70fe36b2f373fe1919d9f09               38 Release
+ d660aaeaf6d978f9ab6a5af4017cee7e395cd43e2d7dab443277f48e0d4e6d3ec75eff1b02999d73799e67191912d3e3febd5e25e609c311c1811d2c03b81d57            14351 main/binary-amd64/Packages
+ c63e59fab7794bb4f30d668b2bf75e02665c662ba017a7593bc579fbfad3be8261b300848e60f0ee6cb98aa242eb7b44887e73ffc30b0ed173168381db246b50             3940 main/binary-amd64/Packages.gz
+ 729aa0da2c65aa75f27149996d5dbc19a9fbf2d2f4e9206df2fa2d7279872775e0da80bb747c8a4f47036f635a5756af9c917e757fb4d2491d1f0057cd00837f              179 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEl6i3PbC2pAss7JU98AkKkXV7j+EFAmfHo/AACgkQ8AkKkXV7
+j+FNbAv8CVuGTPiuFHWOBSuFGlRRsjm2mS1CW5FyyIakkTpG7qM9Bc3KIalHnNPc
+1cyoVFhiUNoZ2rk4fDPHWyxwq2IBaBFmaS3omvSusEn/sw+yDzQhGG9aUWxncjr1
+fxQG36uHWGbehFtru+U0j3DKVBy3nlqT/mxQ7xM3k7SGJ3LR6ESk4SkQLCjeK3uG
+/GJPa1qKcVb0eLezcX9DhaFjr0FnOdUDMV6mIVdvSuOyEpJsm1lthbqn/lt/seqg
+FLvF3oKZSr28JYKAB9GUxJT+wp/Iirtg5CXY2qZ0N2Wh1e+AAXfXOs7OjiJCneqO
+btrkLNXsK2eqaGY7ZerX6n7XFS9KUh1p9tsyZy5sEb5Rn6Maf5jRkR4DU2xuyfog
+tNe/rZG9pUHq4cU8yMfBBKyAlr3e0DyNDfj5EhwAurwAnzL089W1RPtYv0tY9dm0
+PBdf12XbOVzyhBfLS6JmvFbYDODDWKViGp2PJfmq4uDXb7uXLJg6YOB8hRRJEFit
+HcVZ2OYA
+=tNOt
+-----END PGP SIGNATURE-----
