@@ -1,0 +1,3 @@
+Package: *
+Pin: release o=thundersoft-sriov-bookworm
+Pin-Priority: 2000
