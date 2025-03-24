@@ -1,3 +1,71 @@
+Package: intel-gmmlib
+Format: 3.0 (quilt)
+Binary: libigdgmm12, libigdgmm-dev, intel-gmmlib
+Architecture: amd64 i386 x32
+Version: 22.5.1-1ppa1~sriov~bookworm1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders:  Sebastian Ramacher <sramacher@debian.org>, Timo Aaltonen <tjaalton@debian.org>
+Standards-Version: 4.6.1
+Build-Depends: debhelper-compat (= 13), cmake, libspdlog-dev
+Homepage: https://github.com/intel/gmmlib
+Vcs-Browser: https://salsa.debian.org/multimedia-team/intel-gmmlib
+Vcs-Git: https://salsa.debian.org/multimedia-team/intel-gmmlib.git
+Directory: pool/main/i/intel-gmmlib
+Package-List:
+ intel-gmmlib deb libs optional arch=amd64,i386,x32
+ libigdgmm-dev deb libdevel optional arch=amd64,i386,x32
+ libigdgmm12 deb libs optional arch=amd64,i386,x32
+Files:
+ 1afe14679d5c4885f7c17d09f905c8d0 1388 intel-gmmlib_22.5.1-1ppa1~sriov~bookworm1.dsc
+ 890d60295e77414ba287bdf8e07d40c5 852735 intel-gmmlib_22.5.1.orig.tar.gz
+ 6dca0d3dc5e45eb67b1b615a9f33883f 4972 intel-gmmlib_22.5.1-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha1:
+ 39ef046677fc146fd80f6b0d77dec0849faedd57 1388 intel-gmmlib_22.5.1-1ppa1~sriov~bookworm1.dsc
+ 76a4ddbf37b4b6a201ba70d8ee591370bd392f95 852735 intel-gmmlib_22.5.1.orig.tar.gz
+ 5d242024c077c800f7c52ad66251bc55e694f781 4972 intel-gmmlib_22.5.1-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha256:
+ c3aa599547140da412d6a1ab8b98cb1d19bb9ebe4a9a4c8ca411b150579ff2d5 1388 intel-gmmlib_22.5.1-1ppa1~sriov~bookworm1.dsc
+ 9822c69f41ff930bfea04d0b67142f568ebeb7d50f77b2f9bd35b422da2d1ed7 852735 intel-gmmlib_22.5.1.orig.tar.gz
+ 82ade700e25788309505ffbab46fd6035971338eeaaa89f7420aa4fc9d89cd1c 4972 intel-gmmlib_22.5.1-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha512:
+ 4816623335236339f810993bde8b90cd68c3a06d23251b75a225eb98380d215b3da6556b7de48e0d280f5b951971c4e52ba4f58ce8a2e9270b6c984ff6b33928 1388 intel-gmmlib_22.5.1-1ppa1~sriov~bookworm1.dsc
+ 7a2b528d19655b3ad11275b6918528d9b8c44be0a79699d3fd06410635912a42e078e8ccff041592fcfb19171c9c207eaca8116230a9bc30f1919ca7065c6c23 852735 intel-gmmlib_22.5.1.orig.tar.gz
+ 83f0755d76b066f4a77c55b19bdb01835a98d8ead95c43248d2c9622fb63e78cac01bfa8fa76975a3f9ea320220bb808ea68409fe77620f6e05f293ad0da24d0 4972 intel-gmmlib_22.5.1-1ppa1~sriov~bookworm1.debian.tar.xz
+
+Package: intel-media-driver
+Format: 3.0 (quilt)
+Binary: intel-media-va-driver, libigfxcmrt7, libigfxcmrt-dev
+Architecture: amd64 i386 x32
+Version: 24.3.2-1ppa1~sriov~bookworm1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders:  Sebastian Ramacher <sramacher@debian.org>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), dh-sequence-libva, cmake, libdrm-dev, libigdgmm-dev (>= 22.4.1), libva-dev (>= 2.13), libx11-dev, ninja-build, pkg-config
+Homepage: https://github.com/intel/media-driver
+Vcs-Browser: https://salsa.debian.org/multimedia-team/intel-media-driver
+Vcs-Git: https://salsa.debian.org/multimedia-team/intel-media-driver.git
+Directory: pool/main/i/intel-media-driver
+Package-List:
+ intel-media-va-driver deb video optional arch=amd64,i386,x32
+ libigfxcmrt-dev deb libdevel optional arch=amd64,i386,x32
+ libigfxcmrt7 deb libs optional arch=amd64,i386,x32
+Files:
+ 5bd23dc523ebfdba118b6dc531fc3ac8 1546 intel-media-driver_24.3.2-1ppa1~sriov~bookworm1.dsc
+ 1f6917d05739fb554462e3e34364b6a3 25660480 intel-media-driver_24.3.2.orig.tar.gz
+ b6e8ddac11b6eba972a4540ca41c251e 14000 intel-media-driver_24.3.2-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha1:
+ e4aafffb6e784992ad4705a82865919c576bc971 1546 intel-media-driver_24.3.2-1ppa1~sriov~bookworm1.dsc
+ e6cf7e8a6b90078526ec1e752c7024aabb85f292 25660480 intel-media-driver_24.3.2.orig.tar.gz
+ 766111d035df417fdb56f9c982224ed42aa5a24e 14000 intel-media-driver_24.3.2-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha256:
+ ff0f2d7c16a406e4bc936bb38ea036879ed3fd7eba7a9b79da406f7db43666e8 1546 intel-media-driver_24.3.2-1ppa1~sriov~bookworm1.dsc
+ f51240ae0cf6ddde900a3c4154f7aebd013dcfa28c0935e1cc2e5b565e6dcc52 25660480 intel-media-driver_24.3.2.orig.tar.gz
+ 9578aa1c8da1c248413ea2178079f3aab773aff3384ee82544c3a8d7af1d8ec0 14000 intel-media-driver_24.3.2-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha512:
+ 83304989f6441c06bcc98079afcddc157a2dca4d52f6a24692bcfe72abe56beba204bc504667b929d82a5647f676d130cf667ab0092c52e50e128742d3452cf7 1546 intel-media-driver_24.3.2-1ppa1~sriov~bookworm1.dsc
+ 8b5c1e6ae14a3bf2685d8ee6a1ed5b65f0ba14ad3879bff4ca210555e0f072c20a8aeef853b8804d66febe503c3bb52fb0ae09e3883cc2144c749d5107f9ab79 25660480 intel-media-driver_24.3.2.orig.tar.gz
+ 900754bc3e34d08e38f9d585b39d6b615bd9709c1a0cc97874aeb87b70b2bd312ec70f69f6e6489681eebd9a38d664d5b0566f1b1b22d756f32164174e50f17b 14000 intel-media-driver_24.3.2-1ppa1~sriov~bookworm1.debian.tar.xz
+
 Package: libdrm
 Format: 3.0 (quilt)
 Binary: libdrm-dev, libdrm2, libdrm-common, libdrm-tests, libdrm2-udeb, libdrm-intel1, libdrm-nouveau2, libdrm-radeon1, libdrm-omap1, libdrm-freedreno1, libdrm-exynos1, libdrm-tegra0, libdrm-amdgpu1, libdrm-etnaviv1
@@ -42,4 +110,295 @@ Checksums-Sha512:
  32e68f69be6902af8ef71626850d0d063e86caadfbc32c2fe014d1310f36291857ef2f13d169b30e8dd2d1501d41288781c3081562a17200bd3a0b1188638fa9 2112 libdrm_2.4.120-1ppa1~sriov~bookworm1.dsc
  769585166302718d54f996f3d38d23ad43f9f341507ab0729235278829a2ac46879cd34fc6e2e66c7630c7897924691cab21b1229c8f0c5aa8eba04ad8ddb6dc 760543 libdrm_2.4.120.orig.tar.gz
  e16f7382652e92f24476168dce0624b0ddf6fa53355a2f16f3bd9716ab9a9a541a807d67907f799e36e147893cced201a90f5e01fa682fb8717b736ff1424f06 62044 libdrm_2.4.120-1ppa1~sriov~bookworm1.debian.tar.xz
+
+Package: libva
+Format: 3.0 (quilt)
+Binary: libva-dev, libva2, libva-x11-2, libva-glx2, libva-drm2, libva-wayland2, va-driver-all
+Architecture: any
+Version: 2.22.0-1ppa1~sriov~bookworm1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders:  Reinhard Tartler <siretart@tauware.de>, Sebastian Ramacher <sramacher@debian.org>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), libdrm-dev, libgl-dev, libwayland-dev [linux-any], libx11-dev, libx11-xcb-dev, libxcb-dri3-dev, libxcb1-dev, libxext-dev, libxfixes-dev, meson, ninja-build, perl:any, pkgconf
+Homepage: https://github.com/intel/libva
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libva
+Vcs-Git: https://salsa.debian.org/multimedia-team/libva.git
+Directory: pool/main/libv/libva
+Package-List:
+ libva-dev deb libdevel optional arch=any
+ libva-drm2 deb libs optional arch=any
+ libva-glx2 deb libs optional arch=any
+ libva-wayland2 deb libs optional arch=linux-any
+ libva-x11-2 deb libs optional arch=any
+ libva2 deb libs optional arch=any
+ va-driver-all deb video optional arch=any
+Files:
+ 48cff0a712b79988ae93579fa74492d5 1645 libva_2.22.0-1ppa1~sriov~bookworm1.dsc
+ 37762cc0c091870d9342e2386bcd81d1 298460 libva_2.22.0.orig.tar.gz
+ c9c383dec37cb9887d818f7b8675947d 12516 libva_2.22.0-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha1:
+ 88c055dd747a1cf61f65c0f5b0ccda890b15156c 1645 libva_2.22.0-1ppa1~sriov~bookworm1.dsc
+ 22016c2a96b3abcdab77dd448af8abb3ea77d393 298460 libva_2.22.0.orig.tar.gz
+ 1c76bc664490dc4e69d626ba4d6786eb57990e33 12516 libva_2.22.0-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha256:
+ 983420939e98d05ed6ddae524cc7ef67e5d2bc76c4083798d7a3c55753562b73 1645 libva_2.22.0-1ppa1~sriov~bookworm1.dsc
+ bc853caf221f05227660d909fd8d331d4ee1cddbdaf82688b3b3633394258c92 298460 libva_2.22.0.orig.tar.gz
+ 0fb97b3341ed9191a8258dda25c00e745f610e2c7cd6ef3855fb0f772477ed81 12516 libva_2.22.0-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha512:
+ 485954bf36ff20b50594f4467d53ff8f7900a0e64ee4ce2a59e13baa3ddcd52edd088c938f17cb952940b637a09c4a5fd6b3b78692c0ead29ecc5ab0d65b93ea 1645 libva_2.22.0-1ppa1~sriov~bookworm1.dsc
+ 85eb9d57f46f941eac02467080ea9bd525c6e53ca4ad1126903966c6f4e99497a793f52f4a1c55d44a31a31c6956aa605107e7330627f087b7d56165dbcbb1fe 298460 libva_2.22.0.orig.tar.gz
+ ff5b3b1313d4da52333b99cfce3ee674e3a609ae498c4ee9f6cf24414ec6bc57713ca991368f82136bf70123e77cba35c668e530634747ed936643f53e320c8a 12516 libva_2.22.0-1ppa1~sriov~bookworm1.debian.tar.xz
+
+Package: libvpl
+Format: 3.0 (quilt)
+Binary: libvpl2, libvpl-dev, onevpl-tools
+Architecture: amd64 x32
+Version: 1:2.12.0-1ppa1~sriov~bookworm1
+Maintainer: Timo Aaltonen <tjaalton@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), cmake, libdrm-dev, libva-dev, libwayland-dev, libx11-dev, libx11-xcb-dev, libxcb1-dev, libxcb-dri3-dev, libxcb-present-dev, pkg-config, wayland-protocols
+Homepage: https://github.com/oneapi-src/oneVPL
+Vcs-Browser: https://salsa.debian.org/debian/onevpl
+Vcs-Git: https://salsa.debian.org/debian/onevpl.git
+Directory: pool/main/libv/libvpl
+Package-List:
+ libvpl-dev deb libs optional arch=amd64,x32
+ libvpl2 deb libs optional arch=amd64,x32
+ onevpl-tools deb libs optional arch=amd64,x32
+Files:
+ 8ff23c8b26ca4699c44ed1c2fb881a49 1305 libvpl_2.12.0-1ppa1~sriov~bookworm1.dsc
+ 1906c71187dac4fc2fd4e8f6e6923a91 11379536 libvpl_2.12.0.orig.tar.gz
+ 4ec1e623b512dab33e5290b9b406e512 15384 libvpl_2.12.0-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha1:
+ bbbe932ebc828eb226bebbabae9acaf6f90dcfa3 1305 libvpl_2.12.0-1ppa1~sriov~bookworm1.dsc
+ 6c834a95eb7073bba204ac44ae2f53459bc7e5b9 11379536 libvpl_2.12.0.orig.tar.gz
+ c10fb5fb9b8bc4cc26d6928774c1e3e019a7a73c 15384 libvpl_2.12.0-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha256:
+ 3396c42c04f926a4e25242d5a05828d6a2bc21041a8c638e8245fd5af687c7b1 1305 libvpl_2.12.0-1ppa1~sriov~bookworm1.dsc
+ 7c0d422f773a76bd90da23c439da4153a3b7b9a13af2d29001e37428c5bcac24 11379536 libvpl_2.12.0.orig.tar.gz
+ 897cb8611e9de9e954c4b5f4af65ba1d6ce0ff1c43f7d50a9fd4580139d8ed12 15384 libvpl_2.12.0-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha512:
+ b89aed80f16957a780446a4fc2f513e95e85d9915572b8ac114bd883551d8e71e3aeabf9fe804173b672a27bb830160dca175be11f648d628c59a42fe5dfd439 1305 libvpl_2.12.0-1ppa1~sriov~bookworm1.dsc
+ fbee8cb1ac6a999f8986a0488c305f966fb1b25c4e4d6f4e5bc796dca4a719e6ce0c8c99f11eae070e66e9bad97e799e72bd2b0ad9ebeb4e0493c5dfa1886779 11379536 libvpl_2.12.0.orig.tar.gz
+ eb0e268409a574e41dc4c395948341a53de2f5c63d54f4857dfd715c268bb1271f3abac6d1b5e6e51a6a3e6dc1a02151705ae9eaa59fceb75cc5ab198beceafb 15384 libvpl_2.12.0-1ppa1~sriov~bookworm1.debian.tar.xz
+
+Package: mesa
+Format: 1.0
+Binary: libxatracker2, libxatracker-dev, libd3dadapter9-mesa, libd3dadapter9-mesa-dev, libgbm1, libgbm-dev, libegl-mesa0, libegl1-mesa-dev, libgles2-mesa-dev, libglapi-mesa, libglx-mesa0, libgl1-mesa-dri, libgl1-mesa-dev, mesa-common-dev, libosmesa6, libosmesa6-dev, mesa-va-drivers, mesa-vdpau-drivers, mesa-vulkan-drivers, mesa-opencl-icd, mesa-drm-shim
+Architecture: any
+Version: 24.0.5-1ppa1~sriov~bookworm1
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Andreas Boll <aboll@debian.org>
+Standards-Version: 4.1.4
+Build-Depends: debhelper-compat (= 13), glslang-tools [amd64 arm64 armel armhf i386 loong64 powerpc ppc64 ppc64el riscv64 s390x sparc64 x32], meson (>= 0.45), quilt (>= 0.63-8.2~), pkg-config, libdrm-dev (>= 2.4.109), libx11-dev, libxxf86vm-dev, libexpat1-dev, libsensors-dev [!hurd-any], libxfixes-dev, libxext-dev, libva-dev (>= 1.6.0) [linux-any] <!pkg.mesa.nolibva>, libvdpau-dev (>= 1.1.1) [linux-any], libvulkan-dev [amd64 arm64 armel armhf i386 loong64 powerpc ppc64 ppc64el riscv64 s390x sparc64 x32], x11proto-dev, linux-libc-dev (>= 2.6.31) [linux-any], libx11-xcb-dev, libxcb-dri2-0-dev (>= 1.8), libxcb-glx0-dev (>= 1.8.1), libxcb-xfixes0-dev, libxcb-dri3-dev, libxcb-present-dev, libxcb-randr0-dev, libxcb-shm0-dev, libxcb-sync-dev, libxrandr-dev, libxshmfence-dev (>= 1.1), libzstd-dev, python3, python3-mako, python3-ply, python3-setuptools, flex, bison, libelf-dev [amd64 arm64 armel armhf i386 loong64 powerpc ppc64 ppc64el riscv64 s390x sparc64 x32], libwayland-dev (>= 1.15.0) [linux-any], libwayland-egl-backend-dev (>= 1.15.0) [linux-any], llvm-15-dev [amd64 arm64 armel armhf i386 loong64 powerpc ppc64 ppc64el riscv64 s390x sparc64 x32], libclang-15-dev [amd64 arm64 armel armhf i386 loong64 powerpc ppc64 ppc64el riscv64 s390x sparc64 x32], libclang-cpp15-dev [amd64 arm64 armel armhf i386 loong64 powerpc ppc64 ppc64el riscv64 s390x sparc64 x32], libclc-15-dev [amd64 arm64 armel armhf i386 loong64 powerpc ppc64 ppc64el riscv64 s390x sparc64 x32], wayland-protocols (>= 1.30), zlib1g-dev, libglvnd-core-dev (>= 1.3.2), valgrind [amd64 arm64 armhf i386 mips64el powerpc ppc64 ppc64el s390x], rustc [amd64 arm64 armel armhf i386 loong64 powerpc ppc64 ppc64el riscv64 s390x x32], bindgen [amd64 arm64 armel armhf i386 loong64 powerpc ppc64 ppc64el riscv64 s390x x32], llvm-spirv-15 [amd64 arm64 armel armhf i386 loong64 powerpc ppc64 ppc64el riscv64 s390x x32], libclc-15 [amd64 arm64 armel armhf i386 loong64 powerpc ppc64 ppc64el riscv64 s390x x32], libllvmspirvlib-15-dev [amd64 arm64 armel armhf i386 loong64 powerpc ppc64 ppc64el riscv64 s390x x32]
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, pkg-config
+Homepage: https://mesa3d.org/
+Vcs-Browser: https://salsa.debian.org/xorg-team/lib/mesa
+Vcs-Git: https://salsa.debian.org/xorg-team/lib/mesa.git
+Directory: pool/main/m/mesa
+Package-List:
+ libd3dadapter9-mesa deb libs optional arch=amd64,arm64,armel,armhf,i386
+ libd3dadapter9-mesa-dev deb libdevel optional arch=amd64,arm64,armel,armhf,i386
+ libegl-mesa0 deb libs optional arch=any
+ libegl1-mesa-dev deb libdevel optional arch=any
+ libgbm-dev deb libdevel optional arch=linux-any
+ libgbm1 deb libs optional arch=linux-any
+ libgl1-mesa-dev deb oldlibs optional arch=any
+ libgl1-mesa-dri deb libs optional arch=any
+ libglapi-mesa deb libs optional arch=any
+ libgles2-mesa-dev deb oldlibs optional arch=any
+ libglx-mesa0 deb libs optional arch=any
+ libosmesa6 deb libs optional arch=any
+ libosmesa6-dev deb libdevel optional arch=any
+ libxatracker-dev deb libdevel optional arch=amd64,i386,x32
+ libxatracker2 deb libs optional arch=amd64,i386,x32
+ mesa-common-dev deb libdevel optional arch=any
+ mesa-drm-shim deb libs optional arch=amd64,arm64,armel,armhf,i386,mips64el,powerpc,ppc64,ppc64el,s390x,sparc64
+ mesa-opencl-icd deb libs optional arch=amd64,arm64,armel,armhf,i386,loong64,powerpc,ppc64,ppc64el,riscv64,s390x,sparc64,x32
+ mesa-va-drivers deb libs optional arch=linux-any profile=!pkg.mesa.nolibva
+ mesa-vdpau-drivers deb libs optional arch=linux-any
+ mesa-vulkan-drivers deb libs optional arch=amd64,arm64,armel,armhf,i386,loong64,powerpc,ppc64,ppc64el,riscv64,s390x,sparc64,x32
+Files:
+ 6d04109ac95f53fdc776f7075538ae0f 4744 mesa_24.0.5-1ppa1~sriov~bookworm1.dsc
+ 2ff4fc77195b57a8bbc1281dfae585e0 31543057 mesa_24.0.5.orig.tar.gz
+ 364d220f5f0e5cb70f8ceca667ea3288 125510 mesa_24.0.5-1ppa1~sriov~bookworm1.diff.gz
+Checksums-Sha1:
+ 0a5d2191323b4c47b1af2273584817713da7e54f 4744 mesa_24.0.5-1ppa1~sriov~bookworm1.dsc
+ 5849450958aec965270c9547b3a03d2f67acdee1 31543057 mesa_24.0.5.orig.tar.gz
+ 051d06834df8d894c5893436a38cdf5006fda6fa 125510 mesa_24.0.5-1ppa1~sriov~bookworm1.diff.gz
+Checksums-Sha256:
+ 35e31755b10eaf0133d8e0264d8ce96818f0863a378c3d9fbf7ca1f0596fa4bc 4744 mesa_24.0.5-1ppa1~sriov~bookworm1.dsc
+ 7cd2b43b5b90754479f30468553b2d7ec961ad35d159eea5e0767367be9a99a9 31543057 mesa_24.0.5.orig.tar.gz
+ 11a0d2f1b22ef5e3969064bc69f9152224ac0fe40683fcf4826bc1a2949c0e77 125510 mesa_24.0.5-1ppa1~sriov~bookworm1.diff.gz
+Checksums-Sha512:
+ 9fedbe20e40a06e83809eb6b9a0daa43eb90bf86e7a0f7062c9e642abcef7ea7faf8aae594ca765ca44fa9b24c222f1883d8b595655ae1ce1d60343c039540c0 4744 mesa_24.0.5-1ppa1~sriov~bookworm1.dsc
+ 6df2c6b5b44259ad40df1ce7b8cb31b8497f0bb2cd4b83e53fe03ba30e5c84e3131017a4082607675d4334543438f8855bf4447416563bfccf5d8023693bf2c8 31543057 mesa_24.0.5.orig.tar.gz
+ e35eaa258d7056ba54dbd810e586d3ee0f01c3d213d5b2462d315b62c55ea54eaef844e81a5da3c79716ae623fe26685e6b41c864c904169c72d3570ee1a4fee 125510 mesa_24.0.5-1ppa1~sriov~bookworm1.diff.gz
+
+Package: qemu
+Format: 3.0 (quilt)
+Binary: qemu-system, qemu-block-extra, qemu-block-supplemental, qemu-system-data, qemu-system-common, qemu-system-gui, qemu-system-modules-spice, qemu-system-modules-opengl, qemu-system-misc, qemu-system-arm, qemu-system-mips, qemu-system-ppc, qemu-system-sparc, qemu-system-s390x, qemu-system-x86-xen, qemu-system-x86, qemu-system-xen, qemu-user, qemu-user-static, qemu-user-binfmt, qemu-utils, qemu-guest-agent
+Architecture: any all
+Version: 1:8.2.1-ppa1~sriov~bookworm1
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Uploaders: Michael Tokarev <mjt@tls.msk.ru>
+Standards-Version: 4.6.1
+Build-Depends: debhelper-compat (= 13), python3:any, meson (>> 0.63.0~), ninja-build, flex, bison
+Build-Depends-Arch: python3-venv, texinfo, python3-sphinx:native, python3-sphinx-rtd-theme, libglib2.0-dev, zlib1g-dev, libaio-dev [linux-any], libjack-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libpulse-dev, libasound2-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libpipewire-0.3-dev (>= 0.3.60) [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libbpf-dev [linux-any], libbrlapi-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libcap-ng-dev [linux-any], libcurl4-gnutls-dev, libfdt-dev, libfuse3-dev, gnutls-dev, libgtk-3-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libvte-2.91-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libiscsi-dev, libncurses-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libvirglrenderer-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libepoxy-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libdrm-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libgbm-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libnfs-dev, libnuma-dev [i386 amd64 ia64 mips mipsel mips64 mips64el powerpc powerpcspe x32 ppc64 ppc64el arm64 sparc s390x riscv64], libcacard-dev, libpixman-1-dev, librbd-dev [amd64 arm64 mips64el ppc64el ppc64 riscv64 s390x sparc64], libglusterfs-dev [amd64 arm64 ppc64el ppc64 riscv64 mips64el s390x ia64 sparc64], libsasl2-dev, libsdl2-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libseccomp-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64 ppc64el powerpc riscv64 s390x x32], libslirp-dev, libspice-server-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el x32], librdmacm-dev [linux-any], libibverbs-dev [linux-any], libibumad-dev [linux-any], liburing-dev [linux-any], libusb-1.0-0-dev [linux-any], libusbredirparser-dev [linux-any], libssh-dev, libzstd-dev, libxen-dev [linux-amd64], nettle-dev, libudev-dev [linux-any], libjpeg-dev, libpng-dev, libpmem-dev [amd64 arm64]
+Build-Depends-Indep: device-tree-compiler, gcc-s390x-linux-gnu, gcc-alpha-linux-gnu, gcc-powerpc-linux-gnu, bc, gcc-powerpc64-linux-gnu, libssl-dev, gcc-sparc64-linux-gnu, fcode-utils, xsltproc, gcc-hppa-linux-gnu, gcc-riscv64-linux-gnu, gcc-arm-none-eabi
+Build-Conflicts: oss4-dev
+Testsuite: autopkgtest
+Homepage: http://www.qemu.org/
+Vcs-Browser: https://git.launchpad.net/ubuntu/+source/qemu
+Vcs-Git: https://git.launchpad.net/ubuntu/+source/qemu
+Directory: pool/main/q/qemu
+Package-List:
+ qemu-block-extra deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,hppa,i386,ia64,kfreebsd-amd64,kfreebsd-i386,m68k,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sh4,sparc,sparc64,x32
+ qemu-block-supplemental deb otherosfs optional arch=amd64,arm64,ppc64el,riscv64,s390x
+ qemu-guest-agent deb otherosfs optional arch=any
+ qemu-system deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
+ qemu-system-arm deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
+ qemu-system-common deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
+ qemu-system-data deb otherosfs optional arch=all
+ qemu-system-gui deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32
+ qemu-system-mips deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
+ qemu-system-misc deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
+ qemu-system-modules-opengl deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
+ qemu-system-modules-spice deb otherosfs optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,x32 profile=!pkg.qemu.omit-system
+ qemu-system-ppc deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
+ qemu-system-s390x deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
+ qemu-system-sparc deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
+ qemu-system-x86 deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
+ qemu-system-x86-xen deb oldlibs optional arch=amd64
+ qemu-system-xen deb otherosfs optional arch=amd64 profile=!pkg.qemu.omit-system-xen
+ qemu-user deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-user
+ qemu-user-binfmt deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-user
+ qemu-user-static deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-user-static
+ qemu-utils deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,hppa,i386,ia64,kfreebsd-amd64,kfreebsd-i386,m68k,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sh4,sparc,sparc64,x32
+Files:
+ 8b90d15ba1e821ca87f7925c6db07547 8487 qemu_8.2.1-ppa1~sriov~bookworm1.dsc
+ 4522679239777a665f1c70cef16f26e1 180444918 qemu_8.2.1.orig.tar.gz
+ f7295f0e64c437d115f455aecbd2ce7a 172160 qemu_8.2.1-ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha1:
+ 79acc5345b9dfbe0ab56d628ac450323a1d73524 8487 qemu_8.2.1-ppa1~sriov~bookworm1.dsc
+ 9afc898df035955c394a22a0466004cebb8341f2 180444918 qemu_8.2.1.orig.tar.gz
+ 8d83a53b5610f3a8aaa5e7fe3228ba86e1001dae 172160 qemu_8.2.1-ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha256:
+ 64fce0bfc5f4adfdf85599e9d9663feecb9a657a24c28a2ca3ff4a88723c20b7 8487 qemu_8.2.1-ppa1~sriov~bookworm1.dsc
+ a5b98eeabe5a11a9f0e686d15437135d576ae952cb582dacc7e179a1c4c96199 180444918 qemu_8.2.1.orig.tar.gz
+ 3f93059392a36ad4ea9b86e19ea037bface5c024e77f14ad17d881d357ef2930 172160 qemu_8.2.1-ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha512:
+ 5ec326d2ca46a6665711b11f2fb30b5506c60a05cd0f3395bc8d5967c19afca0e6861df39383ee7250a06d43220c98e0008b73212e1b02a00275f0c2c611e369 8487 qemu_8.2.1-ppa1~sriov~bookworm1.dsc
+ cff03ab146b09185d18d98738e1771c2ee3117f1e95d4366e1a7827594de45419ede334046ea8119597e4fe39aca31efe7b0f3fd2991ee1aadd247f749b301f5 180444918 qemu_8.2.1.orig.tar.gz
+ ab21713202bf6a1d21173a551f343b74649d4debbd2dc559fe7d74c474ac7acbc982d8498e12de7f2d9a52cab826b05a430bf7d32e6c55dc6f03dcfaba282df8 172160 qemu_8.2.1-ppa1~sriov~bookworm1.debian.tar.xz
+Debian-Vcs-Browser: https://salsa.debian.org/qemu-team/qemu
+Debian-Vcs-Git: https://salsa.debian.org/qemu-team/qemu.git
+
+Package: spice-gtk
+Format: 3.0 (quilt)
+Binary: spice-client-gtk, spice-client-glib-usb-acl-helper, libspice-client-glib-2.0-8, gir1.2-spiceclientglib-2.0, libspice-client-glib-2.0-dev, libspice-client-gtk-3.0-5, gir1.2-spiceclientgtk-3.0, libspice-client-gtk-3.0-dev
+Architecture: any
+Version: 0.42-1ppa1~sriov~bookworm1
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Laurent Bigonville <bigon@debian.org>, Lin Qigang <lqi254@protonmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gtk-doc-tools (>= 1.14), libacl1-dev, libcacard-dev (>= 0.1.2), libcairo2-dev (>= 1.2.0), libcap-ng-dev [linux-any], libepoxy-dev, libgdk-pixbuf2.0-doc, libgirepository1.0-dev, libglib2.0-dev, libglib2.0-doc, libgstreamer-plugins-base1.0-dev (>= 1.10), libgstreamer1.0-dev (>= 1.10), libgtk-3-dev (>= 3.22), libjpeg-dev, libjson-glib-dev, liblz4-dev, libopus-dev, libphodav-3.0-dev, libpixman-1-dev (>= 0.17.7), libpolkit-agent-1-dev, libpolkit-gobject-1-dev, libsasl2-dev, libspice-protocol-dev (>= 0.14.3), libssl-dev, libtext-csv-perl, libusb-1.0-0-dev (>= 2:1.0.21), libusbredirhost-dev (>= 0.7.1), libva-dev [linux-any], meson (>= 0.56), pkg-config, python3-pyparsing, python3-six, python3:any, valac (>= 0.18)
+Homepage: https://www.spice-space.org/
+Vcs-Browser: https://salsa.debian.org/gnome-team/spice-gtk
+Vcs-Git: https://salsa.debian.org/gnome-team/spice-gtk.git
+Directory: pool/main/s/spice-gtk
+Package-List:
+ gir1.2-spiceclientglib-2.0 deb introspection optional arch=any
+ gir1.2-spiceclientgtk-3.0 deb introspection optional arch=any
+ libspice-client-glib-2.0-8 deb libs optional arch=any
+ libspice-client-glib-2.0-dev deb libdevel optional arch=any
+ libspice-client-gtk-3.0-5 deb libs optional arch=any
+ libspice-client-gtk-3.0-dev deb libdevel optional arch=any
+ spice-client-glib-usb-acl-helper deb misc optional arch=any
+ spice-client-gtk deb misc optional arch=any
+Files:
+ cd5f975ea0e916fd5a87e24fd5a2d26f 2621 spice-gtk_0.42-1ppa1~sriov~bookworm1.dsc
+ cd073cd67916780a50c6b743095f520d 1041177 spice-gtk_0.42.orig.tar.gz
+ 925054af69ea9bc5178941a1f9489d7a 29808 spice-gtk_0.42-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha1:
+ 8097645bbdd22df5683ae85a139eb142ef5b0840 2621 spice-gtk_0.42-1ppa1~sriov~bookworm1.dsc
+ 9d7f12d69b132520ba5f7dd8b5155d851235a860 1041177 spice-gtk_0.42.orig.tar.gz
+ e35c371a4fab1fcbda83c3bd55026d21daf81aa3 29808 spice-gtk_0.42-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha256:
+ edf96939cac155bb166ab6d5931dbf821da30d4ff61f68b9396d68059254e0ea 2621 spice-gtk_0.42-1ppa1~sriov~bookworm1.dsc
+ 250497444531605105337433d8c643f10281a994fb9c54322af077a46488c787 1041177 spice-gtk_0.42.orig.tar.gz
+ 9240e8ef1f5e3629907410fa7d778f91b91c26eabac9955a84e591197feb57f4 29808 spice-gtk_0.42-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha512:
+ da06107ea636afa39dba098b434d7659b73b9f653661828bf9532a2fa2711aabacf69a1fbb2271c8c3381ace9d4d02415780451b96f51756a15f43aa27bbc097 2621 spice-gtk_0.42-1ppa1~sriov~bookworm1.dsc
+ ed6019b1b722f9ac4a93313ba58e2d933e1b37e05779cc23ddf2232bb04effef6c89bab8fd96b44588b1a926a2294b139ffb2b37d9c6004d7f1e1650fc9b1005 1041177 spice-gtk_0.42.orig.tar.gz
+ 18bc5ae73c56957ef53213186a1a8dd61141e75309311d8e9c08c4da989e6b6ec4659fe765599167aeaed795c08044a47eccf4da1a1e174af1bc416ee774a29d 29808 spice-gtk_0.42-1ppa1~sriov~bookworm1.debian.tar.xz
+
+Package: spice
+Format: 3.0 (quilt)
+Binary: libspice-server1, libspice-server-dev
+Architecture: alpha amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 sh4 x32
+Version: 0.15.2-1ppa1~sriov~bookworm1
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Uploaders: Michael Tokarev <mjt@tls.msk.ru>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 13), meson, ninja-build, libcacard-dev, libglib2.0-dev (>= 2.38), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, liblz4-dev, libopus-dev (>= 0.9.14), libpixman-1-dev (>= 0.17.7), libsasl2-dev, libspice-protocol-dev (>= 0.14.3~), libssl-dev, pkg-config, python3, python3-pyparsing, python3-six, liborc-0.4-dev
+Homepage: https://www.spice-space.org
+Vcs-Browser: https://salsa.debian.org/qemu-team/spice
+Vcs-Git: https://salsa.debian.org/qemu-team/spice.git
+Directory: pool/main/s/spice
+Package-List:
+ libspice-server-dev deb libdevel optional arch=alpha,amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,riscv64,sh4,x32
+ libspice-server1 deb libs optional arch=alpha,amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,riscv64,sh4,x32
+Files:
+ 86edee22249fa11f749ee2bd748e4d01 1778 spice_0.15.2-1ppa1~sriov~bookworm1.dsc
+ 0dfa2f5bf564f0f08faae55c5ea6e2c5 1979613 spice_0.15.2.orig.tar.gz
+ 96b34e82db2cb7e799ec226e2a270d9c 58448 spice_0.15.2-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha1:
+ c50e3bf92aaacfd2e8f6d285cce0104ca1bab399 1778 spice_0.15.2-1ppa1~sriov~bookworm1.dsc
+ 52214dd83392f60f2509e952f37e321f68d1cec7 1979613 spice_0.15.2.orig.tar.gz
+ c985d04093590b2f634bbb20776b54c6f7137c9b 58448 spice_0.15.2-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha256:
+ ddc8b01fe6a94d0d32d302486bf601e4270ab615e5face4840bdc11e48858a8e 1778 spice_0.15.2-1ppa1~sriov~bookworm1.dsc
+ ab9305596bb75db4cafb647f7ab76987d61a3e78ff2de8ec7d35071080c7c22e 1979613 spice_0.15.2.orig.tar.gz
+ 5393113f45c0b37a806008592fec2e8984e53a963540fe8458596d8ebc064d0e 58448 spice_0.15.2-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha512:
+ 12da660b68d68f242817c3b42ed2377ae21b1d8013d895904c6957b31ba943badacd8f1c9d99b8aad116f11d2c2610464b0eef219ae43aadc36cc1aaebf8e2e8 1778 spice_0.15.2-1ppa1~sriov~bookworm1.dsc
+ 12fa6403039746c4e59edb7b08ea4f8df8c7f17fa08ea7ed24022fad5062d0b73c0215af90d38a93d1df2e62bf85f17eef91559211d4c40fd93eda6d80393f53 1979613 spice_0.15.2.orig.tar.gz
+ 471a1d510f6e15f3c45358989f012d9ff7e90b92348cb8263a85b5858f56ce7fee5fab7940aa17e6711f40f69f4da5a393db79715f7b3e93ac248c8bf77d12bb 58448 spice_0.15.2-1ppa1~sriov~bookworm1.debian.tar.xz
+
+Package: vpl-gpu-rt
+Format: 3.0 (quilt)
+Binary: libmfx-gen1.2, libmfx-gen-dev
+Architecture: amd64
+Version: 24.3.2-1ppa1~sriov~bookworm1
+Maintainer: Timo Aaltonen <tjaalton@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), cmake, libdrm-dev, libva-dev, libvpl-dev, pkg-config
+Homepage: https://github.com/oneapi-src/oneVPL-intel-gpu
+Vcs-Browser: https://salsa.debian.org/debian/onevpl-intel-gpu
+Vcs-Git: https://salsa.debian.org/debian/onevpl-intel-gpu.git
+Directory: pool/main/v/vpl-gpu-rt
+Package-List:
+ libmfx-gen-dev deb graphics optional arch=amd64
+ libmfx-gen1.2 deb graphics optional arch=amd64
+Files:
+ f4d40824cd066729be392616c5cbfbcc 1209 vpl-gpu-rt_24.3.2-1ppa1~sriov~bookworm1.dsc
+ 361c9cfd7a949c1cfdb5c24907a7998a 8775826 vpl-gpu-rt_24.3.2.orig.tar.gz
+ c8a960819003fdc62e0bbafc80808288 4688 vpl-gpu-rt_24.3.2-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha1:
+ 54dd87ee752be84ef566597e04aaa957d16a8d82 1209 vpl-gpu-rt_24.3.2-1ppa1~sriov~bookworm1.dsc
+ 30fecdf7270f08999afa106ad9c88743e85cc641 8775826 vpl-gpu-rt_24.3.2.orig.tar.gz
+ 40faff4e8cd66b2251c540d16bca523d8e2673f5 4688 vpl-gpu-rt_24.3.2-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha256:
+ 623cbdd034b018773a125fc65e3cb2e18fd23962981abb5a5001158f948a6696 1209 vpl-gpu-rt_24.3.2-1ppa1~sriov~bookworm1.dsc
+ eeac7fc79ae4ebc03ebf9ffd705180d6ce4d02268db547d15f63a573e0310f6d 8775826 vpl-gpu-rt_24.3.2.orig.tar.gz
+ cb1422b8fc06af5622b199340464699ba8b694dc7b21c9d7ff0cbc1e717f4226 4688 vpl-gpu-rt_24.3.2-1ppa1~sriov~bookworm1.debian.tar.xz
+Checksums-Sha512:
+ d6f65cad51c09a36429582abdc3fcd1fcec148f8cdd113b4f67172fda571365e9b9b83e9c98c6352d7b0407dd3d8c8f49469744d6ba61542e4a0d20315159424 1209 vpl-gpu-rt_24.3.2-1ppa1~sriov~bookworm1.dsc
+ 5aeaee7d233f57b06a86c420af124312a49c9b61af3ea6a7515ef7dcb2713796a71f0187580ed2dd4d23f20dc989f31cc11b43cd4078fc97d7e8834430c9b4ee 8775826 vpl-gpu-rt_24.3.2.orig.tar.gz
+ 29d0e46c02ab7feb5cda30a2e2c0fdc9ccd97d1d146d069d156ed619d083df4599eb5c2d16f93653f263279eec5e1159f5f88bc81cb7ddff5894cf5f68ac8d66 4688 vpl-gpu-rt_24.3.2-1ppa1~sriov~bookworm1.debian.tar.xz
 
