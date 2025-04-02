@@ -1,1 +1,1 @@
-deb https://ThunderSoft-SRIOV.github.io/ppa/debian bookworm main
+deb https://ThunderSoft-SRIOV.github.io/ppa/debian ./
