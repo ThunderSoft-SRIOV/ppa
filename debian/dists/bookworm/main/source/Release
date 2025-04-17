@@ -1,7 +1,0 @@
-Archive: stable
-Version: 1.0
-Component: main
-Origin: thundersoft-sriov-bookworm
-Label: thundersoft-sriov-bookworm
-Architecture: source
-Description: Intel Graphics SR-IOV On Debian
