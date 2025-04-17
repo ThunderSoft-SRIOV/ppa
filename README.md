@@ -7,13 +7,13 @@ A PPA repository for Thundersoft-SRIOV. Details about Debian SRIOV can be referr
 1. Add trusted key
 
     ```sh
-    sudo curl -SsL -o /etc/apt/trusted.gpg.d/thundersoft-sriov.asc https://ThunderSoft-SRIOV.github.io/ppa/debian/KEY.gpg
+    sudo curl -SsL -o /etc/apt/trusted.gpg.d/thundersoft-sriov.asc https://ThunderSoft-SRIOV.github.io/ppa/debian/doc/KEY.gpg
     ```
 
 2. Add sriov source
 
     ```sh
-    sudo curl -SsL -o /etc/apt/sources.list.d/thundersoft-sriov.list https://ThunderSoft-SRIOV.github.io/ppa/debian/thundersoft-sriov.list
+    sudo curl -SsL -o /etc/apt/sources.list.d/thundersoft-sriov.list https://ThunderSoft-SRIOV.github.io/ppa/debian/doc/thundersoft-sriov.list
     ```
 
 3. Update packages
